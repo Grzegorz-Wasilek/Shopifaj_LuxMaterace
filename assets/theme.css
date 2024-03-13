@@ -6153,8 +6153,8 @@ split-lines {
 }
 /* Poprawione menu */
 .mega-menu__nav {
-  max-width: 20rem;
-  gap: 1rem;
+  max-width: 15rem;
+  gap: 1.25rem;
   flex-wrap: wrap;
   flex: auto;
   align-items: start;
