@@ -158,7 +158,7 @@
       ],
       "custom_css": [
         ".section-full {padding-top: 16px;}",
-        ".text-lg {font-size: 2.75rem; font-weight: bold;}"
+        ".text-lg {font-size: 2.75rem; font-weight: bold; color: #022e4F;}"
       ],
       "settings": {
         "full_width": true,
