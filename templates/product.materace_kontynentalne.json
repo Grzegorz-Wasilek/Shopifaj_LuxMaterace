@@ -14,29 +14,25 @@
             "heading_tag": "h2"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": true
-          }
-        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {
           }
         },
-        "inventory_gfrHBe": {
-          "type": "inventory",
+        "separator": {
+          "type": "separator",
           "settings": {
-            "low_inventory_threshold": 0
           }
         },
-        "separator": {
+        "image_eB8Q3T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sr-twardy.svg",
+            "alignment": "start",
+            "max_width": 150
+          }
+        },
+        "separator_EGeBQq": {
           "type": "separator",
           "settings": {
           }
@@ -50,6 +46,12 @@
             "swatch_selector_style": "swatch",
             "variant_image_options": "Pokrowiec",
             "size_chart_page": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
           }
         },
         "product_variations_KgicHX": {
@@ -132,12 +134,12 @@
       "block_order": [
         "vendor",
         "title",
-        "badges",
-        "price",
         "payment_terms",
-        "inventory_gfrHBe",
         "separator",
+        "image_eB8Q3T",
+        "separator_EGeBQq",
         "variant_picker",
+        "price",
         "product_variations_KgicHX",
         "quantity_selector",
         "buy_buttons",
@@ -147,7 +149,7 @@
         "offer_eLPi39"
       ],
       "custom_css": [
-        ".section-full {padding-top: 8px;}"
+        ".section-full {padding-top: 16px;}"
       ],
       "settings": {
         "full_width": true,
@@ -383,49 +385,6 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
-    },
-    "timeline_HyhBMx": {
-      "type": "timeline",
-      "blocks": {
-        "slide_mWDVg6": {
-          "type": "slide",
-          "settings": {
-            "navigation_label": "1953",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "slide_6FAeaP": {
-          "type": "slide",
-          "settings": {
-            "navigation_label": "1960",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "slide_jTRgye": {
-          "type": "slide",
-          "settings": {
-            "navigation_label": "1966",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_mWDVg6",
-        "slide_6FAeaP",
-        "slide_jTRgye"
-      ],
-      "settings": {
-        "full_width": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -434,7 +393,6 @@
     "media_with_text_4rPE47",
     "media_with_text_dRC8JP",
     "related-products",
-    "image_with_text_overlay_qfCYJd",
-    "timeline_HyhBMx"
+    "image_with_text_overlay_qfCYJd"
   ]
 }
