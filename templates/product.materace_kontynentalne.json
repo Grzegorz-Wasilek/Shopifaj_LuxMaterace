@@ -121,7 +121,7 @@
             "title": "Czas wysyłki",
             "content": "<p>14 dni roboczych + czas dostawy<\/p>",
             "background": "#eaf2ed",
-            "text_color": "#00a341"
+            "text_color": "#022e4f"
           }
         },
         "offer_eLPi39": {
@@ -134,7 +134,7 @@
             "title": "Shipping",
             "content": "<p>Short content about your shipping rates or discounts.<\/p>",
             "background": "#eaf2ed",
-            "text_color": "#00a341"
+            "text_color": "#022e4f"
           }
         }
       },
@@ -159,7 +159,7 @@
       "custom_css": [
         ".section-full {padding-top: 16px;}",
         ".text-lg {font-size: 2.75rem; font-weight: bold; color: #022e4f;}",
-        ".offer {background: transparent; border-width: 2px; border-color: #022e4F; border-radius: 16px;}"
+        ".offer {background: transparent; border-width: 2px; border-color: #022e4f; border-radius: 16px;}"
       ],
       "settings": {
         "full_width": true,
