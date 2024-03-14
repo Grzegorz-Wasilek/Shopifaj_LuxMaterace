@@ -164,7 +164,7 @@
           "settings": {
             "menu_item": "Materace pozycja snu",
             "layout": "horizontal",
-            "submenu_style": "bold_heading",
+            "submenu_style": "bold_text",
             "image_1": "shopify:\/\/shop_images\/pozycja-1.webp",
             "image_heading_1": "Dla śpiących na plecach",
             "image_link_1": "",
