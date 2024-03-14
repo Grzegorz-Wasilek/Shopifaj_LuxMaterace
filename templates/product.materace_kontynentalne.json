@@ -48,6 +48,11 @@
             "size_chart_page": ""
           }
         },
+        "separator_imcTCg": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -139,6 +144,7 @@
         "image_eB8Q3T",
         "separator_EGeBQq",
         "variant_picker",
+        "separator_imcTCg",
         "price",
         "product_variations_KgicHX",
         "quantity_selector",
