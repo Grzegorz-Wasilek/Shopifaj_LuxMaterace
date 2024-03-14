@@ -157,7 +157,8 @@
         "offer_eLPi39"
       ],
       "custom_css": [
-        ".section-full {padding-top: 16px;}"
+        ".section-full {padding-top: 16px;}",
+        ".text-lg {font-size: 2.75rem; font-weight: bold;}"
       ],
       "settings": {
         "full_width": true,
