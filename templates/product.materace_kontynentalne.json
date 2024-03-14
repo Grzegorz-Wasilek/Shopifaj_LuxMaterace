@@ -86,16 +86,6 @@
             "payment_button_text_color": ""
           }
         },
-        "associated_products_7TnAEr": {
-          "type": "associated_products",
-          "settings": {
-            "title": "Buy it with",
-            "stack_products": true,
-            "products_count": 5,
-            "background": "",
-            "text_color": ""
-          }
-        },
         "offer_Gf9VwP": {
           "type": "offer",
           "settings": {
@@ -149,7 +139,6 @@
         "product_variations_KgicHX",
         "quantity_selector",
         "buy_buttons",
-        "associated_products_7TnAEr",
         "offer_Gf9VwP",
         "offer_NEXiD7",
         "offer_eLPi39"
