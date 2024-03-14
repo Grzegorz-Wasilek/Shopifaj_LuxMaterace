@@ -1,1 +1,228 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message":{"type":"message","settings":{"text":"-20% na wszystkie nowości z działu poduszki z kodem:","url":""}},"message_Mi7eGU":{"type":"message","settings":{"text":"ZzzzuperRabat20","url":""}}},"block_order":["message","message_Mi7eGU"],"settings":{"enable_sticky":false,"text_size":"text-base","navigation_mode":"scrolling","scrolling_speed":10,"background":"#ed979c","background_gradient":"","text_color":"#022e4f"}},"header":{"type":"header","blocks":{"7456d69c-0d81-4de6-8084-bc18ac9f5292":{"type":"mega_menu","settings":{"menu_item":"materace","layout":"horizontal","submenu_style":"bold_heading","image_1":"shopify:\/\/shop_images\/woman-waking-up.jpg","image_heading_1":"aaa","image_link_1":"","image_text_color_1":"#ffffff","image_2":"shopify:\/\/shop_images\/boks3.webp","image_heading_2":"aaa","image_link_2":"","image_text_color_2":"#ffffff","image_3":"shopify:\/\/shop_images\/kwad01.jpg","image_heading_3":"aaaa","image_link_3":"","image_text_color_3":"#ffffff","product":"","product_card_background":"","product_card_text_color":"","promo_content_layout":"grid","stretch_promo":false,"drawer_link_image":"hide"}},"mega_menu_rerVjJ":{"type":"mega_menu","settings":{"menu_item":"","layout":"horizontal","submenu_style":"bold_heading","image_heading_1":"","image_link_1":"","image_text_color_1":"#ffffff","image_heading_2":"","image_link_2":"","image_text_color_2":"#ffffff","image_heading_3":"","image_link_3":"","image_text_color_3":"#ffffff","product":"","product_card_background":"","product_card_text_color":"","promo_content_layout":"grid","stretch_promo":false,"drawer_link_image":"hide"}},"mega_menu_GDEFea":{"type":"mega_menu","settings":{"menu_item":"Materace wg twardości","layout":"horizontal","submenu_style":"bold_heading","image_1":"shopify:\/\/shop_images\/kwad01.jpg","image_heading_1":"","image_link_1":"","image_text_color_1":"#ffffff","image_heading_2":"","image_link_2":"","image_text_color_2":"#ffffff","image_heading_3":"","image_link_3":"","image_text_color_3":"#ffffff","product":"","product_card_background":"","product_card_text_color":"","promo_content_layout":"grid","stretch_promo":false,"drawer_link_image":"hide"}},"mega_menu_mALRnf":{"type":"mega_menu","settings":{"menu_item":"","layout":"horizontal","submenu_style":"bold_heading","image_heading_1":"","image_link_1":"","image_text_color_1":"#ffffff","image_heading_2":"","image_link_2":"","image_text_color_2":"#ffffff","image_heading_3":"","image_link_3":"","image_text_color_3":"#ffffff","product":"","product_card_background":"","product_card_text_color":"","promo_content_layout":"grid","stretch_promo":false,"drawer_link_image":"hide"}},"mega_menu_rxYXxc":{"type":"mega_menu","settings":{"menu_item":"Materace rozmiary","layout":"horizontal","submenu_style":"bold_heading","image_1":"shopify:\/\/shop_images\/cinamon2.webp","image_heading_1":"","image_link_1":"","image_text_color_1":"#ffffff","image_2":"shopify:\/\/shop_images\/vanilla.webp","image_heading_2":"","image_link_2":"","image_text_color_2":"#ffffff","image_3":"shopify:\/\/shop_images\/cinamon2.webp","image_heading_3":"","image_link_3":"","image_text_color_3":"#ffffff","product":"","product_card_background":"","product_card_text_color":"","promo_content_layout":"grid","stretch_promo":false,"drawer_link_image":"hide"}},"mega_menu_jLb8MK":{"type":"mega_menu","settings":{"menu_item":"Materace pozycja snu","layout":"horizontal","submenu_style":"bold_text","image_1":"shopify:\/\/shop_images\/pozycja-1.webp","image_heading_1":"Dla śpiących na plecach","image_link_1":"","image_text_color_1":"#022e4f","image_2":"shopify:\/\/shop_images\/pozycja-3.webp","image_heading_2":"Dla śpiących na brzuchu","image_link_2":"","image_text_color_2":"#022e4f","image_3":"shopify:\/\/shop_images\/pozycja-2.webp","image_heading_3":"Dla śpiących na boku","image_link_3":"","image_text_color_3":"#022e4f","product":"","product_card_background":"","product_card_text_color":"","promo_content_layout":"grid","stretch_promo":false,"drawer_link_image":"show"}}},"block_order":["7456d69c-0d81-4de6-8084-bc18ac9f5292","mega_menu_rerVjJ","mega_menu_GDEFea","mega_menu_mALRnf","mega_menu_rxYXxc","mega_menu_jLb8MK"],"settings":{"enable_sticky":true,"hide_on_scroll":true,"logo":"shopify:\/\/shop_images\/logo_1_21c8b659-81bc-4c85-a2f4-b6a45c622791.svg","logo_max_width":200,"logo_mobile_max_width":100,"menu":"main-menu","sidebar_menu":"","secondary_menu":"","menu_open_trigger":"hover","opening_from":"bottom","layout":"logo_left_navigation_center","show_social_media":true,"show_locale_selector":true,"show_country_selector":true,"show_country_flag":true,"show_country_name":false,"transparent_header_text_color":"#ffffff","reduce_padding":true,"background_opacity":100,"background_blur_radius":0}}},"order":["announcement-bar","header"]}
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "-20% na wszystkie nowości z działu poduszki z kodem:",
+            "url": ""
+          }
+        },
+        "message_Mi7eGU": {
+          "type": "message",
+          "settings": {
+            "text": "ZzzzuperRabat20",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "message_Mi7eGU"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-base",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 10,
+        "background": "#ed979c",
+        "background_gradient": "",
+        "text_color": "#022e4f"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "7456d69c-0d81-4de6-8084-bc18ac9f5292": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "materace",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/woman-waking-up.jpg",
+            "image_heading_1": "aaa",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/boks3.webp",
+            "image_heading_2": "aaa",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/kwad01.jpg",
+            "image_heading_3": "aaaa",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_rerVjJ": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_GDEFea": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Materace wg twardości",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/kwad01.jpg",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_mALRnf": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_rxYXxc": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Materace rozmiary",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/cinamon2.webp",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/vanilla.webp",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/cinamon2.webp",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_jLb8MK": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Materace pozycja snu",
+            "layout": "horizontal",
+            "submenu_style": "bold_text",
+            "image_1": "shopify:\/\/shop_images\/pozycja-1.webp",
+            "image_heading_1": "Dla śpiących na plecach",
+            "image_link_1": "",
+            "image_text_color_1": "#022e4f",
+            "image_2": "shopify:\/\/shop_images\/pozycja-3.webp",
+            "image_heading_2": "Dla śpiących na brzuchu",
+            "image_link_2": "",
+            "image_text_color_2": "#022e4f",
+            "image_3": "shopify:\/\/shop_images\/pozycja-2.webp",
+            "image_heading_3": "Dla śpiących na boku",
+            "image_link_3": "",
+            "image_text_color_3": "#022e4f",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "show"
+          }
+        }
+      },
+      "block_order": [
+        "7456d69c-0d81-4de6-8084-bc18ac9f5292",
+        "mega_menu_rerVjJ",
+        "mega_menu_GDEFea",
+        "mega_menu_mALRnf",
+        "mega_menu_rxYXxc",
+        "mega_menu_jLb8MK"
+      ],
+      "custom_css": [
+        ".place-self-end-start {font-size: 0.75rem;}"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": true,
+        "logo": "shopify:\/\/shop_images\/logo_1_21c8b659-81bc-4c85-a2f4-b6a45c622791.svg",
+        "logo_max_width": 200,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
