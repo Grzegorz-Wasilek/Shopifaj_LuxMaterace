@@ -158,7 +158,8 @@
       ],
       "custom_css": [
         ".section-full {padding-top: 16px;}",
-        ".text-lg {font-size: 2.75rem; font-weight: bold; color: #022e4F;}"
+        ".text-lg {font-size: 2.75rem; font-weight: bold; color: #022e4f;}",
+        ".offer {background: transparent; border-width: 2px; border-color: #022e4F; border-radius: 16px;}"
       ],
       "settings": {
         "full_width": true,
