@@ -231,7 +231,7 @@
         "image_CCrB8w"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "spacing": "small"
       }
     },
@@ -507,6 +507,72 @@
         "background_gradient": ""
       }
     },
+    "media_with_text_KKFgPG": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_9UPmap": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Materac Mint",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9UPmap"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_mwnMPN": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_8pPNfL": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Materac Mint",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8pPNfL"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -540,6 +606,8 @@
     "hot_spots_dURC7e",
     "image_with_text_overlay_jAgdpJ",
     "media_grid_AEwBcJ",
+    "media_with_text_KKFgPG",
+    "media_with_text_mwnMPN",
     "related-products"
   ]
 }
