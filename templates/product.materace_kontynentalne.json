@@ -382,6 +382,18 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "custom_html_wUaxFX": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2>Materiały<\/h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_jAgdpJ": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -501,6 +513,18 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
+      }
+    },
+    "custom_html_cYgWCB": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2> Pokrowce<\/h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "media_with_text_KKFgPG": {
@@ -696,8 +720,10 @@
     "media_with_text_4rPE47",
     "testimonials_hjTGGL",
     "hot_spots_dURC7e",
+    "custom_html_wUaxFX",
     "image_with_text_overlay_jAgdpJ",
     "media_grid_AEwBcJ",
+    "custom_html_cYgWCB",
     "media_with_text_KKFgPG",
     "media_with_text_mwnMPN",
     "image_with_text_overlay_g9CHB9",
