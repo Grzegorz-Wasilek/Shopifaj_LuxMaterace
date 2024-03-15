@@ -108,7 +108,7 @@
             "title": "Koszty Dostawy",
             "content": "<p>Zawsze darmowa dostawa!<\/p>",
             "background": "rgba(0,0,0,0)",
-            "text_color": "#022e4f"
+            "text_color": "#ed979c"
           }
         },
         "offer_NEXiD7": {
@@ -121,7 +121,7 @@
             "title": "Czas wysyłki",
             "content": "<p>14 dni roboczych + czas dostawy<\/p>",
             "background": "#eaf2ed",
-            "text_color": "#022e4f"
+            "text_color": "#ed979c"
           }
         },
         "offer_eLPi39": {
@@ -134,7 +134,7 @@
             "title": "Shipping",
             "content": "<p>Short content about your shipping rates or discounts.<\/p>",
             "background": "#eaf2ed",
-            "text_color": "#022e4f"
+            "text_color": "#ed979c"
           }
         }
       },
