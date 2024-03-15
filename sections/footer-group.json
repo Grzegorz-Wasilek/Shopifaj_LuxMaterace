@@ -47,7 +47,8 @@
         "links_ERtDci"
       ],
       "custom_css": [
-        ".footer .prose p {margin: 0;}"
+        ".footer .prose p {margin: 0;}",
+        ".footer .footer__block--newsletter .v-stack {display:none;}"
       ],
       "settings": {
         "show_social_media": true,
