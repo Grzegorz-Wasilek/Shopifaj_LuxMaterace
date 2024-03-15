@@ -664,7 +664,8 @@
         "item_pQBHHP"
       ],
       "custom_css": [
-        ".bg-secondary {background: transparent;}"
+        ".bg-secondary {background: transparent;}",
+        ".accordion__toggle {font-size:1.5rem; }"
       ],
       "settings": {
         "full_width": true,
