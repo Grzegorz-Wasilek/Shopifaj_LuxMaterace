@@ -196,7 +196,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "html": "<ul>\n\t<li><a href=\"#\">Opis<\/a><\/li>\n\t<li><a href=\"#\">Budowa<\/a><\/li>\n\t<li><a href=\"#\">Strefy komfortu<\/a><\/li>\t\n\t<li><a href=\"#\">Materiały<\/a><\/li>\n    <li><a href=\"#\">Pokrowce<\/a><\/li>\n\t<\/ul>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
