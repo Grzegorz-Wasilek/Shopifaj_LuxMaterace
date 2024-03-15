@@ -194,14 +194,14 @@
       "type": "custom-html",
       "custom_css": [
         "ul {margin-top: 50px; display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-justify-content: center; justify-content: center; -webkit-align-content: stretch; align-content: stretch; -webkit-align-items: flex-start; align-items: flex-start;}",
-        "ul li a {padding: 20px 40px; margin:0 30px; border-radius: 100px; border: solid 2px #022e4f; transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);}",
+        "ul li a {padding: 20px 40px; margin: 0 30px; border-radius: 100px; border: solid 2px #022e4f; transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);}",
         "ul li a:hover,ul li a:active {border-color: #ed979c; background: #ed979c;}"
       ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<ul>\n\t<li><a href=\"#\">Opis<\/a><\/li>\n\t<li><a href=\"#\">Budowa<\/a><\/li>\n\t<li><a href=\"#\">Strefy komfortu<\/a><\/li>\t\n\t<li><a href=\"#\">Materiały<\/a><\/li>\n    <li><a href=\"#\">Pokrowce<\/a><\/li>\n\t<\/ul>",
+        "html": "<ul>\n\t<li><a href=\"#shopify-section-template--21126296797508__media_with_text_4rPE47\">Opis<\/a><\/li>\n\t<li><a href=\"#shopify-section-template--21126296797508__hot_spots_dURC7e\">Budowa<\/a><\/li>\n\t<li><a href=\"#shopify-section-template--21126296797508__image_with_text_overlay_jAgdpJ\">Strefy komfortu<\/a><\/li>\t\n\t<li><a href=\"#shopify-section-template--21126296797508__media_grid_AEwBcJ\">Materiały<\/a><\/li>\n    <li><a href=\"#shopify-section-template--21126296797508__media_with_text_KKFgPG\">Pokrowce<\/a><\/li>\n\t<\/ul>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
