@@ -15,7 +15,7 @@
             "content": "<p>Telefon: <strong>238 938 928<\/strong><\/p><p>email: <strong>rzuf@gógle.com<\/strong><\/p>"
           }
         },
-        "text_pwQPLz": {
+        "text_QrtKwA": {
           "type": "text",
           "settings": {
             "title": "",
@@ -42,13 +42,13 @@
       },
       "block_order": [
         "newsletter",
-        "text_pwQPLz",
+        "text_QrtKwA",
         "links",
         "links_ERtDci"
       ],
       "custom_css": [
         ".footer .prose p {margin: 0;}",
-        ".footer .footer__block--newsletter .footer__newsletter-form{display:none;}"
+        ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}"
       ],
       "settings": {
         "show_social_media": true,
