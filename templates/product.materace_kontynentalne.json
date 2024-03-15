@@ -192,6 +192,11 @@
     },
     "custom_html_Ni3Nmn": {
       "type": "custom-html",
+      "custom_css": [
+        "ul {display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-justify-content: space-between; justify-content: space-between; -webkit-align-content: stretch; align-content: stretch; -webkit-align-items: flex-start; align-items: flex-start;}",
+        "ul li a {padding: 20px 40px; border-radius: 100px; border: solid 2px #022e4f }",
+        "ul li a:hover, ul li a:active {border-color:#ed979c; background:#ed979c;}"
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
