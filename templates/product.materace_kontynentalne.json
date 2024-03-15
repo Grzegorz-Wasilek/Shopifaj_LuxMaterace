@@ -235,80 +235,63 @@
         "spacing": "small"
       }
     },
-    "image_link_blocks_bA9aVX": {
-      "type": "image-link-blocks",
+    "testimonials_hjTGGL": {
+      "type": "testimonials",
       "blocks": {
-        "item_UEyGFx": {
-          "type": "item",
+        "testimonial_4KgYcW": {
+          "type": "testimonial",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
           }
         },
-        "item_aekDbD": {
-          "type": "item",
+        "testimonial_MgHnL9": {
+          "type": "testimonial",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 3,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
           }
         },
-        "item_7YHfpk": {
-          "type": "item",
+        "testimonial_636Wxx": {
+          "type": "testimonial",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
           }
         },
-        "item_YULWdp": {
-          "type": "item",
+        "testimonial_tKFize": {
+          "type": "testimonial",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_V739r7": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
           }
         }
       },
       "block_order": [
-        "item_UEyGFx",
-        "item_aekDbD",
-        "item_7YHfpk",
-        "item_YULWdp",
-        "item_V739r7"
+        "testimonial_4KgYcW",
+        "testimonial_MgHnL9",
+        "testimonial_636Wxx",
+        "testimonial_tKFize"
       ],
       "settings": {
-        "full_width": false,
-        "block_size": "medium",
+        "full_width": true,
+        "stack_testimonials": true,
         "subheading": "",
         "title": "Dlaczego warto wybrać ten materac?",
         "content": "",
@@ -318,7 +301,9 @@
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": ""
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     },
     "image_with_text_overlay_qfCYJd": {
@@ -390,7 +375,7 @@
     "main",
     "custom_html_Ni3Nmn",
     "media_with_text_4rPE47",
-    "image_link_blocks_bA9aVX",
+    "testimonials_hjTGGL",
     "image_with_text_overlay_qfCYJd",
     "related-products"
   ]
