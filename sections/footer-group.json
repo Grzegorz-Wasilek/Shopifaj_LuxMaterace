@@ -1,1 +1,53 @@
-{"type":"footer","name":"Footer group","sections":{"footer":{"type":"footer","blocks":{"newsletter":{"type":"newsletter","settings":{"image":"shopify:\/\/shop_images\/logo_1_21c8b659-81bc-4c85-a2f4-b6a45c622791.svg","image_width":240,"heading_size":"h6","title":"Zapisz się po nowości i ekskluzywne oferty!","content":""}},"text_py8QQK":{"type":"text","settings":{"title":"About our store","content":"<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>","enable_follow_on_shop":true}},"links":{"type":"links","settings":{"menu":"footer","show_menu_title":false,"menu_title":""}},"links_ERtDci":{"type":"links","settings":{"menu":"footer-menu-2","show_menu_title":false,"menu_title":""}}},"block_order":["newsletter","text_py8QQK","links","links_ERtDci"],"settings":{"show_social_media":true,"show_payment_icons":true,"show_country_selector":true,"show_country_flag":true,"show_country_name":true,"show_locale_selector":true}}},"order":["footer"]}
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo_1_21c8b659-81bc-4c85-a2f4-b6a45c622791.svg",
+            "image_width": 240,
+            "heading_size": "h6",
+            "title": "Zapisz się po nowości i ekskluzywne oferty!",
+            "content": ""
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": false,
+            "menu_title": ""
+          }
+        },
+        "links_ERtDci": {
+          "type": "links",
+          "settings": {
+            "menu": "footer-menu-2",
+            "show_menu_title": false,
+            "menu_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "links",
+        "links_ERtDci"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
