@@ -48,7 +48,7 @@
       ],
       "custom_css": [
         ".footer .prose p {margin: 0;}",
-        ".footer .footer__block--newsletter .v-stack {}"
+        ".footer .footer__block--newsletter .footer__newsletter-form{display:none;}"
       ],
       "settings": {
         "show_social_media": true,
