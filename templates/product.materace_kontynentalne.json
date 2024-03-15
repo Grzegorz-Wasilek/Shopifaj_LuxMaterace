@@ -665,7 +665,7 @@
       ],
       "custom_css": [
         ".bg-secondary {background: transparent;}",
-        ".accordion__toggle {font-size:1.5rem; }"
+        ".accordion__toggle {font-size: 1.4rem;}"
       ],
       "settings": {
         "full_width": true,
