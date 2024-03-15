@@ -159,8 +159,8 @@
       "custom_css": [
         ".section-full {padding-top: 16px;}",
         ".text-lg {font-size: 2.75rem; font-weight: bold; color: #022e4f;}",
-        ".offer {background: transparent; border-width: 2px; border-color: #e7e8ec; border-radius: 16px;}",
-        ".icon {color: ;}"
+        ".offer {background: transparent; border-width: 1px; border-color: #e7e8ec; border-radius: 12px;}",
+        ".text-sm {color: #022e4f;}"
       ],
       "settings": {
         "full_width": true,
