@@ -59,6 +59,11 @@
             "show_taxes_notice": true
           }
         },
+        "separator_WrUBcF": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
@@ -148,6 +153,7 @@
         "variant_picker",
         "separator_imcTCg",
         "price",
+        "separator_WrUBcF",
         "product_variations_KgicHX",
         "quantity_selector",
         "buy_buttons",
