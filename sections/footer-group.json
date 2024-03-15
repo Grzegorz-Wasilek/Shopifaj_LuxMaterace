@@ -46,6 +46,9 @@
         "links",
         "links_ERtDci"
       ],
+      "custom_css": [
+        ".footer .prose p {margin: 0;}"
+      ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
