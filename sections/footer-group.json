@@ -11,15 +11,15 @@
             "image": "shopify:\/\/shop_images\/logo_1_21c8b659-81bc-4c85-a2f4-b6a45c622791.svg",
             "image_width": 240,
             "heading_size": "h6",
-            "title": "Zapisz się po nowości i ekskluzywne oferty!",
-            "content": ""
+            "title": "",
+            "content": "<p>Telefon: <strong>238 938 928<\/strong><\/p><p>email: <strong>rzuf@gógle.com<\/strong><\/p>"
           }
         },
         "text_pwQPLz": {
           "type": "text",
           "settings": {
             "title": "",
-            "content": "<p>Telefon: <strong>238 938 928<\/strong><\/p><p>email: <strong>rzuf@gógle.com<\/strong><\/p>",
+            "content": "",
             "enable_follow_on_shop": true
           }
         },
@@ -48,12 +48,7 @@
       ],
       "custom_css": [
         ".footer .prose p {margin: 0;}",
-        ".footer .footer__block--newsletter .v-stack {display: none;}",
-        ".footer .footer__block-list {display: grid !important; grid-template-columns: repeat(3, 1fr) !important; grid-template-rows: auto auto;}",
-        ".footer .footer__block:nth-child(1) {grid-column: 1; rid-row: 1;}",
-        ".footer .footer__block:nth-child(2) {grid-column: 1; grid-row: 2;}",
-        ".footer .footer__block:nth-child(3) {grid-column: 2; grid-row: 1 \/ span 2;}",
-        ".footer .footer__block:nth-child(4) {grid-column: 3; grid-row: 1 \/ span 2;}"
+        ".footer .footer__block--newsletter .v-stack {}"
       ],
       "settings": {
         "show_social_media": true,
