@@ -478,7 +478,7 @@
         "item_tF7JE4": {
           "type": "item",
           "settings": {
-            "title": "",
+            "title": "{{ product.metafields.custom.grubosc.value }}",
             "subheading": "Wysokość",
             "content": "",
             "button_text": "",
