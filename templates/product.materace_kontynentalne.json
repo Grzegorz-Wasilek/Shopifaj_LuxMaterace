@@ -193,14 +193,14 @@
     "custom_html_Ni3Nmn": {
       "type": "custom-html",
       "custom_css": [
-        "button.prd-btn {cursor:pointer;background:transparent;padding:15px 30px;border-radius:100px;box-shadow: none;border:solid 2px #022e4f; font-size:1rem;font-weight:700;color:#022e4f; -webkit-transition: all .3s cubic-bezier(.165, .84, .44, 1); -moz-transition: all .3s cubic-bezier(.165, .84, .44, 1); -o-transition: all .3s cubic-bezier(.165, .84, .44, 1); transition: all .3s cubic-bezier(.165, .84, .44, 1);margin:0 15px;}",
-        "button.prd-btn:hover, button.prd-btn:active {background:#ed979c;border-color: #ed979c;}"
+        "button.prd-btn {cursor: pointer; background: transparent; padding: 15px 30px; border-radius: 100px; box-shadow: none; border: solid 2px #022e4f; font-size: 1rem; font-weight: 700; color: #022e4f; -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); margin: 0 15px;}",
+        "button.prd-btn:hover,button.prd-btn:active {background: #ed979c; border-color: #ed979c;}"
       ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<button class=\"prd-btn desc-mat-prd\">Opis<\/button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa<\/button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu<\/button>\n  <button class=\"prd-btn mat-mat-prd\">Materiały<\/button>\n  <button class=\"prd-btn cover-mat-prd\">Pokrowce<\/button>",
+        "html": "<button class=\"prd-btn desc-mat-prd\">Opis<\/button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa<\/button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu<\/button>\n  <button class=\"prd-btn mat-mat-prd\">Materiały<\/button>\n  <button class=\"prd-btn cover-mat-prd\">Pokrowce<\/button>\n<script>document.addEventListener('DOMContentLoaded', function() {\n    function scrollToElement(buttonSelector, targetIdContains) {\n        document.querySelector(buttonSelector).addEventListener('click', function() {\n            document.querySelectorAll([id*='${targetIdContains}']).forEach(function(element) { \n                element.scrollIntoView({\n                    behavior: 'smooth'\n                });\n                return; \n            });\n        });\n    }\n    scrollToElement('.desc-mat-prd', 'media_with_text');\n    scrollToElement('.cons-mat-prd', 'hot_spots');\n    scrollToElement('.komf-mat-prd', 'image_with_text_overlay');\n    scrollToElement('.mat-mat-prd', 'material-section-in-btn');\n    scrollToElement('.cover-mat-prd', 'cover-section-in-btn');\n});<\/script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
