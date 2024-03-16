@@ -535,18 +535,6 @@
         "overlay_opacity": 0
       }
     },
-    "custom_html_XEb6EX": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<h2 class=\"h2\">Materiały<\/h2>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "media_grid_AEwBcJ": {
       "type": "media-grid",
       "blocks": {
@@ -628,31 +616,20 @@
         "background_gradient": ""
       }
     },
-    "custom_html_N8WkMz": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<h2 class=\"h2\">Pokrowce<\/h2>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "media_with_text_KKFgPG": {
       "type": "media-with-text",
       "blocks": {
         "image_9UPmap": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pokrowiec-1.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Materac Mint",
+            "title": "Pokrowiec",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -663,29 +640,18 @@
             "button_background": "",
             "button_text_color": ""
           }
-        }
-      },
-      "block_order": [
-        "image_9UPmap"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "media_with_text_mwnMPN": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_8pPNfL": {
+        },
+        "image_YKdwUb": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pokrowiec-2.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Materac Mint",
+            "title": "Pokrowiec",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -699,7 +665,8 @@
         }
       },
       "block_order": [
-        "image_8pPNfL"
+        "image_9UPmap",
+        "image_YKdwUb"
       ],
       "settings": {
         "full_width": false,
@@ -832,11 +799,8 @@
     "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
     "image_with_text_overlay_jAgdpJ",
-    "custom_html_XEb6EX",
     "media_grid_AEwBcJ",
-    "custom_html_N8WkMz",
     "media_with_text_KKFgPG",
-    "media_with_text_mwnMPN",
     "image_with_text_overlay_g9CHB9",
     "related-products",
     "faq_93Ax3R"
