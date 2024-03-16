@@ -213,14 +213,15 @@
         "image_CCrB8w": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/grafika-1.webp",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Materac Mint",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "Materac {{ product.title }}",
+            "content": "<p>Wyobraź sobie łóżko, z którego nie chce się wychodzić. Takie wrażenie da ci materac Mint, który dzięki zastosowaniu pianki lateksowej i technologii wielokieszeniowej idealnie<br\/>dopasowuje sie do ksztattu kazdego ciata, zapewniajac<br\/>stabilna podpore Twojego kregostupa.<br\/>WYBIERZ KOMFORT I DOSKONALA REGENERACJE.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
