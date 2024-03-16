@@ -27,7 +27,7 @@
         "image_eB8Q3T": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mint-twardosc.svg",
+            "image": "{{ product.metafields.custom.grafika_twardosc.value }}",
             "alignment": "start",
             "max_width": 500
           }
@@ -221,7 +221,7 @@
             "icon_width": 64,
             "subheading": "",
             "title": "{{ product.metafields.custom.heading_1.value }}",
-            "content": "<p>{{ product.metafields.custom.opis_1 | metafield_tag }}<br\/><\/p>",
+            "content": "<p>{{ product.metafields.custom.opis | metafield_tag }}<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
