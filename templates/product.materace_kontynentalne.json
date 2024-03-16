@@ -214,7 +214,7 @@
           "type": "image",
           "settings": {
             "image": "{{ product.metafields.custom.image.value }}",
-            "media_width": 60,
+            "media_width": 55,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
@@ -262,13 +262,14 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
+            "custom_icon": "{{ product.metafields.custom.icon2.value }}",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+            "title": "{{ product.metafields.custom.title_icon2.value }}",
+            "content": "<p>{{ product.metafields.custom.opis2 | metafield_tag }}<\/p>"
           }
         },
         "item_iDJfX9": {
