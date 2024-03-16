@@ -193,15 +193,15 @@
     "custom_html_Ni3Nmn": {
       "type": "custom-html",
       "custom_css": [
-        "ul {margin-top: 50px; display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-justify-content: center; justify-content: center; -webkit-align-content: stretch; align-content: stretch; -webkit-align-items: flex-start; align-items: flex-start;}",
-        "ul li a {padding: 20px 40px; margin: 0 30px; border-radius: 100px; border: solid 2px #022e4f; transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);}",
+        "ul {margin-top: 50px; display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-justify-content: space-around; justify-content: space-around; -webkit-align-content: stretch; align-content: stretch; -webkit-align-items: flex-start; align-items: flex-start;}",
+        "ul li a {padding: 20px 40px; border-radius: 100px; border: solid 2px #022e4f;}",
         "ul li a:hover,ul li a:active {border-color: #ed979c; background: #ed979c;}"
       ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<ul>\n\t<li><a href=\"#shopify-section-template--21126296797508__media_with_text_4rPE47\">Opis<\/a><\/li>\n\t<li><a href=\"#shopify-section-template--21126296797508__hot_spots_dURC7e\">Budowa<\/a><\/li>\n\t<li><a href=\"#shopify-section-template--21126296797508__image_with_text_overlay_jAgdpJ\">Strefy komfortu<\/a><\/li>\t\n\t<li><a href=\"#shopify-section-template--21126296797508__media_grid_AEwBcJ\">Materiały<\/a><\/li>\n    <li><a href=\"#shopify-section-template--21126296797508__media_with_text_KKFgPG\">Pokrowce<\/a><\/li>\n\t<\/ul>",
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -317,6 +317,18 @@
             "content": "<p>Share useful information about your product features.<\/p>"
           }
         },
+        "item_hEqNfK": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
         "item_mKjnbw": {
           "type": "item",
           "settings": {
@@ -356,6 +368,7 @@
       },
       "block_order": [
         "item_QfHRUk",
+        "item_hEqNfK",
         "item_mKjnbw",
         "item_7dRHqD",
         "item_cJkNkP"
@@ -420,18 +433,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "custom_html_wUaxFX": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<h2 class=\"h2\">Materiały<\/h2>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "media_grid_AEwBcJ": {
@@ -513,18 +514,6 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
-      }
-    },
-    "custom_html_cYgWCB": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<h2 class=\"h2\">Pokrowce<\/h2>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "media_with_text_KKFgPG": {
@@ -687,18 +676,14 @@
         "item_N6jnEg",
         "item_pQBHHP"
       ],
-      "custom_css": [
-        ".bg-secondary {background: transparent;}",
-        ".accordion__toggle {font-size: 1.4rem;}"
-      ],
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "",
-        "content": "",
-        "team_avatar_width": 180,
-        "support_hours": "",
-        "answer_time": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
@@ -721,9 +706,7 @@
     "testimonials_hjTGGL",
     "hot_spots_dURC7e",
     "image_with_text_overlay_jAgdpJ",
-    "custom_html_wUaxFX",
     "media_grid_AEwBcJ",
-    "custom_html_cYgWCB",
     "media_with_text_KKFgPG",
     "media_with_text_mwnMPN",
     "image_with_text_overlay_g9CHB9",
