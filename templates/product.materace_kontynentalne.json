@@ -27,9 +27,9 @@
         "image_eB8Q3T": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sr-twardy.svg",
-            "alignment": "start",
-            "max_width": 150
+            "image": "shopify:\/\/shop_images\/mint-twardosc.svg",
+            "alignment": "center",
+            "max_width": 500
           }
         },
         "separator_EGeBQq": {
