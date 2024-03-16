@@ -439,12 +439,13 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "",
+        "image": "shopify:\/\/shop_images\/mint-cross-section.webp",
+        "title": "Bliższe spojrzenie na materac {{ product.title }}",
         "content": "",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
+        "image_background": "#465076",
         "image_background_gradient": "",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
@@ -457,6 +458,54 @@
         "hot_spot_content_text_color": "#000000",
         "hot_spot_content_opacity": 90,
         "hot_spot_content_blur_radius": 3
+      }
+    },
+    "impact_text_Mq3wyC": {
+      "type": "impact-text",
+      "blocks": {
+        "item_ijAnp7": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_tF7JE4": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_ijAnp7",
+        "item_tF7JE4"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 1,
+        "background": "#022e4f",
+        "background_gradient": "",
+        "heading_text_color": "#ed979c",
+        "heading_gradient": "",
+        "text_color": "#f5f5f5",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "image_with_text_overlay_jAgdpJ": {
@@ -770,6 +819,7 @@
     "text_with_icons_XEcyze",
     "testimonials_hjTGGL",
     "hot_spots_dURC7e",
+    "impact_text_Mq3wyC",
     "image_with_text_overlay_jAgdpJ",
     "media_grid_AEwBcJ",
     "media_with_text_KKFgPG",
