@@ -193,15 +193,14 @@
     "custom_html_Ni3Nmn": {
       "type": "custom-html",
       "custom_css": [
-        "ul {margin-top: 50px; display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-justify-content: space-around; justify-content: space-around; -webkit-align-content: stretch; align-content: stretch; -webkit-align-items: flex-start; align-items: flex-start;}",
-        "ul li a {padding: 20px 40px; border-radius: 100px; border: solid 2px #022e4f;}",
-        "ul li a:hover,ul li a:active {border-color: #ed979c; background: #ed979c;}"
+        "button.prd-btn {cursor:pointer;background:transparent;padding:15px 30px;border-radius:100px;box-shadow: none;border:solid 2px #022e4f; font-size:1rem;font-weight:700;color:#022e4f; -webkit-transition: all .3s cubic-bezier(.165, .84, .44, 1); -moz-transition: all .3s cubic-bezier(.165, .84, .44, 1); -o-transition: all .3s cubic-bezier(.165, .84, .44, 1); transition: all .3s cubic-bezier(.165, .84, .44, 1);margin:0 15px;}",
+        "button.prd-btn:hover, button.prd-btn:active {background:#ed979c;border-color: #ed979c;}"
       ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "html": "<button class=\"prd-btn desc-mat-prd\">Opis<\/button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa<\/button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu<\/button>\n  <button class=\"prd-btn mat-mat-prd\">Materiały<\/button>\n  <button class=\"prd-btn cover-mat-prd\">Pokrowce<\/button>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
