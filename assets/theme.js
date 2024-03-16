@@ -4325,20 +4325,3 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML = zawartosc1;
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  function scrollToElement(buttonSelector, targetIdContains) {
-      document.querySelector(buttonSelector).addEventListener('click', function() {
-          document.querySelectorAll([id*='${targetIdContains}']).forEach(function(element) { 
-              element.scrollIntoView({
-                  behavior: 'smooth'
-              });
-              return; 
-          });
-      });
-  }
-  scrollToElement('.desc-mat-prd', 'media_with_text');
-  scrollToElement('.cons-mat-prd', 'hot_spots');
-  scrollToElement('.komf-mat-prd', 'image_with_text_overlay');
-  scrollToElement('.mat-mat-prd', 'material-section-in-btn');
-  scrollToElement('.cover-mat-prd', 'cover-section-in-btn');
-});
