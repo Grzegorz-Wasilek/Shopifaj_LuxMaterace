@@ -466,8 +466,8 @@
         "item_ijAnp7": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
+            "title": "{{ product.metafields.custom.tawradosc | metafield_text }}",
+            "subheading": "Twardość",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -478,8 +478,8 @@
         "item_tF7JE4": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
+            "title": "",
+            "subheading": "Wysokość",
             "content": "",
             "button_text": "",
             "button_url": "",
