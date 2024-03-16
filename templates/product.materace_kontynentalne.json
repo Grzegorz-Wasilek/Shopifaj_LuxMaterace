@@ -28,7 +28,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mint-twardosc.svg",
-            "alignment": "center",
+            "alignment": "start",
             "max_width": 500
           }
         },
