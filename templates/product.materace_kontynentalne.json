@@ -669,8 +669,8 @@
         "image_YKdwUb"
       ],
       "settings": {
-        "full_width": false,
-        "spacing": "small"
+        "full_width": true,
+        "spacing": "medium"
       }
     },
     "image_with_text_overlay_g9CHB9": {
