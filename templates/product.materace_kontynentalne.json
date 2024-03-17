@@ -832,6 +832,9 @@
     },
     "custom_html_3Xy8Hk": {
       "type": "custom-html",
+      "custom_css": [
+        ".section-full {display:none; height:0;}"
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
