@@ -534,6 +534,18 @@
         "overlay_opacity": 0
       }
     },
+    "custom_html_9xHeYj": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h2\">Materiały<\/h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_grid_AEwBcJ": {
       "type": "media-grid",
       "blocks": {
@@ -635,6 +647,18 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
+      }
+    },
+    "custom_html_J9DNww": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h2\">Pokrowce<\/h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "media_with_text_KKFgPG": {
@@ -818,7 +842,9 @@
     "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
     "image_with_text_overlay_jAgdpJ",
+    "custom_html_9xHeYj",
     "media_grid_AEwBcJ",
+    "custom_html_J9DNww",
     "media_with_text_KKFgPG",
     "image_with_text_overlay_g9CHB9",
     "related-products",
