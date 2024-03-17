@@ -831,6 +831,18 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "custom_html_VBBExz": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<script>jakis skrypt<\/script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -848,6 +860,7 @@
     "media_with_text_KKFgPG",
     "image_with_text_overlay_g9CHB9",
     "related-products",
-    "faq_93Ax3R"
+    "faq_93Ax3R",
+    "custom_html_VBBExz"
   ]
 }
