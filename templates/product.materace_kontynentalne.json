@@ -163,16 +163,16 @@
         "offer_eLPi39"
       ],
       "custom_css": [
-        ".text-lg,.text-sm{color:#022e4f}",
-        ".section-full{padding-top:16px}",
-        ".text-lg{font-size:2rem;font-weight:700}",
-        ".offer{background:0 0;border-width:1px;border-color:#e7e8ec;border-radius:12px}",
-        ".product-info__quantity-selector{width:30%;float:left;margin:0}",
-        ".product-info__buy-buttons{width:70%;float:right;margin:30px 0 10px}",
-        ".product-info__button{width:70%;float:right;margin:10px 0 50px}",
-        ".product-info__offer-list{clear:both}",
-        ".quantity-selector{background:#efefef}",
-        ".quantity-selector input{background:#f5f5f5;}"
+        ".text-lg,.text-sm {color: #022e4f;}",
+        ".section-full {padding-top: 16px;}",
+        ".text-lg {font-size: 2rem; font-weight: 700;}",
+        ".offer {background: 0 0; border-width: 1px; border-color: #e7e8ec; border-radius: 12px;}",
+        ".product-info__quantity-selector {width: 30%; float: left; margin: 0;}",
+        ".product-info__buy-buttons {width: 70%; float: right; margin: 30px 0 10px;}",
+        ".product-info__button {width: 70%; float: right; margin: 10px 0 50px;}",
+        ".product-info__offer-list {clear: both;}",
+        ".quantity-selector {background: #efefef;}",
+        ".quantity-selector input {background: #f5f5f5;}"
       ],
       "settings": {
         "full_width": true,
@@ -838,6 +838,18 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "custom_html_3Xy8Hk": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #efefef;\n}\n.quantity-selector input {\n  background: #f5f5f5;\n}\n<\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -855,6 +867,7 @@
     "media_with_text_KKFgPG",
     "image_with_text_overlay_g9CHB9",
     "related-products",
-    "faq_93Ax3R"
+    "faq_93Ax3R",
+    "custom_html_3Xy8Hk"
   ]
 }
