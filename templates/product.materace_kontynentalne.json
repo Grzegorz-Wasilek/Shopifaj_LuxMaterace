@@ -163,16 +163,7 @@
         "offer_eLPi39"
       ],
       "custom_css": [
-        ".text-lg,.text-sm {color: #022e4f;}",
-        ".section-full {padding-top: 16px;}",
-        ".text-lg {font-size: 2rem; font-weight: 700;}",
-        ".offer {background: 0 0; border-width: 1px; border-color: #e7e8ec; border-radius: 12px;}",
-        ".product-info__quantity-selector {width: 30%; float: left; margin: 0;}",
-        ".product-info__buy-buttons {width: 70%; float: right; margin: 30px 0 10px;}",
-        ".product-info__button {width: 70%; float: right; margin: 10px 0 50px;}",
-        ".product-info__offer-list {clear: both;}",
-        ".quantity-selector {background: #efefef;}",
-        ".quantity-selector input {background: #f5f5f5;}"
+
       ],
       "settings": {
         "full_width": true,
