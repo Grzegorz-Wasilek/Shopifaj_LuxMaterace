@@ -833,7 +833,7 @@
     "custom_html_3Xy8Hk": {
       "type": "custom-html",
       "custom_css": [
-        ".section-full {display:none; height:0;}"
+        ".section-full {height: 0; padding:0;}"
       ],
       "settings": {
         "full_width": true,
