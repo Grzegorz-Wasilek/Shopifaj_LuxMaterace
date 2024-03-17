@@ -200,7 +200,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<button class=\"prd-btn desc-mat-prd\">Opis<\/button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa<\/button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu<\/button>\n  <button class=\"prd-btn mat-mat-prd\">Materiały<\/button>\n  <button class=\"prd-btn cover-mat-prd\">Pokrowce<\/button>",
+        "html": "<button id=\"mojDiv\" class=\"prd-btn desc-mat-prd\">Opis<\/button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa<\/button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu<\/button>\n  <button class=\"prd-btn mat-mat-prd\">Materiały<\/button>\n  <button class=\"prd-btn cover-mat-prd\">Pokrowce<\/button>\n<script>\ndocument.getElementById(\"mojDiv\").classList.add(\"klasa_dodatkowa\");\n<\/script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
