@@ -812,7 +812,7 @@
         "item_pQBHHP"
       ],
       "custom_css": [
-        ".bg-secondary {background: transparent; font-size: 1.3rem;}"
+        ".bg-secondary .accordion__toggle {background: transparent; font-size: 1.3rem;}"
       ],
       "settings": {
         "full_width": true,
