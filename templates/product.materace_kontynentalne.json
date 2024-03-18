@@ -530,7 +530,7 @@
     "custom_html_9xHeYj": {
       "type": "custom-html",
       "custom_css": [
-
+        ".section-full {padding-bottom: 1rem;}"
       ],
       "settings": {
         "full_width": true,
@@ -647,6 +647,9 @@
     },
     "custom_html_J9DNww": {
       "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-bottom: 1rem;}"
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
