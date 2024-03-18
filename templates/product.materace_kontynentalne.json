@@ -725,28 +725,21 @@
     "image_with_text_overlay_g9CHB9": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_gJrciE": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_bK9NLN": {
           "type": "heading",
           "settings": {
-            "text": "Image with text overlay",
+            "text": "Zle dobrany materac, a nasze zdrowie",
             "heading_tag": "h1"
           }
         },
         "richtext_tmmWkw": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Niewłaściwie dobrany materac może prowadzić do bólu pleców, zaburzeń snu, zwiększonego napięcia oraz problemów z krążeniem, negatywnie pływając na nasze zdrowie fizyczne i psychiczne. Ważne jest, aby wybrać<br\/>materac dostosowany do indywidualnych potrzeb, co może pomóc zapewnić zdrowy i regenerujący sen.<\/p>"
           }
         }
       },
       "block_order": [
-        "subheading_gJrciE",
         "heading_bK9NLN",
         "richtext_tmmWkw"
       ],
