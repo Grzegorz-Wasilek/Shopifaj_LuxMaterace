@@ -2,6 +2,21 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "custom_html_QHjt87": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<script>Jakis kod<\/script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -61,6 +76,7 @@
     }
   },
   "order": [
+    "custom_html_QHjt87",
     "footer"
   ]
 }
