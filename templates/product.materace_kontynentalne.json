@@ -268,13 +268,14 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
+            "custom_icon": "{{ product.metafields.custom.icon3.value }}",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+            "title": "{{ product.metafields.custom.tytle_icon3.value }}",
+            "content": "<p>{{ product.metafields.custom.opis3 | metafield_tag }}<\/p>"
           }
         }
       },
