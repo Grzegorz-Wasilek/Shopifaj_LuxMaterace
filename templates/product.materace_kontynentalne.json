@@ -517,7 +517,7 @@
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
-        "enable_parallax": false,
+        "enable_parallax": true,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/strefy.webp",
         "mobile_text_position": "place-self-start text-start",
@@ -747,8 +747,8 @@
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/zly-materac.webp",
         "mobile_text_position": "place-self-start text-start",
