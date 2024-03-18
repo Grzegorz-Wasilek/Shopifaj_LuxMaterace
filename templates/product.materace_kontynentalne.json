@@ -548,6 +548,7 @@
         "image_H9BV8D": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/sprezyny-minipocket.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -569,6 +570,7 @@
         "image_itHF77": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/multipocket.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -590,6 +592,7 @@
         "image_TP9Wkw": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/kokos.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -611,6 +614,7 @@
         "image_rTyV6c": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/latex.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
