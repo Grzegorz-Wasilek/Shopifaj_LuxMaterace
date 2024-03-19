@@ -368,18 +368,6 @@
             "title": "PIANKA POLIURETANOWA",
             "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.<\/p>"
           }
-        },
-        "item_Nmc4Df": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 30,
-            "vertical_position": 30,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
         }
       },
       "block_order": [
@@ -389,8 +377,7 @@
         "item_PWQgtN",
         "item_gcWq9n",
         "item_rqJANN",
-        "item_zGw6B3",
-        "item_Nmc4Df"
+        "item_zGw6B3"
       ],
       "settings": {
         "full_width": true,
