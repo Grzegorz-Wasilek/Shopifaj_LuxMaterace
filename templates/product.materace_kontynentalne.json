@@ -672,7 +672,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/pokrowiec-1.webp",
-            "media_width": 50,
+            "media_width": 35,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
@@ -694,7 +694,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/pokrowiec-2.webp",
-            "media_width": 50,
+            "media_width": 40,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
@@ -718,8 +718,8 @@
         "image_YKdwUb"
       ],
       "settings": {
-        "full_width": true,
-        "spacing": "medium"
+        "full_width": false,
+        "spacing": "large"
       }
     },
     "image_with_text_overlay_g9CHB9": {
