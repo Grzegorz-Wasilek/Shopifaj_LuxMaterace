@@ -359,6 +359,19 @@
         "item_zGw6B3": {
           "type": "item",
           "settings": {
+            "horizontal_position": 59,
+            "vertical_position": 69,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon": "shopify:\/\/shop_images\/pianka.svg",
+            "icon_width": 72,
+            "title": "PIANKA POLIURETANOWA",
+            "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.<\/p>"
+          }
+        },
+        "item_Nmc4Df": {
+          "type": "item",
+          "settings": {
             "horizontal_position": 30,
             "vertical_position": 30,
             "horizontal_position_mobile": 30,
@@ -376,7 +389,8 @@
         "item_PWQgtN",
         "item_gcWq9n",
         "item_rqJANN",
-        "item_zGw6B3"
+        "item_zGw6B3",
+        "item_Nmc4Df"
       ],
       "settings": {
         "full_width": true,
