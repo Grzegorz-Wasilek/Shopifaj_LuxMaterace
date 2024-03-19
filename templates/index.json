@@ -291,30 +291,6 @@
             "content": "<p>Pokrowiec elastyczny, oddychający, wyszywana tkanina na piance elastycznej<\/p>"
           }
         },
-        "item_rqJANN": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 30,
-            "vertical_position": 30,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
-        "item_zGw6B3": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 30,
-            "vertical_position": 30,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
         "item_mxDFDW": {
           "type": "item",
           "settings": {
@@ -357,6 +333,31 @@
         "item_gcWq9n": {
           "type": "item",
           "settings": {
+            "horizontal_position": 54,
+            "vertical_position": 48,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon": "shopify:\/\/shop_images\/pocket.svg",
+            "icon_width": 72,
+            "title": "POCKET",
+            "content": "<p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność punktową i optymalne podparcie dla kręgosłupa, dostosowując się do anatomicznej budowy ciała.<\/p>"
+          }
+        },
+        "item_rqJANN": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "item_zGw6B3": {
+          "type": "item",
+          "settings": {
             "horizontal_position": 30,
             "vertical_position": 30,
             "horizontal_position_mobile": 30,
@@ -369,12 +370,12 @@
       },
       "block_order": [
         "1664424434f5b7d0e0-1",
-        "item_rqJANN",
-        "item_zGw6B3",
         "item_mxDFDW",
         "item_gAUwnX",
         "item_PWQgtN",
-        "item_gcWq9n"
+        "item_gcWq9n",
+        "item_rqJANN",
+        "item_zGw6B3"
       ],
       "settings": {
         "full_width": true,
