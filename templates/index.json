@@ -807,7 +807,7 @@
         "testimonial_TDBgMV"
       ],
       "custom_css": [
-
+        ".bg-custom {height:100%;}"
       ],
       "settings": {
         "full_width": true,
