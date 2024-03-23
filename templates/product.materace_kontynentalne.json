@@ -641,6 +641,9 @@
         "image_TP9Wkw",
         "image_rTyV6c"
       ],
+      "custom_css": [
+        ".media-grid .media-grid__item:nth-child(3) p{color: #fff;}"
+      ],
       "settings": {
         "full_width": true,
         "reduce_width": false,
