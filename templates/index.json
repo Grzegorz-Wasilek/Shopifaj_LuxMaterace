@@ -281,8 +281,8 @@
         "1664424434f5b7d0e0-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
+            "horizontal_position": 54,
+            "vertical_position": 12,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon": "shopify:\/\/shop_images\/pokrowiec.svg",
@@ -294,8 +294,8 @@
         "item_mxDFDW": {
           "type": "item",
           "settings": {
-            "horizontal_position": 55,
-            "vertical_position": 32,
+            "horizontal_position": 56,
+            "vertical_position": 25,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
             "icon": "shopify:\/\/shop_images\/visco.svg",
@@ -307,8 +307,8 @@
         "item_gAUwnX": {
           "type": "item",
           "settings": {
-            "horizontal_position": 70,
-            "vertical_position": 28,
+            "horizontal_position": 78,
+            "vertical_position": 24,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
             "icon": "shopify:\/\/shop_images\/latex.svg",
@@ -320,8 +320,8 @@
         "item_PWQgtN": {
           "type": "item",
           "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 40,
+            "horizontal_position": 67,
+            "vertical_position": 32,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
             "icon": "shopify:\/\/shop_images\/pianka.svg",
@@ -334,7 +334,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 54,
-            "vertical_position": 48,
+            "vertical_position": 42,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
             "icon": "shopify:\/\/shop_images\/pocket.svg",
@@ -359,8 +359,8 @@
         "item_zGw6B3": {
           "type": "item",
           "settings": {
-            "horizontal_position": 63,
-            "vertical_position": 74,
+            "horizontal_position": 56,
+            "vertical_position": 77,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
             "icon": "shopify:\/\/shop_images\/pianka.svg",
@@ -381,8 +381,8 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/silver2500x1200.webp",
-        "mobile_image": "shopify:\/\/shop_images\/silver2500x1200.webp",
+        "image": "shopify:\/\/shop_images\/materac-platinum.webp",
+        "mobile_image": "shopify:\/\/shop_images\/materac-platinum.webp",
         "title": "Oto nasz najbardziej zaawansowany materac hybrydowy",
         "content": "<h1><strong>SILVER PRO<\/strong><\/h1>",
         "button_text": "Zobacz więcej",
@@ -807,7 +807,7 @@
         "testimonial_TDBgMV"
       ],
       "custom_css": [
-        ".bg-custom {height:100%;}"
+        ".bg-custom {height: 100%;}"
       ],
       "settings": {
         "full_width": true,
