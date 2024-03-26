@@ -6151,15 +6151,21 @@ split-lines {
 .js .mega-menu {
   opacity: 0;
 }
-/* Poprawione menu */
-.mega-menu__nav {
+/* Poprawione menu 
   max-width: 15rem;
   gap: 1.25rem;
   flex-wrap: wrap;
   flex: auto;
   align-items: start;
-  display: column; 
-}
+  display: column; */
+.mega-menu__nav {
+   max-width: var(--column-list-max-width, max-content);
+  gap: var(--mega-menu-nav-gap);
+  flex-wrap: wrap;
+  flex: auto;
+  align-items: start;
+  display: flex;
+} 
 
 .mega-menu__nav > li {
   width: var(--mega-menu-nav-column-max-width);
