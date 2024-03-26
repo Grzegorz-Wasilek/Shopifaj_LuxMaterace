@@ -11,7 +11,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    var zawartosc1 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML;\n    var zawartosc2 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML;\n    document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML = zawartosc2;\n    document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML = zawartosc1;\n});\n<\/script>",
+        "html": "<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    var zawartosc1 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML;\n    var zawartosc2 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML;\n\ndocument.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML = zawartosc2;\n    document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML = zawartosc1;\n});    \n<\/script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
