@@ -361,79 +361,10 @@
     },
     "hot_spots_dURC7e": {
       "type": "hot-spots",
-      "blocks": {
-        "item_QfHRUk": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
-        "item_hEqNfK": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 30,
-            "vertical_position": 30,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
-        "item_mKjnbw": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
-        "item_7dRHqD": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
-        "item_cJkNkP": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 30,
-            "vertical_position": 30,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 100,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_QfHRUk",
-        "item_hEqNfK",
-        "item_mKjnbw",
-        "item_7dRHqD",
-        "item_cJkNkP"
-      ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/mint-cross-section.webp",
-        "title": "Bliższe spojrzenie na materac {{ product.title }}",
+        "image": "{{ product.metafields.custom.warstwy.value }}",
+        "title": "",
         "content": "",
         "button_text": "",
         "button_url": "",
