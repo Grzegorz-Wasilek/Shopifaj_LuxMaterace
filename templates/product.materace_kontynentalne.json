@@ -362,7 +362,8 @@
     "hot_spots_dURC7e": {
       "type": "hot-spots",
       "custom_css": [
-        "ul li {list-style: none; text-align: left; font-size: 1.3rem;}"
+        "ul li {list-style: none; text-align: left; font-size: 1.3rem;}",
+        "ul li span.listanumer {display:block;}"
       ],
       "settings": {
         "full_width": true,
