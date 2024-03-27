@@ -369,7 +369,7 @@
         "full_width": true,
         "image": "{{ product.metafields.custom.warstwy.value }}",
         "title": "",
-        "content": "<ul><li>Pokrowiec antyalergiczny z owatą (200g\/m2)<\/li><li>Pianka LATEKSOWA (3cm)<\/li><li>Naturalna MATA KOKOSOWA (1cm)<\/li><li>Formatka kieszeniowa MINIPOCKET (8cm)<\/li><li>Podkład filcowy (1cm)<\/li><li>Formatka kieszeniowa MULTIPOCKET 7 stref (12cm)<\/li><li>Pianka LATEKSOWA (3cm)<\/li><\/ul><p><\/p>",
+        "content": "<ul><li>Pokrowiec antyalergiczny z owatą (200g\/m2)<\/li><li>Pianka LATEKSOWA (3cm)<\/li><li>Naturalna MATA KOKOSOWA (1cm)<\/li><li>Formatka kieszeniowa MINIPOCKET (8cm)<\/li><li>Podkład filcowy (1cm)<\/li><li>Formatka kieszeniowa MULTIPOCKET 7 stref (12cm) sdfsd sfdf ssdfsfsd sdfs sdfsdf sd fsd<\/li><li>Pianka LATEKSOWA (3cm)<\/li><\/ul>",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "place-self-end text-end",
