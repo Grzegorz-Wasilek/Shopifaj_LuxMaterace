@@ -90,6 +90,7 @@
             "menu_item": "Łóżka",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/s2.webp",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
