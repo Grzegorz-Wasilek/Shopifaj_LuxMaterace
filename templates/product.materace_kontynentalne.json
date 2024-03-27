@@ -363,13 +363,13 @@
       "type": "hot-spots",
       "custom_css": [
         "ul li {list-style: none; text-align: left; font-size: 1.3rem; position: relative; padding-bottom: 15px;}",
-        "ul li span.listanumer {display: inline-block; padding: 4px 16px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; position: absolute; top: -5px; left: -60px; font-size: 1.5rem;}"
+        "ul li span.listanumer {display: inline-block; padding: 4px 16px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800;}"
       ],
       "settings": {
         "full_width": true,
         "image": "{{ product.metafields.custom.warstwy.value }}",
         "title": "",
-        "content": "<ul><li>Pokrowiec antyalergiczny z owatą (200g\/m2)<\/li><li>Pianka LATEKSOWA (3cm)<\/li><li>Naturalna MATA KOKOSOWA (1cm)<\/li><li>Formatka kieszeniowa MINIPOCKET (8cm)<\/li><li>Podkład filcowy (1cm)<\/li><li>Formatka kieszeniowa MULTIPOCKET 7 stref (12cm)<\/li><li>Pianka LATEKSOWA (3cm)<\/li><\/ul>",
+        "content": "<ul><li>Pokrowiec antyalergiczny z owatą (200g\/m2)<\/li><li>Pianka LATEKSOWA (3cm)<\/li><li>Naturalna MATA KOKOSOWA (1cm)<\/li><li>Formatka kieszeniowa MINIPOCKET (8cm)<\/li><li>Podkład filcowy (1cm)<\/li><li>Formatka kieszeniowa MULTIPOCKET 7 stref (12cm)<\/li><li>Pianka LATEKSOWA (3cm) <\/li><\/ul>",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "place-self-end text-end",
