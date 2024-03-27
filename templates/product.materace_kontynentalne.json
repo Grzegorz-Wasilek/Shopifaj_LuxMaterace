@@ -363,7 +363,7 @@
       "type": "hot-spots",
       "custom_css": [
         "ul li {list-style: none; text-align: left; font-size: 1.3rem;}",
-        "ul li span.listanumer {display: block-inline; padding: 5px; color:#0e2c4c;}"
+        "ul li span.listanumer {display: block-inline; padding: 5px; color: #0e2c4c; background-color:#ed979c;}"
       ],
       "settings": {
         "full_width": true,
