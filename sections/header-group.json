@@ -64,9 +64,9 @@
         "mega_menu_m6f7en": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "",
+            "menu_item": "Łóżka",
             "layout": "horizontal",
-            "submenu_style": "bold_heading",
+            "submenu_style": "bold_text",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
