@@ -701,12 +701,13 @@
         "full_width": true,
         "allow_transparent_header": false,
         "autoplay": true,
-        "video_size": "md",
+        "video_size": "lg",
         "video": "shopify:\/\/files\/videos\/reka.mp4",
+        "mobile_video": "shopify:\/\/files\/videos\/reka.mp4",
         "external_video_url": "",
-        "text_color": "#ffffff",
+        "text_color": "#022e4f",
         "overlay_color": "#022e4f",
-        "overlay_opacity": 20
+        "overlay_opacity": 0
       }
     },
     "testimonials_TMzfVr": {
