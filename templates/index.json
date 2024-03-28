@@ -192,7 +192,7 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/box-lozka.webp",
+            "image": "shopify:\/\/shop_images\/lozka-main_698c19f1-1dd9-48e4-8352-bbe5ed98dc13.webp",
             "title": "Łóżka",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/products\/lozko-tapicerowane-paris",
@@ -203,18 +203,18 @@
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#f5f5f5",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#022e4f",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#022e4f",
-            "overlay_opacity": 10
+            "overlay_opacity": 0
           }
         },
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/box-poduszki.webp",
+            "image": "shopify:\/\/shop_images\/poduszki-main_deb13f1b-5aad-4478-b8ef-954ee2fee744.webp",
             "title": "Poduszki",
             "heading_tag": "h4",
             "link_url": "",
@@ -225,12 +225,12 @@
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#f5f5f5",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#022e4f",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#022e4f",
-            "overlay_opacity": 10
+            "overlay_opacity": 0
           }
         }
       },
