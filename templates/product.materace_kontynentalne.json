@@ -407,7 +407,7 @@
           "type": "item",
           "settings": {
             "title": "{{ product.metafields.custom.grubosc.value }}",
-            "subheading": "Grobość",
+            "subheading": "Grubość",
             "content": "",
             "button_text": "",
             "button_url": "",
