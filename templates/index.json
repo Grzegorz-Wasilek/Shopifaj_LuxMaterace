@@ -192,7 +192,7 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lozka-main_698c19f1-1dd9-48e4-8352-bbe5ed98dc13.webp",
+            "image": "shopify:\/\/shop_images\/lozka-main_3f97f137-5a14-4df3-9b74-bb7a10a0cc27.webp",
             "title": "Łóżka",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/products\/lozko-tapicerowane-paris",
@@ -214,7 +214,7 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/poduszki-main_deb13f1b-5aad-4478-b8ef-954ee2fee744.webp",
+            "image": "shopify:\/\/shop_images\/poduszki-main_cf8d0155-b3a4-4982-8ae8-c9c03defa77e.webp",
             "title": "Poduszki",
             "heading_tag": "h4",
             "link_url": "",
@@ -514,6 +514,7 @@
           "type": "collection",
           "settings": {
             "collection": "lux",
+            "image": "shopify:\/\/shop_images\/kolekcja-1_8b617805-544b-4ce4-8f18-075c2a63eeff.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -528,6 +529,7 @@
           "type": "collection",
           "settings": {
             "collection": "dziecieca",
+            "image": "shopify:\/\/shop_images\/kolekcje-3_8d972c49-5ff9-4218-923c-ae41437407ea.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -542,6 +544,7 @@
           "type": "collection",
           "settings": {
             "collection": "rodzinna",
+            "image": "shopify:\/\/shop_images\/kolekcje-2_41148a71-ce44-4175-b322-599d49738af3.webp",
             "subheading": "",
             "title": "",
             "url": "",
