@@ -368,6 +368,7 @@
       "settings": {
         "full_width": true,
         "image": "{{ product.metafields.custom.warstwy.value }}",
+        "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
         "title": "",
         "content": "{{ product.metafields.custom.warstwy_opis | metafield_tag }}",
         "button_text": "",
