@@ -457,6 +457,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/strefy-mint.webp",
+        "mobile_image": "shopify:\/\/shop_images\/strefy-mint-mob.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#022e4f",
