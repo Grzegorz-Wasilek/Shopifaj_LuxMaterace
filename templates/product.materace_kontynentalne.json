@@ -437,20 +437,23 @@
         "button_text_color": ""
       }
     },
+    "custom_html_9xHeYj": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-top: 3rem; padding-bottom: 1.75rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 id=\"stref-section-in-btn\" class=\"h2\">7 stref komfortu<\/h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_jAgdpJ": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_U9RN7Q": {
-          "type": "heading",
-          "settings": {
-            "text": "7 stref komfortu",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_U9RN7Q"
-      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": true,
@@ -465,11 +468,8 @@
         "overlay_opacity": 0
       }
     },
-    "custom_html_9xHeYj": {
+    "custom_html_EAH6Nb": {
       "type": "custom-html",
-      "custom_css": [
-        ".section-full {padding-bottom: 1.75rem;}"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -798,8 +798,9 @@
     "testimonials_hjTGGL",
     "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
-    "image_with_text_overlay_jAgdpJ",
     "custom_html_9xHeYj",
+    "image_with_text_overlay_jAgdpJ",
+    "custom_html_EAH6Nb",
     "media_grid_AEwBcJ",
     "custom_html_J9DNww",
     "media_with_text_KKFgPG",
