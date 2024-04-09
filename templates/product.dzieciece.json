@@ -238,16 +238,17 @@
       "blocks": {
         "item_dPihPj": {
           "type": "item",
+          "repeater": "{{ product.metafields.custom.dla_czego_warto.value }}",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "{{ product.metafields.custom.icon1.value }}",
+            "custom_icon": "{{ block.repeater.icon_1.value }}",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "{{ product.metafields.custom.tytle_icon1.value }}",
-            "content": "<p>{{ product.metafields.custom.opis1 | metafield_tag }}<\/p>"
+            "title": "{{ block.repeater.tytul.value }}",
+            "content": "{{ block.repeater.opis_icon_1 | metafield_tag }}"
           }
         },
         "item_dxqCeH": {
