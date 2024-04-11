@@ -458,8 +458,7 @@
         "image_H9BV8D": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sprezyny-minipocket.webp",
-            "title": "Promote your products",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
