@@ -380,7 +380,7 @@
           "type": "item",
           "settings": {
             "title": "{{ product.metafields.custom.grubosc.value }}",
-            "subheading": "Grubość",
+            "subheading": "Wysokość",
             "content": "",
             "button_text": "",
             "button_url": "",
