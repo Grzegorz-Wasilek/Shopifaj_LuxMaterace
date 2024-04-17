@@ -204,16 +204,17 @@
       "blocks": {
         "image_CCrB8w": {
           "type": "image",
+          "source": "{{ product.metafields.custom.opis_produkt.value }}",
           "settings": {
-            "image": "{{ product.metafields.custom.image.value }}",
+            "image": "{{ product.metafields.custom.opis_produkt.value.foto.value }}",
             "media_width": 55,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 64,
             "subheading": "",
-            "title": "{{ product.metafields.custom.heading_1.value }}",
-            "content": "<p>{{ product.metafields.custom.opis | metafield_tag }}<\/p>",
+            "title": "{{ product.metafields.custom.opis_produkt.value.heading.value }}",
+            "content": "<p>{{ product.metafields.custom.opis_produkt.value.opis | metafield_tag }}<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
