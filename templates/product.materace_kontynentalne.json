@@ -431,7 +431,7 @@
         "allow_transparent_header": true,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/strefy-mint_1842b6cd-0c18-47b4-9c2c-7099b86a4c6f.webp",
+        "image": "{{ product.metafields.custom.strefy.value }}",
         "mobile_image": "shopify:\/\/shop_images\/strefy-mint-mob_5d024d7e-bdde-4b7d-bd43-84902110e113.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
