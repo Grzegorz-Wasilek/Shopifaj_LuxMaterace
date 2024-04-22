@@ -409,39 +409,11 @@
         "button_text_color": ""
       }
     },
-    "custom_html_9xHeYj": {
-      "type": "custom-html",
-      "custom_css": [
-        ".section-full {padding-top: 3rem; padding-bottom: 1.75rem;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"stref-section-in-btn\" class=\"h2\">7 stref komfortu<\/h2>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_jAgdpJ": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": true,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/strefy-mint_1842b6cd-0c18-47b4-9c2c-7099b86a4c6f.webp",
-        "mobile_image": "shopify:\/\/shop_images\/strefy-mint-mob_5d024d7e-bdde-4b7d-bd43-84902110e113.webp",
-        "mobile_text_position": "place-self-start text-start",
-        "desktop_text_position": "sm:place-self-start sm:text-start",
-        "text_color": "#022e4f",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "custom_html_EAH6Nb": {
       "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-top: 2.75rem; padding-bottom: 1.75rem;}"
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -769,8 +741,6 @@
     "testimonials_hjTGGL",
     "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
-    "custom_html_9xHeYj",
-    "image_with_text_overlay_jAgdpJ",
     "custom_html_EAH6Nb",
     "media_grid_AEwBcJ",
     "custom_html_J9DNww",
