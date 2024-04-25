@@ -44,7 +44,7 @@
             "stack_blocks": true,
             "selector_style": "block",
             "swatch_selector_style": "swatch",
-            "variant_image_options": "",
+            "variant_image_options": "pokrowiec_1, pokrowiec_2",
             "size_chart_page": ""
           }
         },
