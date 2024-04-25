@@ -299,8 +299,8 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "#ed979c",
-        "chart_text_color": "#ffffff",
+        "chart_background": "#f3f5f6",
+        "chart_text_color": "rgba(0,0,0,0)",
         "chart_true_false_color": ""
       }
     },
