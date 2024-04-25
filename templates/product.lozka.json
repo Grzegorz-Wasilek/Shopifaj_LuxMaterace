@@ -195,7 +195,7 @@
             "image": "{{ product.metafields.custom.opis_produkt.value.foto.value }}",
             "media_width": 55,
             "media_position": "start",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
@@ -205,7 +205,7 @@
             "link_url": "",
             "background": "rgba(0,0,0,0)",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#022e4f",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
