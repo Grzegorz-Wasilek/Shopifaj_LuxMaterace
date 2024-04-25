@@ -193,10 +193,10 @@
           "settings": {
             "heading_1": "Szerokość całkowita:",
             "heading_2": "Długość całkowita:",
-            "heading_3": "Wysokość przodu:",
-            "heading_4": "Wysokość skrzyni łóżka:",
-            "heading_5": "Wysokość nóżek:",
-            "heading_6": "",
+            "heading_3": "Wysokość całkowita:",
+            "heading_4": "Wysokość przodu:",
+            "heading_5": "Wysokość skrzyni łóżka:",
+            "heading_6": "Wysokość nóżek:",
             "heading_7": "",
             "heading_8": "",
             "heading_9": "",
@@ -299,7 +299,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "",
+        "chart_background": "#ffffff",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
