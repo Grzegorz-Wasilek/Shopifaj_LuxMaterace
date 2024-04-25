@@ -22,6 +22,7 @@
     "heading_font_size": "large",
     "text_font": "din_next_n4",
     "currency_code_enabled": true,
+    "color_swatch_style": "square",
     "discount_mode": "saving",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
