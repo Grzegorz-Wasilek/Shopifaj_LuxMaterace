@@ -275,6 +275,9 @@
         "values_DeGXKQ",
         "values_kA97Ad"
       ],
+      "custom_css": [
+        ".feature_chart {padding-top: 3.75rem;}"
+      ],
       "settings": {
         "full_width": true,
         "subheading": "Compare",
