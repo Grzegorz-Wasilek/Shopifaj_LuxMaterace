@@ -254,7 +254,7 @@
         "full_width": true,
         "subheading": "Wymiary",
         "title": "Komfort w Każdym Wymiarze",
-        "content": "<p>Dostępne rozmiary łóżka - 140x200, 160x200 oraz 180x200 cm - pozwalają na idealne dopasowanie do indywidualnych potrzeb i rozmiarów sypialni. Szerokość całkowita łóżka, większa o 16-18 cm od szerokości materaca (bez zagłówka), oraz długość całkowita 218 cm zapewniają przestronność i wygodę podczas snu.<\/p>",
+        "content": "<p>{{ product.metafields.custom.opis_wymiary | metafield_tag }}<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
