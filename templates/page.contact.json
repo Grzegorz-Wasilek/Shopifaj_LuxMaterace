@@ -43,7 +43,7 @@
         "transition_type": "fade",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
     },
