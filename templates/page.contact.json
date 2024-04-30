@@ -15,8 +15,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/cherry_6fc9bd80-1a63-4739-b579-dd0ab34fe08f.webp",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "Kontakt",
             "title": "Jesteśmy do twojej dyspozycji",
             "heading_tag": "h0",
