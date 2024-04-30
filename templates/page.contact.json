@@ -47,26 +47,6 @@
         "background_gradient": ""
       }
     },
-    "contact": {
-      "type": "contact",
-      "settings": {
-        "full_width": true,
-        "subheading": "Npaisz",
-        "title": "Czy masz jakieś pytania?",
-        "content": "<p>Co tydzień otrzymuję kilka nowych wiadomości i chociaż bardzo się staram, aby odpowiedzieć na wszystkie tak szybko, jak to możliwe, w zależności od czasu, czasami może to zająć trochę więcej czasu. Proszę to zrozumieć ✌️<\/p>",
-        "text_position": "start",
-        "contact_form_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "#f5f5f5",
-        "contact_text_color": "#022e4f",
-        "button_background": "#022e4f",
-        "button_text_color": ""
-      }
-    },
     "text_with_icons_gMAmxH": {
       "type": "text-with-icons",
       "blocks": {
@@ -74,7 +54,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "mobile_icon_width": 72,
+            "mobile_icon_width": 64,
             "icon_width": 72,
             "icon_background_type": "circle",
             "icon_background": "#ffffff",
@@ -87,8 +67,8 @@
           "type": "item",
           "settings": {
             "icon": "picto-send",
-            "mobile_icon_width": 72,
-            "icon_width": 72,
+            "mobile_icon_width": 64,
+            "icon_width": 64,
             "icon_background_type": "circle",
             "icon_background": "#ffffff",
             "icon_color": "#ed979c",
@@ -100,8 +80,8 @@
           "type": "item",
           "settings": {
             "icon": "picto-chat",
-            "mobile_icon_width": 72,
-            "icon_width": 72,
+            "mobile_icon_width": 64,
+            "icon_width": 64,
             "icon_background_type": "circle",
             "icon_background": "#ffffff",
             "icon_color": "#ed979c",
@@ -126,12 +106,32 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Npaisz",
+        "title": "Czy masz jakieś pytania?",
+        "content": "<p>Co tydzień otrzymuję kilka nowych wiadomości i chociaż bardzo się staram, aby odpowiedzieć na wszystkie tak szybko, jak to możliwe, w zależności od czasu, czasami może to zająć trochę więcej czasu. Proszę to zrozumieć ✌️<\/p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f5f5f5",
+        "contact_text_color": "#022e4f",
+        "button_background": "#022e4f",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "slideshow_WpTpAj",
-    "contact",
-    "text_with_icons_gMAmxH"
+    "text_with_icons_gMAmxH",
+    "contact"
   ]
 }
