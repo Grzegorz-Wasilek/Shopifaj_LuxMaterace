@@ -13,14 +13,14 @@
         "subheading_669wNV": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "Kontakt"
           }
         },
         "heading_TUEeDz": {
           "type": "heading",
           "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
+            "text": "Jesteśmy do twojej dyspozycji",
+            "heading_tag": "h0"
           }
         },
         "richtext_kecfWb": {
@@ -52,8 +52,8 @@
       "type": "contact",
       "settings": {
         "full_width": true,
-        "subheading": "Contact Us",
-        "title": "Do you have any question?",
+        "subheading": "Npaisz",
+        "title": "Czy masz jakieś pytania?",
         "content": "",
         "text_position": "center",
         "contact_form_size": "large",
