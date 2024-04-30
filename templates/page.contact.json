@@ -105,8 +105,8 @@
             "icon_background_type": "circle",
             "icon_background": "#ffffff",
             "icon_color": "#ed979c",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.<\/p>"
+            "title": "Whatsapp",
+            "content": "<p><a href=\"tel:238 938 928\" title=\"tel:238 938 928\"><strong>238 938 928<\/strong><\/a><\/p>"
           }
         }
       },
