@@ -317,7 +317,7 @@
       "settings": {
         "breadcrumbs_home_icon_bool": true,
         "breadcrumb_delimeter": "angle_right",
-        "breadcrumb_bg_color": "#ffffff",
+        "breadcrumb_bg_color": "#f3f5f6",
         "breadcrumb_text_color": "#465076",
         "breadcrumb_accent_color_bool": true,
         "breadcrumb_accent_color": "#ed979c",
