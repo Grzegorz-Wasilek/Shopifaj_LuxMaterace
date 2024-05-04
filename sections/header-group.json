@@ -299,7 +299,7 @@
         "breadcrumb_accent_color": "#ed979c",
         "enable_product_page": true,
         "enable_collection_page": true,
-        "enable_complete_site": true
+        "enable_complete_site": false
       }
     }
   },
