@@ -7,7 +7,7 @@
     "block_border_radius": 16,
     "icon_style": "duo",
     "button_style": "fill",
-    "background": "#ffffff",
+    "background": "#f3f5f6",
     "text_color": "#022e4f",
     "header_background": "#ffffff",
     "header_text_color": "#022e4f",
