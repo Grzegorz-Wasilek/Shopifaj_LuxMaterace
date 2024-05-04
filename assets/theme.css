@@ -9947,5 +9947,6 @@ split-lines {
 }
 
  .text-label{
-  color: #97a3af;
+   color: #97a3af;
+   font-size: 0.5rem;
           }
