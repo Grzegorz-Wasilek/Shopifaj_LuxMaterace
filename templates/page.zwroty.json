@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_WpTpAj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xk3Nbj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cherry_6fc9bd80-1a63-4739-b579-dd0ab34fe08f.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "Kontakt",
+            "title": "Jesteśmy do twojej dyspozycji",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#022e4f",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xk3Nbj"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": ""
+      }
+    },
+    "text_with_icons_gMAmxH": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_R7iNjB": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "mobile_icon_width": 64,
+            "icon_width": 64,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "#ed979c",
+            "title": "Telefon",
+            "content": "<p><a href=\"tel:238 938 928\" title=\"tel:238 938 928\"><strong>238 938 928<\/strong><\/a><\/p>"
+          }
+        },
+        "item_XAmYWC": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-send",
+            "mobile_icon_width": 64,
+            "icon_width": 64,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "#ed979c",
+            "title": "e-maiil",
+            "content": "<p><strong>rzuf@gógle.com<\/strong><\/p>"
+          }
+        },
+        "item_bqyEgr": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-chat",
+            "mobile_icon_width": 64,
+            "icon_width": 64,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "#ed979c",
+            "title": "Whatsapp",
+            "content": "<p><a href=\"tel:238 938 928\" title=\"tel:238 938 928\"><strong>238 938 928<\/strong><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_R7iNjB",
+        "item_XAmYWC",
+        "item_bqyEgr"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Npaisz",
+        "title": "Czy masz jakieś pytania?",
+        "content": "<p>Co tydzień otrzymuję kilka nowych wiadomości i chociaż bardzo się staram, aby odpowiedzieć na wszystkie tak szybko, jak to możliwe, w zależności od czasu, czasami może to zająć trochę więcej czasu. Proszę to zrozumieć ✌️<\/p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f5f5f5",
+        "contact_text_color": "#022e4f",
+        "button_background": "#022e4f",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_WpTpAj",
+    "text_with_icons_gMAmxH",
+    "contact"
+  ]
+}
