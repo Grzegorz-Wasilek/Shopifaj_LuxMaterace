@@ -9945,3 +9945,7 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+ .tex-label{
+  color: #f3f3f3;
+          }
