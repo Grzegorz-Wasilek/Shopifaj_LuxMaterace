@@ -312,7 +312,7 @@
     "breadcrumb_VQj6Ge": {
       "type": "breadcrumb",
       "custom_css": [
-        ".breadcrumbs {display: none;}"
+
       ],
       "settings": {
         "breadcrumbs_home_icon_bool": true,
