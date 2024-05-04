@@ -297,9 +297,9 @@
         "breadcrumb_text_color": "#022e4f",
         "breadcrumb_accent_color_bool": true,
         "breadcrumb_accent_color": "#ed979c",
-        "enable_product_page": true,
+        "enable_product_page": false,
         "enable_collection_page": true,
-        "enable_complete_site": false
+        "enable_complete_site": true
       }
     }
   },
