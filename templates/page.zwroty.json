@@ -23,7 +23,7 @@
         "text_FzaeMy"
       ],
       "custom_css": [
-        ".input-checkbox {margin-right: 8px; width: 15px; height: 15px}"
+        ".input-checkbox {width: 15px; height: 15px;}"
       ],
       "settings": {
         "full_width": true,
