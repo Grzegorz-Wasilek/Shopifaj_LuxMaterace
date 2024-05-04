@@ -293,7 +293,7 @@
       "settings": {
         "breadcrumbs_home_icon_bool": true,
         "breadcrumb_delimeter": "angle_right",
-        "breadcrumb_bg_color": "#ffffff",
+        "breadcrumb_bg_color": "rgba(0,0,0,0)",
         "breadcrumb_text_color": "#022e4f",
         "breadcrumb_accent_color_bool": true,
         "breadcrumb_accent_color": "#ed979c",
