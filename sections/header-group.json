@@ -288,15 +288,15 @@
     "breadcrumb_d4Nf4L": {
       "type": "breadcrumb",
       "settings": {
-        "breadcrumbs_home_icon_bool": false,
+        "breadcrumbs_home_icon_bool": true,
         "breadcrumb_delimeter": "angle_right",
         "breadcrumb_bg_color": "#fff",
         "breadcrumb_text_color": "#465076",
         "breadcrumb_accent_color_bool": false,
         "breadcrumb_accent_color": "#4770db",
-        "enable_product_page": false,
-        "enable_collection_page": false,
-        "enable_complete_site": true
+        "enable_product_page": true,
+        "enable_collection_page": true,
+        "enable_complete_site": false
       }
     }
   },
