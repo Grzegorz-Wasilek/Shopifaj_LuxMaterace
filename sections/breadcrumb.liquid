@@ -6,11 +6,7 @@
      background-color: {{ section.settings.breadcrumb_bg_color }};
    }
 
-   {% if section.settings.enable_complete_site %}
-     .breadcrumbs {
-       display: block;
-     }
-   {% elsif template == 'product' %}
+   {% if template == 'product' %}
      {% if section.settings.enable_product_page %}
        .breadcrumbs {
          display: block;
@@ -22,6 +18,10 @@
          display: block;
        }
      {% endif %}
+   {% elsif section.settings.enable_complete_site %}
+     .breadcrumbs {
+       display: block;
+     }
    {% endif %}
 
    :root {
