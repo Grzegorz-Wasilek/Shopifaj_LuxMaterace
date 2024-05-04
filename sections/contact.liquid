@@ -92,8 +92,11 @@
             {%- render 'input', name: 'contact[body]', label: label, multiline: 4, required: true -%}
           </div>
           <div>
-            <span>Podając swoje dane wyrażasz zgodę na skontaktowanie się przez LuxMateracje w celu udzielenia odpowiedzi na Twoje pytania.</span>
+            <span class="text-label">Podając swoje dane wyrażasz zgodę na skontaktowanie się przez LuxMateracje w celu udzielenia odpowiedzi na Twoje pytania.</span>
           </div>
+          .tex-label{
+          color: #f3f3f3;
+          }
           <div class="chack">
           <input type="checkbox" class="input-checkbox" id="consent" required>
            <label for="consent-message"> <a href="https://www.w3schools.com/">Oświadczam, że zapoznałem/am się z polityką prywatności</a></label>
