@@ -1,108 +1,80 @@
 {%- style -%}
-   {% if template == 'product' and section.settings.enable_product_page  %}
-     .breadcrumbs{
+   .breadcrumbs {
+     display: none; /* Domyślnie ukryte */
+     padding: 1rem 5rem;
+     color: {{ section.settings.breadcrumb_text_color }};
+     background-color: {{ section.settings.breadcrumb_bg_color }};
+   }
+
+   {% if section.settings.enable_complete_site %}
+     .breadcrumbs {
        display: block;
      }
-     {% else %}
-     .breadcrumbs{
-       display: none;
-     }
-   {% endif %}
-
-  {% if section.settings.enable_complete_site %}
-    .breadcrumbs{
-      display: block;
-    }
-    {% endif %}
-
-  {% if template == 'collection' and section.settings.enable_collection_page  %}
-     .breadcrumbs{
-       display: block;
-     }
-   {% endif %}
-
-
-       :root  {
-         --svg_fill: {{ section.settings.breadcrumb_text_color}}
-         ;
-       }
-
-       .home-icon-container {
-         display: inline-block;
-         margin-right: 4px;
-         vertical-align: sub;
-       }
-
+   {% elsif template == 'product' %}
+     {% if section.settings.enable_product_page %}
        .breadcrumbs {
-         padding: 1rem 5rem;
-         color: {{ section.settings.breadcrumb_text_color }}
-         ;
-         background-color: {{ section.settings.breadcrumb_bg_color }}
+         display: block;
        }
-
-       .breadcrumbs li {
-         display: inline-block;
+     {% endif %}
+   {% elsif template == 'collection' %}
+     {% if section.settings.enable_collection_page %}
+       .breadcrumbs {
+         display: block;
        }
+     {% endif %}
+   {% endif %}
 
-       .breadcrumbs a {
-         text-decoration: none;
-         /*Will put liquid customization here*/
-         font-size: 15px;
-         color: inherit;
-       }
+   :root {
+     --svg_fill: {{ section.settings.breadcrumb_text_color }};
+   }
 
+   .home-icon-container {
+     display: inline-block;
+     margin-right: 4px;
+     vertical-align: sub;
+   }
 
-     {%- if section.settings.breadcrumb_accent_color_bool -%}
-         .breadcrumbs a:last-of-type {
-           color: {{ section.settings.breadcrumb_accent_color }}
-            !important;
-         }
-       {%- endif -%}
+   .breadcrumbs li {
+     display: inline-block;
+   }
 
+   .breadcrumbs a {
+     text-decoration: none;
+     font-size: 15px;
+     color: inherit;
+   }
 
-       .breadcrumb-delimeter:not(:last-child):after {
-         {%- case section.settings.breadcrumb_delimeter -%}
-           {%- when "angle_right" -%}
-           content: "›";
-           font-size: 18px;
-           {%- when "slash" -%}
-           content: "/";
-           font-size: 16px;
-           {%- when "arrow_right" -%}
-           content: "➤";
-           font-size: 15px;
-           {%- when "squiggle_arrow" -%}
-           content: "\27FF";
-           font-size: 25px;
-           {%- when "right_long" -%}
-           content: "\279E";
-           font-size: 18px;
-           transform: translateY(5%);
-           {%- when "double_right" -%}
-           content: "\00BB";
-           font-size: 20px;
-           {%- when "diamond_arrow_head" -%}
-           content: "⤞";
-           font-size: 25px;
-           transform: translateY(5%);
-           {%- when "heavy_angle_right" -%}
-           content: "\276F";
-           font-size: 18px;
-           transform: translateY(5%);
-         {%- else -%}
+   {%- if section.settings.breadcrumb_accent_color_bool -%}
+     .breadcrumbs a:last-of-type {
+       color: {{ section.settings.breadcrumb_accent_color }} !important;
+     }
+   {%- endif -%}
 
-         {%- endcase -%}
-         display: inline-block;
-         margin-left: 0.75rem;
-         margin-right: 0.50rem;
-         speak: none;
-       }
+   .breadcrumb-delimeter:not(:last-child):after {
+     {%- case section.settings.breadcrumb_delimeter -%}
+       {%- when "angle_right" -%} content: "›";
+       {%- when "slash" -%} content: "/";
+       {%- when "arrow_right" -%} content: "➤";
+       {%- when "squiggle_arrow" -%} content: "\27FF";
+       {%- when "right_long" -%} content: "\279E";
+       {%- when "double_right" -%} content: "\00BB";
+       {%- when "diamond_arrow_head" -%} content: "⤞";
+       {%- when "heavy_angle_right" -%} content: "\276F";
+     {%- else -%}
+       content: "";
+     {%- endcase -%}
+     display: inline-block;
+     margin-left: 0.75rem;
+     margin-right: 0.50rem;
+     font-size: 18px;
+     speak: none;
+   }
 
-       .breadcrumbs [aria-current="page"] {
-         color: inherit;
-         font-weight: normal;
-         text-decoration: none;
-       }
+   .breadcrumbs [aria-current="page"] {
+     color: inherit;
+     font-weight: normal;
+     text-decoration: none;
+   }
 {%- endstyle -%}
 
 <div class="page-width breadcrumbs" aria-label="breadcrumbs">
