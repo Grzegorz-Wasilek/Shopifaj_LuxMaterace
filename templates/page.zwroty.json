@@ -126,7 +126,7 @@
         "full_width": true,
         "subheading": "Zwroty",
         "title": "Reklamacja",
-        "content": "<p>Chcemy, żebyś miał spokój z zakupami, więc jak coś nie pykło, daj nam znać! Ułatwiamy to dzięki formularzowi reklamacyjnemu. Robimy wszystko, żeby Twoja reklamacja została załatwiona w ciągu maksymalnie 14 dni od momentu zgłoszenia - to zgodnie z przepisami.<\/p>",
+        "content": "<p>Chcemy, żebyś miał spokój z zakupami, więc jak coś nie pykło, daj nam znać! Ułatwiamy to dzięki formularzowi reklamacyjnemu. Robimy wszystko, żeby Twoja reklamacja została załatwiona w ciągu maksymalnie 14 dni od momentu zgłoszenia - to zgodnie z przepisami. <\/p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
