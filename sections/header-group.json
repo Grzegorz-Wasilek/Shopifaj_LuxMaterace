@@ -287,6 +287,7 @@
     },
     "breadcrumb_d4Nf4L": {
       "type": "breadcrumb",
+      "disabled": true,
       "custom_css": [
 
       ],
