@@ -7,44 +7,37 @@
         "content_width": "80ch"
       }
     },
-    "slideshow_WpTpAj": {
-      "type": "slideshow",
+    "contact": {
+      "type": "contact",
       "blocks": {
-        "image_xk3Nbj": {
-          "type": "image",
+        "text_FzaeMy": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cherry_6fc9bd80-1a63-4739-b579-dd0ab34fe08f.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "Kontakt",
-            "title": "Jesteśmy do twojej dyspozycji",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#022e4f",
-            "overlay_opacity": 20,
-            "background": "",
-            "background_gradient": ""
+            "title": "Numer zamówienia",
+            "use_long_text": false,
+            "required": true
           }
         }
       },
       "block_order": [
-        "image_xk3Nbj"
+        "text_FzaeMy"
       ],
       "settings": {
-        "full_width": false,
-        "allow_transparent_header": true,
-        "image_size": "md",
-        "controls_type": "dots",
-        "transition_type": "fade",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": ""
+        "full_width": true,
+        "subheading": "Zwroty",
+        "title": "Reklamacja",
+        "content": "<p>Chcemy, żebyś miał spokój z zakupami, więc jak coś nie pykło, daj nam znać! Ułatwiamy to dzięki formularzowi reklamacyjnemu. Robimy wszystko, żeby Twoja reklamacja została załatwiona w ciągu maksymalnie 14 dni od momentu zgłoszenia - to zgodnie z przepisami. <\/p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f5f5f5",
+        "contact_text_color": "#022e4f",
+        "button_background": "#022e4f",
+        "button_text_color": ""
       }
     },
     "text_with_icons_gMAmxH": {
@@ -106,45 +99,11 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "contact": {
-      "type": "contact",
-      "blocks": {
-        "text_FzaeMy": {
-          "type": "text",
-          "settings": {
-            "title": "Numer zamówienia",
-            "use_long_text": false,
-            "required": true
-          }
-        }
-      },
-      "block_order": [
-        "text_FzaeMy"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "Zwroty",
-        "title": "Reklamacja",
-        "content": "<p>Chcemy, żebyś miał spokój z zakupami, więc jak coś nie pykło, daj nam znać! Ułatwiamy to dzięki formularzowi reklamacyjnemu. Robimy wszystko, żeby Twoja reklamacja została załatwiona w ciągu maksymalnie 14 dni od momentu zgłoszenia - to zgodnie z przepisami. <\/p>",
-        "text_position": "start",
-        "contact_form_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "#f5f5f5",
-        "contact_text_color": "#022e4f",
-        "button_background": "#022e4f",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
     "main",
-    "slideshow_WpTpAj",
-    "text_with_icons_gMAmxH",
-    "contact"
+    "contact",
+    "text_with_icons_gMAmxH"
   ]
 }
