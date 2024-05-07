@@ -243,8 +243,8 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "{{ block.repeater.icon_1.value }}",
-            "mobile_icon_width": 120,
-            "icon_width": 120,
+            "mobile_icon_width": 72,
+            "icon_width": 72,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
