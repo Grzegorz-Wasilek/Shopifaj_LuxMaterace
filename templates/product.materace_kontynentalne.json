@@ -243,8 +243,8 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "{{ block.repeater.icon_1.value }}",
-            "mobile_icon_width": 120,
-            "icon_width": 120,
+            "mobile_icon_width": 72,
+            "icon_width": 72,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
@@ -266,69 +266,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "testimonials_hjTGGL": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_4KgYcW": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/kokos.svg",
-            "round_avatar": false,
-            "show_rating": false,
-            "rating": 4,
-            "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
-          }
-        },
-        "testimonial_MgHnL9": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pokrowiec.svg",
-            "round_avatar": false,
-            "show_rating": false,
-            "rating": 0,
-            "author": "",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
-          }
-        },
-        "testimonial_636Wxx": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/visco.svg",
-            "round_avatar": false,
-            "show_rating": false,
-            "rating": 5,
-            "author": "",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_4KgYcW",
-        "testimonial_MgHnL9",
-        "testimonial_636Wxx"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": true,
-        "subheading": "",
-        "title": "Dlaczego warto wybrać ten materac?",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "#f5f5f5",
-        "testimonial_card_text_color": ""
       }
     },
     "hot_spots_dURC7e": {
@@ -769,7 +706,6 @@
     "custom_html_Ni3Nmn",
     "media_with_text_4rPE47",
     "text_with_icons_XEcyze",
-    "testimonials_hjTGGL",
     "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
     "custom_html_9xHeYj",
