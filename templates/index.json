@@ -92,7 +92,7 @@
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/icn-2.svg",
             "mobile_icon_width": 88,
-            "icon_width": 120,
+            "icon_width": 88,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
@@ -105,7 +105,7 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/icn-3.svg",
-            "mobile_icon_width": 120,
+            "mobile_icon_width": 88,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
