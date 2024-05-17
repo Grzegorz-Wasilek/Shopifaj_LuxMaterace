@@ -411,6 +411,7 @@
     },
     "custom_html_9xHeYj": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".section-full {padding-top: 3rem; padding-bottom: 1.75rem;}"
       ],
@@ -426,6 +427,7 @@
     },
     "image_with_text_overlay_jAgdpJ": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": true,
@@ -442,6 +444,7 @@
     },
     "custom_html_EAH6Nb": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -550,6 +553,7 @@
         "image_TP9Wkw",
         "image_rTyV6c"
       ],
+      "disabled": true,
       "custom_css": [
         ".media-grid .media-grid__item:nth-child(3) p {color: #fff;}"
       ],
@@ -564,6 +568,7 @@
     },
     "custom_html_J9DNww": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".section-full {padding-bottom: 1.75rem;}"
       ],
@@ -629,6 +634,7 @@
         "image_9UPmap",
         "image_YKdwUb"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "large"
@@ -656,7 +662,7 @@
         "richtext_tmmWkw"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": true,
         "enable_parallax": true,
         "image_size": "auto",
