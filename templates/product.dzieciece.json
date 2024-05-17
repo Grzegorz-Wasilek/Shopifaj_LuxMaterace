@@ -503,7 +503,7 @@
         "richtext_tmmWkw"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": true,
         "enable_parallax": true,
         "image_size": "auto",
