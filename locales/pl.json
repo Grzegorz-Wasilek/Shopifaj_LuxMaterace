@@ -16,7 +16,7 @@
       "read_more": "Czytaj dalej"
     },
     "label": {
-      "color": "Kolor",
+      "color": "Pokrowiec",
       "white": "Biały",
       "size": "Rozmiar"
     },
@@ -84,7 +84,7 @@
       "view_in_space": "Zobacz w przestrzeni",
       "taxes_included": "W tym podatek.",
       "taxes_excluded": "Bez podatku.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Koszt dostawy</a> przy kasie",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Koszt dostawy<\/a> przy kasie",
       "size_chart": "Tabela rozmiarów",
       "available_colors_count": {
         "one": "{{ count }} dostępny kolor",
@@ -122,7 +122,8 @@
       "low_stock_with_quantity_count": {
         "one": "Została tylko {{ count }} sztuka",
         "few": "Zostały tylko {{ count }} sztuki",
-        "many": "Zostało tylko {{ count }} sztuk"
+        "many": "Zostało tylko {{ count }} sztuk",
+        "other": ""
       }
     },
     "store_availability": {
@@ -145,7 +146,8 @@
       "one": "{{ count }} produkt",
       "few": "{{ count }} produkty",
       "many": "{{ count }} produktów",
-      "other": "{{ count }} produktów"
+      "other": "{{ count }} produktów",
+      "zero": ""
     },
     "faceting": {
       "filters": "Filtry",
@@ -189,7 +191,8 @@
         "zero": "{{ count }} komentarzy",
         "one": "{{ count }} komentarz",
         "few": "{{ count }} komentarze",
-        "many": "{{ count }} komentarzy"
+        "many": "{{ count }} komentarzy",
+        "other": ""
       }
     }
   },
@@ -308,9 +311,9 @@
       "weight": "Waga",
       "subtotal": "Wartość produktów",
       "total": "Total",
-      "taxes_and_shipping_policy_at_checkout_html": "Podatki i koszty <a href=\"{{ link }}\" class=\"link\">wysyłki</a> obliczane przy realizacji zakupu",
+      "taxes_and_shipping_policy_at_checkout_html": "Podatki i koszty <a href=\"{{ link }}\" class=\"link\">wysyłki<\/a> obliczane przy realizacji zakupu",
       "taxes_included_but_shipping_at_checkout": "Podatek wliczony w cenę i koszty wysyłki obliczone przy realizacji zakupu",
-      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\" class=\"link\">Koszt wysyłki</a> obliczony przy realizacji zakupu.",
+      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\" class=\"link\">Koszt wysyłki<\/a> obliczony przy realizacji zakupu.",
       "taxes_and_shipping_at_checkout": "Podatki i koszty wysyłki obliczane przy realizacji zakupu",
       "add_order_note": "Dodaj uwagi do zamówienia",
       "edit_order_note": "Edytuj uwagi do zamówienia",
