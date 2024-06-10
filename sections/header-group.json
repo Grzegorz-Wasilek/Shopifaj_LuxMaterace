@@ -64,9 +64,10 @@
         "mega_menu_Kjegky": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "",
+            "menu_item": "Meble",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/SofaCarmen3osobowa.jpg",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
@@ -153,13 +154,12 @@
             "drawer_link_image": "hide"
           }
         },
-        "mega_menu_m6f7en": {
+        "mega_menu_MYWpwA": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Łóżka",
+            "menu_item": "",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/s2.webp",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
@@ -177,12 +177,13 @@
             "drawer_link_image": "hide"
           }
         },
-        "mega_menu_ihCBCt": {
+        "mega_menu_m6f7en": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "",
+            "menu_item": "Łóżka",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/s2.webp",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
@@ -323,8 +324,8 @@
         "mega_menu_aiRmaz",
         "mega_menu_TybXL9",
         "mega_menu_UDLe6k",
+        "mega_menu_MYWpwA",
         "mega_menu_m6f7en",
-        "mega_menu_ihCBCt",
         "mega_menu_JLw69y",
         "mega_menu_weUNKR",
         "mega_menu_hcdmL7",
