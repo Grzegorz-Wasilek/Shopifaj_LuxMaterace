@@ -148,7 +148,7 @@
         "offer_eLPi39"
       ],
       "custom_css": [
-
+        ".color-swatch {height: 3.5rem; width: 3.5rem;}"
       ],
       "settings": {
         "full_width": true,
