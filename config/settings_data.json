@@ -24,7 +24,7 @@
     "text_font": "din_next_n4",
     "currency_code_enabled": true,
     "color_swatch_style": "round",
-    "color_swatch_config": "Standard:POKROWIEC-3_2.webp\nPremium:Pokrowiec_2.webp",
+    "color_swatch_config": "Standard:POKROWIEC-3_2.webp\nPremium:Pokrowiec_2.webp\nsofa1:Monolith_09.webp\nsofa2:Monolith_48.webp\nsofa3:Monolith_37.webp\nsofa4:Monolith_02.webp",
     "discount_mode": "saving",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
