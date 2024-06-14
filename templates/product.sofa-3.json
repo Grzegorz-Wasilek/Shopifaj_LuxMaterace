@@ -647,7 +647,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "recommendations_count": 8,
+        "recommendations_count": 6,
         "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
         "full_width": true,
         "stack_products": true,
