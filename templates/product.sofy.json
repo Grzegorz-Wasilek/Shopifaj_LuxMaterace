@@ -19,11 +19,6 @@
           "settings": {
           }
         },
-        "separator_EGeBQq": {
-          "type": "separator",
-          "settings": {
-          }
-        },
         "collapsible_text_YjBViD": {
           "type": "collapsible_text",
           "settings": {
@@ -142,7 +137,6 @@
         "vendor",
         "title",
         "payment_terms",
-        "separator_EGeBQq",
         "collapsible_text_YjBViD",
         "variant_picker",
         "separator_imcTCg",
