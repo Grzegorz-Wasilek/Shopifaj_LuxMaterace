@@ -19,8 +19,17 @@
           "settings": {
           }
         },
+        "collapsible_text_tcENqi": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Tkanina Element",
+            "content": "<p>Nowość! Tkanina welurowa od AGAMITO Group. Wysoka gramatura, która idealnie sprawdza się w meblach wypoczynkowych. Certyfikat OEKO-TEX Standard 100 oraz technologia produkcji przyjazna środowisku. Opatrzona symbolami jakości \"Good for Babies \"oraz \"Good for Pets\".<\/p>",
+            "page": ""
+          }
+        },
         "separator_EGeBQq": {
           "type": "separator",
+          "disabled": true,
           "settings": {
           }
         },
@@ -134,6 +143,7 @@
         "vendor",
         "title",
         "payment_terms",
+        "collapsible_text_tcENqi",
         "separator_EGeBQq",
         "variant_picker",
         "separator_imcTCg",
