@@ -345,7 +345,7 @@
         "content": "{{ product.metafields.custom.warstwy_opis | metafield_tag }}",
         "button_text": "",
         "button_url": "",
-        "desktop_text_position": "place-self-end text-end",
+        "desktop_text_position": "place-self-center-end text-end",
         "image_background": "#0e2b48",
         "image_background_gradient": "",
         "overlay_color": "#000000",
