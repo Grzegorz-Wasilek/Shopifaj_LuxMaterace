@@ -567,6 +567,7 @@
         "item_N6jnEg",
         "item_pQBHHP"
       ],
+      "disabled": true,
       "custom_css": [
         ".bg-secondary {background: transparent;}",
         ".accordion__toggle {font-size: 1.3rem;}"
