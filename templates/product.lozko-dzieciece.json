@@ -262,7 +262,7 @@
       "settings": {
         "full_width": true,
         "subheading": "Wymiary",
-        "title": "Komfort w Każdym Wymiarze",
+        "title": "Opis szczegółowy - rozmiary i funkcjonalność",
         "content": "<p>{{ product.metafields.custom.opis_wymiary | metafield_tag }}<\/p>",
         "button_text": "",
         "button_url": "",
