@@ -263,7 +263,7 @@
         "full_width": true,
         "subheading": "Wymiary",
         "title": "Opis szczegółowy - rozmiary i funkcjonalność",
-        "content": "<p>{{ product.metafields.custom.opis_wymiary | metafield_tag }}<\/p>",
+        "content": "{{ product.metafields.custom.wymiary_opis | metafield_tag }}",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
