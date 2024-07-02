@@ -33,7 +33,7 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo_1_21c8b659-81bc-4c85-a2f4-b6a45c622791.svg",
+            "image": "shopify:\/\/shop_images\/semmi-logo.svg",
             "image_width": 240,
             "heading_size": "h6",
             "title": "",
