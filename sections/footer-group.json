@@ -13,6 +13,7 @@
   "sections": {
     "custom_html_QHjt87": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".section-full {padding: 0;}"
       ],
