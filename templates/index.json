@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-1_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/banner-1-mobile.webp",
+            "image": "shopify:\/\/shop_images\/dla-dzieci-melisa.webp",
+            "mobile_image": "shopify:\/\/shop_images\/dla-dzieci-melisa-mobile.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -26,7 +26,7 @@
             "button_text": "Zobacz Promocje",
             "button_link": "",
             "text_color": "#f6f9fa",
-            "button_background": "#ffffff",
+            "button_background": "#f6f9fa",
             "button_text_color": "#ffb74a",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -37,19 +37,19 @@
         "image_wMAX9k": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-2_ad00fe18-3fc3-40f3-8fbd-42cc289390d5.webp",
-            "mobile_image": "shopify:\/\/shop_images\/banner-2-mobile.webp",
+            "image": "shopify:\/\/shop_images\/letnia-deskt.webp",
+            "mobile_image": "shopify:\/\/shop_images\/letnia-miobile.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
             "title": "Wiosenna promocja",
-            "heading_tag": "h1",
+            "heading_tag": "h0",
             "button_text": "Zobacz Promocje",
             "button_link": "",
-            "text_color": "#f6f9fa",
-            "button_background": "#ffffff",
-            "button_text_color": "#426238",
+            "text_color": "#b23c08",
+            "button_background": "#b23c08",
+            "button_text_color": "#f6f9fa",
             "overlay_color": "#022e4f",
             "overlay_opacity": 0,
             "background": "",
@@ -63,8 +63,8 @@
       ],
       "custom_css": [
         "h0 {padding-top: 1.5rem; padding-bottom: 1.5rem; padding-left: 1.5rem; padding-right: 1.5rem; background: white; border-radius: 1rem;}",
-        ".subheading {color: white; font-size: 3.75rem;}",
-        ".prose {display: flex; flex-direction: column; align-items: flex-start;}"
+        ".subheading {color: #b23c08; font-size: 3.75rem;}",
+        ".prose {}"
       ],
       "settings": {
         "full_width": false,
