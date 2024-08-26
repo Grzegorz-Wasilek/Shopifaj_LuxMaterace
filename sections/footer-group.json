@@ -34,7 +34,7 @@
           "type": "newsletter",
           "settings": {
             "image": "shopify:\/\/shop_images\/semmi-logo.svg",
-            "image_width": 240,
+            "image_width": 120,
             "heading_size": "h6",
             "title": "",
             "content": "<p>Telefon: <a href=\"tel: 787-333-293\" title=\"tel: 787-333-293\">787 333 293<\/a><\/p><p>email: <a href=\"mailto:semmi@semmi.pl\" title=\"mailto:semmi@semmi.pl\">semmi@semmi.pl<\/a><\/p>"
