@@ -19,9 +19,9 @@
         "show_only_for_visitors": true,
         "show_only_once": true,
         "image": "shopify:\/\/shop_images\/banner-2-mobile.webp",
-        "title": "Signup for our newsletter",
-        "button_text": "Subscribe",
-        "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+        "title": "Zapisz się na nasz newsletter",
+        "button_text": "Wyślij",
+        "subtext": "Zapisz się do newslettera i zgarnij 5% rabatu"
       }
     },
     "privacy-banner": {
