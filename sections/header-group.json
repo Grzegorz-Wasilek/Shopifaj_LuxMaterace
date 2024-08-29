@@ -465,8 +465,7 @@
     "breadcrumb_VQj6Ge": {
       "type": "breadcrumb",
       "custom_css": [
-        ".breadcrumbs {padding: 1rem 0 0.5rem 0; max-width: 1560px; margin: 0 auto; }",
-        " @media (max-width: 1600px) {}"
+        ".breadcrumbs {padding: 1rem 0 0.5rem 0; max-width: 1560px; margin: 0 auto;}"
       ],
       "settings": {
         "breadcrumbs_home_icon_bool": true,
