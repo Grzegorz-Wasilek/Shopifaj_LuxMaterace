@@ -488,7 +488,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>\n.breadcrumbs {\n  padding: 1rem 0 0.5rem 0;\n  max-width: 1560px;\n  margin: 0 auto;\n}\n@media (max-width: 1600px) {\n.breadcrumbs {\n  padding: 1rem 3rem 0.5rem 3rem;\n}\n}\n<\/style>",
+        "html": "<style>\n.breadcrumbs {\n  padding: 1rem 0 0.5rem 0;\n  max-width: 1560px;\n  margin: 0 auto;\n}\n@media (max-width: 1600px) {\n.breadcrumbs {\n  padding-left:3rem;\npadding-right:3rem;\n}\n}\n@media (max-width: 1100px) {\n.breadcrumbs {\n   padding-left:2rem;\npadding-right:2rem;\n}\n}\n<\/style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
