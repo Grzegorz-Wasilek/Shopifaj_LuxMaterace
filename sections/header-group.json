@@ -490,7 +490,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<script>\n  const links = document.querySelectorAll('.breadcrumbs a');\n\nlinks.forEach(link => {\n    link.innerHTML = link.innerHTML.charAt(0).toUpperCase() + link.innerHTML.slice(1).toLowerCase();\n});\n<\/script>",
+        "html": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
