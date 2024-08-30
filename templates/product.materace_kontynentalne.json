@@ -195,7 +195,7 @@
     "custom_html_Ni3Nmn": {
       "type": "custom-html",
       "custom_css": [
-        ".section-full {padding-top:0; padding-bottom:0;}"
+        ".section-full {padding-top: 0; padding-bottom: 0; position: sticky;}"
       ],
       "settings": {
         "full_width": true,
