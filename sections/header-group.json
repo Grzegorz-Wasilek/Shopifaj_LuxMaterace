@@ -466,8 +466,6 @@
       "type": "breadcrumb",
       "custom_css": [
         ".breadcrumbs {padding: 1rem 0 0.5rem 0; max-width: 1560px; margin: 0 auto;}",
-        ".breadcrumbs a {text-transform: lowercase;}",
-        ".breadcrumbs a::first-letter {text-transform: uppercase;}",
         "@media (max-width: 1600px) {.breadcrumbs {padding-left: 3rem; padding-right: 3rem; }}",
         "@media (max-width: 1100px) {.breadcrumbs {padding-left: 2rem; padding-right: 2rem; }}"
       ],
@@ -482,11 +480,27 @@
         "enable_collection_page": true,
         "enable_complete_site": true
       }
+    },
+    "custom_html_JJUJhb": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding: 0; margin: 0; height: 0; display: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<script>\n  const links = document.querySelectorAll('.breadcrumbs a');\n\nlinks.forEach(link => {\n    link.innerHTML = link.innerHTML.charAt(0).toUpperCase() + link.innerHTML.slice(1).toLowerCase();\n});\n<\/script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "breadcrumb_VQj6Ge"
+    "breadcrumb_VQj6Ge",
+    "custom_html_JJUJhb"
   ]
 }
