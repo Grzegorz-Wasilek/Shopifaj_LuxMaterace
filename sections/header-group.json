@@ -490,7 +490,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<script>\n        document.addEventListener('DOMContentLoaded', function() {\n            const breadcrumbsLinks = document.querySelectorAll('.breadcrumbs a');\n\n            breadcrumbsLinks.forEach(link => {\n                let text = link.innerHTML.toLowerCase(); \n                link.innerHTML = text.charAt(0).toUpperCase() + text.slice(1);\n            });\n        });\n    <\/script>",
+        "html": "<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    const breadcrumbsLinks = document.querySelectorAll('.breadcrumbs a');\n\n    breadcrumbsLinks.forEach(link => {\n        let text = link.textContent.trim().toLowerCase(); \/\/ Zamienia cały tekst na małe litery po usunięciu zbędnych spacji\n        link.textContent = text.charAt(0).toUpperCase() + text.slice(1); \/\/ Pierwsza litera na wielką, reszta zostaje mała\n    });\n});\n\n    <\/script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
