@@ -157,7 +157,7 @@
         "offer_eLPi39"
       ],
       "custom_css": [
-
+        ".section-full {padding-top: 0;}"
       ],
       "settings": {
         "full_width": true,
