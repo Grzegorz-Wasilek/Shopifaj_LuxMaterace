@@ -119,8 +119,8 @@
             "icon_position": "aligned",
             "icon": "picto-truck",
             "icon_width": 24,
-            "title": "Koszty Dostawy",
-            "content": "<p>Zawsze darmowa dostawa!<\/p>",
+            "title": "Darmowa dostawa!",
+            "content": "",
             "background": "rgba(0,0,0,0)",
             "text_color": "#ed979c"
           }
@@ -131,9 +131,9 @@
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-timer",
-            "icon_width": 24,
-            "title": "Czas wysyłki",
-            "content": "<p>14 dni roboczych + czas dostawy<\/p>",
+            "icon_width": 32,
+            "title": "Produkcja w 14 dni robocze",
+            "content": "",
             "background": "#eaf2ed",
             "text_color": "#ed979c"
           }
@@ -146,7 +146,7 @@
             "icon": "picto-shield",
             "icon_width": 24,
             "title": "Bezpieczne zakupu",
-            "content": "<p>Short content about your shipping rates or discounts.<\/p>",
+            "content": "",
             "background": "#eaf2ed",
             "text_color": "#ed979c"
           }
