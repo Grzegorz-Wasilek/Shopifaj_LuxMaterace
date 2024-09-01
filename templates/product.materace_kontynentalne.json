@@ -282,7 +282,7 @@
     "hot_spots_dURC7e": {
       "type": "hot-spots",
       "custom_css": [
-        "ul li {list-style: none; text-align: left; font-size: 1rem; position: relative; padding-bottom: 10px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: center;}",
+        "ul li {list-style: none; text-align: left; font-size: 1rem; position: relative; padding-bottom: 10px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start;}",
         "ul li span.listanumer {padding: 0 9px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.2rem; line-height: 1.5;}",
         "h2 {text-align: left; padding-bottom: 30px;}"
       ],
