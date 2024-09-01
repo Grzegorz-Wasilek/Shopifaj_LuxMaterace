@@ -267,6 +267,9 @@
       "block_order": [
         "item_dPihPj"
       ],
+      "custom_css": [
+        "h2 {padding-bottom: 2rem;}"
+      ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -364,7 +367,7 @@
     "custom_html_9xHeYj": {
       "type": "custom-html",
       "custom_css": [
-        ".section-full {margin-top:5rem; padding-top: 0rem; padding-bottom: 1.75rem;}"
+        ".section-full {margin-top: 5rem; padding-top: 0rem; padding-bottom: 1.75rem;}"
       ],
       "settings": {
         "full_width": true,
