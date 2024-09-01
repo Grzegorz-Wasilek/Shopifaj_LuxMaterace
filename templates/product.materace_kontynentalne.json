@@ -122,7 +122,7 @@
             "icon_width": 40,
             "title": "Darmowa dostawa!",
             "content": "",
-            "background": "rgba(0,0,0,0)",
+            "background": "#532929",
             "text_color": "#ed979c"
           }
         },
