@@ -611,7 +611,7 @@
         "enable_parallax": true,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/para-prod_be958982-c958-4ce4-b5b0-ef4d517c111e.webp",
-        "mobile_image": "shopify:\/\/shop_images\/para-prodmobile_ed0d161a-1917-4110-a818-6dd7318d7905.webp",
+        "mobile_image": "shopify:\/\/shop_images\/para-prodmobile_01beec52-6130-4c25-812b-9173045861d1.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#ffffff",
