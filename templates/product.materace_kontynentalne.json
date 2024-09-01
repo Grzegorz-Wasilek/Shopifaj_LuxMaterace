@@ -276,27 +276,12 @@
         "text_color": ""
       }
     },
-    "custom_html_89XjzC": {
-      "type": "custom-html",
-      "custom_css": [
-        ".section-full.text-custom {padding-bottom: 0; padding-top: 50px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"stref-section-in-btn\" class=\"h2\">Budowa Materaca<\/h2>",
-        "background": "#0c2e4f",
-        "background_gradient": "",
-        "text_color": "#f6f9fa"
-      }
-    },
     "hot_spots_dURC7e": {
       "type": "hot-spots",
       "custom_css": [
         "ul li {list-style: none; text-align: left; font-size: 1.3rem; position: relative; padding-bottom: 15px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start;}",
         "ul li span.listanumer {padding: 0 14px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; transform: translateY(-4px); margin-right: 20px; font-size: 1.6rem;}",
-        ".section-full {padding-top: 0;}"
+        "h2 {text-align:left; padding-bottom:30px;}"
       ],
       "settings": {
         "full_width": true,
@@ -733,7 +718,6 @@
     "custom_html_Ni3Nmn",
     "media_with_text_4rPE47",
     "text_with_icons_XEcyze",
-    "custom_html_89XjzC",
     "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
     "custom_html_9xHeYj",
