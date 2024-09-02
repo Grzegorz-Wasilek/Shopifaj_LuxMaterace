@@ -866,13 +866,13 @@
     "custom_html_PwU8Hm": {
       "type": "custom-html",
       "custom_css": [
-
+        ".section-full {padding: 0;}"
       ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>\n@media (max-width: 1000px) {\n  .newsletter-content {\n    text-align: left;\n    justify-items: start;\n  }\n}\n@media (max-width: 1450px) {\n  .newsletter-content {\n    padding: 10px 30px;\n  }\n}\n@media (max-width: 1200px) {\n   {\n    flex-direction: column;\n  }\n}\n<\/style>",
+        "html": "<style>\n@media (max-width: 1000px) {\n  .newsletter-content {\n    text-align: left;\n    justify-items: start;\n  }\n}\n@media (max-width: 1450px) {\n  .newsletter-content {\n    padding: 10px 30px;\n  }\n}\n@media (max-width: 1200px) {\n  .newsletter-content {\n    flex-direction: column;\n  }\n}\n<\/style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
