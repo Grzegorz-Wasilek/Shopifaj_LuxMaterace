@@ -843,8 +843,8 @@
       "type": "newsletter",
       "custom_css": [
         ".input {background: #eac4c6;}",
-        ".newsletter-content {max-width: 100%; display: grid; grid-template-columns: 1fr 0.75fr; text-align: left; justify-items: start;}",
-        "@media (max-width: 1000px) {.newsletter-content {grid-template-columns: 1fr; text-align: left; justify-items: start; }}",
+        ".newsletter-content {max-width: 100%; display: flex;justify-content: space-between; text-align: left;}",
+        "@media (max-width: 1000px) {.newsletter-content {text-align: left; justify-items: start; }}",
         ".newsletter-content > form.form {align-content: center;}",
         ".h2 {max-width: 28rem;}"
       ],
