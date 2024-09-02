@@ -847,7 +847,8 @@
         ".newsletter-content > * {flex: 0 1 50%; max-width: inherit;}",
         ".newsletter-content input {border-radius: 100px;}",
         "@media (max-width: 1000px) {.newsletter-content {text-align: left; justify-items: start; }}",
-        "@media (max-width: 1450px) {.newsletter-content {padding: 10px 30px;}}",
+        "@media (max-width: 1450px) {.newsletter-content {padding: 10px 30px; }}",
+        "@media (max-width: 1200px) {{flex-direction: column;}}",
         ".newsletter-content > form.form {align-content: center;}",
         ".h2 {}"
       ],
