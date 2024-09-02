@@ -843,9 +843,9 @@
       "type": "newsletter",
       "custom_css": [
         ".input {background: #eac4c6;}",
-        ".newsletter-content {max-width: 100%; display: flex; justify-content: space-between; text-align: left; padding: 10px 100px;}",
+        ".newsletter-content {max-width: 100%; display: flex; justify-content: space-between; text-align: left; padding: 0 100px;}",
         ".newsletter-content > * {flex: 0 1 50%; max-width: inherit;}",
-        ".newsletter-content input {border-radius:100px;}",
+        ".newsletter-content input {border-radius: 100px;}",
         "@media (max-width: 1000px) {.newsletter-content {text-align: left; justify-items: start; }}",
         ".newsletter-content > form.form {align-content: center;}",
         ".h2 {}"
