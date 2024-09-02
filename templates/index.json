@@ -99,7 +99,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/icn-2.svg",
+            "custom_icon": "shopify:\/\/shop_images\/30-nocy2.svg",
             "mobile_icon_width": 120,
             "icon_width": 112,
             "icon_background_type": "none",
@@ -127,7 +127,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/icn-4.svg",
+            "custom_icon": "shopify:\/\/shop_images\/dostawa.svg",
             "mobile_icon_width": 120,
             "icon_width": 112,
             "icon_background_type": "none",
