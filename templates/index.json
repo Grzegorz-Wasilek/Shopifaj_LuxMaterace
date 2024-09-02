@@ -862,6 +862,21 @@
         "button_background": "#022e4f",
         "button_text_color": "#ffffff"
       }
+    },
+    "custom_html_PwU8Hm": {
+      "type": "custom-html",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n@media (max-width: 1000px) {\n  .newsletter-content {\n    text-align: left;\n    justify-items: start;\n  }\n}\n@media (max-width: 1450px) {\n  .newsletter-content {\n    padding: 10px 30px;\n  }\n}\n@media (max-width: 1200px) {\n   {\n    flex-direction: column;\n  }\n}\n<\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -878,6 +893,7 @@
     "blog_posts_NLBfCh",
     "video_YAX3zw",
     "testimonials_TMzfVr",
-    "newsletter_KTBA6F"
+    "newsletter_KTBA6F",
+    "custom_html_PwU8Hm"
   ]
 }
