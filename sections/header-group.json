@@ -492,7 +492,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    const breadcrumbsLinks = document.querySelectorAll('.breadcrumbs a');\n\n    breadcrumbsLinks.forEach(link => {\n        let text = link.textContent.trim().toLowerCase(); \/\/ Usuwa białe znaki i zamienia na małe litery\n        if (text.length > 0) {\n            link.textContent = text.charAt(0).toUpperCase() + text.slice(1); \/\/ Zmienia pierwszą literę na wielką\n        }\n    });\n});\n\n    <\/script>",
+        "html": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
