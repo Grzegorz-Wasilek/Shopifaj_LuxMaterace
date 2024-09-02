@@ -847,7 +847,9 @@
         ".newsletter-content > * {flex: 0 1 50%; max-width: inherit;}",
         ".newsletter-content input {border-radius: 100px;}",
         ".newsletter-content > form.form {align-content: center;}",
-        ".h2 {}"
+        ".h2 {}",
+        "@media (max-width: 1000px) {.newsletter-content {text-align: left; justify-items: start; }}",
+        "@media (max-width: 1450px) {.newsletter-content {padding: 10px 30px ; }}"
       ],
       "settings": {
         "full_width": false,
@@ -872,7 +874,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>\n@media (max-width: 1000px) {\n  .newsletter-content {\n    text-align: left;\n    justify-items: start;\n  }\n}\n@media (max-width: 1450px) {\n  .newsletter-content {\n    padding: 10px 30px;\n  }\n}\n@media (max-width: 1200px) {\n  .newsletter-content {\n    flex-direction: column;\n  }\n}\n<\/style>",
+        "html": "<style>\n\n@media (max-width: 1200px) {\n  .newsletter-content {\n    flex-direction: column;\n  }\n}\n<\/style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
