@@ -843,6 +843,7 @@
       "type": "newsletter",
       "custom_css": [
         ".input {background: #eac4c6;}",
+        ".newsletter-content > .prose p {margin-top:10px;}",
         ".newsletter-content {max-width: 100%; display: flex; justify-content: space-between; text-align: left; padding: 10px 80px;}",
         ".newsletter-content > * {flex: 0 1 50%; max-width: inherit;}",
         ".newsletter-content input {border-radius: 100px;}",
@@ -874,7 +875,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>\n\n@media (max-width: 1200px) {\n  .newsletter-content {\n    flex-direction: column;\nalign-items: center;\npadding:0 !important;\n\n  }\n.newsletter-content > * {\n  flex: 0 1 100%;\ntext-align:center;\n \n}\n.newsletter-content > .form {\nmax-width: 490px !important;\n}\n.newsletter-content > .prose {\nmargin-bottom:10px;\n}\n\n.newsletter-content > .prose p {\nmargin-top:10px;\n}\n}\n<\/style>",
+        "html": "<style>\n\n@media (max-width: 1200px) {\n  .newsletter-content {\n    flex-direction: column;\nalign-items: center;\npadding:0 !important;\n\n  }\n.newsletter-content > * {\n  flex: 0 1 100%;\ntext-align:center;\n \n}\n.newsletter-content > .form {\nmax-width: 490px !important;\n}\n.newsletter-content > .prose {\nmargin-bottom:10px;\n}\n\n\n}\n<\/style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
