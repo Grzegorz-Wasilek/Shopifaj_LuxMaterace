@@ -30,7 +30,7 @@
         "featured_product_heading": "Polecany produkt",
         "text_color": "#ffffff",
         "overlay_color": "#022e4f",
-        "overlay_opacity": 10
+        "overlay_opacity": 30
       }
     },
     "main": {
