@@ -13,7 +13,7 @@
       "type": "collection-banner",
       "custom_css": [
         ".section,.section-blends,.section-full,.text-custom {padding-block-start: 0; padding-bottom: 32;}",
-        ".section-full {padding-top:16px;}"
+        ".section-full {padding-top: 16px;}"
       ],
       "settings": {
         "full_width": false,
@@ -26,8 +26,8 @@
         "image_size": "lg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "featured_product": "materac-clove",
-        "featured_product_heading": "Featured product",
+        "featured_product": "mint-kopia",
+        "featured_product_heading": "Polecany produkt",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
