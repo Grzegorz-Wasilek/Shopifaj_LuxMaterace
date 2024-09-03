@@ -389,7 +389,7 @@
         "item_zGw6B3"
       ],
       "custom_css": [
-        "@media (max-width: 1000px) {.section-full {background-color:#0c2e4f ; }}"
+        "@media (max-width: 1000px) {.section-full {background:#0c2e4f; padding-top:50px; }}"
       ],
       "settings": {
         "full_width": true,
