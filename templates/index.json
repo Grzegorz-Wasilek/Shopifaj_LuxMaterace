@@ -388,6 +388,9 @@
         "item_rqJANN",
         "item_zGw6B3"
       ],
+      "custom_css": [
+        "@media (max-width: 1000px) {}"
+      ],
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/silver-pro-deskt.webp",
