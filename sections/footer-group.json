@@ -21,7 +21,7 @@
             "image_width": 120,
             "heading_size": "h6",
             "title": "",
-            "content": "<p><strong>MASZ PYTANIA? ZADZWOŃ<\/strong><br\/>Nasi doradzcy są gotowi do pomocy<\/p><p><br\/><\/p><p>Telefon: <a href=\"tel: 787-333-293\" title=\"tel: 787-333-293\">787 333 293<\/a><br\/>email: <a href=\"mailto:semmi@semmi.pl\" title=\"mailto:semmi@semmi.pl\">semmi@semmi.pl<\/a><\/p><p><br\/>Jesteśmy dostępni:<br\/>pon-pt 8-16<\/p><p><\/p>"
+            "content": "<p><strong>MASZ PYTANIA? ZADZWOŃ<\/strong><br\/>Nasi doradcy są gotowi do pomocy<\/p><p><br\/><\/p><p>Telefon: <a href=\"tel: 787-333-293\" title=\"tel: 787-333-293\">787 333 293<\/a><br\/>email: <a href=\"mailto:semmi@semmi.pl\" title=\"mailto:semmi@semmi.pl\">semmi@semmi.pl<\/a><\/p><p><br\/>Jesteśmy dostępni:<br\/>pon-pt 8-16<\/p>"
           }
         },
         "text_QrtKwA": {
@@ -58,7 +58,7 @@
       "custom_css": [
         ".footer .prose p {margin: 0;}",
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
-        "@media (max-width: 1000px) {.footer__block--newsletter {margin-bottom:20px;}}"
+        "@media (max-width: 1000px) {.footer__block--newsletter {margin-bottom: 20px; }}"
       ],
       "settings": {
         "show_social_media": true,
