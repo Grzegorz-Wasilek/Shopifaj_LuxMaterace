@@ -156,7 +156,7 @@
       "few": "{{ count }} produkty",
       "many": "{{ count }} produktów",
       "other": "{{ count }} produktów",
-      "zero": ""
+      "zero": "0 produktów"
     },
     "faceting": {
       "filters": "Filtry",
