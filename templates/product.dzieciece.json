@@ -405,6 +405,9 @@
         "item_ijAnp7",
         "item_tF7JE4"
       ],
+      "custom_css": [
+        ".impact-text {padding-top: 3.75rem;}"
+      ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
