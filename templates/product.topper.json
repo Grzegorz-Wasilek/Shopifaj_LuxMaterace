@@ -677,6 +677,7 @@
         "richtext_tmmWkw"
       ],
       "custom_css": [
+        ".section-full {padding-top:90px;}",
         "@media (max-width: 1000px) {.section-full > image-banner.content-over-media {padding: 20px 10px; }}"
       ],
       "settings": {
