@@ -624,15 +624,19 @@
         "heading_bK9NLN",
         "richtext_tmmWkw"
       ],
+      "custom_css": [
+        "@media (max-width: 1000px) {.section-full > image-banner.content-over-media {padding: 20px 10px; }}"
+      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": true,
         "enable_parallax": true,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/zly-materac.webp",
+        "image": "shopify:\/\/shop_images\/para-prod_be958982-c958-4ce4-b5b0-ef4d517c111e.webp",
+        "mobile_image": "shopify:\/\/shop_images\/para-prodmobile_01beec52-6130-4c25-812b-9173045861d1.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
-        "text_color": "#022e4f",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
