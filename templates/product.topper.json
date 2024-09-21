@@ -676,29 +676,36 @@
         "heading_bK9NLN",
         "richtext_tmmWkw"
       ],
+      "custom_css": [
+        "@media (max-width: 1000px) {.section-full > image-banner.content-over-media {padding: 20px 10px; }}"
+      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": true,
         "enable_parallax": true,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/zly-materac.webp",
+        "image": "shopify:\/\/shop_images\/para-prod_be958982-c958-4ce4-b5b0-ef4d517c111e.webp",
+        "mobile_image": "shopify:\/\/shop_images\/para-prodmobile_01beec52-6130-4c25-812b-9173045861d1.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
-        "text_color": "#022e4f",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        "@media (max-width: 1000px) {.product-list {--product-list-items-per-row: 2; --product-list-gap: 10px; }}"
+      ],
       "settings": {
-        "recommendations_count": 8,
+        "recommendations_count": 6,
         "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "subheading": "",
         "title": "Może Ci się spodobać",
         "content": "",
@@ -776,7 +783,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n\n\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n}\n \n<\/style>\n\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const uls = document.querySelectorAll('.shopify-section--hot-spots ul');\n  uls.forEach((ul) => {\n    const listItems = ul.querySelectorAll('li');\n    listItems.forEach((item, index) => {\n      const span = document.createElement('span');\n      span.textContent = `${index + 1} `;\n      span.className = `listanumer listanumer-${index + 1}`;\n      item.prepend(span);\n    });\n  });\n});\n<\/script>",
+        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right: 12rem;\n}\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n.shopify-section--hot-spots > .section-full {\nbackground-color:#0c2e4f;\ncolor:#fff !important;\npadding-top:80px;\n}\n\n}\n \n<\/style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const uls = document.querySelectorAll('.shopify-section--hot-spots ul');\n  uls.forEach((ul) => {\n    const listItems = ul.querySelectorAll('li');\n    listItems.forEach((item, index) => {\n      const span = document.createElement('span');\n      span.textContent = `${index + 1} `;\n      span.className = `listanumer listanumer-${index + 1}`;\n      item.prepend(span);\n    });\n  });\n});\n<\/script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
