@@ -427,7 +427,7 @@
     "custom_html_9xHeYj": {
       "type": "custom-html",
       "custom_css": [
-        ".section-full {padding-top: 3rem; padding-bottom: 1.75rem;}"
+        ".section-full {margin-top: 5rem; padding-top: 0rem; padding-bottom: 1.75rem;}"
       ],
       "settings": {
         "full_width": true,
@@ -457,6 +457,7 @@
     },
     "custom_html_EAH6Nb": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
