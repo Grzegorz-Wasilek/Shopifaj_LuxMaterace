@@ -643,14 +643,17 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        "@media (max-width: 1000px) {.product-list {--product-list-items-per-row: 2; --product-list-gap: 10px; }}"
+      ],
       "settings": {
-        "recommendations_count": 8,
+        "recommendations_count": 6,
         "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "subheading": "",
         "title": "Może Ci się spodobać",
         "content": "",
