@@ -421,21 +421,6 @@
         "button_text_color": ""
       }
     },
-    "custom_html_EAH6Nb": {
-      "type": "custom-html",
-      "custom_css": [
-        ".section-full {padding-top: 2.75rem; padding-bottom: 1.75rem;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"material-section-in-btn\" class=\"h2\">Materiały<\/h2>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "media_grid_AEwBcJ": {
       "type": "media-grid",
       "blocks": {
@@ -755,7 +740,6 @@
     "testimonials_hjTGGL",
     "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
-    "custom_html_EAH6Nb",
     "media_grid_AEwBcJ",
     "custom_html_J9DNww",
     "media_with_text_KKFgPG",
