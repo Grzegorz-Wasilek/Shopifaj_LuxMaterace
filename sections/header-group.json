@@ -17,12 +17,13 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "-20% na wszystkie nowości z działu poduszki z kodem:",
+            "text": "-20% procent na wszystkie topery",
             "url": ""
           }
         },
         "message_Mi7eGU": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "ZzzzuperRabat20",
             "url": ""
