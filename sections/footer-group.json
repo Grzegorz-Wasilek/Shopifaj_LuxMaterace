@@ -78,7 +78,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>\n.product-card__info .color-swatch {\nwidth:40px;\nheight:40px;\n\n}\n.product-card__info .color-swatch:before {\n box-shadow: 0 0 0 2px #ed979c;\n}\n<\/style>",
+        "html": "<style>\n.product-card__info .color-swatch {\nwidth:60px;\nheight:60px;\n\n}\n.product-card__info .color-swatch:before {\n box-shadow: 0 0 0 2px #ed979c;\n}\n.product-card__info  .product-card__aside {\nmargin-top:10px;\n}\n<\/style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
