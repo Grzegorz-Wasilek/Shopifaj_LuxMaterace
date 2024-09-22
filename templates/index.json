@@ -21,7 +21,7 @@
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
-            "title": "Materace dla dzieci",
+            "title": "Promocja na materace dla dzieci",
             "heading_tag": "h1",
             "button_text": "Zobacz Promocje",
             "button_link": "",
@@ -64,7 +64,7 @@
       "custom_css": [
         "h0 {padding-top: 1.5rem; padding-bottom: 1.5rem; padding-left: 1.5rem; padding-right: 1.5rem; background: white; border-radius: 1rem;}",
         ".subheading {color: #b23c08; font-size: 3.75rem;}",
-        ".h1 {line-height:1;}",
+        ".h1 {line-height: 1;}",
         ".prose {}"
       ],
       "settings": {
