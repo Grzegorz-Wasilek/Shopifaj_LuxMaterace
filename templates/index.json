@@ -37,7 +37,7 @@
         "image_wMAX9k": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/letnia-deskt.webp",
+            "image": "shopify:\/\/shop_images\/materac-mint-prom-desk.webp",
             "mobile_image": "shopify:\/\/shop_images\/letnia-miobile.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
@@ -47,13 +47,13 @@
             "heading_tag": "h0",
             "button_text": "Zobacz Promocje",
             "button_link": "",
-            "text_color": "#b23c08",
-            "button_background": "#b23c08",
+            "text_color": "#efc689",
+            "button_background": "#efc689",
             "button_text_color": "#f6f9fa",
             "overlay_color": "#022e4f",
             "overlay_opacity": 0,
             "background": "",
-            "background_gradient": "linear-gradient(127deg, rgba(51, 91, 39, 1), rgba(73, 128, 56, 1) 51%, rgba(51, 91, 39, 1) 92%)"
+            "background_gradient": "linear-gradient(127deg, rgba(37, 44, 50, 1), rgba(26, 34, 40, 1) 100%)"
           }
         }
       },
