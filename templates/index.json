@@ -37,8 +37,8 @@
         "image_wMAX9k": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/materac-mint-prom-desk.webp",
-            "mobile_image": "shopify:\/\/shop_images\/materac-mint-prom-mob_decc8a05-845a-41be-8aaf-bac0370d157c.webp",
+            "image": "shopify:\/\/shop_images\/materac-mint-prom-desk_468350a1-73f7-4ffa-b16b-daf545f48289.webp",
+            "mobile_image": "shopify:\/\/shop_images\/materac-mint-prom-mob_7f1c289f-8c11-415c-8559-677c6cd6ddf3.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
