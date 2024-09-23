@@ -597,20 +597,9 @@
     "hot_spots_KzBKC6": {
       "type": "hot-spots",
       "blocks": {
-        "item_pan4wy": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 42,
-            "vertical_position": 61,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
         "item_jyQntX": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "horizontal_position": 57,
             "vertical_position": 35,
@@ -623,6 +612,7 @@
         },
         "item_ww379m": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "horizontal_position": 54,
             "vertical_position": 57,
@@ -635,9 +625,12 @@
         }
       },
       "block_order": [
-        "item_pan4wy",
         "item_jyQntX",
         "item_ww379m"
+      ],
+      "custom_css": [
+        "section-header.md:hidden {display: none !important; }",
+        "@media screen and (max-width: 1000px) {}"
       ],
       "settings": {
         "full_width": false,
