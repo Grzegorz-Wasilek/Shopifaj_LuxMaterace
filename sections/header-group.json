@@ -18,7 +18,7 @@
           "type": "message",
           "settings": {
             "text": "-20% procent na wszystkie topery",
-            "url": "shopify:\/\/collections\/materace-nawierzchniowe"
+            "url": "shopify://collections/materace-nawierzchniowe"
           }
         },
         "message_Mi7eGU": {
@@ -38,7 +38,7 @@
         "enable_sticky": false,
         "text_size": "text-base",
         "navigation_mode": "scrolling",
-        "scrolling_speed": 10,
+        "scrolling_speed": 25,
         "background": "#ed979c",
         "background_gradient": "",
         "text_color": "#022e4f"
@@ -53,7 +53,7 @@
             "menu_item": "materace",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/kolekcje-3.webp",
+            "image_1": "shopify://shop_images/kolekcje-3.webp",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
@@ -376,7 +376,7 @@
             "menu_item": "Łóżka",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/s2.webp",
+            "image_1": "shopify://shop_images/s2.webp",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
@@ -400,7 +400,7 @@
             "menu_item": "Dodatki",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/lozka-main_698c19f1-1dd9-48e4-8352-bbe5ed98dc13.webp",
+            "image_1": "shopify://shop_images/lozka-main_698c19f1-1dd9-48e4-8352-bbe5ed98dc13.webp",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
@@ -539,7 +539,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
-        "logo": "shopify:\/\/shop_images\/semmi-logo.svg",
+        "logo": "shopify://shop_images/semmi-logo.svg",
         "logo_max_width": 150,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
