@@ -249,6 +249,9 @@
         "item-2",
         "item-3"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {}"
+      ],
       "settings": {
         "full_width": true,
         "reduce_width": false,
