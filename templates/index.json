@@ -64,8 +64,8 @@
       "custom_css": [
         ".h1 {line-height: 1;}",
         ".text-custom {margin: 0 20px;}",
-        ".button {padding: 15px 25px; margin-top:5px}",
-        "@media screen and (max-width: 500px) {.slideshow--multiple-slides :is(.place-self-end-start, .place-self-end-center) {padding-block-end: 0; } .h1 {font-size: 38px; }}"
+        ".button {padding: 15px 25px; margin-top: 5px;}",
+        "@media screen and (max-width: 500px) {.slideshow--multiple-slides :is(.place-self-end-start, .place-self-end-center) {padding-block-end: 0; } .h1 {font-size: 38px; } .text-custom {margin: 0 10px;}}"
       ],
       "settings": {
         "full_width": false,
