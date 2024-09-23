@@ -630,7 +630,7 @@
       ],
       "custom_css": [
         ".section-header {display: none !important;}",
-        " .md\\:block {display: block !important; }",
+        ".md\\:block {display: block !important;}",
         "@media screen and (max-width: 1000px) {}"
       ],
       "settings": {
@@ -822,7 +822,8 @@
         "testimonial_TDBgMV"
       ],
       "custom_css": [
-        ".bg-custom {height: 100%;}"
+        ".bg-custom {height: 100%;}",
+        ".testimonial__image {width:50px;}"
       ],
       "settings": {
         "full_width": true,
