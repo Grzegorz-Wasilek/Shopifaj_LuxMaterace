@@ -629,7 +629,7 @@
         "item_ww379m"
       ],
       "custom_css": [
-        ".section-header.md:hidden {display: none !important;}",
+        ".md:hidden {display: none !important;}",
         "@media screen and (max-width: 1000px) {}"
       ],
       "settings": {
