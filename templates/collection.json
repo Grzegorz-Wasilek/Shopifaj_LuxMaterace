@@ -13,7 +13,8 @@
       "type": "collection-banner",
       "custom_css": [
         ".section,.section-blends,.section-full,.text-custom {padding-block-start: 0; padding-bottom: 32;}",
-        ".section-full {padding-top: 16px;}"
+        ".section-full {padding-top: 16px;}",
+        "h1 {color:#ed979c;}"
       ],
       "settings": {
         "full_width": false,
@@ -23,7 +24,7 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "collection_title_size": "h0",
-        "image_size": "lg",
+        "image_size": "auto",
         "image": "shopify://shop_images/kontynentalne-head.webp",
         "mobile_image": "shopify://shop_images/kontynentalne-head-mob.webp",
         "mobile_text_position": "place-self-start text-start",
