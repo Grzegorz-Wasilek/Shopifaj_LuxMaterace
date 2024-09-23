@@ -38,7 +38,7 @@
         "enable_sticky": false,
         "text_size": "text-base",
         "navigation_mode": "scrolling",
-        "scrolling_speed": 25,
+        "scrolling_speed": 20,
         "background": "#ed979c",
         "background_gradient": "",
         "text_color": "#022e4f"
