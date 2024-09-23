@@ -630,6 +630,7 @@
       ],
       "custom_css": [
         ".section-header {display: none !important;}",
+        " .md\\:block {display: block !important; }",
         "@media screen and (max-width: 1000px) {}"
       ],
       "settings": {
