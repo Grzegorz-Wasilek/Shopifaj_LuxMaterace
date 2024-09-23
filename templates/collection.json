@@ -13,8 +13,7 @@
       "type": "collection-banner",
       "custom_css": [
         ".section,.section-blends,.section-full,.text-custom {padding-block-start: 0; padding-bottom: 32;}",
-        ".section-full {padding-top: 16px;}",
-        "h1 {color:#ed979c;}"
+        ".section-full {padding-top: 16px;}"
       ],
       "settings": {
         "full_width": false,
