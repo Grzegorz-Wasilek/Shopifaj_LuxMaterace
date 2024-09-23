@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dla-dzieci-melisa_ae54d8b3-18bc-4a2c-bad5-979aeca3af80.webp",
-            "mobile_image": "shopify:\/\/shop_images\/dla-dzieci-melisa-mobile_b6323a92-c960-4975-89e2-e148145917e6.webp",
+            "image": "shopify://shop_images/dla-dzieci-melisa_ae54d8b3-18bc-4a2c-bad5-979aeca3af80.webp",
+            "mobile_image": "shopify://shop_images/dla-dzieci-melisa-mobile_b6323a92-c960-4975-89e2-e148145917e6.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -24,7 +24,7 @@
             "title": "Promocja na materace dla dzieci",
             "heading_tag": "h1",
             "button_text": "Zobacz Promocje",
-            "button_link": "shopify:\/\/products\/materac-smukle-3",
+            "button_link": "shopify://products/materac-smukle-3",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#ffb74a",
@@ -37,8 +37,8 @@
         "image_wMAX9k": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/materac-mint-prom-desk_468350a1-73f7-4ffa-b16b-daf545f48289.webp",
-            "mobile_image": "shopify:\/\/shop_images\/materac-mint-prom-mob_7f1c289f-8c11-415c-8559-677c6cd6ddf3.webp",
+            "image": "shopify://shop_images/materac-mint-prom-desk_468350a1-73f7-4ffa-b16b-daf545f48289.webp",
+            "mobile_image": "shopify://shop_images/materac-mint-prom-mob_7f1c289f-8c11-415c-8559-677c6cd6ddf3.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
@@ -46,7 +46,7 @@
             "title": "Luksus i komfort w promocyjnej cenie!",
             "heading_tag": "h1",
             "button_text": "Zobacz Promocje",
-            "button_link": "shopify:\/\/products\/materac-mint",
+            "button_link": "shopify://products/materac-mint",
             "text_color": "#d6a73b",
             "button_background": "#d6a73b",
             "button_text_color": "#111b24",
@@ -86,7 +86,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/icn-1.svg",
+            "custom_icon": "shopify://shop_images/icn-1.svg",
             "mobile_icon_width": 120,
             "icon_width": 112,
             "icon_background_type": "none",
@@ -100,7 +100,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/30-nocy2.svg",
+            "custom_icon": "shopify://shop_images/30-nocy2.svg",
             "mobile_icon_width": 120,
             "icon_width": 112,
             "icon_background_type": "none",
@@ -114,7 +114,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/icn-3.svg",
+            "custom_icon": "shopify://shop_images/icn-3.svg",
             "mobile_icon_width": 120,
             "icon_width": 112,
             "icon_background_type": "none",
@@ -128,7 +128,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/dostawa.svg",
+            "custom_icon": "shopify://shop_images/dostawa.svg",
             "mobile_icon_width": 120,
             "icon_width": 112,
             "icon_background_type": "none",
@@ -142,7 +142,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/icn-5.svg",
+            "custom_icon": "shopify://shop_images/icn-5.svg",
             "mobile_icon_width": 120,
             "icon_width": 112,
             "icon_background_type": "none",
@@ -178,12 +178,12 @@
         "video_HBaYHj": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/materace-7.mp4",
+            "video": "shopify://files/videos/materace-7.mp4",
             "external_video_url": "",
             "show_video_controls": false,
             "title": "Materace",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/collections\/materace",
+            "link_url": "shopify://collections/materace",
             "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 2,
@@ -202,10 +202,10 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lozka-main_31d5a35f-d883-44e5-9019-0046163bfcf3.webp",
+            "image": "shopify://shop_images/lozka-main_31d5a35f-d883-44e5-9019-0046163bfcf3.webp",
             "title": "Łóżka",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/collections\/lozka",
+            "link_url": "shopify://collections/lozka",
             "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 2,
@@ -224,7 +224,7 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/poduszki-main_88bef7fd-0440-45e2-a47d-3c36809a42cf.webp",
+            "image": "shopify://shop_images/poduszki-main_88bef7fd-0440-45e2-a47d-3c36809a42cf.webp",
             "title": "Poduszki",
             "heading_tag": "h3",
             "link_url": "",
@@ -298,10 +298,10 @@
             "vertical_position": 12,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
-            "icon": "shopify:\/\/shop_images\/pokrowiec.svg",
+            "icon": "shopify://shop_images/pokrowiec.svg",
             "icon_width": 72,
             "title": "Pokrowiec",
-            "content": "<p>Pokrowiec elastyczny, oddychający, wyszywana tkanina na piance elastycznej<\/p>"
+            "content": "<p>Pokrowiec elastyczny, oddychający, wyszywana tkanina na piance elastycznej</p>"
           }
         },
         "item_mxDFDW": {
@@ -311,10 +311,10 @@
             "vertical_position": 25,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
-            "icon": "shopify:\/\/shop_images\/visco.svg",
+            "icon": "shopify://shop_images/visco.svg",
             "icon_width": 72,
             "title": "VISCO",
-            "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.<\/p>"
+            "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p>"
           }
         },
         "item_gAUwnX": {
@@ -324,10 +324,10 @@
             "vertical_position": 24,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
-            "icon": "shopify:\/\/shop_images\/latex.svg",
+            "icon": "shopify://shop_images/latex.svg",
             "icon_width": 72,
             "title": "LATEKS",
-            "content": "<p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała podczas snu.<\/p>"
+            "content": "<p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała podczas snu.</p>"
           }
         },
         "item_PWQgtN": {
@@ -337,10 +337,10 @@
             "vertical_position": 32,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
-            "icon": "shopify:\/\/shop_images\/pianka.svg",
+            "icon": "shopify://shop_images/pianka.svg",
             "icon_width": 56,
             "title": "PIANKA POLIURETANOWA",
-            "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.<\/p>"
+            "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.</p>"
           }
         },
         "item_gcWq9n": {
@@ -350,10 +350,10 @@
             "vertical_position": 42,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
-            "icon": "shopify:\/\/shop_images\/pocket.svg",
+            "icon": "shopify://shop_images/pocket.svg",
             "icon_width": 72,
             "title": "POCKET",
-            "content": "<p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność punktową i optymalne podparcie dla kręgosłupa, dostosowując się do anatomicznej budowy ciała.<\/p>"
+            "content": "<p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność punktową i optymalne podparcie dla kręgosłupa, dostosowując się do anatomicznej budowy ciała.</p>"
           }
         },
         "item_rqJANN": {
@@ -363,10 +363,10 @@
             "vertical_position": 62,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
-            "icon": "shopify:\/\/shop_images\/multipocket.svg",
+            "icon": "shopify://shop_images/multipocket.svg",
             "icon_width": 72,
             "title": "MULTIPOCKET",
-            "content": "<p>System sprężyn kieszeniowych charakteryzuje się 500-1000 sprężyn na m², zapewniając indywidualne podparcie dzięki oddzielnym kieszonkom.<\/p>"
+            "content": "<p>System sprężyn kieszeniowych charakteryzuje się 500-1000 sprężyn na m², zapewniając indywidualne podparcie dzięki oddzielnym kieszonkom.</p>"
           }
         },
         "item_zGw6B3": {
@@ -376,10 +376,10 @@
             "vertical_position": 77,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
-            "icon": "shopify:\/\/shop_images\/pianka.svg",
+            "icon": "shopify://shop_images/pianka.svg",
             "icon_width": 72,
             "title": "PIANKA POLIURETANOWA",
-            "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.<\/p>"
+            "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.</p>"
           }
         }
       },
@@ -397,12 +397,12 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/silver-pro-deskt.webp",
-        "mobile_image": "shopify:\/\/shop_images\/silver-pro-mob.webp",
+        "image": "shopify://shop_images/silver-pro-deskt.webp",
+        "mobile_image": "shopify://shop_images/silver-pro-mob.webp",
         "title": "Oto nasz najbardziej zaawansowany materac hybrydowy",
-        "content": "<h1><strong>SILVER PRO<\/strong><\/h1>",
+        "content": "<h1><strong>SILVER PRO</strong></h1>",
         "button_text": "Zobacz więcej",
-        "button_url": "shopify:\/\/products\/mint-kopia",
+        "button_url": "shopify://products/mint-kopia",
         "desktop_text_position": "place-self-center-start text-start",
         "image_background": "",
         "image_background_gradient": "",
@@ -455,7 +455,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/s2.webp",
+        "image": "shopify://shop_images/s2.webp",
         "title": "Oferta Specjalna",
         "content": "",
         "background": "",
@@ -476,11 +476,11 @@
         "full_width": true,
         "subheading": "",
         "title": "Piękne Sny",
-        "content": "<p>Stwórzmy razem wymarzoną sypialnię dla Twojego dziecka<\/p>",
-        "before_image": "shopify:\/\/shop_images\/chlopiec-dekt.webp",
-        "before_image_mobile": "shopify:\/\/shop_images\/chlopiec-mob.webp",
-        "after_image": "shopify:\/\/shop_images\/dziewczynka-dekt.webp",
-        "after_image_mobile": "shopify:\/\/shop_images\/dziewczynka-mob.webp",
+        "content": "<p>Stwórzmy razem wymarzoną sypialnię dla Twojego dziecka</p>",
+        "before_image": "shopify://shop_images/chlopiec-dekt.webp",
+        "before_image_mobile": "shopify://shop_images/chlopiec-mob.webp",
+        "after_image": "shopify://shop_images/dziewczynka-dekt.webp",
+        "after_image_mobile": "shopify://shop_images/dziewczynka-mob.webp",
         "expand_image": true,
         "text_position": "center",
         "before_after_text_position": "bottom",
@@ -530,7 +530,7 @@
           "type": "collection",
           "settings": {
             "collection": "lux",
-            "image": "shopify:\/\/shop_images\/kolekcja-1_fe95bfd3-3280-4857-971f-d38b3f021d86.webp",
+            "image": "shopify://shop_images/kolekcja-1_fe95bfd3-3280-4857-971f-d38b3f021d86.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -545,7 +545,7 @@
           "type": "collection",
           "settings": {
             "collection": "dziecieca",
-            "image": "shopify:\/\/shop_images\/kolekcje-3_f007b426-7a7b-4418-ab77-5022dcddfb62.webp",
+            "image": "shopify://shop_images/kolekcje-3_f007b426-7a7b-4418-ab77-5022dcddfb62.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -560,7 +560,7 @@
           "type": "collection",
           "settings": {
             "collection": "rodzinna",
-            "image": "shopify:\/\/shop_images\/kolekcje-2_30dd7207-4abc-43d1-9517-e67876e7cd7b.webp",
+            "image": "shopify://shop_images/kolekcje-2_30dd7207-4abc-43d1-9517-e67876e7cd7b.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -607,7 +607,7 @@
             "vertical_position_mobile": 14,
             "icon_width": 32,
             "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "content": "<p>Share useful information about your product features.</p>"
           }
         },
         "item_ww379m": {
@@ -620,7 +620,7 @@
             "vertical_position_mobile": 75,
             "icon_width": 32,
             "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "content": "<p>Share useful information about your product features.</p>"
           }
         }
       },
@@ -635,8 +635,8 @@
       ],
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/konfigurator_5fe7a43a-68e9-485b-bdd0-e60c6d7b52d7.webp",
-        "mobile_image": "shopify:\/\/shop_images\/konfigurator-mob.webp",
+        "image": "shopify://shop_images/konfigurator_5fe7a43a-68e9-485b-bdd0-e60c6d7b52d7.webp",
+        "mobile_image": "shopify://shop_images/konfigurator-mob.webp",
         "title": "Stwórz swój własny zestaw do spania!",
         "content": "",
         "button_text": "Konfigurator",
@@ -647,7 +647,7 @@
         "overlay_color": "#022e4f",
         "overlay_opacity": 0,
         "overlay_text_color": "#022e4f",
-        "overlay_button_background": "",
+        "overlay_button_background": "#022e4f",
         "overlay_button_text_color": "",
         "hot_spot_dot_background": "#ffffff",
         "hot_spot_dot_text_color": "#000000",
@@ -716,8 +716,8 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "md",
-        "video": "shopify:\/\/files\/videos\/reka4.mp4",
-        "mobile_video": "shopify:\/\/files\/videos\/reka.mp4",
+        "video": "shopify://files/videos/reka4.mp4",
+        "mobile_video": "shopify://files/videos/reka.mp4",
         "external_video_url": "",
         "text_color": "#022e4f",
         "overlay_color": "#022e4f",
@@ -730,85 +730,85 @@
         "testimonial_KaQjhG": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/latex_4c3d6f8a-8bd9-4b16-aa0b-a4bab3649a65.svg",
+            "image": "shopify://shop_images/latex_4c3d6f8a-8bd9-4b16-aa0b-a4bab3649a65.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
             "author": "",
             "title": "LATEKS",
-            "content": "<p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała podczas snu.<\/p>"
+            "content": "<p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała podczas snu.</p>"
           }
         },
         "testimonial_zr4HNg": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pocket_d81fad2b-48ef-426d-abe2-4c95c0d43361.svg",
+            "image": "shopify://shop_images/pocket_d81fad2b-48ef-426d-abe2-4c95c0d43361.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
             "author": "",
             "title": "POCKET",
-            "content": "<p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność punktową i optymalne podparcie dla kręgosłupa, dostosowując się do anatomicznej budowy ciała.<\/p>"
+            "content": "<p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność punktową i optymalne podparcie dla kręgosłupa, dostosowując się do anatomicznej budowy ciała.</p>"
           }
         },
         "testimonial_E9z7D7": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kokos_7f2ffe16-20e0-452e-bad8-06f009a39dd6.svg",
+            "image": "shopify://shop_images/kokos_7f2ffe16-20e0-452e-bad8-06f009a39dd6.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
             "author": "",
             "title": "MATA KOKOSOWA",
-            "content": "<p>Maty kokosowe oferują twardość, elastyczność, bezpieczeństwo, higienę, antyalergiczność i doskonałą wentylację dzięki naturalnym włóknom kokosowym.<\/p>"
+            "content": "<p>Maty kokosowe oferują twardość, elastyczność, bezpieczeństwo, higienę, antyalergiczność i doskonałą wentylację dzięki naturalnym włóknom kokosowym.</p>"
           }
         },
         "testimonial_8iT8qf": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/minipocket_a69026b1-fcf2-4896-9fce-94e1b766ae4b.svg",
+            "image": "shopify://shop_images/minipocket_a69026b1-fcf2-4896-9fce-94e1b766ae4b.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
             "author": "",
             "title": "MULTIPOCKET",
-            "content": "<p>System sprężyn kieszeniowych charakteryzuje się 500-1000 sprężyn na m², zapewniając indywidualne podparcie dzięki oddzielnym kieszonkom.<\/p>"
+            "content": "<p>System sprężyn kieszeniowych charakteryzuje się 500-1000 sprężyn na m², zapewniając indywidualne podparcie dzięki oddzielnym kieszonkom.</p>"
           }
         },
         "testimonial_6aWKCY": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/visco_8b2a5301-2208-4629-b562-cdb2efe3df70.svg",
+            "image": "shopify://shop_images/visco_8b2a5301-2208-4629-b562-cdb2efe3df70.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
             "author": "",
             "title": "VISCO",
-            "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.<\/p>"
+            "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p>"
           }
         },
         "testimonial_fUmKbQ": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/konskie-wlosie_a63eb509-027b-4282-9f09-46c88a601009.svg",
+            "image": "shopify://shop_images/konskie-wlosie_a63eb509-027b-4282-9f09-46c88a601009.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
             "author": "",
             "title": "KOŃSKIE WŁOSIE",
-            "content": "<p>Końskie włosie, naturalny surowiec, utwardza, usztywnia, doskonale absorbuje i szybko odparowuje wilgoć, mając właściwości higroskopijne.<\/p>"
+            "content": "<p>Końskie włosie, naturalny surowiec, utwardza, usztywnia, doskonale absorbuje i szybko odparowuje wilgoć, mając właściwości higroskopijne.</p>"
           }
         },
         "testimonial_TDBgMV": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pianka_850e67a6-1094-4b37-80d6-fdfe56961043.svg",
+            "image": "shopify://shop_images/pianka_850e67a6-1094-4b37-80d6-fdfe56961043.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
             "author": "",
             "title": "PIANKA POLIURETANOWA",
-            "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.<\/p>"
+            "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.</p>"
           }
         }
       },
@@ -823,7 +823,7 @@
       ],
       "custom_css": [
         ".bg-custom {height: 100%;}",
-        ".testimonial__image {width:50px;}"
+        ".testimonial__image {width: 50px;}"
       ],
       "settings": {
         "full_width": true,
@@ -859,7 +859,7 @@
         "full_width": false,
         "show_icon": false,
         "title": "Zapisz się po nowości i ekskluzywne oferty!",
-        "content": "<p>Zapisz i uzyskaj <strong>5% zniżki <\/strong>na twój pierwszy zakup.<\/p>",
+        "content": "<p>Zapisz i uzyskaj <strong>5% zniżki </strong>na twój pierwszy zakup.</p>",
         "button_text": "Zapisz się",
         "subtext": "Write something about what your customers will receive by subscribing to your newsletter.",
         "background": "#ed979c",
@@ -878,7 +878,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>\n\n@media (max-width: 1200px) {\n  .newsletter-content {\n    flex-direction: column;\nalign-items: center;\npadding:0 !important;\n\n  }\n.newsletter-content > * {\n  flex: 0 1 100%;\ntext-align:center;\n \n}\n.newsletter-content > .form {\nmax-width: 490px !important;\n}\n.newsletter-content > .prose {\nmargin-bottom:10px;\n}\n@media (max-width: 500px) {\n.newsletter-content > .form {\nmax-width: 280px !important;\n}\n}\n\n}\n<\/style>",
+        "html": "<style>\n\n@media (max-width: 1200px) {\n  .newsletter-content {\n    flex-direction: column;\nalign-items: center;\npadding:0 !important;\n\n  }\n.newsletter-content > * {\n  flex: 0 1 100%;\ntext-align:center;\n \n}\n.newsletter-content > .form {\nmax-width: 490px !important;\n}\n.newsletter-content > .prose {\nmargin-bottom:10px;\n}\n@media (max-width: 500px) {\n.newsletter-content > .form {\nmax-width: 280px !important;\n}\n}\n\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
