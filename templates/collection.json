@@ -12,7 +12,7 @@
     "banner": {
       "type": "collection-banner",
       "custom_css": [
-        ".section,.section-blends,.section-full,.text-custom {padding-block-start: 0; padding-bottom: 32; }",
+        ".section,.section-blends,.section-full,.text-custom {padding-block-start: 0; padding-bottom: 32;}",
         ".section-full {padding-top: 16px;}",
         "h1 {text-shadow: 0px 0px 10px rgba(20, 22, 32, 0.6);}",
         ".prose {text-shadow: 0px 0px 10px rgba(20, 22, 32, 1);}"
@@ -26,8 +26,8 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "auto",
-        "image": "shopify://shop_images/kontynentalne-head_6cc6c74f-eafe-48d5-b6ed-38e2a8ebf4f8.webp",
-        "mobile_image": "shopify://shop_images/kontynentalne-head-mob.webp",
+        "image": "shopify://shop_images/bonel-head.webp",
+        "mobile_image": "shopify://shop_images/bonel-head-mob.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "featured_product": "mint-kopia",
