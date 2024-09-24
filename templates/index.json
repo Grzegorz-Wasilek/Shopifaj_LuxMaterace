@@ -75,7 +75,7 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "",
-            "background_gradient": "linear-gradient(109deg, rgba(48, 67, 71, 1) 5%, rgba(60, 79, 82, 1) 99%)"
+            "background_gradient": "linear-gradient(109deg, rgba(52, 79, 85, 1) 5%, rgba(60, 79, 82, 1) 99%)"
           }
         }
       },
