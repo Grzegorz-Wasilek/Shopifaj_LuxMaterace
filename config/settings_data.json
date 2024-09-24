@@ -28,6 +28,7 @@
     "primary_button_text_color": "#ffffff",
     "secondary_button_background": "#022e4f",
     "product_card_text_color": "#022e4f",
+    "product_primary_badge_background": "#f83a3a",
     "heading_font": "din_next_n7",
     "heading_font_size": "large",
     "text_font": "din_next_n4",
@@ -39,7 +40,7 @@
     "product_image_aspect_ratio": "square",
     "product_info_alignment": "start",
     "cart_type": "popover",
-    "favicon": "shopify:\/\/shop_images\/apple-icon-180x180.png",
+    "favicon": "shopify://shop_images/apple-icon-180x180.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [
@@ -47,13 +48,13 @@
     ],
     "blocks": {
       "16963237191767492405": {
-        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
+        "type": "shopify://apps/whatsapp-button/blocks/app-embed-block/96d80a63-e860-4262-a001-8b82ac4d00e6",
         "disabled": true,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#ed979c",
