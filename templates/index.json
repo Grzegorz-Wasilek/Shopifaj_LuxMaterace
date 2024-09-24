@@ -14,7 +14,6 @@
       "blocks": {
         "slide-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/dla-dzieci-melisa_ae54d8b3-18bc-4a2c-bad5-979aeca3af80.webp",
             "mobile_image": "shopify://shop_images/dla-dzieci-melisa-mobile_b6323a92-c960-4975-89e2-e148145917e6.webp",
@@ -37,7 +36,6 @@
         },
         "image_wMAX9k": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/materac-mint-prom-desk_e00756a3-1448-4f64-ac35-64376fe826eb.webp",
             "mobile_image": "shopify://shop_images/materac-mint-prom-mob_7f1c289f-8c11-415c-8559-677c6cd6ddf3.webp",
