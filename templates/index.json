@@ -41,7 +41,7 @@
             "mobile_image": "shopify://shop_images/materac-mint-prom-mob_7f1c289f-8c11-415c-8559-677c6cd6ddf3.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
             "title": "Luksus i komfort w promocyjnej cenie!",
             "heading_tag": "h1",
