@@ -58,6 +58,7 @@
         },
         "image_6RQxw9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-topery-desk_587d10fe-ea70-448c-b033-a5a3530512db.webp",
             "mobile_image": "shopify://shop_images/banner-topery-mobile_3d9228f1-e60e-4076-a9b3-d49917727779.webp",
