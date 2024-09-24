@@ -123,7 +123,7 @@
       ],
       "settings": {
         "full_width": true,
-        "subheading": "Npaisz",
+        "subheading": "",
         "title": "Czy masz jakieś pytania?",
         "content": "<p>Co tydzień dostaję kilka nowych wiadomości, a choć staram się odpowiadać na wszystkie jak najszybciej, czasem potrzebuję chwili więcej. Dzięki za cierpliwość i wyrozumiałość! W razie potrzeby służę pomocą.</p>",
         "text_position": "start",
