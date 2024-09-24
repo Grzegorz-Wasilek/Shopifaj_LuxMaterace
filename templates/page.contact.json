@@ -119,13 +119,13 @@
     "contact": {
       "type": "contact",
       "custom_css": [
-        ".contact-form input, .contact-form textarea {background: #fff; border: 0;}"
+        ".contact-form input,.contact-form textarea {background: #fff; border: 0;}"
       ],
       "settings": {
         "full_width": true,
         "subheading": "Npaisz",
         "title": "Czy masz jakieś pytania?",
-        "content": "<p>Co tydzień dostaję kilka nowych wiadomości, a choć staram się odpowiadać na wszystkie jak najszybciej, czasem potrzebuję chwili więcej. Dzięki za cierpliwość i wyrozumiałość! W razie potrzeby służę pomocą ✌️</p>",
+        "content": "<p>Co tydzień dostaję kilka nowych wiadomości, a choć staram się odpowiadać na wszystkie jak najszybciej, czasem potrzebuję chwili więcej. Dzięki za cierpliwość i wyrozumiałość! W razie potrzeby służę pomocą.</p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
