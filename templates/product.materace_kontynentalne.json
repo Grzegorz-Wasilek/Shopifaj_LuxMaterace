@@ -118,7 +118,7 @@
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-truck",
-            "custom_icon": "shopify:\/\/shop_images\/delivery.svg",
+            "custom_icon": "shopify://shop_images/delivery.svg",
             "icon_width": 40,
             "title": "Darmowa dostawa!",
             "content": "",
@@ -132,7 +132,7 @@
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-timer",
-            "custom_icon": "shopify:\/\/shop_images\/time.svg",
+            "custom_icon": "shopify://shop_images/time.svg",
             "icon_width": 32,
             "title": "Produkcja w 14 dni robocze",
             "content": "",
@@ -146,9 +146,9 @@
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-shield",
-            "custom_icon": "shopify:\/\/shop_images\/sheild.svg",
+            "custom_icon": "shopify://shop_images/sheild.svg",
             "icon_width": 28,
-            "title": "Bezpieczne zakupu",
+            "title": "Bezpieczne zakupy",
             "content": "",
             "background": "#eaf2ed",
             "text_color": "#ed979c"
@@ -204,7 +204,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<div class=\"flex-wrap\">\n<button class=\"prd-btn desc-mat-prd\">Opis<\/button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa Materaca<\/button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu<\/button>\n\n  <button class=\"prd-btn cover-mat-prd\">Pokrowce<\/button>\n <\/div>\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    function scrollToElement(buttonSelector, targetIdContains) {\n        document.querySelector(buttonSelector).addEventListener('click', function() {\n          \n            const element = document.querySelector(`[id*='${targetIdContains}']`);\n            if (element) {\n                element.scrollIntoView({\n                    behavior: 'smooth'\n                });\n            }\n        });\n    }\n\n   \n    scrollToElement('.desc-mat-prd', 'media_with_text');\n    scrollToElement('.cons-mat-prd', 'hot_spots');\n    scrollToElement('.komf-mat-prd', 'image_with_text_overlay');\n \n    scrollToElement('.cover-mat-prd', 'cover-section-in-btn');\n});\n<\/script>\n\n<style>\n\nbutton.prd-btn {\n  cursor: pointer;\n  background: #fff;;\n  border-radius: 100px;\n  box-shadow: none;\n  border: solid 1px #dde2e7;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #022e4f;\n  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\nbox-sizing:border-box;\nflex-shrink:0;\npadding: 1rem 4rem;\n}\nbutton.prd-btn:hover,\nbutton.prd-btn:active {\n box-shadow: 0 0 0 2px #dd9aa2;\nborder-color:#fff;\n}\n.flex-wrap {\ndisplay:flex;\njustify-content: center;\ngap:90px; \npadding: 30px 0;\n  margin: 10px 0 50px 0;\n}\nbutton.prd-btn {\n}\n\nsafe-sticky.product-info .product-info__offer-list {\n\n}\nsafe-sticky.product-info .product-info__offer-list span.text-sm {\nline-height:1.3;\n}\n\nsafe-sticky.product-info .product-info__offer-list > .offer  {\n\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch {\nbackground:#fff;\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch::before {\n\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\nsafe-sticky.product-info .product-info__variant-picker \n.color-swatch::before {\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\n@media (max-width: 1500px) {\n.flex-wrap {\ngap:30px; \n}\n}\n@media (max-width: 1400px) {\n.flex-wrap {\ngap:30px;\n}\nbutton.prd-btn {\n  padding: 1rem 3rem;\n}\n}\n@media (max-width: 999px) {\n.flex-wrap {\njustify-content: flex-start;\noverflow-x:scroll;\ngap:30px;\nscroll-snap-type:x mandatory;\npadding-left:20px;\npadding-right:20px;\n}\nbutton.prd-btn  {\nscroll-snap-align:left;\n}\n}\n<\/style>",
+        "html": "<div class=\"flex-wrap\">\n<button class=\"prd-btn desc-mat-prd\">Opis</button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa Materaca</button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu</button>\n\n  <button class=\"prd-btn cover-mat-prd\">Pokrowce</button>\n </div>\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    function scrollToElement(buttonSelector, targetIdContains) {\n        document.querySelector(buttonSelector).addEventListener('click', function() {\n          \n            const element = document.querySelector(`[id*='${targetIdContains}']`);\n            if (element) {\n                element.scrollIntoView({\n                    behavior: 'smooth'\n                });\n            }\n        });\n    }\n\n   \n    scrollToElement('.desc-mat-prd', 'media_with_text');\n    scrollToElement('.cons-mat-prd', 'hot_spots');\n    scrollToElement('.komf-mat-prd', 'image_with_text_overlay');\n \n    scrollToElement('.cover-mat-prd', 'cover-section-in-btn');\n});\n</script>\n\n<style>\n\nbutton.prd-btn {\n  cursor: pointer;\n  background: #fff;;\n  border-radius: 100px;\n  box-shadow: none;\n  border: solid 1px #dde2e7;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #022e4f;\n  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\nbox-sizing:border-box;\nflex-shrink:0;\npadding: 1rem 4rem;\n}\nbutton.prd-btn:hover,\nbutton.prd-btn:active {\n box-shadow: 0 0 0 2px #dd9aa2;\nborder-color:#fff;\n}\n.flex-wrap {\ndisplay:flex;\njustify-content: center;\ngap:90px; \npadding: 30px 0;\n  margin: 10px 0 50px 0;\n}\nbutton.prd-btn {\n}\n\nsafe-sticky.product-info .product-info__offer-list {\n\n}\nsafe-sticky.product-info .product-info__offer-list span.text-sm {\nline-height:1.3;\n}\n\nsafe-sticky.product-info .product-info__offer-list > .offer  {\n\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch {\nbackground:#fff;\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch::before {\n\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\nsafe-sticky.product-info .product-info__variant-picker \n.color-swatch::before {\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\n@media (max-width: 1500px) {\n.flex-wrap {\ngap:30px; \n}\n}\n@media (max-width: 1400px) {\n.flex-wrap {\ngap:30px;\n}\nbutton.prd-btn {\n  padding: 1rem 3rem;\n}\n}\n@media (max-width: 999px) {\n.flex-wrap {\njustify-content: flex-start;\noverflow-x:scroll;\ngap:30px;\nscroll-snap-type:x mandatory;\npadding-left:20px;\npadding-right:20px;\n}\nbutton.prd-btn  {\nscroll-snap-align:left;\n}\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -225,7 +225,7 @@
             "icon_width": 64,
             "subheading": "",
             "title": "{{ product.metafields.custom.opis_produkt.value.heading.value }}",
-            "content": "<p>{{ product.metafields.custom.opis_produkt.value.opis | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.opis_produkt.value.opis | metafield_tag }}</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -260,7 +260,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "{{ block.repeater.tytul.value }}",
-            "content": "<p>{{ block.repeater.opis_icon_1 | metafield_tag }}<\/p>"
+            "content": "<p>{{ block.repeater.opis_icon_1 | metafield_tag }}</p>"
           }
         }
       },
@@ -373,7 +373,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"stref-section-in-btn\" class=\"h2\">7 stref komfortu<\/h2>",
+        "html": "<h2 id=\"stref-section-in-btn\" class=\"h2\">7 stref komfortu</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -402,7 +402,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"material-section-in-btn\" class=\"h2\">Materiały<\/h2>",
+        "html": "<h2 id=\"material-section-in-btn\" class=\"h2\">Materiały</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -435,7 +435,7 @@
         "image_itHF77": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/multipocket.webp",
+            "image": "shopify://shop_images/multipocket.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -457,7 +457,7 @@
         "image_TP9Wkw": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kokos.webp",
+            "image": "shopify://shop_images/kokos.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -479,7 +479,7 @@
         "image_rTyV6c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/latex.webp",
+            "image": "shopify://shop_images/latex.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -527,7 +527,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\">Pokrowce<\/h2>",
+        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\">Pokrowce</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -539,7 +539,7 @@
         "image_9UPmap": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pokrowiec-3.webp",
+            "image": "shopify://shop_images/pokrowiec-3.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -547,7 +547,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Pokrowiec na materac \"Standard\"",
-            "content": "<p>Pokrowiec na materac \"Standard\" to idealne rozwiązanie dla osób ceniących sobie komfort i funkcjonalność. Każdy pokrowiec jest antyalergiczny, co zapewnia zdrowy i bezpieczny sen. Dwustronność pokrowca pozwala na jego dłuższą żywotność, a zamki błyskawiczne ułatwiają zakładanie i zdejmowanie. Dodatkowo, pokrowiec można prać, co zapewnia higienę i świeżość przez długi czas.<\/p>",
+            "content": "<p>Pokrowiec na materac \"Standard\" to idealne rozwiązanie dla osób ceniących sobie komfort i funkcjonalność. Każdy pokrowiec jest antyalergiczny, co zapewnia zdrowy i bezpieczny sen. Dwustronność pokrowca pozwala na jego dłuższą żywotność, a zamki błyskawiczne ułatwiają zakładanie i zdejmowanie. Dodatkowo, pokrowiec można prać, co zapewnia higienę i świeżość przez długi czas.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -561,7 +561,7 @@
         "image_YKdwUb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pokrowiec-1_ec7b546b-9174-4775-a6ed-7f729fc3dee5.webp",
+            "image": "shopify://shop_images/pokrowiec-1_ec7b546b-9174-4775-a6ed-7f729fc3dee5.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -569,7 +569,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Pokrowiec na materac \"Premium\"",
-            "content": "<p>Pokrowiec na materac \"Premium\" to luksusowa wersja naszego pokrowca, stworzona dla najbardziej wymagających użytkowników. Podobnie jak pokrowiec \"Standard\", jest antyalergiczny, dwustronny i wyposażony w zamki błyskawiczne, co ułatwia jego użytkowanie i pranie. Jednak \"Premium\" wyróżnia się dodatkowymi cechami: posiada praktyczne uchwyty, które ułatwiają ustawienie pokrowca na brzegu materaca, oraz elegancką lamówkę, która nie tylko podnosi walory estetyczne, ale również zwiększa sztywność pokrowca. Specjalnie przeszyte boki dodają mu wyjątkowego wyglądu, czyniąc pokrowiec \"Premium\" idealnym wyborem dla osób poszukujących najwyższej jakości i stylu.<\/p>",
+            "content": "<p>Pokrowiec na materac \"Premium\" to luksusowa wersja naszego pokrowca, stworzona dla najbardziej wymagających użytkowników. Podobnie jak pokrowiec \"Standard\", jest antyalergiczny, dwustronny i wyposażony w zamki błyskawiczne, co ułatwia jego użytkowanie i pranie. Jednak \"Premium\" wyróżnia się dodatkowymi cechami: posiada praktyczne uchwyty, które ułatwiają ustawienie pokrowca na brzegu materaca, oraz elegancką lamówkę, która nie tylko podnosi walory estetyczne, ale również zwiększa sztywność pokrowca. Specjalnie przeszyte boki dodają mu wyjątkowego wyglądu, czyniąc pokrowiec \"Premium\" idealnym wyborem dla osób poszukujących najwyższej jakości i stylu.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -603,7 +603,7 @@
         "richtext_tmmWkw": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Niewłaściwie dobrany materac może prowadzić do bólu pleców, zaburzeń snu, zwiększonego napięcia oraz problemów z krążeniem, negatywnie pływając na nasze zdrowie fizyczne i psychiczne. Ważne jest, aby wybrać<br\/>materac dostosowany do indywidualnych potrzeb, co może pomóc zapewnić zdrowy i regenerujący sen.<\/p>"
+            "content": "<p>Niewłaściwie dobrany materac może prowadzić do bólu pleców, zaburzeń snu, zwiększonego napięcia oraz problemów z krążeniem, negatywnie pływając na nasze zdrowie fizyczne i psychiczne. Ważne jest, aby wybrać<br/>materac dostosowany do indywidualnych potrzeb, co może pomóc zapewnić zdrowy i regenerujący sen.</p>"
           }
         }
       },
@@ -619,8 +619,8 @@
         "allow_transparent_header": true,
         "enable_parallax": true,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/para-prod_be958982-c958-4ce4-b5b0-ef4d517c111e.webp",
-        "mobile_image": "shopify:\/\/shop_images\/para-prodmobile_01beec52-6130-4c25-812b-9173045861d1.webp",
+        "image": "shopify://shop_images/para-prod_be958982-c958-4ce4-b5b0-ef4d517c111e.webp",
+        "mobile_image": "shopify://shop_images/para-prodmobile_01beec52-6130-4c25-812b-9173045861d1.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
@@ -660,21 +660,21 @@
           "type": "item",
           "settings": {
             "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
           }
         },
         "item_N6jnEg": {
           "type": "item",
           "settings": {
             "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
           }
         },
         "item_pQBHHP": {
           "type": "item",
           "settings": {
             "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
           }
         }
       },
@@ -719,7 +719,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right: 12rem;\n}\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n.shopify-section--hot-spots > .section-full {\nbackground-color:#0c2e4f;\ncolor:#fff !important;\npadding-top:80px;\n}\n\n}\n \n<\/style>\n\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const uls = document.querySelectorAll('.shopify-section--hot-spots ul');\n  uls.forEach((ul) => {\n    const listItems = ul.querySelectorAll('li');\n    listItems.forEach((item, index) => {\n      const span = document.createElement('span');\n      span.textContent = `${index + 1} `;\n      span.className = `listanumer listanumer-${index + 1}`;\n      item.prepend(span);\n    });\n  });\n});\n<\/script>\n  <!-- zamiana zdjec prod -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    var zawartosc1 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML;\n    var zawartosc2 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML;\n\ndocument.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML = zawartosc2;\n    document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML = zawartosc1;\n});    \n<\/script>",
+        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right: 12rem;\n}\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n.shopify-section--hot-spots > .section-full {\nbackground-color:#0c2e4f;\ncolor:#fff !important;\npadding-top:80px;\n}\n\n}\n \n</style>\n\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const uls = document.querySelectorAll('.shopify-section--hot-spots ul');\n  uls.forEach((ul) => {\n    const listItems = ul.querySelectorAll('li');\n    listItems.forEach((item, index) => {\n      const span = document.createElement('span');\n      span.textContent = `${index + 1} `;\n      span.className = `listanumer listanumer-${index + 1}`;\n      item.prepend(span);\n    });\n  });\n});\n</script>\n  <!-- zamiana zdjec prod -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    var zawartosc1 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML;\n    var zawartosc2 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML;\n\ndocument.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML = zawartosc2;\n    document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML = zawartosc1;\n});    \n</script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
