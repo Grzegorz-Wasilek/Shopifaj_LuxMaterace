@@ -118,6 +118,9 @@
     },
     "contact": {
       "type": "contact",
+      "custom_css": [
+        ".contact-form input {background:#fff; border:0;}"
+      ],
       "settings": {
         "full_width": true,
         "subheading": "Npaisz",
