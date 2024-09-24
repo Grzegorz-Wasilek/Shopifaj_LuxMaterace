@@ -105,7 +105,7 @@
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-truck",
-            "custom_icon": "shopify:\/\/shop_images\/delivery.svg",
+            "custom_icon": "shopify://shop_images/delivery.svg",
             "icon_width": 40,
             "title": "Darmowa dostawa!",
             "content": "",
@@ -119,7 +119,7 @@
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-timer",
-            "custom_icon": "shopify:\/\/shop_images\/time.svg",
+            "custom_icon": "shopify://shop_images/time.svg",
             "icon_width": 32,
             "title": "Produkcja w 14 dni robocze",
             "content": "",
@@ -133,9 +133,9 @@
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/sheild.svg",
+            "custom_icon": "shopify://shop_images/sheild.svg",
             "icon_width": 28,
-            "title": "Bezpieczne zakupu",
+            "title": "Bezpieczne zakupy",
             "content": "",
             "background": "#eaf2ed",
             "text_color": "#ed979c"
@@ -189,7 +189,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>\n\nbutton.prd-btn {\n  cursor: pointer;\n  background: #fff;;\n  border-radius: 100px;\n  box-shadow: none;\n  border: solid 1px #dde2e7;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #022e4f;\n  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\nbox-sizing:border-box;\nflex-shrink:0;\npadding: 1rem 4rem;\n}\nbutton.prd-btn:hover,\nbutton.prd-btn:active {\n  background: #ed979c;\n  border-color: #ed979c;\n}\n.flex-wrap {\ndisplay:flex;\njustify-content: center;\ngap:90px; \npadding: 30px 0;\n  margin: 10px 0 50px 0;\n}\nbutton.prd-btn {\n}\n\nsafe-sticky.product-info .product-info__offer-list {\n\n}\nsafe-sticky.product-info .product-info__offer-list span.text-sm {\nline-height:1.3;\n}\n\nsafe-sticky.product-info .product-info__offer-list > .offer  {\n\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch {\nbackground:#fff;\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch::before {\n\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\nsafe-sticky.product-info .product-info__variant-picker \n.color-swatch::before {\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\n@media (max-width: 1500px) {\n.flex-wrap {\ngap:30px; \n}\n}\n@media (max-width: 1400px) {\n.flex-wrap {\ngap:30px;\n}\nbutton.prd-btn {\n  padding: 1rem 3rem;\n}\n}\n@media (max-width: 999px) {\n.flex-wrap {\njustify-content: flex-start;\noverflow-x:scroll;\ngap:30px;\nscroll-snap-type:x mandatory;\npadding-left:20px;\npadding-right:20px;\n}\nbutton.prd-btn  {\nscroll-snap-align:left;\n}\n}\n<\/style>",
+        "html": "<style>\n\nbutton.prd-btn {\n  cursor: pointer;\n  background: #fff;;\n  border-radius: 100px;\n  box-shadow: none;\n  border: solid 1px #dde2e7;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #022e4f;\n  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\nbox-sizing:border-box;\nflex-shrink:0;\npadding: 1rem 4rem;\n}\nbutton.prd-btn:hover,\nbutton.prd-btn:active {\n  background: #ed979c;\n  border-color: #ed979c;\n}\n.flex-wrap {\ndisplay:flex;\njustify-content: center;\ngap:90px; \npadding: 30px 0;\n  margin: 10px 0 50px 0;\n}\nbutton.prd-btn {\n}\n\nsafe-sticky.product-info .product-info__offer-list {\n\n}\nsafe-sticky.product-info .product-info__offer-list span.text-sm {\nline-height:1.3;\n}\n\nsafe-sticky.product-info .product-info__offer-list > .offer  {\n\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch {\nbackground:#fff;\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch::before {\n\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\nsafe-sticky.product-info .product-info__variant-picker \n.color-swatch::before {\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\n@media (max-width: 1500px) {\n.flex-wrap {\ngap:30px; \n}\n}\n@media (max-width: 1400px) {\n.flex-wrap {\ngap:30px;\n}\nbutton.prd-btn {\n  padding: 1rem 3rem;\n}\n}\n@media (max-width: 999px) {\n.flex-wrap {\njustify-content: flex-start;\noverflow-x:scroll;\ngap:30px;\nscroll-snap-type:x mandatory;\npadding-left:20px;\npadding-right:20px;\n}\nbutton.prd-btn  {\nscroll-snap-align:left;\n}\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -228,13 +228,13 @@
           "source": "{{ product.metafields.custom.wymiary_kontynentalne.value }}",
           "settings": {
             "product": "",
-            "value_1": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.powierzchnia_spania.value }}<\/p>",
-            "value_2": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.szerokosc_calkowita.value }}<\/p>",
-            "value_3": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.dlugosc_calkowita.value }}<\/p>",
-            "value_4": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.wysokosc_calkowita.value }}<\/p>",
-            "value_5": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.wysokosc_powierzchni_spania_bez_toppera.value }}<\/p>",
-            "value_6": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.wysokosc_nog.value }}<\/p>",
-            "value_7": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.waga_dopuszczalna.value }}<\/p>",
+            "value_1": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.powierzchnia_spania.value }}</p>",
+            "value_2": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.szerokosc_calkowita.value }}</p>",
+            "value_3": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.dlugosc_calkowita.value }}</p>",
+            "value_4": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.wysokosc_calkowita.value }}</p>",
+            "value_5": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.wysokosc_powierzchni_spania_bez_toppera.value }}</p>",
+            "value_6": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.wysokosc_nog.value }}</p>",
+            "value_7": "<p>{{ product.metafields.custom.wymiary_kontynentalne.value.waga_dopuszczalna.value }}</p>",
             "value_8": "",
             "value_9": "",
             "value_10": "",
@@ -264,7 +264,7 @@
         "full_width": true,
         "subheading": "Wymiary",
         "title": "Komfort w Każdym Wymiarze",
-        "content": "<p>{{ product.metafields.custom.opis_wymiary | metafield_tag }}<\/p>",
+        "content": "<p>{{ product.metafields.custom.opis_wymiary | metafield_tag }}</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -301,7 +301,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "{{ product.metafields.custom.opis_produkt.value.heading.value }}",
-            "content": "<p>{{ product.metafields.custom.opis_produkt.value.opis | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.opis_produkt.value.opis | metafield_tag }}</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -336,7 +336,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "{{ block.repeater.tytul.value }}",
-            "content": "<p>{{ block.repeater.opis_icon_1 | metafield_tag }}<\/p>"
+            "content": "<p>{{ block.repeater.opis_icon_1 | metafield_tag }}</p>"
           }
         }
       },
@@ -361,37 +361,37 @@
         "testimonial_4KgYcW": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kokos.svg",
+            "image": "shopify://shop_images/kokos.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 4,
             "author": "",
             "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
           }
         },
         "testimonial_MgHnL9": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pokrowiec.svg",
+            "image": "shopify://shop_images/pokrowiec.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
             "author": "",
             "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
           }
         },
         "testimonial_636Wxx": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/visco.svg",
+            "image": "shopify://shop_images/visco.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 5,
             "author": "",
             "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
           }
         }
       },
@@ -428,7 +428,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"material-section-in-btn\" class=\"h2\">Materiały<\/h2>",
+        "html": "<h2 id=\"material-section-in-btn\" class=\"h2\">Materiały</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -440,7 +440,7 @@
         "image_H9BV8D": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sprezyny-minipocket.webp",
+            "image": "shopify://shop_images/sprezyny-minipocket.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -462,7 +462,7 @@
         "image_itHF77": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/multipocket.webp",
+            "image": "shopify://shop_images/multipocket.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -484,7 +484,7 @@
         "image_TP9Wkw": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kokos.webp",
+            "image": "shopify://shop_images/kokos.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -506,7 +506,7 @@
         "image_rTyV6c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/latex.webp",
+            "image": "shopify://shop_images/latex.webp",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -555,7 +555,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\">Pokrowce<\/h2>",
+        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\">Pokrowce</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -567,7 +567,7 @@
         "image_9UPmap": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pokrowiec-1.webp",
+            "image": "shopify://shop_images/pokrowiec-1.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -575,7 +575,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Pokrowiec",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -589,7 +589,7 @@
         "image_YKdwUb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pokrowiec-2.webp",
+            "image": "shopify://shop_images/pokrowiec-2.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -597,7 +597,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Pokrowiec",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -632,7 +632,7 @@
         "richtext_tmmWkw": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Niewłaściwie dobrany materac może prowadzić do bólu pleców, zaburzeń snu, zwiększonego napięcia oraz problemów z krążeniem, negatywnie pływając na nasze zdrowie fizyczne i psychiczne. Ważne jest, aby wybrać<br\/>materac dostosowany do indywidualnych potrzeb, co może pomóc zapewnić zdrowy i regenerujący sen.<\/p>"
+            "content": "<p>Niewłaściwie dobrany materac może prowadzić do bólu pleców, zaburzeń snu, zwiększonego napięcia oraz problemów z krążeniem, negatywnie pływając na nasze zdrowie fizyczne i psychiczne. Ważne jest, aby wybrać<br/>materac dostosowany do indywidualnych potrzeb, co może pomóc zapewnić zdrowy i regenerujący sen.</p>"
           }
         }
       },
@@ -646,7 +646,7 @@
         "allow_transparent_header": true,
         "enable_parallax": true,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/zly-materac.webp",
+        "image": "shopify://shop_images/zly-materac.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#022e4f",
@@ -686,21 +686,21 @@
           "type": "item",
           "settings": {
             "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
           }
         },
         "item_N6jnEg": {
           "type": "item",
           "settings": {
             "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
           }
         },
         "item_pQBHHP": {
           "type": "item",
           "settings": {
             "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
           }
         }
       },
@@ -745,7 +745,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right: 12rem;\n}\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n.shopify-section--hot-spots > .section-full {\nbackground-color:#0c2e4f;\ncolor:#fff !important;\npadding-top:80px;\n}\n\n}\n \n<\/style>",
+        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right: 12rem;\n}\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n.shopify-section--hot-spots > .section-full {\nbackground-color:#0c2e4f;\ncolor:#fff !important;\npadding-top:80px;\n}\n\n}\n \n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
