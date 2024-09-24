@@ -219,27 +219,11 @@
         "enable_collection_page": true,
         "enable_complete_site": true
       }
-    },
-    "custom_html_JJUJhb": {
-      "type": "custom-html",
-      "custom_css": [
-        ".section-full {padding: 0; margin: 0; display: none;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "breadcrumb_VQj6Ge",
-    "custom_html_JJUJhb"
+    "breadcrumb_VQj6Ge"
   ]
 }
