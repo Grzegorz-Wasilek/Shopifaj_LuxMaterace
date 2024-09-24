@@ -55,11 +55,34 @@
             "background": "",
             "background_gradient": "linear-gradient(127deg, rgba(37, 44, 50, 1), rgba(26, 34, 40, 1) 100%)"
           }
+        },
+        "image_6RQxw9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-topery-desk.webp",
+            "mobile_image": "shopify://shop_images/banner-topery-mobile.webp",
+            "content_max_width": 400,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Promocja na Topery",
+            "heading_tag": "h0",
+            "button_text": "Zobacz Promocje",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "slide-1",
-        "image_wMAX9k"
+        "image_wMAX9k",
+        "image_6RQxw9"
       ],
       "custom_css": [
         ".h1 {line-height: 1;}",
