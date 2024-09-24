@@ -63,8 +63,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "mobile_icon_width": 64,
-            "icon_width": 64,
+            "custom_icon": "shopify://shop_images/phone-semmi.svg",
+            "mobile_icon_width": 36,
+            "icon_width": 36,
             "icon_background_type": "none",
             "icon_background": "#ffffff",
             "icon_color": "#ed979c",
@@ -76,6 +77,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-send",
+            "custom_icon": "shopify://shop_images/mail-semmi.svg",
             "mobile_icon_width": 64,
             "icon_width": 64,
             "icon_background_type": "none",
@@ -89,6 +91,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-chat",
+            "custom_icon": "shopify://shop_images/talk-semmi.svg",
             "mobile_icon_width": 64,
             "icon_width": 64,
             "icon_background_type": "none",
