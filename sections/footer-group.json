@@ -37,13 +37,21 @@
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
-            "menu_title": "Sklep"
+            "menu_title": "Materace"
           }
         },
         "links_ERtDci": {
           "type": "links",
           "settings": {
             "menu": "footer-menu-2",
+            "show_menu_title": true,
+            "menu_title": "Meble"
+          }
+        },
+        "links_LMTzEh": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
             "show_menu_title": true,
             "menu_title": "Informacje"
           }
@@ -53,7 +61,8 @@
         "newsletter",
         "text_QrtKwA",
         "links",
-        "links_ERtDci"
+        "links_ERtDci",
+        "links_LMTzEh"
       ],
       "custom_css": [
         ".footer .prose p {margin: 0;}",
