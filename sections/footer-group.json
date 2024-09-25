@@ -24,14 +24,6 @@
             "content": "<p><strong>MASZ PYTANIA? ZADZWOŃ</strong><br/>Nasi doradcy są gotowi do pomocy</p><p><br/></p><p>Telefon: <a href=\"tel: 787-333-293\" title=\"tel: 787-333-293\">787 333 293</a><br/>email: <a href=\"mailto:semmi@semmi.pl\" title=\"mailto:semmi@semmi.pl\">semmi@semmi.pl</a></p><p><br/>Jesteśmy dostępni:<br/>pon-pt 8-16</p>"
           }
         },
-        "text_QrtKwA": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "content": "",
-            "enable_follow_on_shop": true
-          }
-        },
         "links": {
           "type": "links",
           "settings": {
@@ -43,9 +35,17 @@
         "links_ERtDci": {
           "type": "links",
           "settings": {
-            "menu": "materace",
+            "menu": "lozka",
             "show_menu_title": true,
             "menu_title": "Łóżka"
+          }
+        },
+        "links_kq4Rzt": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": "Salon"
           }
         },
         "links_LMTzEh": {
@@ -59,9 +59,9 @@
       },
       "block_order": [
         "newsletter",
-        "text_QrtKwA",
         "links",
         "links_ERtDci",
+        "links_kq4Rzt",
         "links_LMTzEh"
       ],
       "custom_css": [
