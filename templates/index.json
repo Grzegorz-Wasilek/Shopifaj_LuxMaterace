@@ -319,7 +319,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 55,
-            "vertical_position": 12,
+            "vertical_position": 13,
             "horizontal_position_mobile": 51,
             "vertical_position_mobile": 15,
             "icon": "shopify://shop_images/pokrowiec.svg",
@@ -332,7 +332,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 63,
-            "vertical_position": 20,
+            "vertical_position": 21,
             "horizontal_position_mobile": 28,
             "vertical_position_mobile": 17,
             "icon": "shopify://shop_images/visco.svg",
@@ -345,7 +345,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 50,
-            "vertical_position": 23,
+            "vertical_position": 24,
             "horizontal_position_mobile": 70,
             "vertical_position_mobile": 27,
             "icon": "shopify://shop_images/latex.svg",
@@ -358,7 +358,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 57,
-            "vertical_position": 30,
+            "vertical_position": 31,
             "horizontal_position_mobile": 19,
             "vertical_position_mobile": 30,
             "icon": "shopify://shop_images/pianka.svg",
@@ -371,7 +371,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 51,
-            "vertical_position": 42,
+            "vertical_position": 43,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 43,
             "icon": "shopify://shop_images/pocket.svg",
@@ -384,7 +384,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 60,
-            "vertical_position": 62,
+            "vertical_position": 63,
             "horizontal_position_mobile": 57,
             "vertical_position_mobile": 63,
             "icon": "shopify://shop_images/multipocket.svg",
@@ -397,7 +397,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 51,
-            "vertical_position": 76,
+            "vertical_position": 77,
             "horizontal_position_mobile": 25,
             "vertical_position_mobile": 78,
             "icon": "shopify://shop_images/pianka.svg",
