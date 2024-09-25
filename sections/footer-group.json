@@ -35,7 +35,7 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "materace",
             "show_menu_title": true,
             "menu_title": "Materace"
           }
@@ -67,7 +67,7 @@
       "custom_css": [
         ".footer .prose p {margin: 0;}",
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
-        ".social-media svg path {fill:#465076;}",
+        ".social-media svg path {fill: #465076;}",
         "@media (max-width: 1000px) {.footer__block--newsletter {margin-bottom: 20px; }}"
       ],
       "settings": {
