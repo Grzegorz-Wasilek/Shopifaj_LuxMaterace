@@ -43,7 +43,7 @@
         "links_ERtDci": {
           "type": "links",
           "settings": {
-            "menu": "footer-menu-2",
+            "menu": "materace",
             "show_menu_title": true,
             "menu_title": "Meble"
           }
