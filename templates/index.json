@@ -318,8 +318,8 @@
         "1664424434f5b7d0e0-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 67,
-            "vertical_position": 16,
+            "horizontal_position": 55,
+            "vertical_position": 12,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon": "shopify://shop_images/pokrowiec.svg",
@@ -331,8 +331,8 @@
         "item_mxDFDW": {
           "type": "item",
           "settings": {
-            "horizontal_position": 56,
-            "vertical_position": 25,
+            "horizontal_position": 63,
+            "vertical_position": 20,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
             "icon": "shopify://shop_images/visco.svg",
@@ -344,8 +344,8 @@
         "item_gAUwnX": {
           "type": "item",
           "settings": {
-            "horizontal_position": 78,
-            "vertical_position": 24,
+            "horizontal_position": 50,
+            "vertical_position": 23,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
             "icon": "shopify://shop_images/latex.svg",
@@ -357,8 +357,8 @@
         "item_PWQgtN": {
           "type": "item",
           "settings": {
-            "horizontal_position": 67,
-            "vertical_position": 32,
+            "horizontal_position": 57,
+            "vertical_position": 30,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
             "icon": "shopify://shop_images/pianka.svg",
@@ -370,7 +370,7 @@
         "item_gcWq9n": {
           "type": "item",
           "settings": {
-            "horizontal_position": 60,
+            "horizontal_position": 51,
             "vertical_position": 42,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
@@ -383,7 +383,7 @@
         "item_rqJANN": {
           "type": "item",
           "settings": {
-            "horizontal_position": 66,
+            "horizontal_position": 60,
             "vertical_position": 62,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
@@ -396,8 +396,8 @@
         "item_zGw6B3": {
           "type": "item",
           "settings": {
-            "horizontal_position": 56,
-            "vertical_position": 77,
+            "horizontal_position": 51,
+            "vertical_position": 76,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 30,
             "icon": "shopify://shop_images/pianka.svg",
