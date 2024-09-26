@@ -156,6 +156,15 @@ Supported variables
       </a>
     </li>
   {%- endif -%}
+
+ {%- if settings.social_21buttons != blank -%}
+    <li>
+      <a href="{{ settings.social_21buttons }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: '21 Buttons' }}">
+        {%- render 'icon' with '21buttons' -%}
+      </a>
+    </li>
+  {%- endif -%}
+  
 {%- endcapture -%}
 
 {%- if social_media != blank -%}
