@@ -20,10 +20,10 @@
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "",
-            "title": "Topery w super cenie",
+            "subheading": "Popraw wygodę i jakość snu",
+            "title": "Wszystkie toppery -20%",
             "heading_tag": "h1",
-            "button_text": "Zobacz Promocje",
+            "button_text": "materace nawierzchniowe",
             "button_link": "shopify://collections/materace-nawierzchniowe",
             "text_color": "#ffffff",
             "button_background": "#e07f8b",
@@ -53,7 +53,7 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "",
-            "background_gradient": "linear-gradient(109deg, rgba(70, 80, 118, 1) 4%, rgba(84, 112, 117, 1) 99%)"
+            "background_gradient": "radial-gradient(rgba(237, 151, 156, 1) 1%, rgba(161, 51, 57, 1) 99%)"
           }
         },
         "slide-1": {
