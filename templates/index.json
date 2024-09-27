@@ -645,33 +645,44 @@
       "blocks": {
         "item_jyQntX": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "horizontal_position": 57,
-            "vertical_position": 35,
+            "horizontal_position": 53,
+            "vertical_position": 43,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
+            "title": "Materace",
+            "content": "<p>Dobierz idealny materac i ciesz się komfortem snu dopasowanym do Twoich potrzeb!</p><p><a href=\"/collections/materace\" title=\"Materace\">WYBIERZ MATERAC</a></p>"
+          }
+        },
+        "item_749KJz": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 56,
+            "vertical_position": 32,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Poduszki",
+            "content": "<p>Znajdź idealną poduszkę, która zapewni Ci maksymalny komfort i wsparcie podczas snu!</p><p><a href=\"#\" title=\"#\">WYBIERZ PODUSZKĘ</a></p>"
           }
         },
         "item_ww379m": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "horizontal_position": 54,
-            "vertical_position": 57,
+            "vertical_position": 59,
             "horizontal_position_mobile": 83,
             "vertical_position_mobile": 75,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
+            "title": "Łóżka",
+            "content": "<p>Wybierz wymarzone łóżko, aby stworzyć przestrzeń, która zapewni Ci maksymalny komfort i wyjątkowy design!</p><p><a href=\"/collections/lozka\" title=\"Łóżka\">WYBIERZ ŁÓŻKO</a></p>"
           }
         }
       },
       "block_order": [
         "item_jyQntX",
+        "item_749KJz",
         "item_ww379m"
       ],
       "custom_css": [
@@ -694,12 +705,12 @@
         "overlay_opacity": 0,
         "overlay_text_color": "#022e4f",
         "overlay_button_background": "#ed979c",
-        "overlay_button_text_color": "",
+        "overlay_button_text_color": "#f6f9fa",
         "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_dot_text_color": "#022e4f",
         "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 0,
+        "hot_spot_content_text_color": "#022e4f",
+        "hot_spot_content_opacity": 100,
         "hot_spot_content_blur_radius": 3
       }
     },
