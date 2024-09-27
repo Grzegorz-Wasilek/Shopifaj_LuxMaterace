@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "custom_css": [
+        ".badge {color:#fff;}"
+      ],
       "settings": {
         "allow_transparent_header": false,
         "content": "<p>Uzyskaj dostęp do naszych najświeższych wiadomości zapisując się do naszego newslettera.</p>",
