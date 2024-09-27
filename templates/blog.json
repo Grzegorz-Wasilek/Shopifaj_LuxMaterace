@@ -12,7 +12,8 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        ".badge {color:#fff;}"
+        ".badge {color: #fff;}",
+        "#blog-newsletter input {border-radius: 100px; background-color:#f6f9fa;}"
       ],
       "settings": {
         "allow_transparent_header": false,
