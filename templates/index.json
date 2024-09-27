@@ -688,7 +688,8 @@
       "custom_css": [
         ".section-header {display: none !important;}",
         ".md\\:block {display: block !important;}",
-        ".prose a {background-color: #ed979c; padding: 10px 15px; border-radius: 100px;}",
+        ".prose a {background: rgba(237, 151, 156, 1); padding: 10px 15px; border-radius: 100px; border: 0; color: #fff; font-weight: 700;}",
+        ".prose a:hover {background: rgba(237, 151, 156, 0.8);}",
         "@media screen and (max-width: 1000px) {}"
       ],
       "settings": {
