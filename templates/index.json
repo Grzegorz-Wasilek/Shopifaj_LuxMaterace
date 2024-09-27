@@ -499,7 +499,7 @@
         "product_wGTG6K"
       ],
       "custom_css": [
-        "@media (max-width: 700px) {.button--subdued {background-color: #ed979c; color: #fff; } .horizontal-product {background-color: #fff; border: 0; margin-bottom: 10px; border-radius:10px; }}"
+        "@media (max-width: 700px) {.button--subdued {background-color: #ed979c; color: #fff; } .horizontal-product {background-color: #fff; border: 0; margin-bottom: 10px; border-radius: 12px; } .horizontal-product-list.border {border:0; }}"
       ],
       "settings": {
         "full_width": true,
