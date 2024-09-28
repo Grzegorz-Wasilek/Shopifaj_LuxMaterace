@@ -60,6 +60,16 @@
             "show_taxes_notice": true
           }
         },
+        "associated_products_CMPjAA": {
+          "type": "associated_products",
+          "settings": {
+            "title": "",
+            "stack_products": false,
+            "products_count": 3,
+            "background": "",
+            "text_color": ""
+          }
+        },
         "separator_WrUBcF": {
           "type": "separator",
           "settings": {
@@ -145,16 +155,6 @@
             "background": "#eaf2ed",
             "text_color": "#ed979c"
           }
-        },
-        "associated_products_CMPjAA": {
-          "type": "associated_products",
-          "settings": {
-            "title": "",
-            "stack_products": false,
-            "products_count": 3,
-            "background": "",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
@@ -166,6 +166,7 @@
         "separator_imcTCg",
         "badges_JbNVF8",
         "price",
+        "associated_products_CMPjAA",
         "separator_WrUBcF",
         "product_variations_KgicHX",
         "quantity_selector",
@@ -173,8 +174,7 @@
         "button_yL9rMb",
         "offer_Gf9VwP",
         "offer_NEXiD7",
-        "offer_eLPi39",
-        "associated_products_CMPjAA"
+        "offer_eLPi39"
       ],
       "custom_css": [
         ".color-swatch {height: 4.5rem; width: 4.5rem;}"
