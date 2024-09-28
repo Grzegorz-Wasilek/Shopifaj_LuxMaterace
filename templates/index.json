@@ -885,7 +885,7 @@
       ],
       "custom_css": [
         ".bg-custom {height: 100%;}",
-        ".testimonial__image {width: 90px;}"
+        ".testimonial__image {width: 85px;}"
       ],
       "settings": {
         "full_width": true,
