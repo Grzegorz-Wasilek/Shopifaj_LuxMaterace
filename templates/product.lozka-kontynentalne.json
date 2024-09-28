@@ -146,10 +146,10 @@
             "text_color": "#ed979c"
           }
         },
-        "associated_products_Dq6QHa": {
+        "associated_products_CMPjAA": {
           "type": "associated_products",
           "settings": {
-            "title": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products_display.value }}",
+            "title": "",
             "stack_products": true,
             "products_count": 3,
             "background": "",
@@ -174,7 +174,7 @@
         "offer_Gf9VwP",
         "offer_NEXiD7",
         "offer_eLPi39",
-        "associated_products_Dq6QHa"
+        "associated_products_CMPjAA"
       ],
       "custom_css": [
         ".color-swatch {height: 4.5rem; width: 4.5rem;}"
