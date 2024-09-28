@@ -49,6 +49,11 @@
           "settings": {
           }
         },
+        "badges_JbNVF8": {
+          "type": "badges",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -149,6 +154,7 @@
         "separator_EGeBQq",
         "variant_picker",
         "separator_imcTCg",
+        "badges_JbNVF8",
         "price",
         "separator_WrUBcF",
         "product_variations_KgicHX",
