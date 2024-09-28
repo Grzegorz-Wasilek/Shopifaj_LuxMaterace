@@ -150,7 +150,7 @@
           "type": "associated_products",
           "settings": {
             "title": "",
-            "stack_products": true,
+            "stack_products": false,
             "products_count": 3,
             "background": "",
             "text_color": ""
