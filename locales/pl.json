@@ -442,6 +442,11 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "contact": {
+        "optional_company_label": "NIP Firmy (opcjonalnie)"
+      }
     }
   }
 }
