@@ -798,7 +798,7 @@
             "show_rating": false,
             "rating": 0,
             "author": "",
-            "title": "POCKET",
+            "title": "Pocket",
             "content": "<p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność punktową i optymalne podparcie dla kręgosłupa, dostosowując się do anatomicznej budowy ciała.</p>"
           }
         },
@@ -810,7 +810,7 @@
             "show_rating": false,
             "rating": 0,
             "author": "",
-            "title": "MULTIPOCKET",
+            "title": "Multipocket",
             "content": "<p>System sprężyn kieszeniowych charakteryzuje się 500-1000 sprężyn na m², zapewniając indywidualne podparcie dzięki oddzielnym kieszonkom.</p>"
           }
         },
@@ -822,7 +822,7 @@
             "show_rating": false,
             "rating": 0,
             "author": "",
-            "title": "PIANKA POLIURETANOWA",
+            "title": "Pianka poliuretanowa",
             "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.</p>"
           }
         },
@@ -834,7 +834,7 @@
             "show_rating": false,
             "rating": 0,
             "author": "",
-            "title": "LATEKS",
+            "title": "Lateks",
             "content": "<p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała podczas snu.</p>"
           }
         },
@@ -846,7 +846,7 @@
             "show_rating": false,
             "rating": 0,
             "author": "",
-            "title": "VISCO",
+            "title": "Visco",
             "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p>"
           }
         },
@@ -858,7 +858,7 @@
             "show_rating": false,
             "rating": 0,
             "author": "",
-            "title": "MATA KOKOSOWA",
+            "title": "Mata kokosowa",
             "content": "<p>Maty kokosowe oferują twardość, elastyczność, bezpieczeństwo, higienę, antyalergiczność i doskonałą wentylację dzięki naturalnym włóknom kokosowym.</p>"
           }
         },
@@ -870,7 +870,7 @@
             "show_rating": false,
             "rating": 0,
             "author": "",
-            "title": "KOŃSKIE WŁOSIE",
+            "title": "Końskie włosie",
             "content": "<p>Końskie włosie, naturalny surowiec, utwardza, usztywnia, doskonale absorbuje i szybko odparowuje wilgoć, mając właściwości higroskopijne.</p>"
           }
         }
@@ -887,7 +887,7 @@
       "custom_css": [
         ".bg-custom {height: 100%;}",
         ".testimonial__image {width: 85px;}",
-        "p.bold {font-size:1.2rem;}"
+        "p.bold {font-size: 1.2rem;}"
       ],
       "settings": {
         "full_width": true,
