@@ -319,7 +319,7 @@
       "continue_shopping": "Kontynuuj zakupy",
       "weight": "Waga",
       "subtotal": "Wartość produktów",
-      "total": "Całość",
+      "total": "Razem",
       "taxes_and_shipping_policy_at_checkout_html": "Podatki i koszty <a href=\"{{ link }}\" class=\"link\">wysyłki</a> obliczane przy realizacji zakupu",
       "taxes_included_but_shipping_at_checkout": "Podatek wliczony w cenę i koszty wysyłki obliczone przy realizacji zakupu",
       "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\" class=\"link\">Koszt wysyłki</a> obliczony przy realizacji zakupu.",
