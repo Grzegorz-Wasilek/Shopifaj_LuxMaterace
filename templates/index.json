@@ -345,7 +345,7 @@
             "horizontal_position_mobile": 51,
             "vertical_position_mobile": 15,
             "icon": "shopify://shop_images/pokrowiec.svg",
-            "icon_width": 72,
+            "icon_width": 64,
             "title": "Pokrowiec",
             "content": "<p>Pokrowiec elastyczny, oddychający, wyszywana tkanina na piance elastycznej</p>"
           }
@@ -357,8 +357,8 @@
             "vertical_position": 21,
             "horizontal_position_mobile": 28,
             "vertical_position_mobile": 17,
-            "icon": "shopify://shop_images/visco.svg",
-            "icon_width": 72,
+            "icon": "shopify://shop_images/visco_69b84028-2bea-41c7-aeb0-5e93f4de9212.svg",
+            "icon_width": 76,
             "title": "VISCO",
             "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p>"
           }
@@ -370,8 +370,8 @@
             "vertical_position": 24,
             "horizontal_position_mobile": 70,
             "vertical_position_mobile": 27,
-            "icon": "shopify://shop_images/latex.svg",
-            "icon_width": 72,
+            "icon": "shopify://shop_images/lateks.svg",
+            "icon_width": 76,
             "title": "LATEKS",
             "content": "<p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała podczas snu.</p>"
           }
@@ -383,8 +383,8 @@
             "vertical_position": 31,
             "horizontal_position_mobile": 19,
             "vertical_position_mobile": 30,
-            "icon": "shopify://shop_images/pianka.svg",
-            "icon_width": 56,
+            "icon": "shopify://shop_images/pianka_8d61b9ee-f3cb-480d-a2b6-3a66f85f3e81.svg",
+            "icon_width": 76,
             "title": "PIANKA POLIURETANOWA",
             "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.</p>"
           }
@@ -396,8 +396,8 @@
             "vertical_position": 43,
             "horizontal_position_mobile": 30,
             "vertical_position_mobile": 43,
-            "icon": "shopify://shop_images/pocket.svg",
-            "icon_width": 72,
+            "icon": "shopify://shop_images/pocket_59df1273-8616-4ebb-8934-cb97cff923c3.svg",
+            "icon_width": 76,
             "title": "POCKET",
             "content": "<p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność punktową i optymalne podparcie dla kręgosłupa, dostosowując się do anatomicznej budowy ciała.</p>"
           }
@@ -409,8 +409,8 @@
             "vertical_position": 63,
             "horizontal_position_mobile": 57,
             "vertical_position_mobile": 63,
-            "icon": "shopify://shop_images/multipocket.svg",
-            "icon_width": 72,
+            "icon": "shopify://shop_images/multipocekt.svg",
+            "icon_width": 76,
             "title": "MULTIPOCKET",
             "content": "<p>System sprężyn kieszeniowych charakteryzuje się 500-1000 sprężyn na m², zapewniając indywidualne podparcie dzięki oddzielnym kieszonkom.</p>"
           }
@@ -422,8 +422,8 @@
             "vertical_position": 77,
             "horizontal_position_mobile": 25,
             "vertical_position_mobile": 78,
-            "icon": "shopify://shop_images/pianka.svg",
-            "icon_width": 72,
+            "icon": "shopify://shop_images/pianka_8d61b9ee-f3cb-480d-a2b6-3a66f85f3e81.svg",
+            "icon_width": 76,
             "title": "PIANKA POLIURETANOWA",
             "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.</p>"
           }
