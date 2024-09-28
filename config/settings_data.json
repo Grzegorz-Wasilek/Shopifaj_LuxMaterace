@@ -56,12 +56,6 @@
 
     ],
     "blocks": {
-      "16963237191767492405": {
-        "type": "shopify://apps/whatsapp-button/blocks/app-embed-block/96d80a63-e860-4262-a001-8b82ac4d00e6",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,

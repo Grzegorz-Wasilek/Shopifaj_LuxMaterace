@@ -499,7 +499,7 @@
         "product_wGTG6K"
       ],
       "custom_css": [
-        "@media (max-width: 700px) {.button--subdued {background-color: #ed979c; color: #fff; } .horizontal-product {background-color: #fff; border: 0; margin-bottom: 10px; border-radius: 12px; } .horizontal-product-list.border {border:0; }}"
+        "@media (max-width: 700px) {.button--subdued {background-color: #ed979c; color: #fff; } .horizontal-product {background-color: #fff; border: 0; margin-bottom: 10px; border-radius: 12px; } .horizontal-product-list.border {border: 0; }}"
       ],
       "settings": {
         "full_width": true,
@@ -792,7 +792,7 @@
         "testimonial_KaQjhG": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/latex_4c3d6f8a-8bd9-4b16-aa0b-a4bab3649a65.svg",
+            "image": "shopify://shop_images/lateks.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -804,7 +804,7 @@
         "testimonial_zr4HNg": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/pocket_d81fad2b-48ef-426d-abe2-4c95c0d43361.svg",
+            "image": "shopify://shop_images/pocket_59df1273-8616-4ebb-8934-cb97cff923c3.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -816,7 +816,7 @@
         "testimonial_E9z7D7": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/kokos_7f2ffe16-20e0-452e-bad8-06f009a39dd6.svg",
+            "image": "shopify://shop_images/kokos_8b41712a-3848-4815-8877-466f6230bdaa.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -828,7 +828,7 @@
         "testimonial_8iT8qf": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/minipocket_a69026b1-fcf2-4896-9fce-94e1b766ae4b.svg",
+            "image": "shopify://shop_images/multipocekt.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -840,7 +840,7 @@
         "testimonial_6aWKCY": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/visco_8b2a5301-2208-4629-b562-cdb2efe3df70.svg",
+            "image": "shopify://shop_images/visco_69b84028-2bea-41c7-aeb0-5e93f4de9212.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -852,7 +852,7 @@
         "testimonial_fUmKbQ": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/konskie-wlosie_a63eb509-027b-4282-9f09-46c88a601009.svg",
+            "image": "shopify://shop_images/konskie-wlosie_57dac941-d305-4290-8998-a65012e9adea.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -864,7 +864,7 @@
         "testimonial_TDBgMV": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/pianka_850e67a6-1094-4b37-80d6-fdfe56961043.svg",
+            "image": "shopify://shop_images/pianka_8d61b9ee-f3cb-480d-a2b6-3a66f85f3e81.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -885,7 +885,7 @@
       ],
       "custom_css": [
         ".bg-custom {height: 100%;}",
-        ".testimonial__image {width: 50px;}"
+        ".testimonial__image {width: 100px;}"
       ],
       "settings": {
         "full_width": true,
