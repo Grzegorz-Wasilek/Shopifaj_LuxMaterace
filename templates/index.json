@@ -37,8 +37,8 @@
         "image_6RQxw9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner-topery-desk_587d10fe-ea70-448c-b033-a5a3530512db.webp",
-            "mobile_image": "shopify://shop_images/banner-topery-mobile_3d9228f1-e60e-4076-a9b3-d49917727779.webp",
+            "image": "shopify://shop_images/banner-topery-desk_e79666f2-f3cf-409c-9bec-829346d5f8c4.webp",
+            "mobile_image": "shopify://shop_images/banner-topery-mobile_fd597f3b-07a5-4b84-b5cf-e9d54dfc616b.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
