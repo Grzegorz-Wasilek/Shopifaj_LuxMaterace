@@ -149,9 +149,9 @@
         "associated_products_Dq6QHa": {
           "type": "associated_products",
           "settings": {
-            "title": "Buy it with",
+            "title": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products_display.value }}",
             "stack_products": true,
-            "products_count": 5,
+            "products_count": 3,
             "background": "",
             "text_color": ""
           }
