@@ -149,7 +149,7 @@
         "associated_products_jGYanG": {
           "type": "associated_products",
           "settings": {
-            "title": "Buy it with",
+            "title": "",
             "stack_products": true,
             "products_count": 5,
             "background": "",
