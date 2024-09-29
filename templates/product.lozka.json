@@ -49,6 +49,11 @@
           "settings": {
           }
         },
+        "badges_9cFQ3q": {
+          "type": "badges",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -140,6 +145,16 @@
             "background": "#eaf2ed",
             "text_color": "#ed979c"
           }
+        },
+        "associated_products_jGYanG": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
@@ -149,6 +164,7 @@
         "separator_EGeBQq",
         "variant_picker",
         "separator_imcTCg",
+        "badges_9cFQ3q",
         "price",
         "separator_WrUBcF",
         "product_variations_KgicHX",
@@ -157,7 +173,8 @@
         "button_yL9rMb",
         "offer_Gf9VwP",
         "offer_NEXiD7",
-        "offer_eLPi39"
+        "offer_eLPi39",
+        "associated_products_jGYanG"
       ],
       "custom_css": [
         ".color-swatch {height: 4.5rem; width: 4.5rem;}"
