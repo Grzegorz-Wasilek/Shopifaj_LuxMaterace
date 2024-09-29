@@ -162,7 +162,7 @@
         "associated_products_8NrVpf": {
           "type": "associated_products",
           "settings": {
-            "title": "Buy it with",
+            "title": "",
             "stack_products": true,
             "products_count": 5,
             "background": "",
