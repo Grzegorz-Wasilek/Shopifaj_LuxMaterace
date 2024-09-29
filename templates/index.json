@@ -887,7 +887,8 @@
       "custom_css": [
         ".bg-custom {height: 100%;}",
         ".testimonial__image {width: 65px;}",
-        "p.bold {font-size: 1.1rem;}"
+        "p.bold {font-size: 1.05rem;}",
+        "@media (max-width: 700px) {.p.bold {font-size:0.95rem;}}"
       ],
       "settings": {
         "full_width": true,
