@@ -344,7 +344,7 @@
             "vertical_position": 13,
             "horizontal_position_mobile": 51,
             "vertical_position_mobile": 15,
-            "icon": "shopify://shop_images/pokrowiec.svg",
+            "icon": "shopify://shop_images/pokrowiec_2eb60a9c-ce1c-417c-b695-e52081c61655.svg",
             "icon_width": 64,
             "title": "Pokrowiec",
             "content": "<p>Pokrowiec elastyczny, oddychający, wyszywana tkanina na piance elastycznej</p>"
@@ -357,7 +357,7 @@
             "vertical_position": 21,
             "horizontal_position_mobile": 28,
             "vertical_position_mobile": 17,
-            "icon": "shopify://shop_images/visco_69b84028-2bea-41c7-aeb0-5e93f4de9212.svg",
+            "icon": "shopify://shop_images/visco_6999825b-ae27-419b-853d-fee93c7df3ba.svg",
             "icon_width": 76,
             "title": "VISCO",
             "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p>"
@@ -370,7 +370,7 @@
             "vertical_position": 24,
             "horizontal_position_mobile": 70,
             "vertical_position_mobile": 27,
-            "icon": "shopify://shop_images/lateks.svg",
+            "icon": "shopify://shop_images/lateks_e77e3166-0242-4c32-aede-273680c4fea3.svg",
             "icon_width": 76,
             "title": "LATEKS",
             "content": "<p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała podczas snu.</p>"
@@ -383,7 +383,7 @@
             "vertical_position": 31,
             "horizontal_position_mobile": 19,
             "vertical_position_mobile": 30,
-            "icon": "shopify://shop_images/pianka_8d61b9ee-f3cb-480d-a2b6-3a66f85f3e81.svg",
+            "icon": "shopify://shop_images/pianka_6ae4885f-33c2-4787-95ae-462d47ab1cd2.svg",
             "icon_width": 76,
             "title": "PIANKA POLIURETANOWA",
             "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.</p>"
@@ -817,7 +817,7 @@
         "testimonial_TDBgMV": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/pianka_8d61b9ee-f3cb-480d-a2b6-3a66f85f3e81.svg",
+            "image": "shopify://shop_images/pianka_6ae4885f-33c2-4787-95ae-462d47ab1cd2.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -829,7 +829,7 @@
         "testimonial_KaQjhG": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/lateks.svg",
+            "image": "shopify://shop_images/lateks_e77e3166-0242-4c32-aede-273680c4fea3.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -841,7 +841,7 @@
         "testimonial_6aWKCY": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/visco_69b84028-2bea-41c7-aeb0-5e93f4de9212.svg",
+            "image": "shopify://shop_images/visco_6999825b-ae27-419b-853d-fee93c7df3ba.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
