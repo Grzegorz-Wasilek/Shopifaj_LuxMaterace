@@ -357,7 +357,7 @@
             "vertical_position": 21,
             "horizontal_position_mobile": 28,
             "vertical_position_mobile": 17,
-            "icon": "shopify://shop_images/visco_5a30fb56-290d-45b7-aae2-1aea0f477b01.svg",
+            "icon": "shopify://shop_images/visco_fc955de9-f8df-4ec5-bad1-05a89fd4cba3.svg",
             "icon_width": 76,
             "title": "VISCO",
             "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p>"
@@ -841,7 +841,7 @@
         "testimonial_6aWKCY": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/visco_5a30fb56-290d-45b7-aae2-1aea0f477b01.svg",
+            "image": "shopify://shop_images/visco_fc955de9-f8df-4ec5-bad1-05a89fd4cba3.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
