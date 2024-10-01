@@ -13,17 +13,17 @@
       "type": "main-list-collections",
       "settings": {
         "collections": [
+          "hybrydowe",
+          "frontpage",
           "materace-bonellowe",
           "materace-dzieciece",
-          "frontpage",
           "materace-multipocketowe",
-          "materace-nawierzchniowe",
           "materace-pocketowe",
-          "hybrydowe"
+          "materace-nawierzchniowe"
         ],
         "collections_per_row_mobile": "1",
         "collections_per_row": 3,
-        "text_color": "#f6f9fa",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
