@@ -71,7 +71,7 @@
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
-            "option_name": "Kolory",
+            "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
             "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
             "selector_style": "swatch"
