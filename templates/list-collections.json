@@ -12,9 +12,7 @@
     "main": {
       "type": "main-list-collections",
       "custom_css": [
-        ".content-over-media {--content-over-media-overlay: 0 !important; grid-template: 1fr minmax(0, 1fr) 1fr / minmax(0, 1fr) minmax( 0, min( var(--container-max-width), 100% - var( --content-over-media-gap, var(--content-over-media-column-gap, var(--container-gutter)) ) * 2 ) ) minmax(0, 1fr);}",
-        ".collection-card__content-wrapper.text-custom {color: #022e4f; grid-area: 1 / 1 / auto / span 3; text-align: left; padding: 0 100px 0 50px; transform: translateY(40px);}",
-        ".collection-card__content-wrapper.text-custom .h2 {font-size: 2.5rem;}"
+
       ],
       "settings": {
         "collections": [
@@ -36,7 +34,7 @@
     "custom_html_chCFqD": {
       "type": "custom-html",
       "custom_css": [
-        ".section-full {padding:0; height:0;}"
+        ".section-full {padding: 0; height: 0;}"
       ],
       "settings": {
         "full_width": true,
