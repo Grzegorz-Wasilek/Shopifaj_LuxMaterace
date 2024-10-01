@@ -23,7 +23,7 @@
         ],
         "collections_per_row_mobile": "1",
         "collections_per_row": 3,
-        "text_color": "#022e4f",
+        "text_color": "#f6f9fa",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
