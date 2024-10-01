@@ -77,7 +77,7 @@
               "naroznik-noris-bialy",
               "naroznik-noris-zielony"
             ],
-            "selector_style": "swatch"
+            "selector_style": "variant_image"
           }
         },
         "quantity_selector": {
