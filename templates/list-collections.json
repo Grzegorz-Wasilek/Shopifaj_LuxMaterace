@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "custom_css": [
+        "img {--content-over-media-overlay:0;}"
+      ],
       "settings": {
         "collections": [
           "hybrydowe",
