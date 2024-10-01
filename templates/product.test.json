@@ -71,7 +71,7 @@
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
-            "option_name": "color",
+            "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
             "products": [
               "naroznik-noris-bialy",
