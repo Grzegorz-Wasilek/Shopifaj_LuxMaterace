@@ -36,15 +36,16 @@
             "page": ""
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
+        "product_variations_KgicHX": {
+          "type": "product_variations",
           "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "color",
-            "size_chart_page": ""
+            "option_name": "Kolor",
+            "option_value_metafield": "custom.variation_value",
+            "products": [
+              "naroznik-noris-bialy",
+              "naroznik-noris-zielony"
+            ],
+            "selector_style": "variant_image"
           }
         },
         "separator_imcTCg": {
@@ -66,18 +67,6 @@
         "separator_WrUBcF": {
           "type": "separator",
           "settings": {
-          }
-        },
-        "product_variations_KgicHX": {
-          "type": "product_variations",
-          "settings": {
-            "option_name": "Kolor",
-            "option_value_metafield": "custom.variation_value",
-            "products": [
-              "naroznik-noris-bialy",
-              "naroznik-noris-zielony"
-            ],
-            "selector_style": "variant_image"
           }
         },
         "quantity_selector": {
@@ -166,12 +155,11 @@
         "title",
         "payment_terms",
         "collapsible_text_rCHYt8",
-        "variant_picker",
+        "product_variations_KgicHX",
         "separator_imcTCg",
         "badges_zrhCYg",
         "price",
         "separator_WrUBcF",
-        "product_variations_KgicHX",
         "quantity_selector",
         "buy_buttons",
         "button_yL9rMb",
