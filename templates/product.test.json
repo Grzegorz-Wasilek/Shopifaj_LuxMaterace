@@ -73,9 +73,7 @@
           "settings": {
             "option_name": "color",
             "option_value_metafield": "custom.variation_value",
-            "products": [
-              "naroznik-noris-zielony"
-            ],
+            "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
             "selector_style": "swatch"
           }
         },
