@@ -344,7 +344,7 @@
             "vertical_position": 13,
             "horizontal_position_mobile": 51,
             "vertical_position_mobile": 15,
-            "icon": "shopify://shop_images/pokrowiec_2eb60a9c-ce1c-417c-b695-e52081c61655.svg",
+            "icon": "shopify://shop_images/pokrowiec_57a3b515-dc14-4deb-8bc5-45a9b627f846.svg",
             "icon_width": 64,
             "title": "Pokrowiec",
             "content": "<p>Pokrowiec elastyczny, oddychający, wyszywana tkanina na piance elastycznej</p>"
@@ -357,7 +357,7 @@
             "vertical_position": 21,
             "horizontal_position_mobile": 28,
             "vertical_position_mobile": 17,
-            "icon": "shopify://shop_images/visco_fc955de9-f8df-4ec5-bad1-05a89fd4cba3.svg",
+            "icon": "shopify://shop_images/visco_b63abb91-3cf0-48a1-b248-5d01b9278f98.svg",
             "icon_width": 76,
             "title": "VISCO",
             "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p>"
@@ -841,7 +841,7 @@
         "testimonial_6aWKCY": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/visco_fc955de9-f8df-4ec5-bad1-05a89fd4cba3.svg",
+            "image": "shopify://shop_images/visco_b63abb91-3cf0-48a1-b248-5d01b9278f98.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -853,7 +853,7 @@
         "testimonial_E9z7D7": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/kokos_8b41712a-3848-4815-8877-466f6230bdaa.svg",
+            "image": "shopify://shop_images/kokos_bb0366f9-98e2-43f8-993f-c3f71f303c27.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -865,7 +865,7 @@
         "testimonial_fUmKbQ": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/konskie-wlosie_57dac941-d305-4290-8998-a65012e9adea.svg",
+            "image": "shopify://shop_images/konskie-wlosie_5445b9d9-a7a9-44d6-93fe-3de824fd2a4f.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
