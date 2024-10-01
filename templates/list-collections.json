@@ -13,7 +13,7 @@
       "type": "main-list-collections",
       "custom_css": [
         ".content-over-media {--content-over-media-overlay: 0 !important;}",
-        ".collection-card__content-wrapper.text-custom {color:#000; fot-size:30px;}"
+        ".collection-card__content-wrapper.text-custom {color: #022e4f;}"
       ],
       "settings": {
         "collections": [
