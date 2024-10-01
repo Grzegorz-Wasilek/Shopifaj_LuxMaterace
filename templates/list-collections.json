@@ -36,7 +36,7 @@
     "custom_html_chCFqD": {
       "type": "custom-html",
       "custom_css": [
-
+        ".section-full {padding:0; height:0;}"
       ],
       "settings": {
         "full_width": true,
