@@ -40,7 +40,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>\n.content-over-media {\n  --content-over-media-overlay: 0 !important;\n  grid-template: 1fr minmax(0, 1fr) 1fr / minmax(0, 1fr) minmax(\n      0,\n      min(\n        var(--container-max-width),\n        100% -\n          var(\n            --content-over-media-gap,\n            var(--content-over-media-column-gap, var(--container-gutter))\n          ) * 2\n      )\n    ) minmax(0, 1fr);\n}\n.collection-card__content-wrapper.text-custom {\n  color: #022e4f;\n  grid-area: 1 / 1 / auto / span 3;\n  text-align: left;\n  padding: 0 100px 0 50px;\n  transform: translateY(40px);\n}\n.collection-card__content-wrapper.text-custom .h2 {\n  font-size: 2.5rem;\n}\n\n\n\n\n@media (max-width: 500px) {\n\n}\n\n</style>",
+        "html": "<style>\n.content-over-media {\n  --content-over-media-overlay: 0 !important;\n\n}\n.collection-card__content-wrapper.text-custom {\n  color: #022e4f;\n  grid-area: 1 / 1 / auto / span 3;\n  text-align: left;\n  padding: 0 100px 0 50px;\n  transform: translateY(40px);\n}\n.collection-card__content-wrapper.text-custom .h2 {\n  font-size: 2.5rem;\n}\n\n\n\n\n@media (max-width: 500px) {\n\n}\n\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
