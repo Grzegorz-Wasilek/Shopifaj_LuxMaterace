@@ -35,11 +35,14 @@
     },
     "custom_html_chCFqD": {
       "type": "custom-html",
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Write or copy/paste HTML code</p>",
+        "html": "<style>\n@media (max-width: 500px) {\n\n}\n\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
