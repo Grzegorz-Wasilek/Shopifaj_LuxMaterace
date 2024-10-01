@@ -74,7 +74,8 @@
             "option_name": "color",
             "option_value_metafield": "custom.variation_value",
             "products": [
-              "naroznik-noris-bialy"
+              "naroznik-noris-bialy",
+              "naroznik-noris-zielony"
             ],
             "selector_style": "swatch"
           }
