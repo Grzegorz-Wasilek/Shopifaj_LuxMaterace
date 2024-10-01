@@ -12,7 +12,7 @@
     "main": {
       "type": "main-list-collections",
       "custom_css": [
-        ".content-over-media {--content-over-media-overlay: 0 !important;}",
+        ".content-over-media {--content-over-media-overlay: 0 !important; grid-template-columns: 0 minmax(0, 1fr) 0;}",
         ".collection-card__content-wrapper.text-custom {color: #022e4f; grid-area: 1 / 1 / auto / span 3;}"
       ],
       "settings": {
