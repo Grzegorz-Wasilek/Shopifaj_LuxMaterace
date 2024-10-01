@@ -696,62 +696,6 @@
         "product_card_text_color": ""
       }
     },
-    "faq_93Ax3R": {
-      "type": "faq",
-      "blocks": {
-        "item_eR7CfL": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "item_N6jnEg": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "item_pQBHHP": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_eR7CfL",
-        "item_N6jnEg",
-        "item_pQBHHP"
-      ],
-      "custom_css": [
-        ".bg-secondary {background: transparent;}",
-        ".accordion__toggle {font-size: 1.3rem;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
     "custom_html_3Xy8Hk": {
       "type": "custom-html",
       "custom_css": [
@@ -781,7 +725,6 @@
     "media_with_text_KKFgPG",
     "image_with_text_overlay_g9CHB9",
     "related-products",
-    "faq_93Ax3R",
     "custom_html_3Xy8Hk"
   ]
 }
