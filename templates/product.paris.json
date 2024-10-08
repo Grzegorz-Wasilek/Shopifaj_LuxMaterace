@@ -36,6 +36,17 @@
             "page": ""
           }
         },
+        "variant_picker_LHbQDF": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
@@ -50,17 +61,6 @@
               "lozko-paris-4"
             ],
             "selector_style": "variant_image"
-          }
-        },
-        "variant_picker_LHbQDF": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
           }
         },
         "separator_imcTCg": {
@@ -170,8 +170,8 @@
         "title",
         "payment_terms",
         "collapsible_text_rCHYt8",
-        "product_variations_KgicHX",
         "variant_picker_LHbQDF",
+        "product_variations_KgicHX",
         "separator_imcTCg",
         "badges_zrhCYg",
         "price",
