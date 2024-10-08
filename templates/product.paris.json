@@ -185,7 +185,7 @@
         "associated_products_rXA6x8"
       ],
       "custom_css": [
-        ".color-swatch {height: 3.5rem; width: 3.5rem;}"
+        ".color-swatch {height: 2rem; width: 2rem;}"
       ],
       "settings": {
         "full_width": true,
