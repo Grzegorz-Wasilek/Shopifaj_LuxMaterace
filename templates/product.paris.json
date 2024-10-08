@@ -39,16 +39,9 @@
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
-            "option_name": "wariany",
-            "option_value_metafield": "{{ product.metafields.shopify[\"color-pattern\"] | metafield_text: field: 'label' }}",
-            "products": [
-              "lozko-tapicerowane-paris",
-              "lozko-paris",
-              "lozko-paris-1",
-              "lozko-paris-2",
-              "lozko-paris-3",
-              "lozko-paris-4"
-            ],
+            "option_name": "{{ product.metafields.custom.variation_value.value }}",
+            "option_value_metafield": "custom.product",
+            "products": "{{ product.metafields.custom.product.value }}",
             "selector_style": "variant_image"
           }
         },

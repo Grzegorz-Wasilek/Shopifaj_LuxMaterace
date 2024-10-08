@@ -39,13 +39,13 @@
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
-            "option_name": "Kolor",
-            "option_value_metafield": "custom.variation_value",
+            "option_name": "{{ product.metafields.custom.variation_value.value }}",
+            "option_value_metafield": "",
             "products": [
               "naroznik-noris-bialy",
               "naroznik-noris-zielony"
             ],
-            "selector_style": "variant_image"
+            "selector_style": "swatch"
           }
         },
         "separator_imcTCg": {
