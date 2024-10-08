@@ -40,7 +40,7 @@
           "type": "product_variations",
           "settings": {
             "option_name": "Kolor",
-            "option_value_metafield": "shopify--color-pattern.label",
+            "option_value_metafield": "{{ product.metafields.shopify[\"color-pattern\"] | metafield_text: field: 'label' }}",
             "products": [
               "lozko-tapicerowane-paris",
               "lozko-paris",
