@@ -50,7 +50,7 @@
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
-            "option_name": "kolor",
+            "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
             "products": [
               "lozko-tapicerowane-paris",
