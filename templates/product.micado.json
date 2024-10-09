@@ -177,7 +177,7 @@
         "associated_products_CMPjAA"
       ],
       "custom_css": [
-        ".color-swatch {height: 4.5rem; width: 4.5rem;}"
+        ".color-swatch {height: 2.5rem; width: 2.5rem;}"
       ],
       "settings": {
         "full_width": true,
