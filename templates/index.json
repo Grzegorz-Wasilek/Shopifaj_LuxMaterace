@@ -471,7 +471,7 @@
         "product_KmDLtB": {
           "type": "product",
           "settings": {
-            "product": "lozko-bellagio-3",
+            "product": "lozko-paris-3",
             "horizontal_position": 52,
             "vertical_position": 77
           }
@@ -487,9 +487,9 @@
         "product_wGTG6K": {
           "type": "product",
           "settings": {
-            "product": "",
-            "horizontal_position": 58,
-            "vertical_position": 53
+            "product": "topery",
+            "horizontal_position": 50,
+            "vertical_position": 55
           }
         }
       },
@@ -505,7 +505,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify://shop_images/s2.webp",
+        "image": "shopify://shop_images/paris-matt-velvet-85_06a65cfe-435b-4be9-b307-df237ffe7b07.webp",
         "title": "Oferta Specjalna",
         "content": "",
         "background": "",
