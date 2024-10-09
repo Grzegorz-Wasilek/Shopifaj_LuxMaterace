@@ -50,7 +50,8 @@
             "option_name": "Kolory",
             "option_value_metafield": "custom.variation_value",
             "products": [
-              "lozko-kontynentalne-micado"
+              "lozko-kontynentalne-micado",
+              "lozko-micado"
             ],
             "selector_style": "swatch"
           }
