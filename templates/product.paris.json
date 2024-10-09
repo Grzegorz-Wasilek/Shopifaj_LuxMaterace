@@ -53,12 +53,12 @@
             "option_name": "kolor",
             "option_value_metafield": "custom.variation_value",
             "products": [
-              "lozko-paris",
-              "lozko-paris-1",
+              "lozko-tapicerowane-paris",
               "lozko-paris-2",
+              "lozko-paris-1",
+              "lozko-paris",
               "lozko-paris-3",
-              "lozko-paris-4",
-              "lozko-tapicerowane-paris"
+              "lozko-paris-4"
             ],
             "selector_style": "swatch"
           }
