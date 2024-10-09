@@ -44,14 +44,15 @@
             "size_chart_page": ""
           }
         },
-        "associated_products_CMPjAA": {
-          "type": "associated_products",
+        "product_variations_KgicHX": {
+          "type": "product_variations",
           "settings": {
-            "title": "",
-            "stack_products": true,
-            "products_count": 3,
-            "background": "",
-            "text_color": ""
+            "option_name": "Kolory",
+            "option_value_metafield": "custom.variation_value",
+            "products": [
+              "lozko-kontynentalne-micado"
+            ],
+            "selector_style": "swatch"
           }
         },
         "separator_imcTCg": {
@@ -73,17 +74,6 @@
         "separator_WrUBcF": {
           "type": "separator",
           "settings": {
-          }
-        },
-        "product_variations_KgicHX": {
-          "type": "product_variations",
-          "settings": {
-            "option_name": "Kolory",
-            "option_value_metafield": "custom.variation_value",
-            "products": [
-
-            ],
-            "selector_style": "swatch"
           }
         },
         "quantity_selector": {
@@ -155,6 +145,16 @@
             "background": "#eaf2ed",
             "text_color": "#ed979c"
           }
+        },
+        "associated_products_CMPjAA": {
+          "type": "associated_products",
+          "settings": {
+            "title": "",
+            "stack_products": true,
+            "products_count": 3,
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
@@ -163,18 +163,18 @@
         "payment_terms",
         "separator_EGeBQq",
         "variant_picker",
-        "associated_products_CMPjAA",
+        "product_variations_KgicHX",
         "separator_imcTCg",
         "badges_JbNVF8",
         "price",
         "separator_WrUBcF",
-        "product_variations_KgicHX",
         "quantity_selector",
         "buy_buttons",
         "button_yL9rMb",
         "offer_Gf9VwP",
         "offer_NEXiD7",
-        "offer_eLPi39"
+        "offer_eLPi39",
+        "associated_products_CMPjAA"
       ],
       "custom_css": [
         ".color-swatch {height: 4.5rem; width: 4.5rem;}"
