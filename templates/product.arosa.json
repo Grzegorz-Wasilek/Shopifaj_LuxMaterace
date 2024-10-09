@@ -226,12 +226,12 @@
         "headings_WEyTpJ": {
           "type": "headings",
           "settings": {
-            "heading_1": "Szerokość:",
-            "heading_2": "Głębokość:",
-            "heading_3": "Wysokość:",
-            "heading_4": "Wysokość siedziska:",
-            "heading_5": "Powierzchnia spania:",
-            "heading_6": "Funkcja spania:",
+            "heading_1": "Szerokość całkowita:",
+            "heading_2": "Długość całkowita:",
+            "heading_3": "Wysokość całkowita:",
+            "heading_4": "Wysokość przodu:",
+            "heading_5": "Wysokość skrzyni łóżka:",
+            "heading_6": "Wysokość nóżek:",
             "heading_7": "Pojemnik na pościel:",
             "heading_8": "Podłokietniki:",
             "heading_9": "Konstrukcja:",
