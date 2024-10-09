@@ -53,7 +53,8 @@
             "option_name": "kolor",
             "option_value_metafield": "custom.variation_value",
             "products": [
-              "lozko-tapicerowane-arosa"
+              "lozko-tapicerowane-arosa",
+              "lozko-arosa"
             ],
             "selector_style": "swatch"
           }
