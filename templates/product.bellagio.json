@@ -50,7 +50,12 @@
             "option_name": "Kolory",
             "option_value_metafield": "custom.variation_value",
             "products": [
-              "lozko-kontynentalne-bellagio"
+              "lozko-kontynentalne-bellagio",
+              "lozko-bellagio",
+              "lozko-bellagio-1",
+              "lozko-bellagio-2",
+              "lozko-bellagio-3",
+              "lozko-bellagio-4"
             ],
             "selector_style": "swatch"
           }
