@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -53,10 +53,10 @@
             "menu_item": "materace",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
-            "image_1": "shopify://shop_images/mint-1.webp",
-            "image_heading_1": "Materac Mint -25%",
+            "image_1": "shopify://shop_images/basil-menu1200x1200.webp",
+            "image_heading_1": "Materac Basil -40%",
             "image_link_1": "shopify://products/materac-mint",
-            "image_text_color_1": "#022e4f",
+            "image_text_color_1": "#ffffff",
             "image_heading_2": "aaa",
             "image_link_2": "",
             "image_text_color_2": "#ffffff",
