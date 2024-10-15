@@ -246,7 +246,7 @@
         "mega_menu_grpQ6q"
       ],
       "custom_css": [
-        ".navigation-promo__wrapper .content-over-media .text-custom p.bold {font-size:20px}"
+        ".navigation-promo__wrapper .content-over-media .text-custom --text-h6 {font-size: 30px !important;}"
       ],
       "settings": {
         "enable_sticky": true,
