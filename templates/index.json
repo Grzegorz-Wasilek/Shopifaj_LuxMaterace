@@ -1,17 +1,39 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "image_xYGMMK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/basil-prom-40-desk.webp",
+            "mobile_image": "shopify://shop_images/basil-prom-40-mobile.webp",
+            "content_max_width": 400,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Komfort snu bez kompromisów",
+            "title": "Materac idealny dla par",
+            "heading_tag": "h1",
+            "button_text": "Zobacz Promocje",
+            "button_link": "shopify://products/materac-basil",
+            "text_color": "#ffffff",
+            "button_background": "#ffa6ad",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "image_KhE4Yh": {
           "type": "image",
           "settings": {
@@ -102,6 +124,7 @@
         }
       },
       "block_order": [
+        "image_xYGMMK",
         "image_KhE4Yh",
         "image_6RQxw9",
         "slide-1",
