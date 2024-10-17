@@ -33,19 +33,6 @@
           "settings": {
           }
         },
-        "image_eB8Q3T": {
-          "type": "image",
-          "settings": {
-            "image": "{{ product.metafields.custom.grafika_twardosc.value }}",
-            "alignment": "start",
-            "max_width": 500
-          }
-        },
-        "separator_EGeBQq": {
-          "type": "separator",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -70,7 +57,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "show_taxes_notice": true
+            "show_taxes_notice": false
           }
         },
         "separator_WrUBcF": {
@@ -175,8 +162,6 @@
         "title",
         "payment_terms",
         "separator",
-        "image_eB8Q3T",
-        "separator_EGeBQq",
         "variant_picker",
         "separator_imcTCg",
         "badges_k74hW3",
@@ -210,21 +195,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "custom_html_Ni3Nmn": {
-      "type": "custom-html",
-      "custom_css": [
-        ".section-full {padding-top: 0; padding-bottom: 0;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<div class=\"flex-wrap\">\n<button class=\"prd-btn desc-mat-prd\">Opis</button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa Materaca</button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu</button>\n\n  <button class=\"prd-btn cover-mat-prd\">Pokrowce</button>\n </div>\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    function scrollToElement(buttonSelector, targetIdContains) {\n        document.querySelector(buttonSelector).addEventListener('click', function() {\n          \n            const element = document.querySelector(`[id*='${targetIdContains}']`);\n            if (element) {\n                element.scrollIntoView({\n                    behavior: 'smooth'\n                });\n            }\n        });\n    }\n\n   \n    scrollToElement('.desc-mat-prd', 'media_with_text');\n    scrollToElement('.cons-mat-prd', 'hot_spots');\n    scrollToElement('.komf-mat-prd', 'image_with_text_overlay');\n \n    scrollToElement('.cover-mat-prd', 'cover-section-in-btn');\n});\n</script>\n\n<style>\nproduct-recommendations .border {\nborder:0;\n}\nproduct-recommendations .horizontal-product {\nbackground:#fff;\nborder:0;\nborder-radius:12px;\nmargin-bottom:15px;\n}\n\nbutton.prd-btn {\n  cursor: pointer;\n  background: #fff;;\n  border-radius: 100px;\n  box-shadow: none;\n  border: solid 1px #dde2e7;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #022e4f;\n  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\nbox-sizing:border-box;\nflex-shrink:0;\npadding: 1rem 4rem;\n}\nbutton.prd-btn:hover,\nbutton.prd-btn:active {\n box-shadow: 0 0 0 2px #dd9aa2;\nborder-color:#fff;\n}\n.flex-wrap {\ndisplay:flex;\njustify-content: center;\ngap:90px; \npadding: 30px 0;\n  margin: 10px 0 50px 0;\n}\nbutton.prd-btn {\n}\n\nsafe-sticky.product-info .product-info__offer-list {\n\n}\nsafe-sticky.product-info .product-info__offer-list span.text-sm {\nline-height:1.3;\n}\n\nsafe-sticky.product-info .product-info__offer-list > .offer  {\n\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch {\nbackground:#fff;\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch::before {\n\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\nsafe-sticky.product-info .product-info__variant-picker \n.color-swatch::before {\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\n@media (max-width: 1500px) {\n.flex-wrap {\ngap:30px; \n}\n}\n@media (max-width: 1400px) {\n.flex-wrap {\ngap:30px;\n}\nbutton.prd-btn {\n  padding: 1rem 3rem;\n}\n}\n@media (max-width: 999px) {\n.flex-wrap {\njustify-content: flex-start;\noverflow-x:scroll;\ngap:30px;\nscroll-snap-type:x mandatory;\npadding-left:20px;\npadding-right:20px;\n}\nbutton.prd-btn  {\nscroll-snap-align:left;\n}\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "media_with_text_4rPE47": {
@@ -283,9 +253,6 @@
       },
       "block_order": [
         "item_dPihPj"
-      ],
-      "custom_css": [
-        "h2 {padding-bottom: 2rem;}"
       ],
       "settings": {
         "full_width": true,
@@ -745,7 +712,6 @@
   },
   "order": [
     "main",
-    "custom_html_Ni3Nmn",
     "media_with_text_4rPE47",
     "text_with_icons_XEcyze",
     "hot_spots_dURC7e",
