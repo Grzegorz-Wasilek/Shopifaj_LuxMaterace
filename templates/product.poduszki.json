@@ -355,116 +355,6 @@
         "background_gradient": ""
       }
     },
-    "custom_html_J9DNww": {
-      "type": "custom-html",
-      "custom_css": [
-        ".section-full {padding-bottom: 1.75rem;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\">Pokrowce</h2>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "media_with_text_KKFgPG": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_9UPmap": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/pokrowiec-3.webp",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Pokrowiec na materac \"Standard\"",
-            "content": "<p>Pokrowiec na materac \"Standard\" to idealne rozwiązanie dla osób ceniących sobie komfort i funkcjonalność. Każdy pokrowiec jest antyalergiczny, co zapewnia zdrowy i bezpieczny sen. Dwustronność pokrowca pozwala na jego dłuższą żywotność, a zamki błyskawiczne ułatwiają zakładanie i zdejmowanie. Dodatkowo, pokrowiec można prać, co zapewnia higienę i świeżość przez długi czas.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_YKdwUb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/pokrowiec-1_ec7b546b-9174-4775-a6ed-7f729fc3dee5.webp",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Pokrowiec na materac \"Premium\"",
-            "content": "<p>Pokrowiec na materac \"Premium\" to luksusowa wersja naszego pokrowca, stworzona dla najbardziej wymagających użytkowników. Podobnie jak pokrowiec \"Standard\", jest antyalergiczny, dwustronny i wyposażony w zamki błyskawiczne, co ułatwia jego użytkowanie i pranie. Jednak \"Premium\" wyróżnia się dodatkowymi cechami: posiada praktyczne uchwyty, które ułatwiają ustawienie pokrowca na brzegu materaca, oraz elegancką lamówkę, która nie tylko podnosi walory estetyczne, ale również zwiększa sztywność pokrowca. Specjalnie przeszyte boki dodają mu wyjątkowego wyglądu, czyniąc pokrowiec \"Premium\" idealnym wyborem dla osób poszukujących najwyższej jakości i stylu.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_9UPmap",
-        "image_YKdwUb"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "large"
-      }
-    },
-    "image_with_text_overlay_g9CHB9": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_bK9NLN": {
-          "type": "heading",
-          "settings": {
-            "text": "Źle dobrany materac, a nasze zdrowie",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_tmmWkw": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Niewłaściwie dobrany materac może prowadzić do bólu pleców, zaburzeń snu, zwiększonego napięcia oraz problemów z krążeniem, negatywnie pływając na nasze zdrowie fizyczne i psychiczne. Ważne jest, aby wybrać<br/>materac dostosowany do indywidualnych potrzeb, co może pomóc zapewnić zdrowy i regenerujący sen.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_bK9NLN",
-        "richtext_tmmWkw"
-      ],
-      "custom_css": [
-        "@media (max-width: 1000px) {.section-full > image-banner.content-over-media {padding: 20px 10px; }}"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": true,
-        "enable_parallax": true,
-        "image_size": "auto",
-        "image": "shopify://shop_images/para-prod_be958982-c958-4ce4-b5b0-ef4d517c111e.webp",
-        "mobile_image": "shopify://shop_images/para-prodmobile_01beec52-6130-4c25-812b-9173045861d1.webp",
-        "mobile_text_position": "place-self-start text-start",
-        "desktop_text_position": "sm:place-self-end-start sm:text-start",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "related-products": {
       "type": "related-products",
       "custom_css": [
@@ -568,9 +458,6 @@
     "media_with_text_4rPE47",
     "custom_html_EAH6Nb",
     "media_grid_AEwBcJ",
-    "custom_html_J9DNww",
-    "media_with_text_KKFgPG",
-    "image_with_text_overlay_g9CHB9",
     "related-products",
     "faq_93Ax3R",
     "custom_html_3Xy8Hk"
