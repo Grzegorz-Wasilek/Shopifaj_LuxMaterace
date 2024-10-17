@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -22,7 +31,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "show_taxes_notice": true
+            "show_taxes_notice": false
           }
         },
         "payment_terms": {
@@ -48,7 +57,7 @@
             "stack_blocks": true,
             "selector_style": "block",
             "swatch_selector_style": "swatch",
-            "variant_image_options": "Pokrowiec",
+            "variant_image_options": "",
             "size_chart_page": ""
           }
         },
@@ -97,7 +106,7 @@
             "icon": "picto-truck",
             "icon_width": 24,
             "title": "Koszty Dostawy",
-            "content": "<p>Zawsze darmowa dostawa!<\/p>",
+            "content": "<p>Zawsze darmowa dostawa!</p>",
             "background": "#eaf2ed",
             "text_color": "#00a341"
           }
@@ -110,7 +119,7 @@
             "icon": "picto-timer",
             "icon_width": 24,
             "title": "Czas wysyłki",
-            "content": "<p>14 dni roboczych + czas dostawy<\/p>",
+            "content": "<p>14 dni roboczych + czas dostawy</p>",
             "background": "#eaf2ed",
             "text_color": "#00a341"
           }
@@ -123,7 +132,7 @@
             "icon": "picto-coupon",
             "icon_width": 24,
             "title": "Shipping",
-            "content": "<p>Short content about your shipping rates or discounts.<\/p>",
+            "content": "<p>Short content about your shipping rates or discounts.</p>",
             "background": "#eaf2ed",
             "text_color": "#00a341"
           }
@@ -196,10 +205,10 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>No<\/p>",
-            "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>Yes<\/p>",
-            "value_4": "<p>No<\/p>",
+            "value_1": "<p>No</p>",
+            "value_2": "<p>Yes</p>",
+            "value_3": "<p>Yes</p>",
+            "value_4": "<p>No</p>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -229,7 +238,7 @@
         "full_width": true,
         "subheading": "Compare",
         "title": "Product specification",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.<\/p>",
+        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -264,7 +273,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
