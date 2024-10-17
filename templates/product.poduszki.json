@@ -197,6 +197,64 @@
         "input_text_color": ""
       }
     },
+    "multi_column_JCLMpy": {
+      "type": "multi-column",
+      "blocks": {
+        "item_jdxiRj": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "• Pianka termoelastyczna VISCO",
+            "heading_tag": "h4",
+            "content": "<p>Poduszka wykonana z termoelastycznej pianki VISCO, która reaguje na ciepło ludzkiego ciała, dopasowując się do jego kształtu. Im wyższa temperatura, tym większa elastyczność poduszki, co gwarantuje idealne podparcie odcinka szyjnego kręgosłupa. Pianka równomiernie rozkłada obciążenie, co poprawia krążenie krwi i redukuje bóle karku. Po odkształceniu pianka powoli wraca do swojego pierwotnego kształtu, zapewniając długotrwały komfort i wsparcie.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jFfDwP": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "• Profilowanie 3D CNC",
+            "heading_tag": "h4",
+            "content": "<p>Poduszka została zaprojektowana i wykonana przy użyciu zaawansowanej technologii CNC, co gwarantuje precyzyjne profilowanie 3D, doskonałe dopasowanie do ciała oraz długowieczność materiału.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_bjzNXC": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "• Redukcja napięcia mięśni",
+            "heading_tag": "h4",
+            "content": "<p>Konstrukcja poduszki wspiera prawidłową pozycję głowy i szyi, co prowadzi do rozluźnienia mięśni i poprawy jakości snu. Idealna dla osób cierpiących na bóle karku czy problemy z krążeniem.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_jdxiRj",
+        "item_jFfDwP",
+        "item_bjzNXC"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "Opis",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_4rPE47": {
       "type": "media-with-text",
       "blocks": {
@@ -245,116 +303,6 @@
         "text_color": ""
       }
     },
-    "media_grid_AEwBcJ": {
-      "type": "media-grid",
-      "blocks": {
-        "image_H9BV8D": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#112e4d",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_itHF77": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/multipocket.webp",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#112e4d",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_TP9Wkw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/kokos.webp",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#112e4d",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_rTyV6c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/latex.webp",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#112e4d",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_H9BV8D",
-        "image_itHF77",
-        "image_TP9Wkw",
-        "image_rTyV6c"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".media-grid .media-grid__item:nth-child(3) p {color: #fff;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
     "related-products": {
       "type": "related-products",
       "custom_css": [
@@ -380,63 +328,6 @@
         "product_card_text_color": ""
       }
     },
-    "faq_93Ax3R": {
-      "type": "faq",
-      "blocks": {
-        "item_eR7CfL": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "item_N6jnEg": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "item_pQBHHP": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_eR7CfL",
-        "item_N6jnEg",
-        "item_pQBHHP"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".bg-secondary {background: transparent;}",
-        ".accordion__toggle {font-size: 1.3rem;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
     "custom_html_3Xy8Hk": {
       "type": "custom-html",
       "custom_css": [
@@ -455,11 +346,10 @@
   },
   "order": [
     "main",
+    "multi_column_JCLMpy",
     "media_with_text_4rPE47",
     "custom_html_EAH6Nb",
-    "media_grid_AEwBcJ",
     "related-products",
-    "faq_93Ax3R",
     "custom_html_3Xy8Hk"
   ]
 }
