@@ -230,8 +230,8 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Heading",
-        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "title": "Specyfikacja",
+        "content": "<p>Poduszka jest idealna dla osób śpiących zarówno na plecach, boku, jak i na brzuchu. Szczególnie polecana osobom w stanach pooperacyjnych lub pourazowych, które wymagają długotrwałego leczenia, ze względu na swoje właściwości wspierające i odciążające kręgosłup.</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -242,8 +242,8 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_background": "#f6f9fa",
+        "accordion_text_color": "#000000"
       }
     },
     "media_with_text_4rPE47": {
