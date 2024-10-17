@@ -197,62 +197,50 @@
         "input_text_color": ""
       }
     },
-    "multi_column_JCLMpy": {
-      "type": "multi-column",
+    "tabs_LaWXCR": {
+      "type": "tabs",
       "blocks": {
-        "item_jdxiRj": {
-          "type": "item",
+        "tab_QkGgyN": {
+          "type": "tab",
           "settings": {
-            "column_size": "3",
-            "title": "• Pianka termoelastyczna VISCO",
-            "heading_tag": "h4",
+            "title": "Pianka termoelastyczna VISCO",
             "content": "<p>Poduszka wykonana z termoelastycznej pianki VISCO, która reaguje na ciepło ludzkiego ciała, dopasowując się do jego kształtu. Im wyższa temperatura, tym większa elastyczność poduszki, co gwarantuje idealne podparcie odcinka szyjnego kręgosłupa. Pianka równomiernie rozkłada obciążenie, co poprawia krążenie krwi i redukuje bóle karku. Po odkształceniu pianka powoli wraca do swojego pierwotnego kształtu, zapewniając długotrwały komfort i wsparcie.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "page": ""
           }
         },
-        "item_jFfDwP": {
-          "type": "item",
+        "tab_eAGcXK": {
+          "type": "tab",
           "settings": {
-            "column_size": "3",
-            "title": "• Profilowanie 3D CNC",
-            "heading_tag": "h4",
+            "title": "Profilowanie 3D CNC",
             "content": "<p>Poduszka została zaprojektowana i wykonana przy użyciu zaawansowanej technologii CNC, co gwarantuje precyzyjne profilowanie 3D, doskonałe dopasowanie do ciała oraz długowieczność materiału.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "page": ""
           }
         },
-        "item_bjzNXC": {
-          "type": "item",
+        "tab_acVRWy": {
+          "type": "tab",
           "settings": {
-            "column_size": "3",
-            "title": "• Redukcja napięcia mięśni",
-            "heading_tag": "h4",
+            "title": "Redukcja napięcia mięśni",
             "content": "<p>Konstrukcja poduszki wspiera prawidłową pozycję głowy i szyi, co prowadzi do rozluźnienia mięśni i poprawy jakości snu. Idealna dla osób cierpiących na bóle karku czy problemy z krążeniem.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "page": ""
           }
         }
       },
       "block_order": [
-        "item_jdxiRj",
-        "item_jFfDwP",
-        "item_bjzNXC"
+        "tab_QkGgyN",
+        "tab_eAGcXK",
+        "tab_acVRWy"
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
-        "gap": "medium",
-        "text_alignment": "start",
+        "content_size": "large",
         "subheading": "",
         "title": "Specyfikacja",
-        "content": "",
+        "first_tab_open": false,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "media_with_text_4rPE47": {
@@ -346,7 +334,7 @@
   },
   "order": [
     "main",
-    "multi_column_JCLMpy",
+    "tabs_LaWXCR",
     "media_with_text_4rPE47",
     "custom_html_EAH6Nb",
     "related-products",
