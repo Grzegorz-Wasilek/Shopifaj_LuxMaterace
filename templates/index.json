@@ -15,8 +15,8 @@
         "image_xYGMMK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/basil-prom-40-desk.webp",
-            "mobile_image": "shopify://shop_images/basil-prom-40-mobile.webp",
+            "image": "shopify://shop_images/basil-prom-40-desk_00113930-c253-44fd-8550-5951ffbb3859.webp",
+            "mobile_image": "shopify://shop_images/basil-prom-40-mobile_bff4ce27-237d-4b66-a5da-ccc5175261a6.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -59,7 +59,7 @@
         "image_6RQxw9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner-topery-desk_eb69fd80-064e-4417-b816-10eb2ed8637d.webp",
+            "image": "shopify://shop_images/banner-topery-desk_d93cd12b-ea5f-484b-a271-ce313c6520a7.webp",
             "mobile_image": "shopify://shop_images/banner-topery-mobile_635b8873-ca57-4b46-b7cc-ec66d175c9e6.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
@@ -81,8 +81,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/dla-dzieci-melisa_ae54d8b3-18bc-4a2c-bad5-979aeca3af80.webp",
-            "mobile_image": "shopify://shop_images/dla-dzieci-melisa-mobile_b6323a92-c960-4975-89e2-e148145917e6.webp",
+            "image": "shopify://shop_images/dla-dzieci-melisa_afa94447-e01b-4f93-8717-0c068b0cb8d9.webp",
+            "mobile_image": "shopify://shop_images/dla-dzieci-melisa-mobile_2ccccf0e-4a4d-4591-b973-5be9551c2e60.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
