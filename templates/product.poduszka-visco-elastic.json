@@ -297,6 +297,40 @@
         "spacing": "small"
       }
     },
+    "media_with_text_zTdeBw": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_WyEN6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/detal-poduszka-1-2.webp",
+            "media_width": 55,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 64,
+            "subheading": "",
+            "title": "Pokrowiec Silver Active",
+            "content": "<p>Pokrowiec Silver Active, dołączony do poduszki, jest pikowany obustronnie antyalergiczną owatą o wysokiej jakości. Dzięki regularnej strukturze włókien, materiał jest bardziej odporny na zanieczyszczenia. Dodatkowo, wszyta srebrna nić nie tylko poprawia wygląd pokrowca, ale także rozładowuje ładunki elektrostatyczne i niweluje oddziaływanie żył wodnych, co pozytywnie wpływa na jakość snu. Pokrowiec skutecznie chroni wnętrze poduszki, a zamek błyskawiczny wszyty z trzech stron ułatwia jego zdejmowanie i czyszczenie.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WyEN6d"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
     "custom_html_EAH6Nb": {
       "type": "custom-html",
       "disabled": true,
@@ -355,6 +389,7 @@
     "main",
     "accordion_content_C3xAnk",
     "media_with_text_4rPE47",
+    "media_with_text_zTdeBw",
     "custom_html_EAH6Nb",
     "related-products",
     "custom_html_3Xy8Hk"
