@@ -204,21 +204,21 @@
           "type": "item",
           "settings": {
             "title": "Pianka termoelastyczna VISCO",
-            "content": "<p>Poduszka wykonana z termoelastycznej pianki VISCO, która reaguje na ciepło ludzkiego ciała, dopasowując się do jego kształtu. Im wyższa temperatura, tym większa elastyczność poduszki, co gwarantuje idealne podparcie odcinka szyjnego kręgosłupa. Pianka równomiernie rozkłada obciążenie, co poprawia krążenie krwi i redukuje bóle karku. Po odkształceniu pianka powoli wraca do swojego pierwotnego kształtu, zapewniając długotrwały komfort i wsparcie.</p>"
+            "content": "<p>Nowoczesna pianka VISCO dostosowuje się do kształtu ciała, reagując na ciepło. Pianka wspomaga utrzymanie kręgosłupa szyjnego w prawidłowej pozycji, co poprawia krążenie krwi i przynosi ulgę mięśniom. Dzięki „pamięci kształtu” pianka dopasowuje się do sylwetki i optymalizuje rozkład nacisku, co zwiększa komfort snu.</p>"
           }
         },
         "item_yLLeYH": {
           "type": "item",
           "settings": {
-            "title": "Profilowanie 3D CNC",
-            "content": "<p>Poduszka została zaprojektowana i wykonana przy użyciu zaawansowanej technologii CNC, co gwarantuje precyzyjne profilowanie 3D, doskonałe dopasowanie do ciała oraz długowieczność materiału.</p>"
+            "title": "Redukcja bólów i napięć",
+            "content": "<p>Poduszka pomaga eliminować bóle głowy, karku i pleców, szczególnie u osób borykających się z problemami kręgosłupa. Doskonale wspiera leczenie bólów kręgosłupa oraz zapobiega zwyrodnieniom kręgów.</p>"
           }
         },
         "item_BNCAUU": {
           "type": "item",
           "settings": {
-            "title": "Redukcja napięcia mięśni",
-            "content": "<p>Konstrukcja poduszki wspiera prawidłową pozycję głowy i szyi, co prowadzi do rozluźnienia mięśni i poprawy jakości snu. Idealna dla osób cierpiących na bóle karku czy problemy z krążeniem.</p>"
+            "title": "Pokrowiec Silver Active",
+            "content": "<p>Antyalergiczny pokrowiec Silver Active, pikowany wysokiej jakości owatą, zapewnia higienę i ochronę wnętrza poduszki. Włókna pokrowca mają regularną strukturę, co zwiększa odporność na zabrudzenia. Wszyta srebrna nić pełni funkcję estetyczną oraz rozładowuje ładunki elektrostatyczne i niweluje wpływ żył wodnych, wpływając pozytywnie na komfort snu.</p>"
           }
         }
       },
@@ -231,7 +231,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Specyfikacja",
-        "content": "<p>Poduszka jest idealna dla osób śpiących zarówno na plecach, boku, jak i na brzuchu. Szczególnie polecana osobom w stanach pooperacyjnych lub pourazowych, które wymagają długotrwałego leczenia, ze względu na swoje właściwości wspierające i odciążające kręgosłup.</p>",
+        "content": "<p>Poduszka jest profilowana w taki sposób, aby głowa leżała miękko w centralnej części, a szyja miała wsparcie na twardszym boku, co zapewnia anatomiczne ułożenie kręgosłupa. Materiał MEMORY FOAM posiada tzw. „pamięć” kształtu, dzięki czemu pianka zachowuje profil głowy i szyi przez kilka sekund po zmianie pozycji, co optymalizuje rozkład nacisku i zwiększa komfort snu.</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
