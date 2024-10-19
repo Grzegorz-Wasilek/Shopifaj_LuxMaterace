@@ -23,6 +23,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_Br7rnk": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Dla kogo?</strong></p><p>Poduszka VISCO ELASTIC jest idealnym wyborem dla osób cierpiących na bóle kręgosłupa, karku, szyi oraz bezsenność. Szczególnie polecana jest dla tych, którzy potrzebują ortopedycznego wsparcia i komfortu w czasie snu.</p>"
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {
@@ -160,6 +166,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_Br7rnk",
         "payment_terms",
         "separator",
         "variant_picker",
