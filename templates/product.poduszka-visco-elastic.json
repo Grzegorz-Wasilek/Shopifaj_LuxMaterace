@@ -220,12 +220,28 @@
             "title": "Pokrowiec Silver Active",
             "content": "<p>Antyalergiczny pokrowiec Silver Active, pikowany wysokiej jakości owatą, zapewnia higienę i ochronę wnętrza poduszki. Włókna pokrowca mają regularną strukturę, co zwiększa odporność na zabrudzenia. Wszyta srebrna nić pełni funkcję estetyczną oraz rozładowuje ładunki elektrostatyczne i niweluje wpływ żył wodnych, wpływając pozytywnie na komfort snu.</p>"
           }
+        },
+        "item_8hbng3": {
+          "type": "item",
+          "settings": {
+            "title": "Łatwość czyszczenia",
+            "content": "<p>Pokrowiec wyposażony w zamek błyskawiczny wszyty z trzech stron, co umożliwia jego łatwe zdejmowanie i pranie. Można go prać w temperaturze do 40°C, co gwarantuje łatwość w utrzymaniu czystości.</p>"
+          }
+        },
+        "item_4TgaLC": {
+          "type": "item",
+          "settings": {
+            "title": "Skład tkaniny pokrowca Silver Active",
+            "content": "<ul><li>33% tencel – wysokiej jakości wiskoza</li><li>1% srebrna nić</li><li>2% bawełna</li><li>64% poliamid</li></ul>"
+          }
         }
       },
       "block_order": [
         "item_NVMCgj",
         "item_yLLeYH",
-        "item_BNCAUU"
+        "item_BNCAUU",
+        "item_8hbng3",
+        "item_4TgaLC"
       ],
       "settings": {
         "full_width": true,
