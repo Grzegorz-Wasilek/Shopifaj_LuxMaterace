@@ -296,7 +296,7 @@
             "image": "shopify://shop_images/poduszki-main_88bef7fd-0440-45e2-a47d-3c36809a42cf.webp",
             "title": "Poduszki",
             "heading_tag": "h3",
-            "link_url": "",
+            "link_url": "shopify://collections/poduszki",
             "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 2,
