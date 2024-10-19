@@ -23,6 +23,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_7tmFg4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Dla kogo?</strong></p><p>Poduszka jest idealna dla osób śpiących zarówno na plecach, boku, jak i na brzuchu. Szczególnie polecana osobom w stanach pooperacyjnych lub pourazowych, które wymagają długotrwałego leczenia, ze względu na swoje właściwości wspierające i odciążające kręgosłup.</p>"
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {
@@ -160,6 +166,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_7tmFg4",
         "payment_terms",
         "separator",
         "variant_picker",
