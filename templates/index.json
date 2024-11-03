@@ -12,6 +12,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "image_yk7MYY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-jalowiec-prom.webp",
+            "mobile_image": "shopify://shop_images/jalowiec-banner-miobile.webp",
+            "content_max_width": 400,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Wielka jesienna obniżka",
+            "heading_tag": "h1",
+            "button_text": "Zobacz promocję",
+            "button_link": "shopify://products/materac-jumper-jalowiec",
+            "text_color": "#692107",
+            "button_background": "#692107",
+            "button_text_color": "#fca317",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "image_xYGMMK": {
           "type": "image",
           "settings": {
@@ -124,6 +146,7 @@
         }
       },
       "block_order": [
+        "image_yk7MYY",
         "image_xYGMMK",
         "image_KhE4Yh",
         "image_6RQxw9",
