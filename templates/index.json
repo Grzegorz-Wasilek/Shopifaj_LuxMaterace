@@ -31,7 +31,7 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "",
-            "background_gradient": ""
+            "background_gradient": "linear-gradient(125deg, rgba(104, 48, 27, 1), rgba(180, 83, 21, 1) 99%, rgba(215, 204, 250, 1) 100%)"
           }
         },
         "image_xYGMMK": {
