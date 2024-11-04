@@ -15,8 +15,8 @@
         "image_yk7MYY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner-jalowiec-prom_1d706037-5df5-4e04-a72e-fdc0b2224217.webp",
-            "mobile_image": "shopify://shop_images/jalowiec-banner-miobile_f593cac0-4946-41e2-8ef1-1b335963faa5.webp",
+            "image": "shopify://shop_images/banner-jalowiec-prom_d913fe33-6258-41f5-9b92-32ec388349f6.webp",
+            "mobile_image": "shopify://shop_images/jalowiec-banner-miobile_f244773f-38d1-4fdd-80bb-d868f67acd7d.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
