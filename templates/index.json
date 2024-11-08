@@ -264,6 +264,35 @@
         "text_color": ""
       }
     },
+    "featured_collection_xKEAii": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "products": [
+          "materac-mint",
+          "materac-juniper",
+          "materac-basil"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "{{ section.settings.collection.title }}",
+        "content": "",
+        "link_url": "",
+        "link_text": "Zobacz wszystkie",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#022e4f",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "#022e4f"
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -357,9 +386,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "frontpage",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
@@ -596,9 +623,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "materace-dzieciece",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
@@ -805,8 +830,7 @@
       "blocks": {
         "play_Pz4TqN": {
           "type": "play",
-          "settings": {
-          }
+          "settings": {}
         },
         "heading_jgTm7H": {
           "type": "heading",
@@ -999,6 +1023,7 @@
   "order": [
     "slideshow",
     "text_with_icons_rnKCY4",
+    "featured_collection_xKEAii",
     "media-grid",
     "featured-collection",
     "hot-spots",
