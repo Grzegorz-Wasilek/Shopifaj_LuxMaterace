@@ -58,6 +58,7 @@
         },
         "image_KhE4Yh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/maluszki.webp",
             "mobile_image": "shopify://shop_images/pionmaluszki.webp",
@@ -284,7 +285,7 @@
         "title": "Aktualne promocje",
         "content": "",
         "link_url": "",
-        "link_text": "Zobacz wszystkie",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "#022e4f",
