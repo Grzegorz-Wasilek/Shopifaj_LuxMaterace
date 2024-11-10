@@ -14,8 +14,7 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -25,13 +24,11 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "image_eB8Q3T": {
           "type": "image",
@@ -43,8 +40,7 @@
         },
         "separator_EGeBQq": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -59,40 +55,34 @@
         },
         "separator_imcTCg": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "badges_CLEbMq": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
           "settings": {
-            "show_taxes_notice": true
+            "show_taxes_notice": false
           }
         },
         "separator_WrUBcF": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
             "option_name": "Kolory",
             "option_value_metafield": "custom.variation_value",
-            "products": [
-
-            ],
+            "products": [],
             "selector_style": "swatch"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -583,9 +573,7 @@
         "image_rTyV6c"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "reduce_width": false,
