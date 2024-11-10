@@ -104,8 +104,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/dla-dzieci-melisa_29c45a65-24da-4f97-adb9-84536dc330f8.webp",
-            "mobile_image": "shopify://shop_images/dla-dzieci-melisa-mobile_2ccccf0e-4a4d-4591-b973-5be9551c2e60.webp",
+            "image": "shopify://shop_images/dla-dzieci-melisa_135135e3-f050-4d43-9e26-25c2548a02b3.webp",
+            "mobile_image": "shopify://shop_images/dla-dzieci-melisa-mobile_688fd05e-1fb1-4db2-806b-5e3a4d02a95f.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
