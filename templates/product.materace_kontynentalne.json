@@ -98,7 +98,7 @@
         "button_yL9rMb": {
           "type": "button",
           "settings": {
-            "link": "",
+            "link": "{{ product.metafields.custom.link_allegro.value }}",
             "text": "Kup na Allegro",
             "size": "xl",
             "style": "outline",
