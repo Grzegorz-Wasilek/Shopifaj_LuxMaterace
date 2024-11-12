@@ -98,7 +98,7 @@
         "button_yL9rMb": {
           "type": "button",
           "settings": {
-            "link": "https://allegro.pl/oferta/materac-dwuwarstwowy-gruby-80x200-kontynentalny-kokos-lateks-x2-mint-16781242645?context=3c4c1db3e7b13138015982abdec727df513bf2c3a05b0bf484512e936c936f49fb483f1573bd16f35a033e7a3706bdc4d79f8ee8eb9f98d709be9b2d90f0f4db2986075bce212ce74941b36fffc6199429cd5b376e028a793d9926ac79e48f9c00cfca298c9f890383a9ec089796b5dc20240bc2b78d361f091015e19ac23f4e8b1d2349d923e33d157e745578c5eae9&sellerHasChanged=false&fromVariant=16805638643",
+            "link": "{{ product.metafields.custom.link_allegro.value }}",
             "text": "Kup na Allegro",
             "size": "xl",
             "style": "outline",
