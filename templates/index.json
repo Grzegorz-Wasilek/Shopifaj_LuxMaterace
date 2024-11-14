@@ -60,8 +60,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/blackweek2_69d2cf82-e436-4e33-99fb-68f1b7e484b1.jpg",
-            "mobile_image": "shopify://shop_images/blackweek-banner-miobile_6457227c-f3d0-4c89-a5a2-f188e0c56bd4.jpg",
+            "image": "shopify://shop_images/blackweek2_da3f979f-1008-4509-8ae0-da1cf84029bb.jpg",
+            "mobile_image": "shopify://shop_images/blackweek-banner-miobile_7f7171ff-f786-468d-9b51-fbce73323c0c.jpg",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
