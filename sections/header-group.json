@@ -32,10 +32,9 @@
         },
         "message_dpCBgb": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "BLACK WEEKS -25%",
-            "url": ""
+            "url": "shopify://collections/black-weeks"
           }
         },
         "message_MRxtp6": {
@@ -58,9 +57,9 @@
         "text_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 20,
-        "background": "#ed979c",
+        "background": "#121212",
         "background_gradient": "",
-        "text_color": "#000000"
+        "text_color": "#ed979c"
       }
     },
     "header": {

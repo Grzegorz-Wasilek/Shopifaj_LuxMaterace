@@ -14,6 +14,7 @@
       "blocks": {
         "image_yk7MYY": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-jalowiec-prom_d913fe33-6258-41f5-9b92-32ec388349f6.webp",
             "mobile_image": "shopify://shop_images/jalowiec-banner-miobile_f244773f-38d1-4fdd-80bb-d868f67acd7d.webp",
@@ -36,6 +37,7 @@
         },
         "image_xYGMMK": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/basil-prom-40-desk_71a76510-e140-43a8-bbb2-12286deaefbb.webp",
             "mobile_image": "shopify://shop_images/basil-prom-40-mobile_bff4ce27-237d-4b66-a5da-ccc5175261a6.webp",
@@ -58,29 +60,29 @@
         },
         "image_KhE4Yh": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/maluszki.webp",
-            "mobile_image": "shopify://shop_images/pionmaluszki.webp",
+            "image": "shopify://shop_images/blackweek2_da3f979f-1008-4509-8ae0-da1cf84029bb.jpg",
+            "mobile_image": "shopify://shop_images/blackweek-banner-miobile_7f7171ff-f786-468d-9b51-fbce73323c0c.jpg",
             "content_max_width": 400,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "Bezpieczny sen Twojego maluszka",
-            "heading_tag": "h1",
-            "button_text": "Materace dla dzieci",
-            "button_link": "shopify://collections/materace-dzieciece",
-            "text_color": "#ffffff",
-            "button_background": "#e07f8b",
-            "button_text_color": "#ffffff",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "Zobacz promocje",
+            "button_link": "shopify://collections/black-weeks",
+            "text_color": "#242424",
+            "button_background": "#ed979c",
+            "button_text_color": "#242424",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": "linear-gradient(0deg, rgba(237, 151, 156, 1) 1%, rgba(102, 74, 65, 1) 96%)"
+            "background": "#181818",
+            "background_gradient": ""
           }
         },
         "image_6RQxw9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-topery-desk_f68ac8d7-aada-4633-b9b5-9acd6432f85d.webp",
             "mobile_image": "shopify://shop_images/banner-topery-mobile_635b8873-ca57-4b46-b7cc-ec66d175c9e6.webp",
@@ -103,6 +105,7 @@
         },
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/dla-dzieci-melisa_135135e3-f050-4d43-9e26-25c2548a02b3.webp",
             "mobile_image": "shopify://shop_images/dla-dzieci-melisa-mobile_688fd05e-1fb1-4db2-806b-5e3a4d02a95f.webp",
@@ -125,6 +128,7 @@
         },
         "image_wMAX9k": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/materac-mint-prom-desk_97e3f3ba-62f9-48b8-820a-a5cb4b3e20a1.webp",
             "mobile_image": "shopify://shop_images/materac-mint-prom-mob_22ecd8ee-9312-4701-b873-d26b3cdd490b.webp",
