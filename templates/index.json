@@ -60,23 +60,23 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/maluszki.webp",
+            "image": "shopify://shop_images/blackweek2.jpg",
             "mobile_image": "shopify://shop_images/pionmaluszki.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "",
-            "title": "Bezpieczny sen Twojego maluszka",
-            "heading_tag": "h1",
-            "button_text": "Materace dla dzieci",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "BLACK WEEK",
+            "title": "-25%",
+            "heading_tag": "h0",
+            "button_text": "Zobacz promocje",
             "button_link": "shopify://collections/materace-dzieciece",
-            "text_color": "#ffffff",
+            "text_color": "#ed979c",
             "button_background": "#e07f8b",
-            "button_text_color": "#ffffff",
+            "button_text_color": "#242424",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": "linear-gradient(0deg, rgba(237, 151, 156, 1) 1%, rgba(102, 74, 65, 1) 96%)"
+            "background": "#181818",
+            "background_gradient": ""
           }
         },
         "image_6RQxw9": {
