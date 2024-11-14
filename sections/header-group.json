@@ -60,7 +60,7 @@
         "scrolling_speed": 20,
         "background": "#ed979c",
         "background_gradient": "",
-        "text_color": "#022e4f"
+        "text_color": "#000000"
       }
     },
     "header": {
