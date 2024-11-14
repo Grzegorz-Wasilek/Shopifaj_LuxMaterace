@@ -16,6 +16,7 @@
       "blocks": {
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "-20% na wszystkie toppery",
             "url": "shopify://collections/materace-nawierzchniowe"
@@ -28,11 +29,29 @@
             "text": "ZzzzuperRabat20",
             "url": ""
           }
+        },
+        "message_dpCBgb": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "BLACK WEEKS -25%",
+            "url": ""
+          }
+        },
+        "message_MRxtp6": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "-25%",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "message",
-        "message_Mi7eGU"
+        "message_Mi7eGU",
+        "message_dpCBgb",
+        "message_MRxtp6"
       ],
       "settings": {
         "enable_sticky": false,
@@ -270,9 +289,7 @@
         "mega_menu_pqjpt6",
         "mega_menu_grpQ6q"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
