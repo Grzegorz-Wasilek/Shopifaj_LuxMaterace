@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -24,8 +24,10 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "lg",
-        "mobile_text_position": "place-self-start text-start",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "image": "shopify://shop_images/blackweek-kat_454db76b-f8b2-46b3-b005-7b57275d3961.webp",
+        "mobile_image": "shopify://shop_images/blackweek-kat-mob_09375b18-8fff-4ca2-bbef-c8d0a99fbaca.webp",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "silver-pro",
         "featured_product_heading": "Polecany produkt",
         "text_color": "#ffffff",
