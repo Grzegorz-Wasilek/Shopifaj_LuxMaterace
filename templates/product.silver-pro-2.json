@@ -1,0 +1,754 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "image_eB8Q3T": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.grafika_twardosc.value }}",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
+        "separator_EGeBQq": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "separator_imcTCg": {
+          "type": "separator",
+          "settings": {}
+        },
+        "badges_k74hW3": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator_WrUBcF": {
+          "type": "separator",
+          "settings": {}
+        },
+        "product_variations_KgicHX": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "Kolory",
+            "option_value_metafield": "custom.variation_value",
+            "products": [],
+            "selector_style": "swatch"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "button_yL9rMb": {
+          "type": "button",
+          "settings": {
+            "link": "{{ product.metafields.custom.link_allegro.value }}",
+            "text": "Kup na Allegro",
+            "size": "xl",
+            "style": "outline",
+            "stretch": true,
+            "background": "",
+            "text_color": "#f06823"
+          }
+        },
+        "offer_Gf9VwP": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-truck",
+            "custom_icon": "shopify://shop_images/delivery.svg",
+            "icon_width": 40,
+            "title": "Darmowa dostawa!",
+            "content": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#ed979c"
+          }
+        },
+        "offer_NEXiD7": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-timer",
+            "custom_icon": "shopify://shop_images/time.svg",
+            "icon_width": 32,
+            "title": "Produkcja w 14 dni robocze",
+            "content": "",
+            "background": "#eaf2ed",
+            "text_color": "#ed979c"
+          }
+        },
+        "offer_eLPi39": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-shield",
+            "custom_icon": "shopify://shop_images/sheild.svg",
+            "icon_width": 28,
+            "title": "Bezpieczne zakupy",
+            "content": "",
+            "background": "#eaf2ed",
+            "text_color": "#ed979c"
+          }
+        },
+        "associated_products_tKVY4F": {
+          "type": "associated_products",
+          "settings": {
+            "title": "",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "payment_terms",
+        "separator",
+        "image_eB8Q3T",
+        "separator_EGeBQq",
+        "variant_picker",
+        "separator_imcTCg",
+        "badges_k74hW3",
+        "price",
+        "separator_WrUBcF",
+        "product_variations_KgicHX",
+        "quantity_selector",
+        "buy_buttons",
+        "button_yL9rMb",
+        "offer_Gf9VwP",
+        "offer_NEXiD7",
+        "offer_eLPi39",
+        "associated_products_tKVY4F"
+      ],
+      "custom_css": [
+        ".color-swatch {height: 4.5rem; width: 4.5rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_html_Ni3Nmn": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-top: 0; padding-bottom: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div class=\"flex-wrap\">\n<button class=\"prd-btn desc-mat-prd\">Opis</button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa Materaca</button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu</button>\n\n  <button class=\"prd-btn cover-mat-prd\">Pokrowce</button>\n </div>\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    function scrollToElement(buttonSelector, targetIdContains) {\n        document.querySelector(buttonSelector).addEventListener('click', function() {\n          \n            const element = document.querySelector(`[id*='${targetIdContains}']`);\n            if (element) {\n                element.scrollIntoView({\n                    behavior: 'smooth'\n                });\n            }\n        });\n    }\n\n   \n    scrollToElement('.desc-mat-prd', 'media_with_text');\n    scrollToElement('.cons-mat-prd', 'hot_spots');\n    scrollToElement('.komf-mat-prd', 'image_with_text_overlay');\n \n    scrollToElement('.cover-mat-prd', 'cover-section-in-btn');\n});\n</script>\n\n<style>\nproduct-recommendations .border {\nborder:0;\n}\nproduct-recommendations .horizontal-product {\nbackground:#fff;\nborder:0;\nborder-radius:12px;\nmargin-bottom:15px;\n}\n\nbutton.prd-btn {\n  cursor: pointer;\n  background: #fff;;\n  border-radius: 100px;\n  box-shadow: none;\n  border: solid 1px #dde2e7;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #022e4f;\n  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\nbox-sizing:border-box;\nflex-shrink:0;\npadding: 1rem 4rem;\n}\nbutton.prd-btn:hover,\nbutton.prd-btn:active {\n box-shadow: 0 0 0 2px #dd9aa2;\nborder-color:#fff;\n}\n.flex-wrap {\ndisplay:flex;\njustify-content: center;\ngap:90px; \npadding: 30px 0;\n  margin: 10px 0 50px 0;\n}\nbutton.prd-btn {\n}\n\nsafe-sticky.product-info .product-info__offer-list {\n\n}\nsafe-sticky.product-info .product-info__offer-list span.text-sm {\nline-height:1.3;\n}\n\nsafe-sticky.product-info .product-info__offer-list > .offer  {\n\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch {\nbackground:#fff;\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch::before {\n\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\nsafe-sticky.product-info .product-info__variant-picker \n.color-swatch::before {\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\n@media (max-width: 1500px) {\n.flex-wrap {\ngap:30px; \n}\n}\n@media (max-width: 1400px) {\n.flex-wrap {\ngap:30px;\n}\nbutton.prd-btn {\n  padding: 1rem 3rem;\n}\n}\n@media (max-width: 999px) {\n.flex-wrap {\njustify-content: flex-start;\noverflow-x:scroll;\ngap:30px;\nscroll-snap-type:x mandatory;\npadding-left:20px;\npadding-right:20px;\n}\nbutton.prd-btn  {\nscroll-snap-align:left;\n}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_4rPE47": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_CCrB8w": {
+          "type": "image",
+          "source": "{{ product.metafields.custom.opis_produkt.value }}",
+          "settings": {
+            "image": "{{ product.metafields.custom.opis_produkt.value.foto.value }}",
+            "media_width": 55,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 64,
+            "subheading": "",
+            "title": "{{ product.metafields.custom.opis_produkt.value.heading.value }}",
+            "content": "<p>{{ product.metafields.custom.opis_produkt.value.opis | metafield_tag }}</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CCrB8w"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "text_with_icons_XEcyze": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_dPihPj": {
+          "type": "item",
+          "repeater": "{{ product.metafields.custom.dla_czego_warto.value }}",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "{{ block.repeater.icon_1.value }}",
+            "mobile_icon_width": 72,
+            "icon_width": 72,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "{{ block.repeater.tytul.value }}",
+            "content": "<p>{{ block.repeater.opis_icon_1 | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_dPihPj"
+      ],
+      "custom_css": [
+        "h2 {padding-bottom: 2rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "Dlaczego warto wybrać ten materac?",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "hot_spots_dURC7e": {
+      "type": "hot-spots",
+      "custom_css": [
+        "ul li {list-style: none; text-align: left; font-size: 1rem; position: relative; padding-bottom: 10px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start;}",
+        "ul li span.listanumer {padding: 0 9px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.2rem; line-height: 1.5;}",
+        "h2 {text-align: left; padding-bottom: 30px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "{{ product.metafields.custom.warstwy.value }}",
+        "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
+        "title": "Budowa Materaca",
+        "content": "{{ product.metafields.custom.warstwy_opis | metafield_tag }}",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-center-end text-end",
+        "image_background": "#0e2b48",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "#0c2e4f",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "rgba(0,0,0,0)",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#0c2e4f",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "impact_text_Mq3wyC": {
+      "type": "impact-text",
+      "blocks": {
+        "item_ijAnp7": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.tawradosc | metafield_text }}",
+            "subheading": "Twardość",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_tF7JE4": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.grubosc.value }}",
+            "subheading": "Wysokość",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_ijAnp7",
+        "item_tF7JE4"
+      ],
+      "custom_css": [
+        ".impact-text {padding-top: 3.75rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.6,
+        "background": "#0c2e4f",
+        "background_gradient": "",
+        "heading_text_color": "#ed979c",
+        "heading_gradient": "",
+        "text_color": "#f5f5f5",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "custom_html_9xHeYj": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {margin-top: 5rem; padding-top: 0rem; padding-bottom: 1.75rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 id=\"stref-section-in-btn\" class=\"h2\">7 stref komfortu</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_jAgdpJ": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "{{ product.metafields.custom.strefy.value }}",
+        "mobile_image": "{{ product.metafields.custom.strefy_mobile.value }}",
+        "mobile_text_position": "place-self-start text-start",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "text_color": "#022e4f",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_html_EAH6Nb": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 id=\"material-section-in-btn\" class=\"h2\">Materiały</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_AEwBcJ": {
+      "type": "media-grid",
+      "blocks": {
+        "image_H9BV8D": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#112e4d",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_itHF77": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/multipocket.webp",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#112e4d",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TP9Wkw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kokos.webp",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#112e4d",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rTyV6c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/latex.webp",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#112e4d",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_H9BV8D",
+        "image_itHF77",
+        "image_TP9Wkw",
+        "image_rTyV6c"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".media-grid .media-grid__item:nth-child(3) p {color: #fff;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "custom_html_J9DNww": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-bottom: 1.75rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\">Pokrowce</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_KKFgPG": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_9UPmap": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pokrowiec-3.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pokrowiec na materac \"Standard\"",
+            "content": "<p>Pokrowiec na materac \"Standard\" to idealne rozwiązanie dla osób ceniących sobie komfort i funkcjonalność. Każdy pokrowiec jest antyalergiczny, co zapewnia zdrowy i bezpieczny sen. Dwustronność pokrowca pozwala na jego dłuższą żywotność, a zamki błyskawiczne ułatwiają zakładanie i zdejmowanie. Dodatkowo, pokrowiec można prać, co zapewnia higienę i świeżość przez długi czas.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_YKdwUb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pokrowiec-1_ec7b546b-9174-4775-a6ed-7f729fc3dee5.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pokrowiec na materac \"Premium\"",
+            "content": "<p>Pokrowiec na materac \"Premium\" to luksusowa wersja naszego pokrowca, stworzona dla najbardziej wymagających użytkowników. Podobnie jak pokrowiec \"Standard\", jest antyalergiczny, dwustronny i wyposażony w zamki błyskawiczne, co ułatwia jego użytkowanie i pranie. Jednak \"Premium\" wyróżnia się dodatkowymi cechami: posiada praktyczne uchwyty, które ułatwiają ustawienie pokrowca na brzegu materaca, oraz elegancką lamówkę, która nie tylko podnosi walory estetyczne, ale również zwiększa sztywność pokrowca. Specjalnie przeszyte boki dodają mu wyjątkowego wyglądu, czyniąc pokrowiec \"Premium\" idealnym wyborem dla osób poszukujących najwyższej jakości i stylu.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9UPmap",
+        "image_YKdwUb"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "image_with_text_overlay_g9CHB9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_bK9NLN": {
+          "type": "heading",
+          "settings": {
+            "text": "Źle dobrany materac, a nasze zdrowie",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_tmmWkw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Niewłaściwie dobrany materac może prowadzić do bólu pleców, zaburzeń snu, zwiększonego napięcia oraz problemów z krążeniem, negatywnie pływając na nasze zdrowie fizyczne i psychiczne. Ważne jest, aby wybrać<br/>materac dostosowany do indywidualnych potrzeb, co może pomóc zapewnić zdrowy i regenerujący sen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bK9NLN",
+        "richtext_tmmWkw"
+      ],
+      "custom_css": [
+        "@media (max-width: 1000px) {.section-full > image-banner.content-over-media {padding: 20px 10px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/para-prod_be958982-c958-4ce4-b5b0-ef4d517c111e.webp",
+        "mobile_image": "shopify://shop_images/para-prodmobile_01beec52-6130-4c25-812b-9173045861d1.webp",
+        "mobile_text_position": "place-self-start text-start",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+        "@media (max-width: 1000px) {.product-list {--product-list-items-per-row: 2; --product-list-gap: 10px; }}"
+      ],
+      "settings": {
+        "recommendations_count": 6,
+        "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Może Ci się spodobać",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "faq_93Ax3R": {
+      "type": "faq",
+      "blocks": {
+        "item_eR7CfL": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_N6jnEg": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_pQBHHP": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_eR7CfL",
+        "item_N6jnEg",
+        "item_pQBHHP"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".bg-secondary {background: transparent;}",
+        ".accordion__toggle {font-size: 1.3rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "custom_html_3Xy8Hk": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {height: 0; padding: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right: 12rem;\n}\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n.shopify-section--hot-spots > .section-full {\nbackground-color:#0c2e4f;\ncolor:#fff !important;\npadding-top:80px;\n}\n\n}\n \n</style>\n\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const uls = document.querySelectorAll('.shopify-section--hot-spots ul');\n  uls.forEach((ul) => {\n    const listItems = ul.querySelectorAll('li');\n    listItems.forEach((item, index) => {\n      const span = document.createElement('span');\n      span.textContent = `${index + 1} `;\n      span.className = `listanumer listanumer-${index + 1}`;\n      item.prepend(span);\n    });\n  });\n});\n</script>\n  <!-- zamiana zdjec prod -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    var zawartosc1 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML;\n    var zawartosc2 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML;\n\ndocument.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML = zawartosc2;\n    document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML = zawartosc1;\n});    \n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_Ni3Nmn",
+    "media_with_text_4rPE47",
+    "text_with_icons_XEcyze",
+    "hot_spots_dURC7e",
+    "impact_text_Mq3wyC",
+    "custom_html_9xHeYj",
+    "image_with_text_overlay_jAgdpJ",
+    "custom_html_EAH6Nb",
+    "media_grid_AEwBcJ",
+    "custom_html_J9DNww",
+    "media_with_text_KKFgPG",
+    "image_with_text_overlay_g9CHB9",
+    "related-products",
+    "faq_93Ax3R",
+    "custom_html_3Xy8Hk"
+  ]
+}
