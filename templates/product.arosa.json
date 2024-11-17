@@ -1,21 +1,24 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
+        "judge_me_reviews_preview_badge_yrwRJW": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "vendor": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -25,8 +28,7 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible_text_rCHYt8": {
           "type": "collapsible_text",
@@ -65,13 +67,11 @@
         },
         "separator_imcTCg": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "badges_zrhCYg": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -81,13 +81,11 @@
         },
         "separator_WrUBcF": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -166,6 +164,7 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_preview_badge_yrwRJW",
         "vendor",
         "title",
         "payment_terms",
@@ -775,6 +774,26 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "1731878475ff27b215": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_BUc83M": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_BUc83M"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -791,6 +810,7 @@
     "image_with_text_overlay_g9CHB9",
     "related-products",
     "faq_93Ax3R",
-    "custom_html_3Xy8Hk"
+    "custom_html_3Xy8Hk",
+    "1731878475ff27b215"
   ]
 }
