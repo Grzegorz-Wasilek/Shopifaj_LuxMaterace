@@ -12,12 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "judge_me_reviews_preview_badge_4Tf4Mh": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "vendor",
           "settings": {}
         },
         "title": {
@@ -165,8 +165,8 @@
         }
       },
       "block_order": [
-        "vendor",
         "judge_me_reviews_preview_badge_4Tf4Mh",
+        "vendor",
         "title",
         "payment_terms",
         "separator",
