@@ -391,7 +391,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "frontpage",
+        "collection": "materace-kontynentalne",
         "products": [],
         "full_width": true,
         "stack_products": false,
