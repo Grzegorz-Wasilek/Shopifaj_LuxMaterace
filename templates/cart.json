@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,18 +16,16 @@
           "type": "totals",
           "settings": {
             "show_order_weight": false,
-            "show_shipping_text": true
+            "show_shipping_text": false
           }
         },
         "cart_note": {
           "type": "cart_note",
-          "settings": {
-          }
+          "settings": {}
         },
         "checkout_button": {
           "type": "checkout_button",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
