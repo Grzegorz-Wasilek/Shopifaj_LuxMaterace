@@ -424,13 +424,13 @@
         "stack_mobile": true,
         "text_alignment": "center",
         "impact_text_style": "fill",
-        "text_divider": "line",
-        "impact_text_size_ratio": 0.6,
-        "background": "#0c2e4f",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "heading_text_color": "#ed979c",
         "heading_gradient": "",
-        "text_color": "#f5f5f5",
+        "text_color": "#022e4f",
         "button_background": "",
         "button_text_color": ""
       }
