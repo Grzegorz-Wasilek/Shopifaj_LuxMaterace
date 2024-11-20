@@ -86,7 +86,7 @@
       "unavailable_button": "Niedostępne",
       "added_to_cart": "Dodano do koszyka!",
       "sold_out_badge": "Wyprzedane",
-      "on_sale_badge": "Promocja",
+      "on_sale_badge": "",
       "discount_badge_html": "Oszczędzasz {{ savings }}",
       "sku": "SKU:",
       "variant": "Wariant",
