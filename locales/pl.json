@@ -132,7 +132,7 @@
         "one": "Została tylko {{ count }} sztuka",
         "few": "Zostały tylko {{ count }} sztuki",
         "many": "Zostało tylko {{ count }} sztuk",
-        "other": ""
+        "other": "5"
       }
     },
     "store_availability": {
