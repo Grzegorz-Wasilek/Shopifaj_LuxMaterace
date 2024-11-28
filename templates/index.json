@@ -60,7 +60,6 @@
         },
         "image_KhE4Yh": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/blackweek2_da3f979f-1008-4509-8ae0-da1cf84029bb.jpg",
             "mobile_image": "shopify://shop_images/blackweek-banner-miobile_7f7171ff-f786-468d-9b51-fbce73323c0c.jpg",
@@ -129,6 +128,7 @@
         },
         "image_wMAX9k": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/blackfirday-30.webp",
             "mobile_image": "shopify://shop_images/blackfirday-30-mobile.webp",
