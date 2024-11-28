@@ -34,14 +34,14 @@
           "type": "message",
           "settings": {
             "text": "BLACK FRIDAY",
-            "url": "shopify://collections/black-weeks"
+            "url": "shopify://collections/materace"
           }
         },
         "message_MRxtp6": {
           "type": "message",
           "settings": {
             "text": "-30%",
-            "url": ""
+            "url": "shopify://collections/materace"
           }
         }
       },
@@ -51,9 +51,8 @@
         "message_dpCBgb",
         "message_MRxtp6"
       ],
-      "disabled": true,
       "custom_css": [
-        ".announcement-bar__item p:nth-of-type(2) {background-color: #000; padding: 1px 10px; color: #ed979c; font-size: 18px; border-radius: 5px;}"
+        ".announcement-bar__item p:nth-of-type(2) {background-color: #000; padding: 0 10px; color: #ed979c; border-radius: 5px;}"
       ],
       "settings": {
         "enable_sticky": false,
