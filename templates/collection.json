@@ -24,7 +24,6 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "lg",
-        "image": "shopify://shop_images/blackweek-kat_154096fe-22cb-4236-9726-c7d6c04b1b3a.webp",
         "mobile_image": "shopify://shop_images/blackweek-kat-mob_31841ecd-3e8b-4106-8cde-883db30dd25b.webp",
         "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
