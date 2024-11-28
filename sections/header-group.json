@@ -33,15 +33,14 @@
         "message_dpCBgb": {
           "type": "message",
           "settings": {
-            "text": "BLACK WEEKS -25%",
+            "text": "BLACK FRIDAY",
             "url": "shopify://collections/black-weeks"
           }
         },
         "message_MRxtp6": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "-25%",
+            "text": "-30%",
             "url": ""
           }
         }
@@ -52,14 +51,18 @@
         "message_dpCBgb",
         "message_MRxtp6"
       ],
+      "disabled": true,
+      "custom_css": [
+        ".announcement-bar__item p:nth-of-type(2) {background-color: #000; padding: 1px 10px; color: #ed979c; font-size: 18px; border-radius: 5px;}"
+      ],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 20,
-        "background": "#121212",
+        "background": "#ed979c",
         "background_gradient": "",
-        "text_color": "#ed979c"
+        "text_color": "#121212"
       }
     },
     "header": {
