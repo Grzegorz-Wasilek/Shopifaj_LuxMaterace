@@ -294,8 +294,118 @@
         "text_color": ""
       }
     },
+    "custom_html_y37UiM": {
+      "type": "custom-html",
+      "custom_css": [
+        ".text-custom {padding-top: 50px; padding-bottom: 10px; text-align: center;}",
+        ".text-custom h2 {}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h2\">Co się kryje wewnątrz materaca</h2>",
+        "background": "#022e4f",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_MWTgMf": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_9YTxhd": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_znanjm": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_cBVLfh": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9YTxhd",
+        "heading_znanjm",
+        "richtext_cBVLfh"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/skladmaterace-hybrydowe-2.webp",
+        "mobile_image": "shopify://shop_images/skladmaterace-hybrydowe-moible2.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_ichigT": {
+      "type": "multi-column",
+      "blocks": {
+        "item_kCcPam": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h5>1. Pokrowiec antyalergiczny z owatą (200g/m2)</h5><p>Pokrowiec antyalergiczny to idealne rozwiązanie dla osób wrażliwych na alergeny, zapewniające zdrowy i komfortowy sen. Wykonany z wysokiej jakości materiałów, skutecznie zapobiega gromadzeniu się roztoczy, kurzu i innych alergenów.</p><h5>2. Pianka VISCO (3cm)</h5><p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, <br/>krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p><h5>3. Pianka LATEKSOWA (3cm)</h5><p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i <br/>zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała <br/>podczas snu.</p><h5>4. Pianka POLIURETANOWA (2cm)</h5><p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia <br/>dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca <br/>się pod wpływem nacisku.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_UmdMBP": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h5>5. Formatka kieszeniowa MINIPOCKET (8cm)</h5><p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność<br/> punktową i optymalne podparcie dla kręgosłupa, dostosowując się do <br/>anatomicznej budowy ciała.</p><h5>6. Podkład filcowy (1mm)</h5><p>Podkład filcowy między warstwami materaca zwiększa jego trwałość i równomiernie rozkłada obciążenie, zapewniając optymalny komfort</p><h5>7. Formatka kieszeniowa MULTIPOCKET 7 stref (12cm)</h5><p>System sprężyn kieszeniowych charakteryzuje się 500-1000 sprężyn na m², <br/>zapewniając indywidualne podparcie dzięki oddzielnym kieszonkom.</p><h5>8. Pianka LATEKSOWA (3cm)</h5><p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i <br/>zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała <br/>podczas snu</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_kCcPam",
+        "item_UmdMBP"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#022e4f",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
     "hot_spots_dURC7e": {
       "type": "hot-spots",
+      "disabled": true,
       "custom_css": [
         "ul li {list-style: none; text-align: left; font-size: 1rem; position: relative; padding-bottom: 10px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start;}",
         "ul li span.listanumer {padding: 0 9px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.2rem; line-height: 1.5;}",
@@ -706,6 +816,9 @@
     "custom_html_Ni3Nmn",
     "media_with_text_4rPE47",
     "text_with_icons_XEcyze",
+    "custom_html_y37UiM",
+    "image_with_text_overlay_MWTgMf",
+    "multi_column_ichigT",
     "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
     "custom_html_9xHeYj",
