@@ -297,7 +297,7 @@
     "custom_html_y37UiM": {
       "type": "custom-html",
       "custom_css": [
-        ".text-custom {padding-top: 50px; padding-bottom: 10px; text-align: center;}",
+        ".text-custom {padding-top:70px; padding-bottom: 20px; text-align: center;}",
         ".text-custom h2 {}"
       ],
       "settings": {
