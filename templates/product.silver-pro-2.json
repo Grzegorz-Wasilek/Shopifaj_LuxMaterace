@@ -508,7 +508,8 @@
       ],
       "custom_css": [
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
-        ".accordion__toggle {font-size: 18px;}"
+        ".accordion__toggle {font-size: 18px;}",
+        ".section-stack {gap:0}"
       ],
       "settings": {
         "full_width": true,
