@@ -33,7 +33,7 @@
         "message_dpCBgb": {
           "type": "message",
           "settings": {
-            "text": "BLACK FRIDAY",
+            "text": "Wszystkie materace",
             "url": "shopify://collections/materace"
           }
         },
@@ -52,7 +52,7 @@
         "message_MRxtp6"
       ],
       "custom_css": [
-        ".announcement-bar__item p:nth-of-type(2) {background-color: #000; padding: 0 10px; color: #ed979c; border-radius: 5px;}"
+        ".announcement-bar__item p:nth-of-type(2) {background-color: #022e4f; padding: 0 10px; color: #ed979c; border-radius: 5px;}"
       ],
       "settings": {
         "enable_sticky": false,
@@ -61,7 +61,7 @@
         "scrolling_speed": 20,
         "background": "#ed979c",
         "background_gradient": "",
-        "text_color": "#121212"
+        "text_color": "#022e4f"
       }
     },
     "header": {
