@@ -390,6 +390,7 @@
         "item_kCcPam",
         "item_UmdMBP"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
@@ -435,6 +436,102 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "faq_9mRcwm": {
+      "type": "faq",
+      "blocks": {
+        "item_VLT8mn": {
+          "type": "item",
+          "settings": {
+            "title": "1. Pokrowiec antyalergiczny z owatą (200g/m2)",
+            "content": "<p>Pokrowiec antyalergiczny to idealne rozwiązanie dla osób wrażliwych na <br/>alergeny, zapewniające zdrowy i komfortowy sen. Wykonany z wysokiej <br/>jakości materiałów, skutecznie zapobiega gromadzeniu się roztoczy, kurzu<br/> i innych alergenów.</p>"
+          }
+        },
+        "item_qTLgXT": {
+          "type": "item",
+          "settings": {
+            "title": "2. Pianka VISCO (3cm)",
+            "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, <br/>krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p>"
+          }
+        },
+        "item_hEgYHd": {
+          "type": "item",
+          "settings": {
+            "title": "3. Pianka LATEKSOWA (3cm)",
+            "content": "<p>Pianka lateksowa jest elastyczna, hypoalergiczna, antybakteryjna i <br/>zachowuje trwałość przez długi czas, reagując na zmianę pozycji ciała podczas snu.</p>"
+          }
+        },
+        "item_7JGpbr": {
+          "type": "item",
+          "settings": {
+            "title": "4. Pianka POLIURETANOWA (2cm)",
+            "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia <br/>dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca <br/>się pod wpływem nacisku.</p>"
+          }
+        },
+        "item_46JPXV": {
+          "type": "item",
+          "settings": {
+            "title": "5. Formatka kieszeniowa MINIPOCKET (8cm)",
+            "content": "<p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność<br/> punktową i optymalne podparcie dla kręgosłupa, dostosowując się do <br/>anatomicznej budowy ciała.</p>"
+          }
+        },
+        "item_cBr4Wa": {
+          "type": "item",
+          "settings": {
+            "title": "6. Podkład filcowy (1mm)",
+            "content": "<p>Podkład filcowy między warstwami materaca zwiększa jego trwałość i <br/>równomiernie rozkłada obciążenie, zapewniając optymalny komfort</p>"
+          }
+        },
+        "item_ejFear": {
+          "type": "item",
+          "settings": {
+            "title": "7. Formatka kieszeniowa MULTIPOCKET 7 stref (12cm)",
+            "content": "<p>System sprężyn kieszeniowych charakteryzuje się 500-1000 sprężyn na m², <br/>zapewniając indywidualne podparcie dzięki oddzielnym kieszonkom.</p>"
+          }
+        },
+        "item_THpxDw": {
+          "type": "item",
+          "settings": {
+            "title": "8. Pianka Piliuretanowa (3cm)",
+            "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia <br/>dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca <br/>się pod wpływem nacisku.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_VLT8mn",
+        "item_qTLgXT",
+        "item_hEgYHd",
+        "item_7JGpbr",
+        "item_46JPXV",
+        "item_cBr4Wa",
+        "item_ejFear",
+        "item_THpxDw"
+      ],
+      "custom_css": [
+        ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
+        ".accordion__toggle {font-size: 18px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#022e4f",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#022e4f",
+        "accordion_text_color": ""
+      }
+    },
     "impact_text_Mq3wyC": {
       "type": "impact-text",
       "blocks": {
@@ -477,7 +574,7 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 0.6,
-        "background": "#0c2e4f",
+        "background": "#022e4f",
         "background_gradient": "",
         "heading_text_color": "#ed979c",
         "heading_gradient": "",
@@ -820,6 +917,7 @@
     "image_with_text_overlay_MWTgMf",
     "multi_column_ichigT",
     "hot_spots_dURC7e",
+    "faq_9mRcwm",
     "impact_text_Mq3wyC",
     "custom_html_9xHeYj",
     "image_with_text_overlay_jAgdpJ",
