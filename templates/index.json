@@ -37,18 +37,17 @@
         },
         "image_xYGMMK": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/basil-prom-40-desk_71a76510-e140-43a8-bbb2-12286deaefbb.webp",
-            "mobile_image": "shopify://shop_images/basil-prom-40-mobile_bff4ce27-237d-4b66-a5da-ccc5175261a6.webp",
+            "image": "shopify://shop_images/promocja-wszystkie-30.webp",
+            "mobile_image": "shopify://shop_images/promocja-wszystkie-30-mobile.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Komfort snu bez kompromisów",
-            "title": "Materac idealny dla par",
-            "heading_tag": "h1",
+            "subheading": "Wielka obniżka",
+            "title": "Wszystkie materace -30%",
+            "heading_tag": "h0",
             "button_text": "Zobacz promocje",
-            "button_link": "shopify://products/materac-basil",
+            "button_link": "shopify://collections/materace",
             "text_color": "#ffffff",
             "button_background": "#ffa6ad",
             "button_text_color": "#2f5178",
@@ -129,6 +128,7 @@
         },
         "image_wMAX9k": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/blackfirday-30.webp",
             "mobile_image": "shopify://shop_images/blackfirday-30-mobile.webp",
@@ -159,6 +159,7 @@
         "image_wMAX9k"
       ],
       "custom_css": [
+        ".prose p.h0 {margin-top:10px;}",
         ".h1 {line-height: 1; margin-block-start: 5px;}",
         ".text-custom {margin: 0 20px;}",
         ".button {padding: 15px 25px; margin-top: 5px;}",
