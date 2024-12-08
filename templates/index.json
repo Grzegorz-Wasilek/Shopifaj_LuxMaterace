@@ -659,7 +659,7 @@
           "type": "collection",
           "settings": {
             "collection": "lux",
-            "image": "shopify://shop_images/kolekcja-1_fe95bfd3-3280-4857-971f-d38b3f021d86.webp",
+            "image": "shopify://shop_images/kolekcja-1_c7205814-4def-4e98-b767-3c6623f4566d.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -674,7 +674,7 @@
           "type": "collection",
           "settings": {
             "collection": "materace-dzieciece",
-            "image": "shopify://shop_images/kolekcje-3_f007b426-7a7b-4418-ab77-5022dcddfb62.webp",
+            "image": "shopify://shop_images/kolekcje-3_b6883435-0fa5-4b58-a217-bf0aad64dc3f.webp",
             "subheading": "",
             "title": "Dziecięca",
             "url": "",
@@ -689,7 +689,7 @@
           "type": "collection",
           "settings": {
             "collection": "rodzinna",
-            "image": "shopify://shop_images/kolekcje-2_30dd7207-4abc-43d1-9517-e67876e7cd7b.webp",
+            "image": "shopify://shop_images/kolekcje-2_0ed8cda3-f17d-404d-9c3c-a26294649bfd.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -777,8 +777,8 @@
       ],
       "settings": {
         "full_width": false,
-        "image": "shopify://shop_images/konfigurator_5fe7a43a-68e9-485b-bdd0-e60c6d7b52d7.webp",
-        "mobile_image": "shopify://shop_images/konfigurator-mob2.webp",
+        "image": "shopify://shop_images/konfigurator_809668c0-336b-4de6-a36f-aa261af94064.webp",
+        "mobile_image": "shopify://shop_images/konfigurator-mob_7f4fc3af-0b17-4a6b-94c4-5c2b28917c7c.webp",
         "title": "Stwórz swój własny zestaw do spania!",
         "content": "",
         "button_text": "",
