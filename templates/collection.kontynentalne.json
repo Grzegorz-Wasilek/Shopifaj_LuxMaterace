@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -26,8 +26,8 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "lg",
-        "image": "shopify://shop_images/kontynentalne-head_6cc6c74f-eafe-48d5-b6ed-38e2a8ebf4f8.webp",
-        "mobile_image": "shopify://shop_images/kontynentalne-head-mob_f7503bf0-9292-4924-a61a-26977073bb34.webp",
+        "image": "shopify://shop_images/kontynentalne-head_1ede1304-455b-4990-9c39-acccec2773f3.webp",
+        "mobile_image": "shopify://shop_images/kontynentalne-head-mob_24008d16-96e2-40e0-92ca-1f54d305218b.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "featured_product": "silver-pro",
