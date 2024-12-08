@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -26,8 +26,8 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "lg",
-        "image": "shopify://shop_images/pocket-head.webp",
-        "mobile_image": "shopify://shop_images/pocket-head-mob_a8b4f1b7-e0ef-434b-a1c9-4a83ae9a2013.webp",
+        "image": "shopify://shop_images/pocket-head_da477be9-c14e-4489-9fa0-dbb922eebbe4.webp",
+        "mobile_image": "shopify://shop_images/pocket-head-mob_ab0846bc-0ce8-4c3c-8899-9d0969ee4611.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "featured_product": "silver-pro",
