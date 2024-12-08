@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -26,8 +26,8 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "lg",
-        "image": "shopify://shop_images/dzieciece-head.webp",
-        "mobile_image": "shopify://shop_images/dzieciece-head-mob_1fe0c432-77f3-421c-8bf1-5fb38f3b98b9.webp",
+        "image": "shopify://shop_images/dzieciece-head_83aec245-23b7-405c-9716-f98361c867a9.webp",
+        "mobile_image": "shopify://shop_images/dzieciece-head-mob_8fceff46-d313-4c93-a3bf-277549d6b411.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "featured_product": "silver-pro",
