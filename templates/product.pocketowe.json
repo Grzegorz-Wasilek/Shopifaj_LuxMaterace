@@ -609,7 +609,7 @@
         "image_9UPmap": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pokrowiec-3.webp",
+            "image": "shopify://shop_images/pokrowiec-3_3f6694fd-36e3-49ff-bde5-8433ad010761.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -631,7 +631,7 @@
         "image_YKdwUb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pokrowiec-1_ec7b546b-9174-4775-a6ed-7f729fc3dee5.webp",
+            "image": "shopify://shop_images/pokrowiec-1_3af7e53d-cead-4e73-bea6-145c8541fee5.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -689,8 +689,8 @@
         "allow_transparent_header": true,
         "enable_parallax": true,
         "image_size": "auto",
-        "image": "shopify://shop_images/para-prod_be958982-c958-4ce4-b5b0-ef4d517c111e.webp",
-        "mobile_image": "shopify://shop_images/para-prodmobile_01beec52-6130-4c25-812b-9173045861d1.webp",
+        "image": "shopify://shop_images/para-prod_180e2e0d-3ffa-428c-9bf5-8aad3aefde63.webp",
+        "mobile_image": "shopify://shop_images/para-prodmobile_8163569c-9543-4179-b1da-d5e8d86ff55f.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#ffffff",
