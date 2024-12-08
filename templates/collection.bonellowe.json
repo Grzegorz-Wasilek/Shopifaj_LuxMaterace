@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -26,8 +26,8 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "lg",
-        "image": "shopify://shop_images/bonel-head.webp",
-        "mobile_image": "shopify://shop_images/bonel-head-mob_b8c3a5b9-38ca-4423-b3b7-9fd7e7532e2d.webp",
+        "image": "shopify://shop_images/bonel-head_d9898d76-8fc0-4242-854d-a247d1de36f0.webp",
+        "mobile_image": "shopify://shop_images/bonel-head-mob_a73cfaaa-0979-4c22-bcfb-a4ad80432c1e.webp",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "featured_product": "silver-pro",
