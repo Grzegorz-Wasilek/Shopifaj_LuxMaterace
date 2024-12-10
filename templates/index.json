@@ -378,6 +378,7 @@
         "item-2",
         "item-3"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 699px) {}"
       ],
@@ -852,6 +853,7 @@
         "play_Pz4TqN",
         "heading_jgTm7H"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
