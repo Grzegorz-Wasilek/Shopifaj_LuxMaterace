@@ -533,6 +533,65 @@
         "accordion_text_color": ""
       }
     },
+    "accordion_content_GYKCja": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_ArnFqz": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Question 1",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        },
+        "item_UCEphB": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        },
+        "item_MR8JDt": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_ArnFqz",
+        "item_UCEphB",
+        "item_MR8JDt"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#022e4f",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#022e4f",
+        "accordion_text_color": ""
+      }
+    },
     "impact_text_Mq3wyC": {
       "type": "impact-text",
       "blocks": {
@@ -919,6 +978,7 @@
     "multi_column_ichigT",
     "hot_spots_dURC7e",
     "faq_9mRcwm",
+    "accordion_content_GYKCja",
     "impact_text_Mq3wyC",
     "custom_html_9xHeYj",
     "image_with_text_overlay_jAgdpJ",
