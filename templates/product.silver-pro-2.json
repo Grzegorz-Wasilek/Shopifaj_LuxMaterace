@@ -542,7 +542,7 @@
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/01.svg",
-            "icon_width": 26,
+            "icon_width": 30,
             "title": "Pokrowiec antyalergiczny z owatą (200g/m2)",
             "content": "<p>Pokrowiec antyalergiczny to idealne rozwiązanie dla osób wrażliwych na alergeny, zapewniające zdrowy i komfortowy sen. Wykonany z wysokiej jakości materiałów, skutecznie zapobiega gromadzeniu się roztoczy, kurzu i innych alergenów.</p>",
             "page": ""
@@ -553,7 +553,7 @@
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/02.svg",
-            "icon_width": 26,
+            "icon_width": 30,
             "title": "Pianka VISCO (3cm)",
             "content": "<p>Pianka VISCO od NASA dopasowuje do ciała, wspiera regenerację mięśni, krążenie, zapobiega odleżynom, polecana przy napięciach i chorobach.</p>",
             "page": ""
@@ -564,7 +564,7 @@
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/03.svg",
-            "icon_width": 26,
+            "icon_width": 30,
             "title": "Pianka LATEKSOWA (3cm)",
             "content": "<p>gwarantując odpowiedni przepływ powietrza wpływa na większy komfort, a jej elastyczność sprawia, że szybko reaguje na zmiany ułożenia podczas <br/>snu i dopasowuje się do indywidualnych kształtów użytkownika. <br/>Zastosowana po obu stronach materaca.</p>",
             "page": ""
@@ -575,7 +575,7 @@
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/04.svg",
-            "icon_width": 26,
+            "icon_width": 30,
             "title": "Pianka POLIURETANOWA (2cm)",
             "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.</p>",
             "page": ""
@@ -586,7 +586,7 @@
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/05.svg",
-            "icon_width": 26,
+            "icon_width": 30,
             "title": "Formatka kieszeniowa MINIPOCKET (8cm)",
             "content": "<p>System sprężyn kieszeniowych z technologią 7 stref zapewnia elastyczność punktową i optymalne podparcie dla kręgosłupa, dostosowując się do anatomicznej budowy ciała.</p>",
             "page": ""
@@ -597,7 +597,7 @@
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/06.svg",
-            "icon_width": 26,
+            "icon_width": 30,
             "title": "Podkład filcowy (1mm)",
             "content": "<p>Podkład filcowy między warstwami materaca zwiększa jego trwałość i równomiernie rozkłada obciążenie, zapewniając optymalny komfort</p>",
             "page": ""
@@ -608,7 +608,7 @@
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/07.svg",
-            "icon_width": 26,
+            "icon_width": 30,
             "title": "Formatka kieszeniowa MULTIPOCKET 7 stref (12cm)",
             "content": "<p>System sprężyn kieszeniowych charakteryzuje się 500-1000 sprężyn na m², zapewniając indywidualne podparcie dzięki oddzielnym kieszonkom.</p>",
             "page": ""
@@ -619,7 +619,7 @@
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/08.svg",
-            "icon_width": 26,
+            "icon_width": 30,
             "title": "Pianka POLIURETANOWA (3cm)",
             "content": "<p>Wytrzymały i elastyczny materiał o jednolitej strukturze. Zapewnia dobrą izolację termiczną oraz cyrkulację powietrza. Nie odkształca się pod wpływem nacisku.</p>",
             "page": ""
