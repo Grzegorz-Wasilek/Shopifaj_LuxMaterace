@@ -138,7 +138,7 @@
             "title": "",
             "heading_tag": "h1",
             "button_text": "",
-            "button_link": "shopify://products/materac-mint",
+            "button_link": "shopify://products/materac-mint-kontynentalne-lateks-mata-kokosowa-minipocket-multipocket-28cm",
             "text_color": "#d6a73b",
             "button_background": "#d6a73b",
             "button_text_color": "#111b24",
@@ -276,7 +276,7 @@
         "products": [
           "materac-silver-pro-kontynentalny-hybrydowy-visco-lateks-minipocket-multipocket-32cm",
           "materac-juniper-pocketowe-mata-kokosowa-pocket-24cm",
-          "materac-mint",
+          "materac-mint-kontynentalne-lateks-mata-kokosowa-minipocket-multipocket-28cm",
           "materac-basil-multipocketowe-mata-kokosowa-multipocket-20cm",
           "mulett",
           "materac-savory"
@@ -552,7 +552,7 @@
         "product_KmDLtB": {
           "type": "product",
           "settings": {
-            "product": "materac-mint",
+            "product": "materac-mint-kontynentalne-lateks-mata-kokosowa-minipocket-multipocket-28cm",
             "horizontal_position": 45,
             "vertical_position": 64
           }
