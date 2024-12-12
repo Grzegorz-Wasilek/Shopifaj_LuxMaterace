@@ -51,6 +51,38 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_4pY9Di": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JcHXwC": {
+          "type": "heading",
+          "settings": {
+            "text": "Certyfikaty i Atesty - dbamy  o bezpieczeństwo Twojego snu",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_nYqGmm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nasze materace powstają z najwyższej jakości materiałów, które posiadają międzynarodowe certyfikaty i atesty. Dzięki temu masz pewność, że wybierasz produkt wykonany z bezpiecznych i sprawdzonych półproduktów. Choć same materace nie mają certyfikatów, półprodukty takie jak pianki poliuretanowe, używane w ich produkcji, spełniają rygorystyczne normy jakości i bezpieczeństwa.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JcHXwC",
+        "richtext_nYqGmm"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "impact_text_dJnwQQ": {
       "type": "impact-text",
       "blocks": {
@@ -117,38 +149,6 @@
       "disabled": true,
       "settings": {
         "content_width": "120ch"
-      }
-    },
-    "rich_text_4pY9Di": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_JcHXwC": {
-          "type": "heading",
-          "settings": {
-            "text": "Certyfikaty i Atesty - dbamy  o bezpieczeństwo Twojego snu",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_nYqGmm": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Nasze materace powstają z najwyższej jakości materiałów, które posiadają międzynarodowe certyfikaty i atesty. Dzięki temu masz pewność, że wybierasz produkt wykonany z bezpiecznych i sprawdzonych półproduktów. Choć same materace nie mają certyfikatów, półprodukty takie jak pianki poliuretanowe, używane w ich produkcji, spełniają rygorystyczne normy jakości i bezpieczeństwa.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_JcHXwC",
-        "richtext_nYqGmm"
-      ],
-      "settings": {
-        "full_width": false,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "multi_column_H3KgyK": {
@@ -416,9 +416,9 @@
   },
   "order": [
     "image_with_text_overlay_z8i4cY",
+    "rich_text_4pY9Di",
     "impact_text_dJnwQQ",
     "main",
-    "rich_text_4pY9Di",
     "multi_column_H3KgyK",
     "media_with_text_6DtrjP",
     "collection_list_YKczyX",
