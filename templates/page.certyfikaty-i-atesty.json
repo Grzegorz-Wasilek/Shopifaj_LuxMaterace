@@ -89,12 +89,13 @@
         "logo_FqYYVr",
         "logo_FnkTWK"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_mobile": true,
         "title": "",
         "content": "",
-        "text_alignment": "center",
+        "text_alignment": "start",
         "items_per_row": 3,
         "background": "",
         "background_gradient": "",
@@ -104,11 +105,108 @@
         "logo_item_background": "#f6f9fa",
         "logo_item_border": ""
       }
+    },
+    "multi_column_H3KgyK": {
+      "type": "multi-column",
+      "blocks": {
+        "item_bTLBHW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
+            "column_size": "3",
+            "title": "Certyfikat - OEKO-TEX® STANDARD 100",
+            "heading_tag": "h4",
+            "content": "<p><strong>Dlaczego to ważne?</strong></p><p>Certyfikat OEKO-TEX® STANDARD 100 gwarantuje, że półprodukty użyte w naszych materacach są wolne od szkodliwych substancji, takich jak pestycydy, formaldehyd czy metale ciężkie.</p><p><strong>Co jest certyfikowane?</strong></p><ul><li>Pianki poliuretanowe typu: <strong>T</strong>, <strong>HR</strong>, <strong>VISCOR</strong>, <strong>CME</strong>, <strong>CMHR</strong>.</li><li>Badania potwierdzają bezpieczeństwo pianek dla użytkowania, nawet przez dzieci (Klasa I – wyroby dla dzieci).</li></ul><p><strong>Jak to działa w praktyce?</strong></p><p>Certyfikowane półprodukty są podstawą do tworzenia materacy, które są bezpieczne dla zdrowia i przyjazne środowisku.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_4yyVNH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/nizp.svg",
+            "column_size": "3",
+            "title": "Atesty - Narodowy Instytut Zdrowia Publicznego PZH",
+            "heading_tag": "h4",
+            "content": "<p><strong>Przyznane przez:</strong></p><p>Narodowy Instytut Zdrowia Publicznego PZH – Państwowy Instytut Badawczy, renomowaną instytucję zajmującą się badaniami nad zdrowiem publicznym i bezpieczeństwem produktów.</p><p><strong>Zakres atestu:</strong></p><ul><li>Pianki poliuretanowe, takie jak HR, CME, CMHR i inne, które są używane do produkcji materacy, mebli tapicerowanych i mat wygłuszających.</li></ul><p><strong>Co potwierdza atest?</strong></p><p>Półprodukty spełniają normy higieniczne i są bezpieczne do stosowania w pomieszczeniach mieszkalnych. Gwarantują brak szkodliwego wpływu na zdrowie użytkowników, jeśli są stosowane zgodnie z zaleceniami.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_qyNWCX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/GUM.svg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_bTLBHW",
+        "item_4yyVNH",
+        "item_qyNWCX"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "Wprowadzenie",
+        "title": "Certyfikaty i Atesty – Bezpieczeństwo Twojego Snu",
+        "content": "<p>Nasze materace powstają z najwyższej jakości materiałów, które posiadają międzynarodowe certyfikaty i atesty. Dzięki temu masz pewność, że wybierasz produkt wykonany z bezpiecznych i sprawdzonych półproduktów. Choć same materace nie mają certyfikatów, półprodukty takie jak pianki poliuretanowe, używane w ich produkcji, spełniają rygorystyczne normy jakości i bezpieczeństwa.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "blog_posts_MHcfTT": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_grPDcd": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_grPDcd"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_overlay_z8i4cY",
-    "logo_list_dm4Yqx"
+    "logo_list_dm4Yqx",
+    "multi_column_H3KgyK",
+    "blog_posts_MHcfTT"
   ]
 }
