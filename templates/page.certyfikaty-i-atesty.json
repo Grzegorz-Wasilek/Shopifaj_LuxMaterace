@@ -160,6 +160,41 @@
         "text_color": ""
       }
     },
+    "impact_text_dJnwQQ": {
+      "type": "impact-text",
+      "blocks": {
+        "item_kmgrEj": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "100% bezpiecznie, 100% komfortu, 100% dla Ciebie",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_kmgrEj"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#022e4f",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "media_with_text_6DtrjP": {
       "type": "media-with-text",
       "blocks": {
@@ -240,41 +275,6 @@
         "spacing": "small"
       }
     },
-    "impact_text_dJnwQQ": {
-      "type": "impact-text",
-      "blocks": {
-        "item_kmgrEj": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "100% bezpiecznie, 100% komfortu, 100% dla Ciebie",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "item_kmgrEj"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "#022e4f",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "collection_list_YKczyX": {
       "type": "collection-list",
       "blocks": {
@@ -306,17 +306,31 @@
             "overlay_opacity": 0
           }
         },
-        "collection_KFGwPY": {
+        "collection_X3rirT": {
           "type": "collection",
           "settings": {
-            "collection": "lozka",
-            "image": "shopify://shop_images/paris-matt-velvet-85_d27ba1c1-08f9-48aa-b7d2-2f715180be9b.webp",
+            "collection": "rodzinna",
             "subheading": "",
             "title": "",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-end-start text-start",
-            "text_color": "#ffffff",
+            "text_color": "#465076",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_ELHgJh": {
+          "type": "collection",
+          "settings": {
+            "collection": "materace-nawierzchniowe",
+            "image": "shopify://shop_images/visco-7-stref_a4b6e6a9-a522-4a68-b754-3f8d7677d2cc.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#465076",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -325,13 +339,14 @@
       "block_order": [
         "collection_UUNqmz",
         "collection_8MEbdY",
-        "collection_KFGwPY"
+        "collection_X3rirT",
+        "collection_ELHgJh"
       ],
       "settings": {
         "full_width": true,
-        "stack_collections": true,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
+        "stack_collections": false,
+        "collections_per_row": 4,
+        "show_progress_bar": true,
         "subheading": "",
         "title": "Lista kolekcji",
         "content": "",
@@ -386,7 +401,7 @@
     "multi_column_H3KgyK",
     "impact_text_dJnwQQ",
     "media_with_text_6DtrjP",
-    "blog_posts_MHcfTT",
-    "collection_list_YKczyX"
+    "collection_list_YKczyX",
+    "blog_posts_MHcfTT"
   ]
 }
