@@ -122,20 +122,18 @@
     "rich_text_4pY9Di": {
       "type": "rich-text",
       "blocks": {
-        "subheading_9hnaqc": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
         "heading_JcHXwC": {
           "type": "heading",
           "settings": {
             "text": "Certyfikaty i Atesty –  Bezpieczeństwo Twojego Snu",
-            "heading_tag": "h4",
+            "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
+        },
+        "divider_fXz8yn": {
+          "type": "divider",
+          "settings": {}
         },
         "richtext_nYqGmm": {
           "type": "richtext",
@@ -145,8 +143,8 @@
         }
       },
       "block_order": [
-        "subheading_9hnaqc",
         "heading_JcHXwC",
+        "divider_fXz8yn",
         "richtext_nYqGmm"
       ],
       "settings": {
