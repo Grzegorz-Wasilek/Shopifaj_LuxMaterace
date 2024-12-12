@@ -116,7 +116,7 @@
         "mega_menu_m6f7en": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Łóżka",
+            "menu_item": "",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_1": "shopify://shop_images/s2.webp",
@@ -137,79 +137,10 @@
             "drawer_link_image": "hide"
           }
         },
-        "mega_menu_8yJqi9": {
-          "type": "mega_menu",
-          "settings": {
-            "menu_item": "",
-            "layout": "horizontal",
-            "submenu_style": "bold_heading",
-            "image_heading_1": "",
-            "image_link_1": "",
-            "image_text_color_1": "#ffffff",
-            "image_heading_2": "",
-            "image_link_2": "",
-            "image_text_color_2": "#ffffff",
-            "image_heading_3": "",
-            "image_link_3": "",
-            "image_text_color_3": "#ffffff",
-            "product": "",
-            "product_card_background": "",
-            "product_card_text_color": "",
-            "promo_content_layout": "grid",
-            "stretch_promo": false,
-            "drawer_link_image": "hide"
-          }
-        },
-        "mega_menu_m4NEUy": {
-          "type": "mega_menu",
-          "settings": {
-            "menu_item": "",
-            "layout": "horizontal",
-            "submenu_style": "bold_heading",
-            "image_heading_1": "",
-            "image_link_1": "",
-            "image_text_color_1": "#ffffff",
-            "image_heading_2": "",
-            "image_link_2": "",
-            "image_text_color_2": "#ffffff",
-            "image_heading_3": "",
-            "image_link_3": "",
-            "image_text_color_3": "#ffffff",
-            "product": "",
-            "product_card_background": "",
-            "product_card_text_color": "",
-            "promo_content_layout": "grid",
-            "stretch_promo": false,
-            "drawer_link_image": "hide"
-          }
-        },
-        "mega_menu_npGMGE": {
-          "type": "mega_menu",
-          "settings": {
-            "menu_item": "",
-            "layout": "horizontal",
-            "submenu_style": "bold_heading",
-            "image_heading_1": "",
-            "image_link_1": "",
-            "image_text_color_1": "#ffffff",
-            "image_heading_2": "",
-            "image_link_2": "",
-            "image_text_color_2": "#ffffff",
-            "image_heading_3": "",
-            "image_link_3": "",
-            "image_text_color_3": "#ffffff",
-            "product": "",
-            "product_card_background": "",
-            "product_card_text_color": "",
-            "promo_content_layout": "grid",
-            "stretch_promo": false,
-            "drawer_link_image": "hide"
-          }
-        },
         "mega_menu_JLw69y": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Salon",
+            "menu_item": "",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_1": "shopify://shop_images/lozka-main_698c19f1-1dd9-48e4-8352-bbe5ed98dc13.webp",
@@ -281,9 +212,6 @@
         "7456d69c-0d81-4de6-8084-bc18ac9f5292",
         "mega_menu_Mq8EWb",
         "mega_menu_m6f7en",
-        "mega_menu_8yJqi9",
-        "mega_menu_m4NEUy",
-        "mega_menu_npGMGE",
         "mega_menu_JLw69y",
         "mega_menu_pqjpt6",
         "mega_menu_grpQ6q"
