@@ -665,6 +665,69 @@
         "spacing": "large"
       }
     },
+    "image_link_blocks_TTRm8x": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_aaAqxf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_FRLAcA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/nizp.svg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_3qF4Qw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/GUM.svg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_aaAqxf",
+        "item_FRLAcA",
+        "item_3qF4Qw"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Certyfikaty i Atesty",
+        "content": "<p>Decydując się na materac wykonany z materiałów wolnych od toksyn, inwestujesz w swoje zdrowie, lepszy sen i przyszłość naszej planety. Wybór certyfikowanych produktów to pewność, że oddychasz czystym powietrzem, a Twoja skóra ma kontakt z bezpiecznymi materiałami.</p>",
+        "link_url": "shopify://pages/certyfikaty-i-atesty",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "image_with_text_overlay_g9CHB9": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -779,6 +842,7 @@
     "media_grid_AEwBcJ",
     "custom_html_J9DNww",
     "media_with_text_KKFgPG",
+    "image_link_blocks_TTRm8x",
     "image_with_text_overlay_g9CHB9",
     "related-products",
     "custom_html_3Xy8Hk",
