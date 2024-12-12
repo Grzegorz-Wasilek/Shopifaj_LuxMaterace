@@ -506,7 +506,7 @@
             "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -519,7 +519,7 @@
             "image": "shopify://shop_images/nizp.svg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -532,7 +532,7 @@
             "image": "shopify://shop_images/GUM.svg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -567,7 +567,7 @@
           "type": "heading",
           "settings": {
             "text": "Źle dobrany materac, a nasze zdrowie",
-            "heading_tag": "h1"
+            "heading_tag": "h0"
           }
         },
         "richtext_tmmWkw": {
