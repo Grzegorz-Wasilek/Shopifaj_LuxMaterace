@@ -359,7 +359,6 @@
       "block_order": [
         "blog_grPDcd"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "show_excerpt": true,
@@ -385,9 +384,9 @@
     "main",
     "rich_text_4pY9Di",
     "multi_column_H3KgyK",
-    "media_with_text_6DtrjP",
     "impact_text_dJnwQQ",
-    "collection_list_YKczyX",
-    "blog_posts_MHcfTT"
+    "media_with_text_6DtrjP",
+    "blog_posts_MHcfTT",
+    "collection_list_YKczyX"
   ]
 }
