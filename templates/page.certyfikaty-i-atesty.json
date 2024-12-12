@@ -167,7 +167,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
-            "media_width": 50,
+            "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
@@ -189,7 +189,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/nizp.svg",
-            "media_width": 50,
+            "media_width": 60,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
@@ -211,7 +211,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/GUM.svg",
-            "media_width": 50,
+            "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
