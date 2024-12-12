@@ -131,10 +131,6 @@
             "gradient": ""
           }
         },
-        "divider_fXz8yn": {
-          "type": "divider",
-          "settings": {}
-        },
         "richtext_nYqGmm": {
           "type": "richtext",
           "settings": {
@@ -144,7 +140,6 @@
       },
       "block_order": [
         "heading_JcHXwC",
-        "divider_fXz8yn",
         "richtext_nYqGmm"
       ],
       "settings": {
