@@ -49,11 +49,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/certyfiktes.webp",
+        "mobile_image": "shopify://shop_images/certyfiktes-mob.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_color": "#01172b",
+        "overlay_opacity": 20
       }
     },
     "logo_list_dm4Yqx": {
