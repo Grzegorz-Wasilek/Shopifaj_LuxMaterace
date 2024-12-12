@@ -167,6 +167,41 @@
         "text_color": ""
       }
     },
+    "impact_text_dJnwQQ": {
+      "type": "impact-text",
+      "blocks": {
+        "item_kmgrEj": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "bezpiecznie, 100% komfortu, 100% dla Ciebie",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_kmgrEj"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#ed979c",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "collection_list_YKczyX": {
       "type": "collection-list",
       "blocks": {
@@ -251,6 +286,7 @@
       "block_order": [
         "blog_grPDcd"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_excerpt": true,
@@ -276,6 +312,7 @@
     "image_with_text_overlay_z8i4cY",
     "logo_list_dm4Yqx",
     "multi_column_H3KgyK",
+    "impact_text_dJnwQQ",
     "collection_list_YKczyX",
     "blog_posts_MHcfTT"
   ]
