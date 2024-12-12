@@ -77,7 +77,7 @@
       "settings": {
         "full_width": false,
         "content_width": "medium",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
