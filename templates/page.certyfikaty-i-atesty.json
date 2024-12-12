@@ -132,7 +132,7 @@
           "type": "heading",
           "settings": {
             "text": "Certyfikaty i Atesty –  Bezpieczeństwo Twojego Snu",
-            "heading_tag": "h1",
+            "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
           }
@@ -150,7 +150,7 @@
         "richtext_nYqGmm"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "content_width": "medium",
         "text_position": "start",
         "background": "",
