@@ -652,69 +652,6 @@
         "product_card_text_color": ""
       }
     },
-    "image_link_blocks_yMJpgw": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "item_ggFeAt": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://pages/certyfikaty-i-atesty",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_gKzQWr": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/nizp.svg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://pages/certyfikaty-i-atesty",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_rfxV7H": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/GUM.svg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://pages/certyfikaty-i-atesty",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item_ggFeAt",
-        "item_gKzQWr",
-        "item_rfxV7H"
-      ],
-      "settings": {
-        "full_width": true,
-        "block_size": "large",
-        "subheading": "",
-        "title": "Certyfikaty i Atesty",
-        "content": "<p>Decydując się na materac wykonany z materiałów wolnych od toksyn, inwestujesz w swoje zdrowie, lepszy sen i przyszłość naszej planety. Wybór certyfikowanych produktów to pewność, że oddychasz czystym powietrzem, a Twoja skóra ma kontakt z bezpiecznymi materiałami.</p>",
-        "link_url": "shopify://pages/certyfikaty-i-atesty",
-        "link_text": "Czytaj więcej",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -779,6 +716,69 @@
         "content": "",
         "link_url": "",
         "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "image_link_blocks_yMJpgw": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_ggFeAt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_gKzQWr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/nizp.svg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_rfxV7H": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/GUM.svg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_ggFeAt",
+        "item_gKzQWr",
+        "item_rfxV7H"
+      ],
+      "settings": {
+        "full_width": true,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Certyfikaty i Atesty",
+        "content": "<p>Decydując się na materac wykonany z materiałów wolnych od toksyn, inwestujesz w swoje zdrowie, lepszy sen i przyszłość naszej planety. Wybór certyfikowanych produktów to pewność, że oddychasz czystym powietrzem, a Twoja skóra ma kontakt z bezpiecznymi materiałami.</p>",
+        "link_url": "shopify://pages/certyfikaty-i-atesty",
+        "link_text": "Czytaj więcej",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -1101,8 +1101,8 @@
     "shop_the_look_Rr8hLX",
     "before-after-image",
     "featured_collection_Ttj9fc",
-    "image_link_blocks_yMJpgw",
     "collection-list",
+    "image_link_blocks_yMJpgw",
     "hot_spots_KzBKC6",
     "blog_posts_NLBfCh",
     "video_YAX3zw",
