@@ -233,7 +233,7 @@
         "mega_menu_pqjpt6": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Informacje",
+            "menu_item": "",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
