@@ -9,13 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "content_width": "80ch"
-      }
-    },
     "image_with_text_overlay_z8i4cY": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -44,68 +37,63 @@
         "heading_qQY7pK",
         "richtext_8XFmMt"
       ],
+      "disabled": true,
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "md",
-        "image": "shopify://shop_images/certyfiktes.webp",
-        "mobile_image": "shopify://shop_images/certyfiktes-mob.webp",
+        "image_size": "auto",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#00101e",
-        "overlay_opacity": 25
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
-    "logo_list_dm4Yqx": {
-      "type": "logo-list",
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "120ch"
+      }
+    },
+    "rich_text_4pY9Di": {
+      "type": "rich-text",
       "blocks": {
-        "logo_ji3fHf": {
-          "type": "logo",
+        "subheading_9hnaqc": {
+          "type": "subheading",
           "settings": {
-            "logo": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
-            "logo_width": 300,
-            "link": ""
+            "text": "Wprowadzenie"
           }
         },
-        "logo_FqYYVr": {
-          "type": "logo",
+        "heading_JcHXwC": {
+          "type": "heading",
           "settings": {
-            "logo": "shopify://shop_images/GUMlogo_pl.png",
-            "logo_width": 300,
-            "link": ""
+            "text": "Certyfikaty i Atesty – Bezpieczeństwo Twojego Snu",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
           }
         },
-        "logo_FnkTWK": {
-          "type": "logo",
+        "richtext_nYqGmm": {
+          "type": "richtext",
           "settings": {
-            "logo": "shopify://shop_images/nizp_atest_bip_1.svg",
-            "logo_width": 300,
-            "link": ""
+            "content": "<p>Nasze materace powstają z najwyższej jakości materiałów, które posiadają międzynarodowe certyfikaty i atesty. Dzięki temu masz pewność, że wybierasz produkt wykonany z bezpiecznych i sprawdzonych półproduktów. Choć same materace nie mają certyfikatów, półprodukty takie jak pianki poliuretanowe, używane w ich produkcji, spełniają rygorystyczne normy jakości i bezpieczeństwa.</p>"
           }
         }
       },
       "block_order": [
-        "logo_ji3fHf",
-        "logo_FqYYVr",
-        "logo_FnkTWK"
+        "subheading_9hnaqc",
+        "heading_JcHXwC",
+        "richtext_nYqGmm"
       ],
-      "disabled": true,
       "settings": {
-        "full_width": false,
-        "stack_mobile": true,
-        "title": "",
-        "content": "",
-        "text_alignment": "start",
-        "items_per_row": 3,
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "#f6f9fa",
-        "logo_item_border": ""
+        "text_color": ""
       }
     },
     "multi_column_H3KgyK": {
@@ -113,6 +101,7 @@
       "blocks": {
         "item_bTLBHW": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
             "column_size": "3",
@@ -126,6 +115,7 @@
         },
         "item_4yyVNH": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/nizp.svg",
             "column_size": "3",
@@ -139,6 +129,7 @@
         },
         "item_qyNWCX": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/GUM.svg",
             "column_size": "3",
@@ -169,6 +160,86 @@
         "text_color": ""
       }
     },
+    "media_with_text_6DtrjP": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_zzFC6W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Certyfikaty i Atesty – Bezpieczeństwo Twojego Snu",
+            "content": "<p><strong>Dlaczego to ważne?</strong></p><p>Certyfikat OEKO-TEX® STANDARD 100 gwarantuje, że półprodukty użyte w naszych materacach są wolne od szkodliwych substancji, takich jak pestycydy, formaldehyd czy metale ciężkie.</p><p><strong>Co jest certyfikowane?</strong></p><ul><li>Pianki poliuretanowe typu: <strong>T</strong>, <strong>HR</strong>, <strong>VISCOR</strong>, <strong>CME</strong>, <strong>CMHR</strong>.</li><li>Badania potwierdzają bezpieczeństwo pianek dla użytkowania, nawet przez dzieci (Klasa I – wyroby dla dzieci).</li></ul><p><strong>Jak to działa w praktyce?</strong></p><p>Certyfikowane półprodukty są podstawą do tworzenia materacy, które są bezpieczne dla zdrowia i przyjazne środowisku.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#022e4f",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_Q7yNft": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nizp.svg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Atesty - Narodowy Instytut Zdrowia Publicznego PZH",
+            "content": "<p><strong>Przyznane przez:</strong></p><p>Narodowy Instytut Zdrowia Publicznego PZH – Państwowy Instytut Badawczy, renomowaną instytucję zajmującą się badaniami nad zdrowiem publicznym i bezpieczeństwem produktów.</p><p><strong>Zakres atestu:</strong></p><ul><li>Pianki poliuretanowe, takie jak HR, CME, CMHR i inne, które są używane do produkcji materacy, mebli tapicerowanych i mat wygłuszających.</li></ul><p><strong>Co potwierdza atest?</strong></p><p>Półprodukty spełniają normy higieniczne i są bezpieczne do stosowania w pomieszczeniach mieszkalnych. Gwarantują brak szkodliwego wpływu na zdrowie użytkowników, jeśli są stosowane zgodnie z zaleceniami.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#022e4f",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_cXMb3j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GUM.svg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Atesty – Gdański Uniwersytet Medyczny (GUMed)",
+            "content": "<p><strong>Przyznane przez:</strong></p><p>Gdański Uniwersytet Medyczny (GUMed), wiodącą instytucję naukową i badawczą w Polsce, zajmującą się oceną zdrowotną i higieniczną produktów.</p><p><strong>Zakres atestu:</strong></p><ul><li>Pianki poliuretanowe, w tym trudnopalne pianki CME i CMHR, wykorzystywane w produkcji materacy, mebli tapicerowanych i innych zastosowaniach domowych</li></ul><p><strong>Co potwierdza atest?</strong></p><p>Produkty są bezpieczne do użytku w domach oraz w specyficznych warunkach, takich jak statki czy obiekty publiczne. Półprodukty spełniają rygorystyczne wymogi higieniczne i zdrowotne.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#022e4f",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zzFC6W",
+        "image_Q7yNft",
+        "image_cXMb3j"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
     "impact_text_dJnwQQ": {
       "type": "impact-text",
       "blocks": {
@@ -197,7 +268,7 @@
         "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "heading_text_color": "#ed979c",
+        "heading_text_color": "#022e4f",
         "heading_gradient": "",
         "text_color": "",
         "button_background": "",
@@ -310,10 +381,11 @@
     }
   },
   "order": [
-    "main",
     "image_with_text_overlay_z8i4cY",
-    "logo_list_dm4Yqx",
+    "main",
+    "rich_text_4pY9Di",
     "multi_column_H3KgyK",
+    "media_with_text_6DtrjP",
     "impact_text_dJnwQQ",
     "collection_list_YKczyX",
     "blog_posts_MHcfTT"
