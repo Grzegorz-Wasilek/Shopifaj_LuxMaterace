@@ -140,9 +140,9 @@
           "settings": {
             "image": "shopify://shop_images/GUM.svg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Atesty – Gdański Uniwersytet Medyczny (GUMed)",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p><strong>Przyznane przez:</strong></p><p>Gdański Uniwersytet Medyczny (GUMed), wiodącą instytucję naukową i badawczą w Polsce, zajmującą się oceną zdrowotną i higieniczną produktów.</p><p><strong>Zakres atestu:</strong></p><ul><li>Pianki poliuretanowe, w tym trudnopalne pianki CME i CMHR, wykorzystywane w produkcji materacy, mebli tapicerowanych i innych zastosowaniach domowych</li></ul><p><strong>Co potwierdza atest?</strong></p><p>Produkty są bezpieczne do użytku w domach oraz w specyficznych warunkach, takich jak statki czy obiekty publiczne. Półprodukty spełniają rygorystyczne wymogi higieniczne i zdrowotne.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
