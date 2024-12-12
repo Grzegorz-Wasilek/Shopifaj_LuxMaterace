@@ -167,6 +167,31 @@
         "text_color": ""
       }
     },
+    "featured_collection_ze7dwi": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "lux",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Zobacz nasze materace",
+        "content": "",
+        "link_url": "shopify://collections/materace",
+        "link_text": "Zobacz wszystko",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "blog_posts_MHcfTT": {
       "type": "blog-posts",
       "blocks": {
@@ -207,6 +232,7 @@
     "image_with_text_overlay_z8i4cY",
     "logo_list_dm4Yqx",
     "multi_column_H3KgyK",
+    "featured_collection_ze7dwi",
     "blog_posts_MHcfTT"
   ]
 }
