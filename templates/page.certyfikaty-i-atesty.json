@@ -167,29 +167,73 @@
         "text_color": ""
       }
     },
-    "featured_collection_ze7dwi": {
-      "type": "featured-collection",
+    "collection_list_YKczyX": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_UUNqmz": {
+          "type": "collection",
+          "settings": {
+            "collection": "lux",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#465076",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_8MEbdY": {
+          "type": "collection",
+          "settings": {
+            "collection": "dziecieca",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_KFGwPY": {
+          "type": "collection",
+          "settings": {
+            "collection": "lozka",
+            "image": "shopify://shop_images/paris-matt-velvet-85_d27ba1c1-08f9-48aa-b7d2-2f715180be9b.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_UUNqmz",
+        "collection_8MEbdY",
+        "collection_KFGwPY"
+      ],
       "settings": {
-        "collection": "lux",
-        "products": [],
         "full_width": true,
-        "stack_products": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
         "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 2,
         "subheading": "",
-        "title": "Zobacz nasze materace",
+        "title": "Lista kolekcji",
         "content": "",
-        "link_url": "shopify://collections/materace",
-        "link_text": "Zobacz wszystko",
+        "link_url": "",
+        "link_text": "View all",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "heading_gradient": ""
       }
     },
     "blog_posts_MHcfTT": {
@@ -232,7 +276,7 @@
     "image_with_text_overlay_z8i4cY",
     "logo_list_dm4Yqx",
     "multi_column_H3KgyK",
-    "featured_collection_ze7dwi",
+    "collection_list_YKczyX",
     "blog_posts_MHcfTT"
   ]
 }
