@@ -37,17 +37,79 @@
         "heading_qQY7pK",
         "richtext_8XFmMt"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/certyfiktes.webp",
+        "mobile_image": "shopify://shop_images/certyfiktes-mob.webp",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
+        "overlay_color": "#022e4f",
         "overlay_opacity": 30
+      }
+    },
+    "impact_text_dJnwQQ": {
+      "type": "impact-text",
+      "blocks": {
+        "item_kmgrEj": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "bezpiecznie",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_ndgwVR": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "komfortu",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_E7HVTN": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "dla Ciebie",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_kmgrEj",
+        "item_ndgwVR",
+        "item_E7HVTN"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#022e4f",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "main": {
@@ -158,67 +220,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "impact_text_dJnwQQ": {
-      "type": "impact-text",
-      "blocks": {
-        "item_kmgrEj": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "bezpiecznie",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "item_ndgwVR": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "komfortu",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "item_E7HVTN": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "dla Ciebie",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "item_kmgrEj",
-        "item_ndgwVR",
-        "item_E7HVTN"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "#022e4f",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "media_with_text_6DtrjP": {
@@ -422,10 +423,10 @@
   },
   "order": [
     "image_with_text_overlay_z8i4cY",
+    "impact_text_dJnwQQ",
     "main",
     "rich_text_4pY9Di",
     "multi_column_H3KgyK",
-    "impact_text_dJnwQQ",
     "media_with_text_6DtrjP",
     "collection_list_YKczyX",
     "blog_posts_MHcfTT"
