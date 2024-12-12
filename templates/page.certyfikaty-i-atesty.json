@@ -101,7 +101,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "rgba(0,0,0,0)",
+        "logo_item_background": "#f6f9fa",
         "logo_item_border": ""
       }
     }
