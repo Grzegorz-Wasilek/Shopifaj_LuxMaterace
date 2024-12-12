@@ -101,7 +101,7 @@
         "stack_mobile": true,
         "text_alignment": "center",
         "impact_text_style": "fill",
-        "text_divider": "none",
+        "text_divider": "line",
         "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
