@@ -21,14 +21,14 @@
         "heading_qQY7pK": {
           "type": "heading",
           "settings": {
-            "text": "Certyfikaty i Atesty",
+            "text": "",
             "heading_tag": "h1"
           }
         },
         "richtext_8XFmMt": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Decydując się na materac wykonany z materiałów wolnych od toksyn, inwestujesz w swoje zdrowie, lepszy sen i przyszłość naszej planety. Wybór certyfikowanych produktów to pewność, że oddychasz czystym powietrzem, a Twoja skóra ma kontakt z bezpiecznymi materiałami.</p>"
+            "content": ""
           }
         }
       },
@@ -125,7 +125,7 @@
         "heading_JcHXwC": {
           "type": "heading",
           "settings": {
-            "text": "Dbamy  o bezpieczeństwo Twojego snu",
+            "text": "Certyfikaty i Atesty - dbamy  o bezpieczeństwo Twojego snu",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
