@@ -557,7 +557,7 @@
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
         ".accordion__toggle {font-size: 18px;}",
         ".section-stack {gap: 0;}",
-        "span.listanumer {padding: 3px 8px; color: #ed979c; border: solid 2px #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.8rem; line-height: 1;}"
+        "span.listanumer {padding: 3px 8px; color: #ed979c; border: solid 2px #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.58rem; line-height: 1;}"
       ],
       "settings": {
         "full_width": true,
