@@ -548,101 +548,10 @@
             "content": "<p>{{ block.repeater.opis | metafield_tag }}</p>",
             "page": ""
           }
-        },
-        "item_UCEphB": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/02.svg",
-            "icon_width": 30,
-            "title": "Pianka VISCO (3cm)",
-            "content": "<p>W rdzeniu materaca zastosowano 3-centymetrową warstwę pianki termoelastycznej VISCO, znanej także jako memory foam. Pianka ta reaguje na ciepło ciała, precyzyjnie dopasowując się do jego kształtu i podpiera kręgosłup w naturalnej pozycji. Dzięki temu redukuje punkty nacisku, poprawia krążenie, pomaga w regeneracji mięśni oraz zapobiega odleżynom. Jej elastyczność gwarantuje, że materac natychmiast reaguje na zmianę pozycji podczas snu, zapewniając optymalny komfort każdej nocy.</p>",
-            "page": ""
-          }
-        },
-        "item_MR8JDt": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/03.svg",
-            "icon_width": 30,
-            "title": "Pianka LATEKSOWA (3cm)",
-            "content": "<p>Warstwa 3-centymetrowej pianki lateksowej wyróżnia się wyjątkową sprężystością, elastycznością i wytrzymałością. Lateks doskonale dopasowuje się do naturalnych krzywizn ciała, utrzymując kręgosłup w optymalnej pozycji. Jego struktura sprzyja swobodnemu przepływowi powietrza, skutecznie odprowadzając wilgoć i regulując temperaturę. Dzięki swoim antybakteryjnym i antyalergicznym właściwościom lateks zapewnia świeże i higieniczne środowisko do spania. Ta warstwa sprawia, że materac jest przyjemnie sprężysty i natychmiast reaguje na każdą zmianę ułożenia, zapewniając komfortowy i zdrowy sen każdej nocy.</p>",
-            "page": ""
-          }
-        },
-        "item_4Mgixe": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/04.svg",
-            "icon_width": 30,
-            "title": "Pianka POLIURETANOWA (2cm)",
-            "content": "<p>Dodatkowa, 2-centymetrowa warstwa pianki poliuretanowej zapewnia trwałość, stabilność i równomierne podparcie całej konstrukcji materaca. Ten lekki, a zarazem wytrzymały materiał charakteryzuje się doskonałą odpornością na odkształcenia, dzięki czemu materac długo zachowuje swoje właściwości użytkowe. Odpowiednia cyrkulacja powietrza w strukturze pianki pomaga utrzymać higieniczne i świeże środowisko snu, a także podnosi ogólny komfort i wytrzymałość produktu.</p>",
-            "page": ""
-          }
-        },
-        "item_8EKAgt": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/05.svg",
-            "icon_width": 30,
-            "title": "Formatka kieszeniowa MINIPOCKET (8cm)",
-            "content": "<p>Warstwa sprężyn kieszeniowych typu MINIPOCKET o wysokości 8 cm to zaawansowane rozwiązanie zapewniające wyjątkowo elastyczne i precyzyjne podparcie. Każda sprężyna jest umieszczona w oddzielnej kieszeni, dzięki czemu pracuje niezależnie, dostosowując się do indywidualnych krzywizn ciała. Taka konstrukcja minimalizuje przenoszenie ruchów partnera i pozwala na równomierne rozłożenie nacisku, co przekłada się na lepszą jakość snu oraz optymalne wsparcie kręgosłupa. Dodatkowo, przestrzenie między sprężynami sprzyjają swobodnej cyrkulacji powietrza, gwarantując świeże, przyjemne środowisko snu każdej nocy.</p>",
-            "page": ""
-          }
-        },
-        "item_nVqzQV": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/06.svg",
-            "icon_width": 30,
-            "title": "Podkład filcowy (1mm)",
-            "content": "<p>Cienka, 1-milimetrowa warstwa filcu pełni w materacu funkcję stabilizującą i wzmacniającą. Mimo niewielkiej grubości, skutecznie rozdziela poszczególne warstwy, pomagając w równomiernym rozłożeniu obciążenia. Dzięki temu materac zyskuje na trwałości, a jego poszczególne elementy lepiej ze sobą współpracują. Dodatkowo, filc wspomaga cyrkulację powietrza wewnątrz materaca, wspierając utrzymanie higienicznego i świeżego środowiska snu.</p>",
-            "page": ""
-          }
-        },
-        "item_PYMNXY": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/07.svg",
-            "icon_width": 30,
-            "title": "Formatka kieszeniowa MULTIPOCKET 7 stref (12cm)",
-            "content": "<p>Dwunastocentymetrowa warstwa formatki kieszeniowej MULTIPOCKET z 7 strefami podparcia to serce materaca, zapewniające najwyższą jakość snu i optymalną ergonomię. Liczne, gęsto rozmieszczone sprężyny, zamknięte w oddzielnych kieszonkach, pracują indywidualnie, dostosowując się do kształtu ciała i naturalnych krzywizn kręgosłupa. Rozbudowany podział na 7 stref podparcia sprawia, że każda część ciała – od głowy i karku, przez odcinek lędźwiowy, aż po nogi – otrzymuje dokładnie takie wsparcie, jakiego potrzebuje. Elastyczna konstrukcja skutecznie niweluje przenoszenie ruchów partnera, zapewniając spokojny sen nawet przy zmianach pozycji w trakcie nocy. Dodatkowo, przestrzenna struktura formatek MULTIPOCKET wspiera efektywną cyrkulację powietrza, gwarantując świeże i komfortowe środowisko do wypoczynku.</p>",
-            "page": ""
-          }
-        },
-        "item_mUQdJ7": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/08.svg",
-            "icon_width": 30,
-            "title": "Pianka POLIURETANOWA (3cm)",
-            "content": "<p>3-centymetrowa warstwa pianki poliuretanowej zapewnia solidną podstawę i stabilność całej konstrukcji materaca. Ten wytrzymały, a zarazem lekki materiał charakteryzuje się wysoką odpornością na odkształcenia, co pozwala materacowi przez długi czas zachować optymalną sprężystość i kształt. Ponadto, otwarta struktura pianki wspiera swobodny przepływ powietrza, dzięki czemu wnętrze materaca pozostaje higieniczne i świeże. Efekt? Większa trwałość, trwały komfort oraz spokój podczas snu każdego dnia.</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
-        "item_ArnFqz",
-        "item_UCEphB",
-        "item_MR8JDt",
-        "item_4Mgixe",
-        "item_8EKAgt",
-        "item_nVqzQV",
-        "item_PYMNXY",
-        "item_mUQdJ7"
+        "item_ArnFqz"
       ],
       "custom_css": [
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
