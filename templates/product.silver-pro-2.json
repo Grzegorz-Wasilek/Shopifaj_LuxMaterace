@@ -557,8 +557,7 @@
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
         ".accordion__toggle {font-size: 18px;}",
         ".section-stack {gap: 0;}",
-        "ul li {list-style: none; text-align: left; font-size: 1rem; position: relative; padding-bottom: 10px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start;}",
-        "ul li span.listanumer {padding: 0 9px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.2rem; line-height: 1.5;}"
+        "span.listanumer {padding: 0 9px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.2rem; line-height: 1.5;}"
       ],
       "settings": {
         "full_width": true,
