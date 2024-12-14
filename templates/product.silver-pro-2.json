@@ -539,17 +539,19 @@
       "blocks": {
         "item_ArnFqz": {
           "type": "item",
+          "repeater": "{{ product.metafields.custom.warstwy_materace.value }}",
           "settings": {
             "icon": "none",
-            "custom_icon": "shopify://shop_images/01.svg",
+            "custom_icon": "{{ block.repeater.foto.value }}",
             "icon_width": 30,
-            "title": "Pokrowiec antyalergiczny z owatą (200g/m2)",
-            "content": "<p>Pokrowiec materaca został wyposażony w antyalergiczny materiał oraz dodatkową warstwę owaty o gramaturze 200 g/m². Dzięki temu jego powierzchnia jest nie tylko bardziej miękka i przyjemna w dotyku, ale także odporna na rozwój roztoczy, kurzu oraz innych alergenów. Taka struktura zapewnia bezpieczne, higieniczne środowisko do spania – szczególnie ważne dla osób z alergiami lub wrażliwą skórą.</p><p>Dodatkowo, w celu poprawienia wentylacji, pokrowiec wyposażony został w specjalną siatkę wentylacyjną znajdującą się na bokach materaca, która umożliwia swobodny przepływ powietrza. Dzięki temu wnętrze materaca pozostaje suche, świeże i wolne od nieprzyjemnych zapachów. Skuteczna cyrkulacja powietrza przekłada się na wyższy komfort snu, zachowanie odpowiednich właściwości antyalergicznych oraz przedłużenie żywotności całego produktu.</p>",
+            "title": "{{ block.repeater.heading.value }}",
+            "content": "<p>{{ block.repeater.opis | metafield_tag }}</p>",
             "page": ""
           }
         },
         "item_UCEphB": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/02.svg",
@@ -561,6 +563,7 @@
         },
         "item_MR8JDt": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/03.svg",
@@ -572,6 +575,7 @@
         },
         "item_4Mgixe": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/04.svg",
@@ -583,6 +587,7 @@
         },
         "item_8EKAgt": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/05.svg",
@@ -594,6 +599,7 @@
         },
         "item_nVqzQV": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/06.svg",
@@ -605,6 +611,7 @@
         },
         "item_PYMNXY": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/07.svg",
@@ -616,6 +623,7 @@
         },
         "item_mUQdJ7": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "custom_icon": "shopify://shop_images/08.svg",
