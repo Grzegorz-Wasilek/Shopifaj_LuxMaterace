@@ -167,7 +167,7 @@
       "settings": {
         "full_width": false,
         "allow_transparent_header": true,
-        "image_size": "sm",
+        "image_size": "lg",
         "controls_type": "numbers",
         "transition_type": "fade_with_text",
         "autoplay": true,
