@@ -604,10 +604,10 @@
     "before-after-image": {
       "type": "before-after-image",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
         "title": "Piękne Sny",
-        "content": "<p>Stwórzmy razem wymarzoną sypialnię dla Twojego dziecka</p>",
+        "content": "<p>Stwórzmy razem wymarzoną sypialnię dla Twojego dziecka.</p>",
         "before_image": "shopify://shop_images/chlopiec-dekt_61a8619b-5216-44c5-b900-f100b64bc0c0.webp",
         "before_image_mobile": "shopify://shop_images/chlopiec-mob_a47ac1b7-6c09-409d-b9d9-5fb6966f8d45.webp",
         "after_image": "shopify://shop_images/dziewczynka-dekt_b2948762-8d09-4085-9b63-33bd8f27c027.webp",
@@ -640,7 +640,7 @@
         "products_per_row_desktop": 4,
         "subheading": "",
         "title": "{{ section.settings.collection.title }}",
-        "content": "<p>W Semmi.pl oferujemy materace dziecięce wykonane z certyfikowanych materiałów, które zapewniają: </p><ul><li><strong>Bezpieczeństwo:</strong> Wolne od toksyn i alergenów. </li><li><strong>Higienę:</strong> Antyalergiczne pokrowce łatwe w czyszczeniu. </li><li><strong>Komfort:</strong> Idealne wsparcie dla kręgosłupa dziecka. </li><li><strong>Spokój rodzica:</strong> Pewność, że Twoje dziecko śpi na materacu najwyższej jakości.</li></ul>",
+        "content": "",
         "link_url": "shopify://collections/dziecieca",
         "link_text": "Zobacz wszystkie",
         "background": "",
