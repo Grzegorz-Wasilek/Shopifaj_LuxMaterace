@@ -354,11 +354,11 @@
         "full_width": true,
         "image": "{{ product.metafields.custom.warstwy.value }}",
         "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
-        "title": "Budowa Materaca",
-        "content": "{{ product.metafields.custom.warstwy_opis | metafield_tag }}",
+        "title": "",
+        "content": "",
         "button_text": "",
         "button_url": "",
-        "desktop_text_position": "place-self-center-end text-end",
+        "desktop_text_position": "place-self-start-center text-center",
         "image_background": "#0e2b48",
         "image_background_gradient": "",
         "overlay_color": "#000000",
@@ -372,6 +372,44 @@
         "hot_spot_content_text_color": "#000000",
         "hot_spot_content_opacity": 90,
         "hot_spot_content_blur_radius": 3
+      }
+    },
+    "accordion_content_Y4NGRe": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_xkMNaa": {
+          "type": "item",
+          "repeater": "{{ product.metafields.custom.warstwy_materace.value }}",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "{{ block.repeater.foto.value }}",
+            "icon_width": 20,
+            "title": "{{ block.repeater.heading.value }}",
+            "content": "<p>{{ block.repeater.opis | metafield_tag }}</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_xkMNaa"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#022e4f",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#022e4f",
+        "accordion_text_color": "#f3f5f6"
       }
     },
     "impact_text_Mq3wyC": {
@@ -770,6 +808,7 @@
     "text_with_icons_XEcyze",
     "testimonials_hjTGGL",
     "hot_spots_dURC7e",
+    "accordion_content_Y4NGRe",
     "impact_text_Mq3wyC",
     "media_grid_AEwBcJ",
     "custom_html_J9DNww",
