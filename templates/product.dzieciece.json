@@ -446,7 +446,7 @@
         "image_9UPmap": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pokrowiec-3_3f6694fd-36e3-49ff-bde5-8433ad010761.webp",
+            "image": "shopify://shop_images/Pokrowiec_1.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -455,7 +455,7 @@
             "subheading": "",
             "title": "Antyalergiczny pokrowiec – naturalna ochrona i komfort",
             "content": "<p>Pokrowce w naszych materacach dziecięcych wykonane są z naturalnych włókien bawełny i bambusa, które zapewniają delikatność, miękkość i wyjątkowe właściwości higieniczne. Tkanina Frotte doskonale chłonie wilgoć, jest antybakteryjna, antygrzybiczna i idealna dla alergików. To połączenie naturalnej ochrony i komfortu, które dba o zdrowy sen Twojego dziecka.</p>",
-            "link_text": "",
+            "link_text": "Czytaj więcej",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
             "background_gradient": "",
