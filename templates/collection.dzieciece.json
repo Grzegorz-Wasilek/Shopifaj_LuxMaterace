@@ -25,7 +25,7 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "collection_title_size": "h0",
-        "image_size": "lg",
+        "image_size": "md",
         "image": "shopify://shop_images/dzieciece-head_83aec245-23b7-405c-9716-f98361c867a9.webp",
         "mobile_image": "shopify://shop_images/dzieciece-head-mob_8fceff46-d313-4c93-a3bf-277549d6b411.webp",
         "mobile_text_position": "place-self-start text-start",
