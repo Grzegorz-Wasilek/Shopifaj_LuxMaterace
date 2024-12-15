@@ -52,7 +52,7 @@
         "message_MRxtp6"
       ],
       "custom_css": [
-        ".announcement-bar__item p:nth-of-type(2) {background-color: #022e4f; padding: 0 10px; color: #ed979c; border-radius: 5px;}",
+        ".announcement-bar__item p:nth-of-type(2) {background-color: #022e4f; padding: 0 5px; color: #ed979c; border-radius: 5px;}",
         ".announcement-bar__item p {text-transform: uppercase; font-weight: 600;}"
       ],
       "settings": {
