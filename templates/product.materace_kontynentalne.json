@@ -296,7 +296,6 @@
     },
     "custom_html_NRMMKF": {
       "type": "custom-html",
-      "disabled": true,
       "custom_css": [
         ".text-custom {padding-top: 70px; padding-bottom: 20px; text-align: center;}",
         ".text-custom h2 {}"
@@ -313,36 +312,6 @@
     },
     "image_with_text_overlay_D8Aacp": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_PbatRf": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_6bLDwg": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_wdMmPP": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_PbatRf",
-        "heading_6bLDwg",
-        "richtext_wdMmPP"
-      ],
-      "disabled": true,
       "custom_css": [
         ".section-full {padding-top: 0;}"
       ],
@@ -351,8 +320,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/mint_0debd292-a756-4b27-8277-78d563347ff8.webp",
-        "mobile_image": "shopify://shop_images/mint-mob.webp",
+        "image": "{{ product.metafields.custom.warstwy.value }}",
+        "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -365,41 +334,20 @@
       "blocks": {
         "item_qBRQTQ": {
           "type": "item",
+          "repeater": "{{ product.metafields.custom.warstwy_materace.value }}",
           "settings": {
             "icon": "none",
+            "custom_icon": "{{ block.repeater.foto.value }}",
             "icon_width": 20,
-            "title": "Question 1",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
-            "page": ""
-          }
-        },
-        "item_FWMiqF": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Question 2",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
-            "page": ""
-          }
-        },
-        "item_hTbKky": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Question 3",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "title": "{{ block.repeater.heading.value }}",
+            "content": "<p>{{ block.repeater.opis | metafield_tag }}</p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "item_qBRQTQ",
-        "item_FWMiqF",
-        "item_hTbKky"
+        "item_qBRQTQ"
       ],
-      "disabled": true,
       "custom_css": [
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
         ".accordion__toggle {font-size: 18px;}",
@@ -427,6 +375,7 @@
     },
     "hot_spots_dURC7e": {
       "type": "hot-spots",
+      "disabled": true,
       "custom_css": [
         "ul li {list-style: none; text-align: left; font-size: 1rem; position: relative; padding-bottom: 10px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start;}",
         "ul li span.listanumer {padding: 0 9px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.2rem; line-height: 1.5;}",
