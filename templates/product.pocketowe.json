@@ -356,7 +356,6 @@
     },
     "custom_html_WxnHm7": {
       "type": "custom-html",
-      "disabled": true,
       "custom_css": [
         ".text-custom {padding-top: 70px; padding-bottom: 20px; text-align: center;}",
         ".text-custom h2 {}"
@@ -402,7 +401,6 @@
         "heading_CKtqtc",
         "richtext_rBihna"
       ],
-      "disabled": true,
       "custom_css": [
         ".section-full {padding-top: 0;}"
       ],
@@ -411,7 +409,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/barnet_3de00749-b9cc-4b7e-9e4a-5005212c9752.webp",
+        "image": "{{ product.metafields.custom.warstwy.value }}",
+        "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -458,7 +457,6 @@
         "item_fDYiDT",
         "item_rkgq3b"
       ],
-      "disabled": true,
       "custom_css": [
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
         ".accordion__toggle {font-size: 18px;}",
@@ -482,37 +480,6 @@
         "button_text_color": "",
         "accordion_background": "#022e4f",
         "accordion_text_color": ""
-      }
-    },
-    "hot_spots_dURC7e": {
-      "type": "hot-spots",
-      "custom_css": [
-        "ul li {list-style: none; text-align: left; font-size: 1rem; position: relative; padding-bottom: 10px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start;}",
-        "ul li span.listanumer {padding: 0 9px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.2rem; line-height: 1.5;}",
-        "h2 {text-align: left; padding-bottom: 30px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "image": "{{ product.metafields.custom.warstwy.value }}",
-        "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
-        "title": "Budowa Materaca",
-        "content": "{{ product.metafields.custom.warstwy_opis | metafield_tag }}",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-center-end text-end",
-        "image_background": "#0e2b48",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
       }
     },
     "impact_text_Mq3wyC": {
@@ -1018,7 +985,6 @@
     "custom_html_WxnHm7",
     "image_with_text_overlay_8Lxfye",
     "accordion_content_M746AC",
-    "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
     "custom_html_9xHeYj",
     "image_with_text_overlay_jAgdpJ",
