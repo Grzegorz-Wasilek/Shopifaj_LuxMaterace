@@ -361,7 +361,7 @@
         "h2 {text-align: left; padding-bottom: 30px;}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "image": "{{ product.metafields.custom.warstwy.value }}",
         "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
         "title": "Budowa Materaca",
@@ -420,13 +420,13 @@
         ".impact-text {padding-top: 3.75rem;}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "stack_mobile": true,
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
-        "background": "rgba(0,0,0,0)",
+        "background": "#022e4f",
         "background_gradient": "",
         "heading_text_color": "#ed979c",
         "heading_gradient": "",
