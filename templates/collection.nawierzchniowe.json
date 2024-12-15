@@ -25,7 +25,7 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "collection_title_size": "h0",
-        "image_size": "lg",
+        "image_size": "md",
         "image": "shopify://shop_images/nawierzchniowe-head_c1f91485-16ce-4f2a-bdd1-1683b3a6b935.webp",
         "mobile_image": "shopify://shop_images/nawierzchniowe-head-mob_74e82b9a-37ab-4294-b582-32a3637c0512.webp",
         "mobile_text_position": "place-self-start text-start",
