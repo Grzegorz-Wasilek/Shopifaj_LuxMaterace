@@ -423,39 +423,19 @@
       "blocks": {
         "item_tqQMQQ": {
           "type": "item",
+          "repeater": "{{ product.metafields.custom.warstwy_materace.value }}",
           "settings": {
             "icon": "none",
+            "custom_icon": "{{ block.repeater.foto.value }}",
             "icon_width": 20,
-            "title": "Question 1",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
-            "page": ""
-          }
-        },
-        "item_fDYiDT": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Question 2",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
-            "page": ""
-          }
-        },
-        "item_rkgq3b": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Question 3",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "title": "{{ block.repeater.heading.value }}",
+            "content": "<p>{{ block.repeater.opis | metafield_tag }}</p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "item_tqQMQQ",
-        "item_fDYiDT",
-        "item_rkgq3b"
+        "item_tqQMQQ"
       ],
       "custom_css": [
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
