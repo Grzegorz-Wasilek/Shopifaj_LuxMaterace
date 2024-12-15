@@ -355,6 +355,7 @@
     },
     "custom_html_MTVTdm": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".text-custom {padding-top: 70px; padding-bottom: 20px; text-align: center;}",
         ".text-custom h2 {}"
@@ -400,6 +401,7 @@
         "heading_AbyAat",
         "richtext_mRCcak"
       ],
+      "disabled": true,
       "custom_css": [
         ".section-full {padding-top: 0;}"
       ],
@@ -455,6 +457,7 @@
         "item_LhigKr",
         "item_Qdr3AN"
       ],
+      "disabled": true,
       "custom_css": [
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
         ".accordion__toggle {font-size: 18px;}",
@@ -482,7 +485,6 @@
     },
     "hot_spots_dURC7e": {
       "type": "hot-spots",
-      "disabled": true,
       "custom_css": [
         "ul li {list-style: none; text-align: left; font-size: 1rem; position: relative; padding-bottom: 10px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start;}",
         "ul li span.listanumer {padding: 0 9px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.2rem; line-height: 1.5;}",
