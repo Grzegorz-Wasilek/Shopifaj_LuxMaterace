@@ -359,8 +359,57 @@
         "text_color": "#f6f9fa"
       }
     },
+    "image_with_text_overlay_GYMb7P": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_piFrrm": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_QUMe6n": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_PqcQdJ": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_piFrrm",
+        "heading_QUMe6n",
+        "richtext_PqcQdJ"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/skladmaterace-savory.webp",
+        "mobile_image": "shopify://shop_images/skladmaterace-savory-mobile.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "hot_spots_dURC7e": {
       "type": "hot-spots",
+      "disabled": true,
       "custom_css": [
         ".section-full {padding-top: 0;}"
       ],
@@ -411,7 +460,7 @@
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
         ".accordion__toggle {font-size: 18px;}",
         ".section-stack {gap: 0;}",
-        "span.listanumer {padding: 3px 8px; color: #ed979c; border: solid 2px #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.58rem; line-height: 1;}"
+        "span.listanumer {padding: 3px 8px; color: #ed979c; border: solid 2px #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.4rem; line-height: 1;}"
       ],
       "settings": {
         "full_width": true,
@@ -814,7 +863,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right: 12rem;\n}\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n.shopify-section--hot-spots > .section-full {\nbackground-color:#0c2e4f;\ncolor:#fff !important;\npadding-top:80px;\n}\n\n}\n \n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  const accordionItems = document.querySelectorAll('.shopify-section--accordion-content .text-with-icon');\n  accordionItems.forEach((item, index) => {\n    const numberSpan = document.createElement('span');\n    numberSpan.textContent = ⁠ ${index + 1} ⁠; \n    numberSpan.className = ⁠ listanumer listanumer-${index + 1} ⁠; \n    item.prepend(numberSpan);\n  });\n});\n</script>\n\n <!-- zamiana zdjec prod -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    var zawartosc1 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML;\n    var zawartosc2 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML;\n\ndocument.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML = zawartosc2;\n    document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML = zawartosc1;\n});    \n</script>",
+        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right: 12rem;\n}\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n.shopify-section--hot-spots > .section-full {\nbackground-color:#0c2e4f;\ncolor:#fff !important;\npadding-top:80px;\n}\n\n}\n \n</style>\n<!-- numeracja warstwy -->\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  \n  const accordionItems = document.querySelectorAll('.shopify-section--accordion-content .text-with-icon');\n\n  accordionItems.forEach((item, index) => {\n   \n    const numberSpan = document.createElement('span');\n    numberSpan.textContent = `${index + 1}`; \n    numberSpan.className = `listanumer listanumer-${index + 1}`;\n\n  \n    item.prepend(numberSpan);\n  });\n});\n</script>\n\n\n <!-- zamiana zdjec prod -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    var zawartosc1 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML;\n    var zawartosc2 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML;\n\ndocument.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML = zawartosc2;\n    document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML = zawartosc1;\n});    \n</script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -828,6 +877,7 @@
     "text_with_icons_XEcyze",
     "testimonials_hjTGGL",
     "custom_html_rEWTzM",
+    "image_with_text_overlay_GYMb7P",
     "hot_spots_dURC7e",
     "accordion_content_Y4NGRe",
     "impact_text_Mq3wyC",
