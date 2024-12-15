@@ -25,7 +25,7 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "collection_title_size": "h0",
-        "image_size": "lg",
+        "image_size": "md",
         "image": "shopify://shop_images/pocket-head_da477be9-c14e-4489-9fa0-dbb922eebbe4.webp",
         "mobile_image": "shopify://shop_images/pocket-head-mob_ab0846bc-0ce8-4c3c-8899-9d0969ee4611.webp",
         "mobile_text_position": "place-self-start text-start",
