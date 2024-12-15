@@ -355,7 +355,6 @@
     },
     "custom_html_MTVTdm": {
       "type": "custom-html",
-      "disabled": true,
       "custom_css": [
         ".text-custom {padding-top: 70px; padding-bottom: 20px; text-align: center;}",
         ".text-custom h2 {}"
@@ -401,7 +400,6 @@
         "heading_AbyAat",
         "richtext_mRCcak"
       ],
-      "disabled": true,
       "custom_css": [
         ".section-full {padding-top: 0;}"
       ],
@@ -410,7 +408,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/lovago.webp",
+        "image": "{{ product.metafields.custom.warstwy.value }}",
+        "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -423,41 +422,20 @@
       "blocks": {
         "item_TF4jzy": {
           "type": "item",
+          "repeater": "{{ product.metafields.custom.warstwy_materace.value }}",
           "settings": {
             "icon": "none",
+            "custom_icon": "{{ block.repeater.foto.value }}",
             "icon_width": 20,
-            "title": "Question 1",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
-            "page": ""
-          }
-        },
-        "item_LhigKr": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Question 2",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
-            "page": ""
-          }
-        },
-        "item_Qdr3AN": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Question 3",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "title": "{{ block.repeater.heading.value }}",
+            "content": "<p>{{ block.repeater.opis | metafield_tag }}</p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "item_TF4jzy",
-        "item_LhigKr",
-        "item_Qdr3AN"
+        "item_TF4jzy"
       ],
-      "disabled": true,
       "custom_css": [
         ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
         ".accordion__toggle {font-size: 18px;}",
@@ -481,37 +459,6 @@
         "button_text_color": "",
         "accordion_background": "#022e4f",
         "accordion_text_color": ""
-      }
-    },
-    "hot_spots_dURC7e": {
-      "type": "hot-spots",
-      "custom_css": [
-        "ul li {list-style: none; text-align: left; font-size: 1rem; position: relative; padding-bottom: 10px; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-content: flex-start; align-items: flex-start;}",
-        "ul li span.listanumer {padding: 0 9px; color: #0e2c4c; background-color: #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.2rem; line-height: 1.5;}",
-        "h2 {text-align: left; padding-bottom: 30px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "image": "{{ product.metafields.custom.warstwy.value }}",
-        "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
-        "title": "Budowa Materaca",
-        "content": "{{ product.metafields.custom.warstwy_opis | metafield_tag }}",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-center-end text-end",
-        "image_background": "#0e2b48",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
       }
     },
     "impact_text_Mq3wyC": {
@@ -1019,7 +966,6 @@
     "custom_html_MTVTdm",
     "image_with_text_overlay_7p8fea",
     "accordion_content_B4CwVh",
-    "hot_spots_dURC7e",
     "impact_text_Mq3wyC",
     "custom_html_9xHeYj",
     "image_with_text_overlay_jAgdpJ",
