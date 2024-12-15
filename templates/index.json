@@ -15,8 +15,8 @@
         "image_xYGMMK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/prom-all-30.webp",
-            "mobile_image": "shopify://shop_images/prom-all-030-mobile.webp",
+            "image": "shopify://shop_images/banner-all-prom-550.webp",
+            "mobile_image": "shopify://shop_images/all-banner-miobile-550.webp",
             "content_max_width": 460,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -37,8 +37,8 @@
         "image_yk7MYY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner-jalowiec-703.webp",
-            "mobile_image": "shopify://shop_images/banner-jalowiec-70-mobile3.webp",
+            "image": "shopify://shop_images/banner-jalowiec-prom-550.webp",
+            "mobile_image": "shopify://shop_images/jalowiec-banner-miobile-550.webp",
             "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
