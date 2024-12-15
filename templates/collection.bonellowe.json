@@ -25,7 +25,7 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "collection_title_size": "h0",
-        "image_size": "lg",
+        "image_size": "md",
         "image": "shopify://shop_images/bonel-head_d9898d76-8fc0-4242-854d-a247d1de36f0.webp",
         "mobile_image": "shopify://shop_images/bonel-head-mob_a73cfaaa-0979-4c22-bcfb-a4ad80432c1e.webp",
         "mobile_text_position": "place-self-start text-start",
