@@ -378,6 +378,7 @@
         "item-2",
         "item-3"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 699px) {}"
       ],
@@ -603,6 +604,7 @@
     },
     "before-after-image": {
       "type": "before-after-image",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "subheading": "",
@@ -706,6 +708,7 @@
         "collection-2",
         "collection-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
@@ -831,6 +834,7 @@
         "item_749KJz",
         "item_ww379m"
       ],
+      "disabled": true,
       "custom_css": [
         ".section-header {display: none !important;}",
         ".md\\:block {display: block !important;}",
@@ -915,6 +919,7 @@
         "play_Pz4TqN",
         "heading_jgTm7H"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
