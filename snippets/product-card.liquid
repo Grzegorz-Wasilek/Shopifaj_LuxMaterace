@@ -154,7 +154,7 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }} 
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant><span>{{ product.title }} </span>
         {% if product.metafields.custom.podtytu_sub %}
     <span class="product-subtitle">{{ product.metafields.custom.podtytu_sub }}</span>
   {% endif %}
