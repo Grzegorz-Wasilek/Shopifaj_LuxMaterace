@@ -108,7 +108,8 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 
     <div class="v-stack gap-0.5">
       <a href="{{ product.url }}" class="bold justify-self-start">{{ product.title }} 
-      {% if product.metafields.custom.podtytu_sub %}
+     
+        {% if product.metafields.custom.podtytu_sub %}
       <span class="product-subtitle">{{ product.metafields.custom.podtytu_sub }}</span>
     {% endif %}
       
