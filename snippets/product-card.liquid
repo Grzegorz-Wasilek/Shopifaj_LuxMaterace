@@ -154,7 +154,12 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }} 111</a></span>
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }} 
+        {% if product.metafields.custom.podtytu_sub %}
+    <span class="product-subtitle">{{ product.metafields.custom.podtytu_sub }}</span>
+  {% endif %}
+        
+        </a></span>
       {%- endif -%}
 <div class="product-card__price">
   {% assign collection_variant_name = collection.title | remove: 'Materace ' %}
