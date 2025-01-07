@@ -107,7 +107,12 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     {%- endif -%}
 
     <div class="v-stack gap-0.5">
-      <a href="{{ product.url }}" class="bold justify-self-start">{{ product.title }}</a>
+      <a href="{{ product.url }}" class="bold justify-self-start">{{ product.title }} 
+      {% if product.metafields.custom.podtytu_sub %}
+      <span class="product-subtitle">{{ product.metafields.custom.podtytu_sub }}</span>
+    {% endif %}
+      
+      </a>
       {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
     </div>
   </div>
