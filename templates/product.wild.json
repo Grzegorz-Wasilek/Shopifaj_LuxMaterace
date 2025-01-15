@@ -219,6 +219,33 @@
         "text_color": ""
       }
     },
+    "related_products_DJBRyA": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "materac-anise-dzieciecy-visco-15cm",
+          "materac-barnet-pocketowe-visco-pocket-19cm",
+          "materac-basil-multipocketowe-mata-kokosowa-multipocket-20cm",
+          "materac-borage-kontynentalne-minipocket-multipocket-lateks-27cm"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Inne konfiguracje",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "feature_chart_EXwAq7": {
       "type": "feature-chart",
       "blocks": {
@@ -308,33 +335,6 @@
         "chart_background": "#ffffff",
         "chart_text_color": "rgba(0,0,0,0)",
         "chart_true_false_color": ""
-      }
-    },
-    "related_products_DJBRyA": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [
-          "materac-anise-dzieciecy-visco-15cm",
-          "materac-barnet-pocketowe-visco-pocket-19cm",
-          "materac-basil-multipocketowe-mata-kokosowa-multipocket-20cm",
-          "materac-borage-kontynentalne-minipocket-multipocket-lateks-27cm"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     },
     "media_with_text_4rPE47": {
