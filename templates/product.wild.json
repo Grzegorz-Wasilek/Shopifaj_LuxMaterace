@@ -330,7 +330,7 @@
         "logo_y6jnLR": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo_width": 300,
             "link": ""
           }
         }
@@ -339,6 +339,9 @@
         "logo_fd8n8U",
         "logo_zwL4H8",
         "logo_y6jnLR"
+      ],
+      "custom_css": [
+        ".logo-list__item {max-width: 500px;}"
       ],
       "settings": {
         "full_width": true,
