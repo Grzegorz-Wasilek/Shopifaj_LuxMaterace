@@ -309,86 +309,51 @@
         "chart_true_false_color": ""
       }
     },
-    "media_grid_FbWajb": {
-      "type": "media-grid",
+    "logo_list_ttkjjr": {
+      "type": "logo-list",
       "blocks": {
-        "image_7xVFkb": {
-          "type": "image",
+        "logo_fd8n8U": {
+          "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/NaroznikWildzfunkcjaspania.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 3,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo": "shopify://shop_images/zagl_ed7ee575-5fde-43e2-84c9-f53aa0f02d70.svg",
+            "logo_width": 300,
+            "link": ""
           }
         },
-        "image_Y83LAC": {
-          "type": "image",
+        "logo_zwL4H8": {
+          "type": "logo",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "image_PEYFLk": {
-          "type": "image",
+        "logo_y6jnLR": {
+          "type": "logo",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo_width": 120,
+            "link": ""
           }
         }
       },
       "block_order": [
-        "image_7xVFkb",
-        "image_Y83LAC",
-        "image_PEYFLk"
+        "logo_fd8n8U",
+        "logo_zwL4H8",
+        "logo_y6jnLR"
       ],
       "settings": {
         "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
+        "stack_mobile": true,
+        "title": "Logo list",
+        "content": "",
+        "text_alignment": "start",
+        "items_per_row": 5,
         "background": "",
-        "background_gradient": ""
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "testimonials_hjTGGL": {
@@ -772,7 +737,7 @@
     "main",
     "custom_html_Ni3Nmn",
     "feature_chart_EXwAq7",
-    "media_grid_FbWajb",
+    "logo_list_ttkjjr",
     "testimonials_hjTGGL",
     "hot_spots_KMjMXn",
     "media_with_text_MFd9PJ",
