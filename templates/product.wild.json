@@ -315,7 +315,7 @@
         "testimonial_4KgYcW": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/kokos.svg",
+            "image": "shopify://shop_images/Vector.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -327,7 +327,7 @@
         "testimonial_MgHnL9": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/pokrowiec.svg",
+            "image": "shopify://shop_images/falis.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 0,
@@ -339,7 +339,7 @@
         "testimonial_636Wxx": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/visco.svg",
+            "image": "shopify://shop_images/drew.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 5,
@@ -351,7 +351,19 @@
         "testimonial_YkeYJ7": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/visco.svg",
+            "image": "shopify://shop_images/poj.svg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 5,
+            "author": "",
+            "title": "Pojemnik na pościel",
+            "content": "<p>znajdujący się w otomanie posiada sprężynowy automat ułatwiający otwieranie. </p>"
+          }
+        },
+        "testimonial_tN4XGz": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/zagl_ed7ee575-5fde-43e2-84c9-f53aa0f02d70.svg",
             "round_avatar": false,
             "show_rating": false,
             "rating": 5,
@@ -365,7 +377,8 @@
         "testimonial_4KgYcW",
         "testimonial_MgHnL9",
         "testimonial_636Wxx",
-        "testimonial_YkeYJ7"
+        "testimonial_YkeYJ7",
+        "testimonial_tN4XGz"
       ],
       "settings": {
         "full_width": true,
