@@ -415,14 +415,15 @@
         "image_XQbtNN": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/1-15.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "subheading": "To jeden z naszych bestsellerów",
+            "title": "Piękny i wygodny",
+            "content": "<p>Wreszcie Twój wymarzony narożnik! Dzięki systemowi personalizacji możesz zaprojektować swój własny, niepowtarzalny mebel — wybierasz tkaninę, orientację oraz nóżki.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -436,6 +437,7 @@
         "image_7QkTgz": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/2-15.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -457,6 +459,7 @@
         "image_gmEkzK": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/3-15.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -475,7 +478,7 @@
             "button_text_color": ""
           }
         },
-        "image_yGr7yf": {
+        "image_bMYW9X": {
           "type": "image",
           "settings": {
             "media_width": 50,
@@ -496,9 +499,10 @@
             "button_text_color": ""
           }
         },
-        "image_bMYW9X": {
+        "image_yGr7yf": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/4-15.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -564,8 +568,8 @@
         "image_XQbtNN",
         "image_7QkTgz",
         "image_gmEkzK",
-        "image_yGr7yf",
         "image_bMYW9X",
+        "image_yGr7yf",
         "image_3ze6hi",
         "image_4rUnYk"
       ],
