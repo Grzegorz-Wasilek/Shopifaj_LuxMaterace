@@ -343,7 +343,7 @@
         "logo_y6jnLR"
       ],
       "custom_css": [
-        ".logo-list {display: grid !important; grid-template-columns: repeat(3, 30rem) !important; grid-template-rows: auto; gap: var(--spacing-2);}",
+        ".logo-list {display: grid !important; grid-template-columns: repeat(3, 30%) !important; grid-template-rows: auto; gap: var(--spacing-2);}",
         ".logo-list__item {background: 0%; aspect-ratio: 16/9;}",
         ".logo-list__image {max-width: 100%; width: 100%;}"
       ],
