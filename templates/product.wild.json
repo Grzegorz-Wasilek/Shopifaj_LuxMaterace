@@ -384,6 +384,196 @@
         "testimonial_card_text_color": ""
       }
     },
+    "hot_spots_KMjMXn": {
+      "type": "hot-spots",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/Wild_Castel_kolory_krem.webp",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "media_with_text_MFd9PJ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_XQbtNN": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_7QkTgz": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_gmEkzK": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_yGr7yf": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_bMYW9X": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_3ze6hi": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_4rUnYk": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XQbtNN",
+        "image_7QkTgz",
+        "image_gmEkzK",
+        "image_yGr7yf",
+        "image_bMYW9X",
+        "image_3ze6hi",
+        "image_4rUnYk"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
     "custom_html_9xHeYj": {
       "type": "custom-html",
       "disabled": true,
@@ -398,117 +588,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "media_grid_AEwBcJ": {
-      "type": "media-grid",
-      "blocks": {
-        "image_H9BV8D": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/sprezyny-minipocket.webp",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#112e4d",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_itHF77": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/multipocket.webp",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#112e4d",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_TP9Wkw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/kokos.webp",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#112e4d",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_rTyV6c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/latex.webp",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#112e4d",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_H9BV8D",
-        "image_itHF77",
-        "image_TP9Wkw",
-        "image_rTyV6c"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".media-grid .media-grid__item:nth-child(3) p {color: #fff;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
       }
     },
     "custom_html_J9DNww": {
@@ -529,7 +608,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "custom_css": [
         "@media (max-width: 1000px) {.product-list {--product-list-items-per-row: 2; --product-list-gap: 10px; }}"
       ],
@@ -546,7 +624,7 @@
         "content": "",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#022e4f",
         "heading_color": "",
         "heading_gradient": "",
         "product_card_background": "",
@@ -595,8 +673,9 @@
     "custom_html_Ni3Nmn",
     "feature_chart_EXwAq7",
     "testimonials_hjTGGL",
+    "hot_spots_KMjMXn",
+    "media_with_text_MFd9PJ",
     "custom_html_9xHeYj",
-    "media_grid_AEwBcJ",
     "custom_html_J9DNww",
     "related-products",
     "custom_html_3Xy8Hk",
