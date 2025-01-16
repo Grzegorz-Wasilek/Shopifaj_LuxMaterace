@@ -134,7 +134,7 @@
             "icon_width": 32,
             "title": "Produkcja w 14 dni robocze",
             "content": "",
-            "background": "#eaf2ed",
+            "background": "rgba(0,0,0,0)",
             "text_color": "#ed979c"
           }
         },
@@ -148,7 +148,7 @@
             "icon_width": 28,
             "title": "Bezpieczne zakupy",
             "content": "",
-            "background": "#eaf2ed",
+            "background": "rgba(0,0,0,0)",
             "text_color": "#ed979c"
           }
         },
