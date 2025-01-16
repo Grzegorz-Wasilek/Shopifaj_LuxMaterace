@@ -225,19 +225,19 @@
         "headings_WEyTpJ": {
           "type": "headings",
           "settings": {
-            "heading_1": "Szerokość całkowita:",
-            "heading_2": "Długość całkowita:",
-            "heading_3": "Wysokość całkowita:",
-            "heading_4": "Wysokość przodu:",
-            "heading_5": "Wysokość skrzyni łóżka:",
-            "heading_6": "Wysokość nóżek: ",
-            "heading_7": "Pojemnik na pościel:",
-            "heading_8": "Podłokietniki:",
+            "heading_1": "Szerokość:",
+            "heading_2": "Głębokość:",
+            "heading_3": "Wysokość:",
+            "heading_4": "Wysokość siedziska:",
+            "heading_5": "Powierzchnia spania:",
+            "heading_6": "Pojemnik na pościel: ",
+            "heading_7": "Podłokietniki:",
+            "heading_8": "Orientacja:",
             "heading_9": "Konstrukcja:",
             "heading_10": "Materiał nóżek:",
             "heading_11": "Regulowane zagłówki:",
-            "heading_12": "",
-            "heading_13": "",
+            "heading_12": "Ilość paczek:",
+            "heading_13": "Kolekcja:",
             "heading_14": "",
             "heading_15": "",
             "heading_16": "",
@@ -249,15 +249,14 @@
         },
         "values_kA97Ad": {
           "type": "values",
-          "source": "{{ product.metafields.custom.wymiary.value }}",
           "settings": {
             "product": "",
-            "value_1": "<p>{{ product.metafields.custom.wymiary.value.szerokosc_calkowita.value }}</p>",
-            "value_2": "<p>{{ product.metafields.custom.wymiary.value.dlugosc_calkowita.value }}</p>",
-            "value_3": "<p>{{ product.metafields.custom.wymiary.value.wysokosc_calkowita.value }}</p>",
-            "value_4": "<p>{{ product.metafields.custom.wymiary.value.wysokosc_przodu.value }}</p>",
-            "value_5": "<p>{{ product.metafields.custom.wymiary.value.wysokosc_skrzyni_lozka.value }}</p>",
-            "value_6": "<p>{{ product.metafields.custom.wymiary.value.wysokosc_nozek.value }}</p>",
+            "value_1": "",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
             "value_7": "",
             "value_8": "",
             "value_9": "",
@@ -286,9 +285,9 @@
       ],
       "settings": {
         "full_width": true,
-        "subheading": "Wymiary",
-        "title": "Komfort w Każdym Wymiarze",
-        "content": "<p>{{ product.metafields.custom.opis_wymiary | metafield_tag }}</p>",
+        "subheading": "",
+        "title": "Wymiary",
+        "content": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -319,7 +318,7 @@
             "image": "shopify://shop_images/kokos.svg",
             "round_avatar": false,
             "show_rating": false,
-            "rating": 4,
+            "rating": 0,
             "author": "",
             "title": "Testimonial",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
@@ -348,16 +347,28 @@
             "title": "Testimonial 2",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
           }
+        },
+        "testimonial_ecXEHE": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
         }
       },
       "block_order": [
         "testimonial_4KgYcW",
         "testimonial_MgHnL9",
-        "testimonial_636Wxx"
+        "testimonial_636Wxx",
+        "testimonial_ecXEHE"
       ],
       "settings": {
         "full_width": true,
-        "stack_testimonials": true,
+        "stack_testimonials": false,
         "subheading": "",
         "title": "",
         "content": "",
