@@ -247,35 +247,6 @@
             "heading_20": ""
           }
         },
-        "values_mGJkjX": {
-          "type": "values",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "value_1": "",
-            "value_2": "",
-            "value_3": "",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
         "values_kA97Ad": {
           "type": "values",
           "settings": {
@@ -307,7 +278,6 @@
       },
       "block_order": [
         "headings_WEyTpJ",
-        "values_mGJkjX",
         "values_kA97Ad"
       ],
       "custom_css": [
@@ -337,6 +307,90 @@
         "chart_background": "#ffffff",
         "chart_text_color": "rgba(0,0,0,0)",
         "chart_true_false_color": ""
+      }
+    },
+    "media_grid_Cb8gMQ": {
+      "type": "media-grid",
+      "blocks": {
+        "image_4citgM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_5.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BUd8Yc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_3.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_exWyYE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_4.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_4citgM",
+        "image_BUd8Yc",
+        "image_exWyYE"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "testimonials_hjTGGL": {
@@ -624,6 +678,7 @@
     "main",
     "custom_html_Ni3Nmn",
     "feature_chart_EXwAq7",
+    "media_grid_Cb8gMQ",
     "testimonials_hjTGGL",
     "custom_html_9xHeYj",
     "media_grid_AEwBcJ",
