@@ -315,13 +315,14 @@
         "image_7xVFkb": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/NaroznikWildzfunkcjaspania.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
+            "desktop_column_span": 3,
+            "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "rgba(0,0,0,0)",
             "background_gradient": "",
