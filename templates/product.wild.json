@@ -310,75 +310,6 @@
         "chart_true_false_color": ""
       }
     },
-    "media_with_text_4rPE47": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_9WxjJL": {
-          "type": "image",
-          "source": "{{ product.metafields.custom.opis_produkt.value }}",
-          "settings": {
-            "image": "{{ product.metafields.custom.opis_produkt.value.foto.value }}",
-            "media_width": 55,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "{{ product.metafields.custom.opis_produkt.value.heading.value }}",
-            "content": "<p>{{ product.metafields.custom.opis_produkt.value.opis | metafield_tag }}</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_9WxjJL"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "text_with_icons_XEcyze": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_dPihPj": {
-          "type": "item",
-          "repeater": "{{ product.metafields.custom.dla_czego_warto.value }}",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "{{ block.repeater.icon_1.value }}",
-            "mobile_icon_width": 120,
-            "icon_width": 120,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "{{ block.repeater.tytul.value }}",
-            "content": "<p>{{ block.repeater.opis_icon_1 | metafield_tag }}</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_dPihPj"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "Dlaczego warto wybrać ten materac?",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "testimonials_hjTGGL": {
       "type": "testimonials",
       "blocks": {
@@ -424,12 +355,11 @@
         "testimonial_MgHnL9",
         "testimonial_636Wxx"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_testimonials": true,
         "subheading": "",
-        "title": "Dlaczego warto wybrać ten materac?",
+        "title": "",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -585,101 +515,9 @@
         "text_color": ""
       }
     },
-    "media_with_text_KKFgPG": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_9UPmap": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/pokrowiec-1.webp",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Pokrowiec",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_YKdwUb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/pokrowiec-2.webp",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Pokrowiec",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_9UPmap",
-        "image_YKdwUb"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "spacing": "large"
-      }
-    },
-    "image_with_text_overlay_g9CHB9": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_bK9NLN": {
-          "type": "heading",
-          "settings": {
-            "text": "Zle dobrany materac, a nasze zdrowie",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_tmmWkw": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Niewłaściwie dobrany materac może prowadzić do bólu pleców, zaburzeń snu, zwiększonego napięcia oraz problemów z krążeniem, negatywnie pływając na nasze zdrowie fizyczne i psychiczne. Ważne jest, aby wybrać<br/>materac dostosowany do indywidualnych potrzeb, co może pomóc zapewnić zdrowy i regenerujący sen.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_bK9NLN",
-        "richtext_tmmWkw"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "enable_parallax": true,
-        "image_size": "auto",
-        "image": "shopify://shop_images/zly-materac.webp",
-        "mobile_text_position": "place-self-start text-start",
-        "desktop_text_position": "sm:place-self-start sm:text-start",
-        "text_color": "#022e4f",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 1000px) {.product-list {--product-list-items-per-row: 2; --product-list-gap: 10px; }}"
       ],
@@ -705,6 +543,7 @@
     },
     "custom_html_3Xy8Hk": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".section-full {height: 0; padding: 0;}"
       ],
@@ -743,14 +582,10 @@
     "main",
     "custom_html_Ni3Nmn",
     "feature_chart_EXwAq7",
-    "media_with_text_4rPE47",
-    "text_with_icons_XEcyze",
     "testimonials_hjTGGL",
     "custom_html_9xHeYj",
     "media_grid_AEwBcJ",
     "custom_html_J9DNww",
-    "media_with_text_KKFgPG",
-    "image_with_text_overlay_g9CHB9",
     "related-products",
     "custom_html_3Xy8Hk",
     "17318804263ddebb9a"
