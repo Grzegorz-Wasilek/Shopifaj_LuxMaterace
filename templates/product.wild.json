@@ -481,6 +481,7 @@
         "image_bMYW9X": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/6-15.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
