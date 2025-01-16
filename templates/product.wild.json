@@ -315,7 +315,7 @@
         "logo_fd8n8U": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/zagl_ed7ee575-5fde-43e2-84c9-f53aa0f02d70.svg",
+            "logo": "shopify://shop_images/image_5.webp",
             "logo_width": 300,
             "link": ""
           }
@@ -323,7 +323,8 @@
         "logo_zwL4H8": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/image_3.webp",
+            "logo_width": 300,
             "link": ""
           }
         },
@@ -342,7 +343,9 @@
         "logo_y6jnLR"
       ],
       "custom_css": [
-        ".logo-list__item {max-width: 500px;}"
+        ".logo-list {display: grid !important; grid-template-columns: repeat(3, 30rem) !important; grid-template-rows: auto; gap: var(--spacing-2);}",
+        ".logo-list__item {background: 0%; aspect-ratio: 16/9;}",
+        ".logo-list__image {max-width: 100%; width: 100%;}"
       ],
       "settings": {
         "full_width": true,
