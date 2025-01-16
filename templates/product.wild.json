@@ -184,7 +184,7 @@
         "associated_products_rXA6x8"
       ],
       "custom_css": [
-        ".color-swatch {height: 2rem; width: 2rem;}"
+        ".logo-list__image {max-width: 500px; width: 100%;}"
       ],
       "settings": {
         "full_width": true,
@@ -330,6 +330,7 @@
         "logo_y6jnLR": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/image_4.webp",
             "logo_width": 300,
             "link": ""
           }
