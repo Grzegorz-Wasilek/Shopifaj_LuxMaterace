@@ -284,14 +284,14 @@
         ".section-blends {padding-top: 5rem;}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
         "title": "Wymiary",
         "content": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 20,
         "view_all_text": "",
         "view_less_text": "",
         "view_product": "",
