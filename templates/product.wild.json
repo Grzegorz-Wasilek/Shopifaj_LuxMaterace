@@ -349,8 +349,8 @@
             "show_rating": false,
             "rating": 0,
             "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Pianka HR",
+            "content": "<p>Doskonale dopasowuje się do sylwetki, zapewnia świetną cyrkulację powietrza i wyjątkowy komfort.</p>"
           }
         },
         "testimonial_MgHnL9": {
@@ -361,8 +361,8 @@
             "show_rating": false,
             "rating": 0,
             "author": "",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Sprężyna falista",
+            "content": "<p>Dzięki zastosowaniu sprężyn falistych narożnik zapewnia wyjątkowy komfort.</p>"
           }
         },
         "testimonial_636Wxx": {
@@ -373,19 +373,20 @@
             "show_rating": false,
             "rating": 5,
             "author": "",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Solidna konstrukcja",
+            "content": "<p>Wytrzymały stelaż to połączenie drewna i płyty wiórowej. </p>"
           }
         },
-        "testimonial_ecXEHE": {
+        "testimonial_YkeYJ7": {
           "type": "testimonial",
           "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
+            "image": "shopify://shop_images/visco.svg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 5,
             "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Regulowane zagłówki",
+            "content": "<p>posiadają 4 stopniową regulację kąta nachylenia, w zależności od indywidualnych potrzeb</p>"
           }
         }
       },
@@ -393,7 +394,7 @@
         "testimonial_4KgYcW",
         "testimonial_MgHnL9",
         "testimonial_636Wxx",
-        "testimonial_ecXEHE"
+        "testimonial_YkeYJ7"
       ],
       "settings": {
         "full_width": true,
@@ -408,7 +409,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "#f5f5f5",
+        "testimonial_card_background": "rgba(0,0,0,0)",
         "testimonial_card_text_color": ""
       }
     },
