@@ -767,7 +767,6 @@
     },
     "custom_html_3Xy8Hk": {
       "type": "custom-html",
-      "disabled": true,
       "custom_css": [
         ".section-full {height: 0; padding: 0;}"
       ],
