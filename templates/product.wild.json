@@ -253,7 +253,7 @@
             "heading_10": "Materiał nóżek:",
             "heading_11": "Regulowane zagłówki:",
             "heading_12": "Ilość paczek:",
-            "heading_13": "Kolekcja:",
+            "heading_13": "",
             "heading_14": "",
             "heading_15": "",
             "heading_16": "",
@@ -279,7 +279,7 @@
             "value_10": "<p>Metal</p>",
             "value_11": "<p>TAK</p>",
             "value_12": "<p>2</p>",
-            "value_13": "<p>Wild</p>",
+            "value_13": "",
             "value_14": "",
             "value_15": "",
             "value_16": "",
@@ -299,7 +299,7 @@
       "custom_css": [
         ".section-blends {padding-top: 5rem;}",
         ".feature-chart__table {display: grid; grid-template-columns: 1fr 1fr; column-gap: 50px;}",
-        ".bg-custom {background:transparent;}"
+        ".bg-custom {background: transparent;}"
       ],
       "settings": {
         "full_width": false,
