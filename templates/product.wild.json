@@ -45,7 +45,9 @@
             "option_value_metafield": "custom.variation_value",
             "products": [
               "naroznik-wild",
-              "naroznik-wild-1"
+              "naroznik-wild-1",
+              "naroznik-wild-2",
+              "naroznik-wild-3"
             ],
             "selector_style": "swatch"
           }
