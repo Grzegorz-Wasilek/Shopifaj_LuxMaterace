@@ -219,6 +219,22 @@
         "text_color": ""
       }
     },
+    "custom_html_69Vwt9": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {text-align: center; }",
+        ".section-full {padding-bottom:0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h2\">Wymiary</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "feature_chart_EXwAq7": {
       "type": "feature-chart",
       "blocks": {
@@ -286,12 +302,12 @@
       "settings": {
         "full_width": false,
         "subheading": "",
-        "title": "Wymiary",
+        "title": "",
         "content": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 8,
+        "max_rows": 20,
         "view_all_text": "",
         "view_less_text": "",
         "view_product": "",
@@ -804,6 +820,7 @@
   "order": [
     "main",
     "custom_html_Ni3Nmn",
+    "custom_html_69Vwt9",
     "feature_chart_EXwAq7",
     "multi_column_mgtXPn",
     "logo_list_ttkjjr",
