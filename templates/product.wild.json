@@ -299,7 +299,8 @@
       "custom_css": [
         ".section-blends {padding-top: 5rem;}",
         ".feature-chart__table {display: grid; grid-template-columns: 1fr 1fr; column-gap: 50px;}",
-        ".bg-custom {background: transparent;}"
+        ".bg-custom {background: transparent;}",
+        ".divide-y > div {border-block-start-width: 0px; border-block-end-width: 1px;}"
       ],
       "settings": {
         "full_width": false,
