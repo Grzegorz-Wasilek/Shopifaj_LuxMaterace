@@ -391,7 +391,10 @@
         "item_NM6BCh",
         "item_tDLAxF"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".multi-column > div {text-align:center;}",
+        ".multi-column > div:last-child img {width: 90%; margin:0 auto; }"
+      ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
