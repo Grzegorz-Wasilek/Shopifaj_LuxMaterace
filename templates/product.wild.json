@@ -38,6 +38,18 @@
             "page": ""
           }
         },
+        "product_variations_KgicHX": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "Kolor",
+            "option_value_metafield": "custom.variation_value",
+            "products": [
+              "naroznik-wild",
+              "naroznik-wild-1"
+            ],
+            "selector_style": "swatch"
+          }
+        },
         "variant_picker_LHbQDF": {
           "type": "variant_picker",
           "settings": {
@@ -47,15 +59,6 @@
             "swatch_selector_style": "swatch",
             "variant_image_options": "",
             "size_chart_page": ""
-          }
-        },
-        "product_variations_KgicHX": {
-          "type": "product_variations",
-          "settings": {
-            "option_name": "Kolor",
-            "option_value_metafield": "custom.variation_value",
-            "products": [],
-            "selector_style": "swatch"
           }
         },
         "separator_imcTCg": {
@@ -162,8 +165,8 @@
         "title",
         "payment_terms",
         "collapsible_text_rCHYt8",
-        "variant_picker_LHbQDF",
         "product_variations_KgicHX",
+        "variant_picker_LHbQDF",
         "separator_imcTCg",
         "badges_zrhCYg",
         "price",
