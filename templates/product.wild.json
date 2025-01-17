@@ -555,7 +555,7 @@
     "hot_spots_KMjMXn": {
       "type": "hot-spots",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "image": "shopify://shop_images/Wild_Castel_kolory_krem.webp",
         "title": "",
         "content": "",
@@ -573,17 +573,17 @@
         "hot_spot_dot_text_color": "#000000",
         "hot_spot_content_background": "#ffffff",
         "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
+        "hot_spot_content_opacity": 91,
+        "hot_spot_content_blur_radius": 2
       }
     },
     "media_with_text_MFd9PJ": {
       "type": "media-with-text",
       "blocks": {
-        "image_XQbtNN": {
+        "image_7QkTgz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1-15.webp",
+            "image": "shopify://shop_images/1-15_876282df-0565-44df-a63d-859d30715c47.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -602,18 +602,18 @@
             "button_text_color": ""
           }
         },
-        "image_7QkTgz": {
+        "image_yBCh6P": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2-15.webp",
+            "image": "shopify://shop_images/2-15_d2bd3b0f-4adf-4eff-94bb-8a7c6004d0e7.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "subheading": "Funkcja spania",
+            "title": "Śpisz jak na łóżku!",
+            "content": "<p>Wreszcie Twój wymarzony narożnik! Dzięki systemowi personalizacji możesz zaprojektować swój własny, niepowtarzalny mebel — wybierasz tkaninę, orientację oraz nóżki.<br/><br/>Znany i powszechnie stosowany na rynku mebli tapicerowanych mechanizm rozkładania Delfin charakteryzuje trwałość i łatwość obsługi.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -633,9 +633,9 @@
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "subheading": "Uporządkowane a pod ręką",
+            "title": "Pojemnik na pościel",
+            "content": "<p>Pojemnik na pościel znajdujący się w otomanie posiada sprężynowy automat ułatwiający otwieranie. Całość wykonana z niezwykłą dbałością o szczegóły. </p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -655,9 +655,9 @@
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "subheading": "Rozkładane zagłówki",
+            "title": "Klik klik i od razu milej",
+            "content": "<p>Zagłówki posiadają 4 stopniową regulację kąta nachylenia, w zależności od indywidualnych potrzeb</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -677,9 +677,9 @@
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "subheading": "Nasi klienci polecają ten model",
+            "title": "Rozpieść się i swoich gości",
+            "content": "<p>Przemyślany design, który przykuwa uwagę od pierwszego spojrzenia. Wysoki komfort użytkowania dzięki technologii sprężyn falistych oraz elastycznym piankom. Wytrzymały stelaż to połączenie drewna i płyty wiórowej. Rozgość się!</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -734,8 +734,8 @@
         }
       },
       "block_order": [
-        "image_XQbtNN",
         "image_7QkTgz",
+        "image_yBCh6P",
         "image_gmEkzK",
         "image_bMYW9X",
         "image_yGr7yf",
