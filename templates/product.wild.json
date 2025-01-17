@@ -222,8 +222,8 @@
     "custom_html_69Vwt9": {
       "type": "custom-html",
       "custom_css": [
-        "h2 {text-align: center; }",
-        ".section-full {padding-bottom:0;}"
+        "h2 {text-align: center;}",
+        ".section-full {padding-bottom: 0;}"
       ],
       "settings": {
         "full_width": true,
@@ -297,7 +297,8 @@
         "values_kA97Ad"
       ],
       "custom_css": [
-        ".section-blends {padding-top: 5rem;}"
+        ".section-blends {padding-top: 5rem;}",
+        ".feature-chart__table {display: grid; grid-template-columns: 1fr 1fr; }"
       ],
       "settings": {
         "full_width": false,
@@ -323,6 +324,21 @@
         "chart_background": "#ffffff",
         "chart_text_color": "rgba(0,0,0,0)",
         "chart_true_false_color": ""
+      }
+    },
+    "custom_html_NxpqLf": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {height: 0; padding: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n\n\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "multi_column_mgtXPn": {
@@ -822,6 +838,7 @@
     "custom_html_Ni3Nmn",
     "custom_html_69Vwt9",
     "feature_chart_EXwAq7",
+    "custom_html_NxpqLf",
     "multi_column_mgtXPn",
     "logo_list_ttkjjr",
     "testimonials_hjTGGL",
