@@ -349,7 +349,7 @@
         "item_kxjmJ6": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/wymiar-2.svg",
+            "image": "shopify://shop_images/wymiar-1-b.svg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -362,7 +362,7 @@
         "item_NM6BCh": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/wymiar_1.svg",
+            "image": "shopify://shop_images/wymiar-2-b.svg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -375,7 +375,7 @@
         "item_tDLAxF": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/wymiar-3.svg",
+            "image": "shopify://shop_images/wymiar-3-b.svg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
