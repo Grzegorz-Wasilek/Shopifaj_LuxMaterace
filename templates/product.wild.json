@@ -309,6 +309,67 @@
         "chart_true_false_color": ""
       }
     },
+    "multi_column_mgtXPn": {
+      "type": "multi-column",
+      "blocks": {
+        "item_kxjmJ6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/image_5.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_NM6BCh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/image_4.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_tDLAxF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/image_3.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_kxjmJ6",
+        "item_NM6BCh",
+        "item_tDLAxF"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "logo_list_ttkjjr": {
       "type": "logo-list",
       "blocks": {
@@ -342,6 +403,7 @@
         "logo_zwL4H8",
         "logo_y6jnLR"
       ],
+      "disabled": true,
       "custom_css": [
         ".logo-list {display: grid !important; grid-template-columns: repeat(3, 30%) !important; grid-template-rows: auto; gap: var(--spacing-2);}",
         ".logo-list__item {background: 0%; aspect-ratio: 16/9;}",
@@ -744,6 +806,7 @@
     "main",
     "custom_html_Ni3Nmn",
     "feature_chart_EXwAq7",
+    "multi_column_mgtXPn",
     "logo_list_ttkjjr",
     "testimonials_hjTGGL",
     "hot_spots_KMjMXn",
