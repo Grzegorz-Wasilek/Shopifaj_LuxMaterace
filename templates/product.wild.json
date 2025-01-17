@@ -555,7 +555,7 @@
     "hot_spots_KMjMXn": {
       "type": "hot-spots",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "image": "shopify://shop_images/Wild_Castel_kolory_krem.webp",
         "title": "",
         "content": "",
@@ -742,8 +742,11 @@
         "image_3ze6hi",
         "image_4rUnYk"
       ],
+      "custom_css": [
+        ".section-full {padding-top: 5rem;}"
+      ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "spacing": "small"
       }
     },
