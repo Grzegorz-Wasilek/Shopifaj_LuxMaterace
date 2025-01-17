@@ -298,7 +298,8 @@
       ],
       "custom_css": [
         ".section-blends {padding-top: 5rem;}",
-        ".feature-chart__table {display: grid; grid-template-columns: 1fr 1fr; }"
+        ".feature-chart__table {display: grid; grid-template-columns: 1fr 1fr; column-gap: 50px;}",
+        ".bg-custom {background:transparent;}"
       ],
       "settings": {
         "full_width": false,
