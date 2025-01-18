@@ -26,18 +26,6 @@
             "heading_tag": "h2"
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
-        },
-        "collapsible_text_rCHYt8": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "{{ block.settings.page.title }}",
-            "content": "<p>{{ block.settings.page.metafields.custom.material | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
@@ -167,8 +155,6 @@
         "judge_me_reviews_preview_badge_NkggX4",
         "vendor",
         "title",
-        "payment_terms",
-        "collapsible_text_rCHYt8",
         "product_variations_KgicHX",
         "variant_picker_LHbQDF",
         "separator_imcTCg",
