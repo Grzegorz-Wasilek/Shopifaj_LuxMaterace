@@ -69,7 +69,7 @@
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
         ".social-media svg path {fill: #465076;}",
         "#semmi-payment {width: 600px;}",
-        "@media (max-width: 769px) {#semmi-payment {width:390px;}}",
+        "@media (max-width: 850px) {#semmi-payment {width: 450px }}",
         "@media (max-width: 1000px) {.footer__block--newsletter {margin-bottom: 20px; }}"
       ],
       "settings": {
