@@ -69,8 +69,7 @@
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
         ".social-media svg path {fill: #465076;}",
         ".footer__payment-icons > svg {width: auto; padding: 0 20px;}",
-        "@media (max-width: 1000px) {.footer__payment-icons > svg {padding: 5px 10px; }}",
-        "@media (max-width: 1000px) {.footer__block--newsletter {margin-bottom: 20px; }}"
+        "@media (max-width: 1000px) {.footer__block--newsletter {margin-bottom: 20px; } .footer__payment-icons > svg {padding: 5px 10px; }}"
       ],
       "settings": {
         "show_social_media": true,
