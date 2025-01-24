@@ -68,6 +68,7 @@
         ".footer .prose p {margin: 0;}",
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
         ".social-media svg path {fill: #465076;}",
+        ".footer__payment-icons > svg {width:auto; padding:0 15px;}",
         "@media (max-width: 1000px) {.footer__block--newsletter {margin-bottom: 20px; }}"
       ],
       "settings": {
