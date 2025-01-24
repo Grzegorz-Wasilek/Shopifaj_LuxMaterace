@@ -70,7 +70,7 @@
         ".social-media svg path {fill: #465076;}",
         "#semmi-payment {width: 600px;}",
         "@media (max-width: 850px) {#semmi-payment {width: 500px; }}",
-        "@media (max-width: 699px) {#semmi-payment {width: 90%; }}",
+        "@media (max-width: 699px) {#semmi-payment {width: inherit; max-width:100%; }}",
         "@media (max-width: 1000px) {.footer__block--newsletter {margin-bottom: 20px; }}"
       ],
       "settings": {
