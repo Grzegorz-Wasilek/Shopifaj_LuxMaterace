@@ -39,9 +39,11 @@
         "show_cart_note": true,
         "show_shipping_text": false,
         "show_view_cart_button": true,
-        "show_checkout_button": false,
-        "recommendations_title": "Trending this month",
+        "show_checkout_button": true,
+        "recommendations_title": "Popularne w tym miesiącu",
         "products": [
+          "naroznik-comon",
+          "materac-silver-pro-kontynentalny-hybrydowy-visco-lateks-minipocket-multipocket-32cm",
           "materac-mint-kontynentalne-lateks-mata-kokosowa-minipocket-multipocket-28cm"
         ],
         "product_card_background": "#f2f2f2",
