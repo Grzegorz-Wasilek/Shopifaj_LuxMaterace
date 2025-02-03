@@ -287,7 +287,7 @@
         ".feature-chart__table {display: grid; grid-template-columns: 1fr 1fr; column-gap: 80px;}",
         ".bg-custom {background: transparent;}",
         ".divide-y > div {border-block-start-width: 0px; border-block-end-width: 1px;}",
-        "@media screen and (max-width: 699px) {.feature-chart__table {column-gap: 30px;}}"
+        "@media screen and (max-width: 699px) {.feature-chart__table {column-gap: 30px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -679,6 +679,7 @@
         },
         "image_3ze6hi": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "media_width": 50,
             "media_position": "end",
@@ -701,8 +702,9 @@
         "image_4rUnYk": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/wnoszenie.webp",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
