@@ -170,7 +170,8 @@
         "associated_products_rXA6x8"
       ],
       "custom_css": [
-        ".logo-list__image {max-width: 500px; width: 100%;}"
+        ".logo-list__image {max-width: 500px; width: 100%;}",
+        ".color-swatch {height: 3.5rem; width: 3.5rem;}"
       ],
       "settings": {
         "full_width": true,
