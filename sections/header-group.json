@@ -121,7 +121,7 @@
         "mega_menu_m6f7en": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "",
+            "menu_item": "salon",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
