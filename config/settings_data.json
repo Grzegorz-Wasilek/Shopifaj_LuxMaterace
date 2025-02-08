@@ -89,11 +89,6 @@
         "type": "shopify://apps/bss-variant-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
         "disabled": false,
         "settings": {}
-      },
-      "1910501027098541543": {
-        "type": "shopify://apps/starapps-variant-image/blocks/starapps-via-embed/2a01d106-3d10-48e8-ba53-5cb971217ac4",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
