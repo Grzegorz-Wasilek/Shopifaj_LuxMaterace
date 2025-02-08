@@ -44,7 +44,8 @@
             "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
             "products": [
-              "naroznik-comon"
+              "naroznik-comon",
+              "naroznik-comon-monolith-37"
             ],
             "selector_style": "swatch"
           }
