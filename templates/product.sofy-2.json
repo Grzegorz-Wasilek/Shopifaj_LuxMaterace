@@ -70,9 +70,11 @@
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
-            "option_name": "Kolory",
+            "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
-            "products": [],
+            "products": [
+              "naroznik-comon"
+            ],
             "selector_style": "swatch"
           }
         },
