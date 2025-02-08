@@ -38,6 +38,17 @@
             "page": ""
           }
         },
+        "product_variations_KgicHX": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "Kolor",
+            "option_value_metafield": "custom.variation_value",
+            "products": [
+              "naroznik-comon"
+            ],
+            "selector_style": "swatch"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -66,17 +77,6 @@
         "separator_WrUBcF": {
           "type": "separator",
           "settings": {}
-        },
-        "product_variations_KgicHX": {
-          "type": "product_variations",
-          "settings": {
-            "option_name": "Kolor",
-            "option_value_metafield": "custom.variation_value",
-            "products": [
-              "naroznik-comon"
-            ],
-            "selector_style": "swatch"
-          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -164,12 +164,12 @@
         "title",
         "payment_terms",
         "collapsible_text_rCHYt8",
+        "product_variations_KgicHX",
         "variant_picker",
         "separator_imcTCg",
         "badges_zrhCYg",
         "price",
         "separator_WrUBcF",
-        "product_variations_KgicHX",
         "quantity_selector",
         "buy_buttons",
         "button_yL9rMb",
