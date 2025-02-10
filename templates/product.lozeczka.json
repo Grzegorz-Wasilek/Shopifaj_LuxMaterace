@@ -733,15 +733,15 @@
         "image_4rUnYk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/wnoszenie.webp",
+            "image": "shopify://shop_images/Lasy_Panstwowe_FSC.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Wygodna dostawa",
-            "content": "<p>Twoje zamówienie dostarczymy szybko i bezproblemowo pod wskazany adres. Jeśli chcesz uniknąć wysiłku z wniesieniem mebli, możesz skorzystać z dodatkowej usługi – kurier dostarczy je prosto do Twojego mieszkania lub domu. </p><p></p><h5><strong>Dzięki temu nie musisz martwić się ciężkimi paczkami, a jedynie cieszyć się nowym wyposażeniem wnętrza.</strong></h5>",
+            "title": "Certyfikat FSC – Gwarancja ekologii i jakości",
+            "content": "<p>Łóżko jest wykonane w całości z drewna sosnowego posiadającego certyfikat FSC, co oznacza, że pochodzi z odpowiedzialnie zarządzanych lasów, dbających o zrównoważony rozwój środowiska. Powierzchnia drewna pokryta jest trzema warstwami lakieru bezpiecznego dla dzieci, co zapewnia trwałość oraz ochronę przed zarysowaniami i uszkodzeniami.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
