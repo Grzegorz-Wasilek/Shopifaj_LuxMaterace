@@ -610,6 +610,31 @@
         "testimonial_card_text_color": ""
       }
     },
+    "featured_collection_x6YVnY": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "materace-dzieciece",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 20,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Wszystkie materace dziecięce",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "hot_spots_KMjMXn": {
       "type": "hot-spots",
       "settings": {
@@ -912,6 +937,7 @@
     "custom_html_NxpqLf",
     "multi_column_mgtXPn",
     "testimonials_hjTGGL",
+    "featured_collection_x6YVnY",
     "hot_spots_KMjMXn",
     "media_with_text_MFd9PJ",
     "custom_html_9xHeYj",
