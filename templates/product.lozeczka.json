@@ -416,7 +416,7 @@
         "full_width": true,
         "subheading": "Informacje",
         "title": "Specyfikacja produktu",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
+        "content": "<ul><li><strong>Wysoka jakość materiałów:</strong> Drewno sosnowe z certyfikatem FSC, odporne na uszkodzenia.</li><li><strong>Bezpieczeństwo:</strong> Trzy warstwy nietoksycznego lakieru bezpiecznego dla dzieci.</li><li><strong>Funkcjonalność:</strong> Pojemna szuflada na kółkach, idealna do przechowywania pościeli, zabawek czy innych dziecięcych skarbów.</li><li><strong>Stabilna konstrukcja:</strong> Mocna rama zapewniająca trwałość i bezpieczeństwo użytkowania.</li><li><strong>W zestawie:</strong> Wygodny materac piankowy, dopasowany do rozmiaru łóżka (160x80 cm).</li><li><strong>Szuflada:</strong> Elementy wykonane z wysokiej jakości płyty meblowej, zapewniające dodatkową wytrzymałość.</li></ul>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
