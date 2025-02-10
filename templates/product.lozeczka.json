@@ -638,7 +638,7 @@
     "hot_spots_KMjMXn": {
       "type": "hot-spots",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "image": "shopify://shop_images/DrewnianelozkodziecieceMiladomek.jpg",
         "title": "",
         "content": "",
