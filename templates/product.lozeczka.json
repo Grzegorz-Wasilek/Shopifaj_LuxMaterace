@@ -328,9 +328,9 @@
         "headings_rczC78": {
           "type": "headings",
           "settings": {
-            "heading_1": "Heading 1",
-            "heading_2": "Heading 2",
-            "heading_3": "Heading 3",
+            "heading_1": "Rozmiar Łóżeczka",
+            "heading_2": "szerokość całkowita:",
+            "heading_3": "wysokość całkowita: ",
             "heading_4": "Heading 4",
             "heading_5": "",
             "heading_6": "",
@@ -353,8 +353,8 @@
         "values_p8Atky": {
           "type": "values",
           "settings": {
-            "product": "lozko-dzieciece-luna-sosna",
-            "value_1": "<p>Yes</p>",
+            "product": "",
+            "value_1": "<p>168 cm</p>",
             "value_2": "<p>Yes</p>",
             "value_3": "<p>No</p>",
             "value_4": "<p>No</p>",
@@ -381,8 +381,8 @@
         "values_aUeP4k": {
           "type": "values",
           "settings": {
-            "product": "lozko-dzieciece-luna-sosna",
-            "value_1": "<p>No</p>",
+            "product": "",
+            "value_1": "<p>198 cm</p>",
             "value_2": "<p>Yes</p>",
             "value_3": "<p>Yes</p>",
             "value_4": "<p>No</p>",
