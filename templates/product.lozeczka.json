@@ -31,7 +31,9 @@
           "settings": {
             "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
-            "products": [],
+            "products": [
+              "lozko-dzieciece-luna-bialy"
+            ],
             "selector_style": "swatch"
           }
         },
