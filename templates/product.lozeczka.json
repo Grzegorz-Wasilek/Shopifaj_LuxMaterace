@@ -751,13 +751,36 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "image_q3ALJj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wnoszenie.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Wygodna dostawa",
+            "content": "<p>Twoje zamówienie dostarczymy szybko i bezproblemowo pod wskazany adres. Jeśli chcesz uniknąć wysiłku z wniesieniem mebli, możesz skorzystać z dodatkowej usługi – kurier dostarczy je prosto do Twojego mieszkania lub domu. </p><p></p><h5><strong>Dzięki temu nie musisz martwić się ciężkimi paczkami, a jedynie cieszyć się nowym wyposażeniem wnętrza.</strong></h5>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "image_7QkTgz",
         "image_yBCh6P",
         "image_gmEkzK",
-        "image_4rUnYk"
+        "image_4rUnYk",
+        "image_q3ALJj"
       ],
       "custom_css": [
         ".section-full {padding-top: 5rem;}"
