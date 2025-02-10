@@ -212,7 +212,6 @@
     },
     "custom_html_69Vwt9": {
       "type": "custom-html",
-      "disabled": true,
       "custom_css": [
         "h2 {text-align: center;}",
         ".section-full {padding-bottom: 0;}"
@@ -288,7 +287,6 @@
         "headings_WEyTpJ",
         "values_kA97Ad"
       ],
-      "disabled": true,
       "custom_css": [
         ".section-blends {padding-top: 5rem;}",
         ".feature-chart__table {display: grid; grid-template-columns: 1fr 1fr; column-gap: 80px;}",
@@ -492,52 +490,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f6f9fa",
         "testimonial_card_text_color": ""
-      }
-    },
-    "tabs_FaHNYp": {
-      "type": "tabs",
-      "blocks": {
-        "tab_gBRyaY": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab 1",
-            "content": "<p>Use this text to share information about your brand with your customers.</p>",
-            "page": ""
-          }
-        },
-        "tab_tW6xdz": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab 2",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
-            "page": ""
-          }
-        },
-        "tab_jAQyhd": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_gBRyaY",
-        "tab_tW6xdz",
-        "tab_jAQyhd"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "large",
-        "subheading": "Subheading",
-        "title": "Heading",
-        "first_tab_open": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "hot_spots_KMjMXn": {
@@ -841,7 +793,6 @@
     "custom_html_NxpqLf",
     "multi_column_mgtXPn",
     "testimonials_hjTGGL",
-    "tabs_FaHNYp",
     "hot_spots_KMjMXn",
     "media_with_text_MFd9PJ",
     "custom_html_9xHeYj",
