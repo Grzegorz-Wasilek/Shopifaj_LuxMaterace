@@ -287,6 +287,7 @@
         "headings_WEyTpJ",
         "values_kA97Ad"
       ],
+      "disabled": true,
       "custom_css": [
         ".section-blends {padding-top: 5rem;}",
         ".feature-chart__table {display: grid; grid-template-columns: 1fr 1fr; column-gap: 80px;}",
@@ -322,6 +323,7 @@
     },
     "custom_html_NxpqLf": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".section-full {height: 0; padding: 0;}"
       ],
@@ -383,6 +385,7 @@
         "item_NM6BCh",
         "item_tDLAxF"
       ],
+      "disabled": true,
       "custom_css": [
         ".multi-column > div {text-align: center;}",
         ".multi-column > div:last-child img {width: 90%; margin: 0 auto;}",
