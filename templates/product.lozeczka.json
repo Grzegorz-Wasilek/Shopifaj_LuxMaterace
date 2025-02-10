@@ -54,6 +54,12 @@
           "type": "separator",
           "settings": {}
         },
+        "text_YqwMTC": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Dobierz materac </strong></h5>"
+          }
+        },
         "associated_products_rXA6x8": {
           "type": "associated_products",
           "settings": {
@@ -155,6 +161,7 @@
         "product_variations_KgicHX",
         "variant_picker_LHbQDF",
         "separator_imcTCg",
+        "text_YqwMTC",
         "associated_products_rXA6x8",
         "badges_zrhCYg",
         "price",
