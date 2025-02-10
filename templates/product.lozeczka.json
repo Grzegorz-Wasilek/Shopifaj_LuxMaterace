@@ -288,7 +288,7 @@
         "@media screen and (max-width: 699px) {.feature-chart__table {column-gap: 30px; }}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "subheading": "",
         "title": "",
         "content": "",
