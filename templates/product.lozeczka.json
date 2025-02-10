@@ -638,8 +638,8 @@
     "hot_spots_KMjMXn": {
       "type": "hot-spots",
       "settings": {
-        "full_width": true,
-        "image": "shopify://shop_images/Wild_Castel_kolory_krem.webp",
+        "full_width": false,
+        "image": "shopify://shop_images/DrewnianelozkodziecieceMiladomek.jpg",
         "title": "",
         "content": "",
         "button_text": "",
