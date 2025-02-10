@@ -637,6 +637,7 @@
     },
     "hot_spots_KMjMXn": {
       "type": "hot-spots",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/DrewnianelozkodziecieceMiladomek.jpg",
@@ -666,7 +667,7 @@
         "image_7QkTgz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1-15_876282df-0565-44df-a63d-859d30715c47.webp",
+            "image": "shopify://shop_images/Lena-sosna-wysoka-scaled.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -688,7 +689,7 @@
         "image_yBCh6P": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2-15_d2bd3b0f-4adf-4eff-94bb-8a7c6004d0e7.webp",
+            "image": "shopify://shop_images/DrewnianelozkodziecieceMiladomek.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -710,7 +711,7 @@
         "image_gmEkzK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3-15.webp",
+            "image": "shopify://shop_images/Lozko_drewniane_Luna.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
