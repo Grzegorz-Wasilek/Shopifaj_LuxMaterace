@@ -31,14 +31,7 @@
           "settings": {
             "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
-            "products": [
-              "naroznik-mediolan-castel03",
-              "naroznik-mediolan-castel15",
-              "naroznik-mediolan-castel34",
-              "naroznik-mediolan-castel75",
-              "naroznik-mediolan-castel80",
-              "naroznik-mediolan-castel85"
-            ],
+            "products": [],
             "selector_style": "swatch"
           }
         },
