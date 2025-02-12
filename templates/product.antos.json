@@ -32,7 +32,9 @@
             "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
             "products": [
-              "lozko-dzieciece-antos-sosna"
+              "lozko-dzieciece-antos-sosna",
+              "lozko-dzieciece-antos-bialy",
+              "lozko-dzieciece-antos-szary"
             ],
             "selector_style": "swatch"
           }
