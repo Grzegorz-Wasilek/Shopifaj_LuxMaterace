@@ -379,6 +379,7 @@
         },
         "values_aUeP4k": {
           "type": "values",
+          "disabled": true,
           "settings": {
             "product": "",
             "value_1": "<p>długość 198 cm</p>",
@@ -415,7 +416,7 @@
         "full_width": true,
         "subheading": "Informacje",
         "title": "Specyfikacja produktu",
-        "content": "<p><strong>Łóżko dziecięce POLA </strong>to klasyczne, solidne łóżko stworzone z myślą o bezpieczeństwie i wygodzie najmłodszych. Wykonane z wysokiej jakości drewna sosnowego z certyfikatem FSC, pokryte trzema warstwami bezpiecznego dla dzieci lakieru.</p><p><strong>W komplecie otrzymasz:</strong></p><ul><li>klasyczne łóżko 1 osobowe POLA</li><li>okucia wraz z instrukcją montażu,</li><li>stelaż pod materac</li><li>*<em>pojemna szuflada na gumowych kółkach</em></li><li>barierki ochronne Możliwość montażu barierki z dowolnej strony (prawa - lewa).</li></ul><p><em>*materac nie jest w zestawie, *szuflada dostępna jest tylko z po wybraniu wariantu zakupu \"Wersja: z szufladą\"</em></p>",
+        "content": "<p><strong>Łóżko dziecięce ANTOŚ </strong>to wyjątkowy model, który łączy nowoczesny design z funkcjonalnością. Wykonane z wysokiej jakości drewna sosnowego z certyfikatem FSC, pokryte trzema warstwami lakieru bezpiecznego dla dzieci, gwarantuje trwałość i bezpieczeństwo użytkowania.</p><p><strong>W komplecie otrzymasz:</strong></p><ul><li>klasyczne łóżko 1 osobowe POLA</li><li>okucia wraz z instrukcją montażu,</li><li>stelaż pod materac</li><li>*<em>pojemna szuflada na gumowych kółkach</em></li><li>barierki ochronne Możliwość montażu barierki z dowolnej strony (prawa - lewa).</li></ul><p><em>*materac nie jest w zestawie, *szuflada dostępna jest tylko z po wybraniu wariantu zakupu \"Wersja: z szufladą\"</em></p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
