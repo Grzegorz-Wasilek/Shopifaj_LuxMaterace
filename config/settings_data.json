@@ -43,6 +43,7 @@
     "show_vendor": true,
     "show_product_rating": true,
     "product_rating_mode": "rating",
+    "show_discount": false,
     "discount_mode": "saving",
     "product_color_display": "hide",
     "product_image_aspect_ratio": "square_crop",
