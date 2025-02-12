@@ -100,6 +100,7 @@
         },
         "button_yL9rMb": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link": "",
             "text": "Kup na Allegro",
