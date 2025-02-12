@@ -689,7 +689,7 @@
         "image_yBCh6P": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Lozko_pojedyncze_POLA_1.jpg",
+            "image": "shopify://shop_images/Lozko_Antos_sosna.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -711,7 +711,7 @@
         "image_gmEkzK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Lozko_pojedyncze_POLA.jpg",
+            "image": "shopify://shop_images/LozkodrewnianeAntos.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
