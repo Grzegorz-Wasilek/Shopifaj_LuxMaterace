@@ -32,9 +32,7 @@
             "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
             "products": [
-              "lozko-dzieciece-luna-sosna",
-              "lozko-dzieciece-luna-biala",
-              "lozko-dzieciece-luna-szare"
+              "lozko-dzieciece-pola-sosna"
             ],
             "selector_style": "swatch"
           }
