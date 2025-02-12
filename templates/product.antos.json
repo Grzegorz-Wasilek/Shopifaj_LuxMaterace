@@ -1,0 +1,904 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_NkggX4": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "product_variations_KgicHX": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "Kolor",
+            "option_value_metafield": "custom.variation_value",
+            "products": [
+              "lozko-dzieciece-pola-sosna"
+            ],
+            "selector_style": "swatch"
+          }
+        },
+        "variant_picker_LHbQDF": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "separator_imcTCg": {
+          "type": "separator",
+          "settings": {}
+        },
+        "badges_zrhCYg": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator_WrUBcF": {
+          "type": "separator",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "button_yL9rMb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "text": "Kup na Allegro",
+            "size": "xl",
+            "style": "outline",
+            "stretch": true,
+            "background": "",
+            "text_color": "#f06823"
+          }
+        },
+        "offer_Gf9VwP": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-truck",
+            "custom_icon": "shopify://shop_images/delivery.svg",
+            "icon_width": 40,
+            "title": "Darmowa dostawa!",
+            "content": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#ed979c"
+          }
+        },
+        "offer_NEXiD7": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-timer",
+            "custom_icon": "shopify://shop_images/time.svg",
+            "icon_width": 32,
+            "title": "Produkcja w 14 dni robocze",
+            "content": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#ed979c"
+          }
+        },
+        "offer_eLPi39": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/sheild.svg",
+            "icon_width": 28,
+            "title": "Bezpieczne zakupy",
+            "content": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#ed979c"
+          }
+        },
+        "text_YqwMTC": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Dobierz materac </strong></h5>"
+          }
+        },
+        "associated_products_rXA6x8": {
+          "type": "associated_products",
+          "settings": {
+            "title": "",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_NkggX4",
+        "vendor",
+        "title",
+        "product_variations_KgicHX",
+        "variant_picker_LHbQDF",
+        "separator_imcTCg",
+        "badges_zrhCYg",
+        "price",
+        "separator_WrUBcF",
+        "quantity_selector",
+        "buy_buttons",
+        "button_yL9rMb",
+        "offer_Gf9VwP",
+        "offer_NEXiD7",
+        "offer_eLPi39",
+        "text_YqwMTC",
+        "associated_products_rXA6x8"
+      ],
+      "custom_css": [
+        ".logo-list__image {max-width: 500px; width: 100%;}",
+        ".color-swatch {height: 3.5rem; width: 3.5rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_html_Ni3Nmn": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-top: 0; padding-bottom: 0; height: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\nproduct-recommendations .border {\nborder:0;\n}\nproduct-recommendations .horizontal-product {\nbackground:#fff;\nborder:0;\nborder-radius:12px;\nmargin-bottom:15px;\n}\nbutton.prd-btn {\n  cursor: pointer;\n  background: #fff;;\n  border-radius: 100px;\n  box-shadow: none;\n  border: solid 1px #dde2e7;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #022e4f;\n  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\nbox-sizing:border-box;\nflex-shrink:0;\npadding: 1rem 4rem;\n}\nbutton.prd-btn:hover,\nbutton.prd-btn:active {\n  background: #ed979c;\n  border-color: #ed979c;\n}\n.flex-wrap {\ndisplay:flex;\njustify-content: center;\ngap:90px; \npadding: 30px 0;\n  margin: 10px 0 50px 0;\n}\nbutton.prd-btn {\n}\n\nsafe-sticky.product-info .product-info__offer-list {\n\n}\nsafe-sticky.product-info .product-info__offer-list span.text-sm {\nline-height:1.3;\n}\n\nsafe-sticky.product-info .product-info__offer-list > .offer  {\n\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch {\nbackground:#fff;\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch::before {\n\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\nsafe-sticky.product-info .product-info__variant-picker \n.color-swatch::before {\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\n@media (max-width: 1500px) {\n.flex-wrap {\ngap:30px; \n}\n}\n@media (max-width: 1400px) {\n.flex-wrap {\ngap:30px;\n}\nbutton.prd-btn {\n  padding: 1rem 3rem;\n}\n}\n@media (max-width: 999px) {\n.flex-wrap {\njustify-content: flex-start;\noverflow-x:scroll;\ngap:30px;\nscroll-snap-type:x mandatory;\npadding-left:20px;\npadding-right:20px;\n}\nbutton.prd-btn  {\nscroll-snap-align:left;\n}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_69Vwt9": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [
+        "h2 {text-align: center;}",
+        ".section-full {padding-bottom: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h2\">Wymiary</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "feature_chart_EXwAq7": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_WEyTpJ": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Szerokość:",
+            "heading_2": "Głębokość:",
+            "heading_3": "Wysokość:",
+            "heading_4": "Wysokość siedziska:",
+            "heading_5": "Powierzchnia spania:",
+            "heading_6": "Pojemnik na pościel: ",
+            "heading_7": "Podłokietniki:",
+            "heading_8": "Orientacja:",
+            "heading_9": "Konstrukcja:",
+            "heading_10": "Materiał nóżek:",
+            "heading_11": "Regulowane zagłówki:",
+            "heading_12": "Ilość paczek:",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_kA97Ad": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>275 cm</p>",
+            "value_2": "<p>203 cm</p>",
+            "value_3": "<p>90 cm</p>",
+            "value_4": "<p>43 cm</p>",
+            "value_5": "<p>125 x 195 cm</p>",
+            "value_6": "<p>TAK (1)</p>",
+            "value_7": "<p>TAK</p>",
+            "value_8": "<p>prawy lub lewy</p>",
+            "value_9": "<p>Drewno + płyta meblowa</p>",
+            "value_10": "<p>Metal</p>",
+            "value_11": "<p>TAK</p>",
+            "value_12": "<p>2</p>",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_WEyTpJ",
+        "values_kA97Ad"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-blends {padding-top: 5rem;}",
+        ".feature-chart__table {display: grid; grid-template-columns: 1fr 1fr; column-gap: 80px;}",
+        ".bg-custom {background: transparent;}",
+        ".divide-y > div {border-block-start-width: 0px; border-block-end-width: 1px;}",
+        "@media screen and (max-width: 699px) {.feature-chart__table {column-gap: 30px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 20,
+        "view_all_text": "",
+        "view_less_text": "",
+        "view_product": "",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "#ffffff",
+        "chart_text_color": "rgba(0,0,0,0)",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_3iTw3n": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_rczC78": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "ROZMIAR ŁÓŻECZKA",
+            "heading_2": "szerokość całkowita:",
+            "heading_3": "wysokość całkowita:",
+            "heading_4": "powierzchnia spania:",
+            "heading_5": "materiał wykonania:",
+            "heading_6": "materac w zestawie:",
+            "heading_7": "szuflada",
+            "heading_8": "wysokość szuflady:",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_p8Atky": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>długość 168 cm</p>",
+            "value_2": "<p>86 cm</p>",
+            "value_3": "<p>59 cm</p>",
+            "value_4": "<p>160×80 cm</p>",
+            "value_5": "<p>drewno sosnowe</p>",
+            "value_6": "<p>brak</p>",
+            "value_7": "<p>tak (wybierz Wersja: z szufladą)</p>",
+            "value_8": "<p>14 cm</p>",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_aUeP4k": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>długość 198 cm</p>",
+            "value_2": "<p>86 cm</p>",
+            "value_3": "<p>59 cm</p>",
+            "value_4": "<p>190×80 cm</p>",
+            "value_5": "<p>drewno sosnowe</p>",
+            "value_6": "<p>brak</p>",
+            "value_7": "<p>tak (wybierz Wersja: z szufladą)</p>",
+            "value_8": "<p>14 cm </p>",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_rczC78",
+        "values_p8Atky",
+        "values_aUeP4k"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Informacje",
+        "title": "Specyfikacja produktu",
+        "content": "<p><strong>Łóżko dziecięce POLA </strong>to klasyczne, solidne łóżko stworzone z myślą o bezpieczeństwie i wygodzie najmłodszych. Wykonane z wysokiej jakości drewna sosnowego z certyfikatem FSC, pokryte trzema warstwami bezpiecznego dla dzieci lakieru.</p><p><strong>W komplecie otrzymasz:</strong></p><ul><li>klasyczne łóżko 1 osobowe POLA</li><li>okucia wraz z instrukcją montażu,</li><li>stelaż pod materac</li><li>*<em>pojemna szuflada na gumowych kółkach</em></li><li>barierki ochronne Możliwość montażu barierki z dowolnej strony (prawa - lewa).</li></ul><p><em>*materac nie jest w zestawie, *szuflada dostępna jest tylko z po wybraniu wariantu zakupu \"Wersja: z szufladą\"</em></p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 9,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "custom_html_NxpqLf": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [
+        ".section-full {height: 0; padding: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n\n\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_mgtXPn": {
+      "type": "multi-column",
+      "blocks": {
+        "item_kxjmJ6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/wymiar-1-b.svg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_NM6BCh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/wymiar-2-b.svg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_tDLAxF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/wymiar-3-b.svg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_kxjmJ6",
+        "item_NM6BCh",
+        "item_tDLAxF"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".multi-column > div {text-align: center;}",
+        ".multi-column > div:last-child img {width: 90%; margin: 0 auto;}",
+        ".rounded {border-radius: 0rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_hjTGGL": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_4KgYcW": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Vector.svg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 0,
+            "author": "",
+            "title": "Pianka HR",
+            "content": "<p>Doskonale dopasowuje się do sylwetki, zapewnia świetną cyrkulację powietrza i wyjątkowy komfort.</p>"
+          }
+        },
+        "testimonial_MgHnL9": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/falis.svg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 0,
+            "author": "",
+            "title": "Sprężyna falista",
+            "content": "<p>Dzięki zastosowaniu sprężyn falistych narożnik zapewnia wyjątkowy komfort.</p>"
+          }
+        },
+        "testimonial_636Wxx": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/drew.svg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 5,
+            "author": "",
+            "title": "Solidna konstrukcja",
+            "content": "<p>Wytrzymały stelaż to połączenie drewna i płyty wiórowej. </p>"
+          }
+        },
+        "testimonial_YkeYJ7": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/poj.svg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 5,
+            "author": "",
+            "title": "Pojemnik na pościel",
+            "content": "<p>znajdujący się w otomanie posiada sprężynowy automat ułatwiający otwieranie. </p>"
+          }
+        },
+        "testimonial_tN4XGz": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/zagl_ed7ee575-5fde-43e2-84c9-f53aa0f02d70.svg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 5,
+            "author": "",
+            "title": "Regulowane zagłówki",
+            "content": "<p>posiadają 4 stopniową regulację kąta nachylenia, w zależności od indywidualnych potrzeb</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_4KgYcW",
+        "testimonial_MgHnL9",
+        "testimonial_636Wxx",
+        "testimonial_YkeYJ7",
+        "testimonial_tN4XGz"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#f6f9fa",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "featured_collection_x6YVnY": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "materace-dzieciece",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 20,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Materace dziecięce",
+        "content": "",
+        "link_url": "",
+        "link_text": "Zobacz wszystkie",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "hot_spots_KMjMXn": {
+      "type": "hot-spots",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/DrewnianelozkodziecieceMiladomek.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 91,
+        "hot_spot_content_blur_radius": 2
+      }
+    },
+    "media_with_text_MFd9PJ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_7QkTgz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LozkopojedynczePOLA_1.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "To jeden z naszych bestsellerów",
+            "title": "Funkcjonalność – Praktyczne rozwiązania do pokoju dzieckaz",
+            "content": "<p>Łóżko POLA to połączenie estetyki i praktyczności. Pojemna szuflada na kółkach pozwala łatwo przechowywać pościel, zabawki i inne akcesoria, pomagając utrzymać porządek w pokoju dziecka. Możliwość montażu barierki po dowolnej stronie sprawia, że łóżko dostosowuje się do indywidualnych potrzeb.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_yBCh6P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lozko_pojedyncze_POLA_1.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Funkcja spania",
+            "title": "Wygoda i praktyczność – Dla komfortu i porządku w pokoju",
+            "content": "<p>Łóżko POLA wyposażone jest w ergonomiczny stelaż pod materac, który wspiera cyrkulację powietrza, zapewniając zdrowy i spokojny sen. Dodatkowo, pojemna szuflada na kółkach może pełnić funkcję praktycznego schowka na pościel, zabawki lub inne akcesoria, pomagając utrzymać porządek w pokoju dziecka.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_gmEkzK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lozko_pojedyncze_POLA.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Uporządkowane a pod ręką",
+            "title": "Estetyka – Klasyczny design pasujący do każdego wnętrza",
+            "content": "<p>Łóżko POLA wyróżnia się minimalistycznym, klasycznym stylem, który doskonale komponuje się z różnymi aranżacjami wnętrz. Naturalna struktura drewna podkreślona bezpiecznym lakierem sprawia, że łóżko jest eleganckim i przytulnym dodatkiem do pokoju dziecięcego.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_4rUnYk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lasy_Panstwowe_FSC.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Ekologia",
+            "title": "Bezpieczeństwo – Priorytet w codziennym użytkowaniu",
+            "content": "<p>Wykonane z certyfikowanego drewna sosnowego i pokryte bezpiecznym lakierem, łóżko POLA gwarantuje pełne bezpieczeństwo. Stabilna konstrukcja i barierki ochronne minimalizują ryzyko wypadków, zapewniając spokojny sen i bezpieczeństwo podczas codziennego użytkowania.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_q3ALJj": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/wnoszenie.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Transport",
+            "title": "Wygodna dostawa",
+            "content": "<p>Twoje zamówienie dostarczymy szybko i bezproblemowo pod wskazany adres. Jeśli chcesz uniknąć wysiłku z wniesieniem mebli, możesz skorzystać z dodatkowej usługi – kurier dostarczy je prosto do Twojego mieszkania lub domu. </p><p></p><h5><strong>Dzięki temu nie musisz martwić się ciężkimi paczkami, a jedynie cieszyć się nowym wyposażeniem wnętrza.</strong></h5>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7QkTgz",
+        "image_yBCh6P",
+        "image_gmEkzK",
+        "image_4rUnYk",
+        "image_q3ALJj"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 5rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
+    "custom_html_9xHeYj": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [
+        ".section-full {padding-bottom: 1.75rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 id=\"material-section-in-btn\" class=\"h2\">Materiały</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_J9DNww": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [
+        ".section-full {padding-bottom: 1.75rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\">Pokrowce</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+        "@media (max-width: 1000px) {.product-list {--product-list-items-per-row: 2; --product-list-gap: 10px; }}"
+      ],
+      "settings": {
+        "recommendations_count": 6,
+        "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Może Ci się spodobać",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#022e4f",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "custom_html_3Xy8Hk": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {height: 0; padding: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n\n\n}\n \n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "17318804263ddebb9a": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_LtY83H": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_LtY83H"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_Ni3Nmn",
+    "custom_html_69Vwt9",
+    "feature_chart_EXwAq7",
+    "feature_chart_3iTw3n",
+    "custom_html_NxpqLf",
+    "multi_column_mgtXPn",
+    "testimonials_hjTGGL",
+    "featured_collection_x6YVnY",
+    "hot_spots_KMjMXn",
+    "media_with_text_MFd9PJ",
+    "custom_html_9xHeYj",
+    "custom_html_J9DNww",
+    "related-products",
+    "custom_html_3Xy8Hk",
+    "17318804263ddebb9a"
+  ]
+}
