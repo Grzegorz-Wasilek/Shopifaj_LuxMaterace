@@ -32,7 +32,9 @@
             "option_name": "Kolor",
             "option_value_metafield": "custom.variation_value",
             "products": [
-              "lozko-dzieciece-pola-sosna"
+              "lozko-dzieciece-pola-sosna",
+              "lozko-dzieciece-pola-biale",
+              "lozko-dzieciece-pola-szary"
             ],
             "selector_style": "swatch"
           }
