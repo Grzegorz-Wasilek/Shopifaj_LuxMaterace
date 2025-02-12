@@ -95,6 +95,7 @@
         },
         "button_yL9rMb": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link": "",
             "text": "Kup na Allegro",
@@ -206,36 +207,51 @@
         "item_NVMCgj": {
           "type": "item",
           "settings": {
+            "icon": "none",
+            "icon_width": 20,
             "title": "Pianka termoelastyczna VISCO",
-            "content": "<p>Nowoczesna pianka VISCO dostosowuje się do kształtu ciała, reagując na ciepło. Pianka wspomaga utrzymanie kręgosłupa szyjnego w prawidłowej pozycji, co poprawia krążenie krwi i przynosi ulgę mięśniom. Dzięki „pamięci kształtu” pianka dopasowuje się do sylwetki i optymalizuje rozkład nacisku, co zwiększa komfort snu.</p>"
+            "content": "<p>Nowoczesna pianka VISCO dostosowuje się do kształtu ciała, reagując na ciepło. Pianka wspomaga utrzymanie kręgosłupa szyjnego w prawidłowej pozycji, co poprawia krążenie krwi i przynosi ulgę mięśniom. Dzięki „pamięci kształtu” pianka dopasowuje się do sylwetki i optymalizuje rozkład nacisku, co zwiększa komfort snu.</p>",
+            "page": ""
           }
         },
         "item_yLLeYH": {
           "type": "item",
           "settings": {
+            "icon": "none",
+            "icon_width": 20,
             "title": "Redukcja bólów i napięć",
-            "content": "<p>Poduszka pomaga eliminować bóle głowy, karku i pleców, szczególnie u osób borykających się z problemami kręgosłupa. Doskonale wspiera leczenie bólów kręgosłupa oraz zapobiega zwyrodnieniom kręgów.</p>"
+            "content": "<p>Poduszka pomaga eliminować bóle głowy, karku i pleców, szczególnie u osób borykających się z problemami kręgosłupa. Doskonale wspiera leczenie bólów kręgosłupa oraz zapobiega zwyrodnieniom kręgów.</p>",
+            "page": ""
           }
         },
         "item_BNCAUU": {
           "type": "item",
           "settings": {
+            "icon": "none",
+            "icon_width": 20,
             "title": "Pokrowiec Silver Active",
-            "content": "<p>Antyalergiczny pokrowiec Silver Active, pikowany wysokiej jakości owatą, zapewnia higienę i ochronę wnętrza poduszki. Włókna pokrowca mają regularną strukturę, co zwiększa odporność na zabrudzenia. Wszyta srebrna nić pełni funkcję estetyczną oraz rozładowuje ładunki elektrostatyczne i niweluje wpływ żył wodnych, wpływając pozytywnie na komfort snu.</p>"
+            "content": "<p>Antyalergiczny pokrowiec Silver Active, pikowany wysokiej jakości owatą, zapewnia higienę i ochronę wnętrza poduszki. Włókna pokrowca mają regularną strukturę, co zwiększa odporność na zabrudzenia. Wszyta srebrna nić pełni funkcję estetyczną oraz rozładowuje ładunki elektrostatyczne i niweluje wpływ żył wodnych, wpływając pozytywnie na komfort snu.</p>",
+            "page": ""
           }
         },
         "item_8hbng3": {
           "type": "item",
           "settings": {
+            "icon": "none",
+            "icon_width": 20,
             "title": "Łatwość czyszczenia",
-            "content": "<p>Pokrowiec wyposażony w zamek błyskawiczny wszyty z trzech stron, co umożliwia jego łatwe zdejmowanie i pranie. Można go prać w temperaturze do 40°C, co gwarantuje łatwość w utrzymaniu czystości.</p>"
+            "content": "<p>Pokrowiec wyposażony w zamek błyskawiczny wszyty z trzech stron, co umożliwia jego łatwe zdejmowanie i pranie. Można go prać w temperaturze do 40°C, co gwarantuje łatwość w utrzymaniu czystości.</p>",
+            "page": ""
           }
         },
         "item_4TgaLC": {
           "type": "item",
           "settings": {
+            "icon": "none",
+            "icon_width": 20,
             "title": "Skład tkaniny pokrowca Silver Active",
-            "content": "<ul><li>33% tencel – wysokiej jakości wiskoza</li><li>1% srebrna nić</li><li>2% bawełna</li><li>64% poliamid</li></ul>"
+            "content": "<ul><li>33% tencel – wysokiej jakości wiskoza</li><li>1% srebrna nić</li><li>2% bawełna</li><li>64% poliamid</li></ul>",
+            "page": ""
           }
         }
       },
