@@ -101,6 +101,7 @@
         },
         "button_yL9rMb": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link": "{{ product.metafields.custom.link_allegro.value }}",
             "text": "Kup na Allegro",
