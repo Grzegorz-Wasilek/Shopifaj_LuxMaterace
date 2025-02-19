@@ -228,6 +228,7 @@
         "collection_gkV6iE",
         "collection_DMcCTb"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": true,
@@ -243,6 +244,35 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "featured_collection_xKEAii": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "naroznik-mediolan-castel85",
+          "materac-juniper-pocketowe-mata-kokosowa-pocket-24cm",
+          "naroznik-comon"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": true,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Bestselery",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#022e4f",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "#022e4f"
       }
     },
     "text_with_icons_rnKCY4": {
@@ -336,38 +366,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "featured_collection_xKEAii": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "materac-silver-pro-kontynentalny-hybrydowy-visco-lateks-minipocket-multipocket-32cm",
-          "materac-juniper-pocketowe-mata-kokosowa-pocket-24cm",
-          "materac-mint-kontynentalne-lateks-mata-kokosowa-minipocket-multipocket-28cm",
-          "materac-basil-multipocketowe-mata-kokosowa-multipocket-20cm",
-          "topper-mulett-toppery-visco-5cm",
-          "materac-savory-bonellowe-bonell-18cm"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Materace dla Ciebie",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#022e4f",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": "#022e4f"
       }
     },
     "media-grid": {
@@ -1186,8 +1184,8 @@
   "order": [
     "slideshow",
     "collection-list",
-    "text_with_icons_rnKCY4",
     "featured_collection_xKEAii",
+    "text_with_icons_rnKCY4",
     "media-grid",
     "featured-collection",
     "hot-spots",
