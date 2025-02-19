@@ -709,6 +709,7 @@
         "product_iWr7BD",
         "product_wGTG6K"
       ],
+      "disabled": true,
       "custom_css": [
         ".horizontal-product-list img {flex: 0 0 120px;}",
         "@media (max-width: 700px) {.button--subdued {background-color: #ed979c; color: #fff; } .horizontal-product {background-color: #fff; border: 0; margin-bottom: 10px; border-radius: 12px; } .horizontal-product-list.border {border: 0; }}"
@@ -842,7 +843,7 @@
         "collections_per_row": 3,
         "show_progress_bar": true,
         "subheading": "",
-        "title": "Lista kolekcji",
+        "title": "Lista kolekcji materacy",
         "content": "",
         "link_url": "",
         "link_text": "",
