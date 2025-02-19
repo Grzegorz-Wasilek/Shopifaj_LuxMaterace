@@ -221,12 +221,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "collection_F4WEiX": {
+          "type": "collection",
+          "settings": {
+            "collection": "lozka",
+            "image": "shopify://shop_images/paris-matt-velvet-85_c59ec1a3-6fc1-4174-a59a-f1b250380898.png",
+            "subheading": "",
+            "title": "Łóżka",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "collection_Ab4yye",
         "collection_gkV6iE",
-        "collection_DMcCTb"
+        "collection_DMcCTb",
+        "collection_F4WEiX"
       ],
       "disabled": true,
       "settings": {
@@ -253,10 +269,11 @@
         "products": [
           "naroznik-mediolan-castel85",
           "materac-juniper-pocketowe-mata-kokosowa-pocket-24cm",
-          "naroznik-comon"
+          "naroznik-comon",
+          "materac-silver-pro-kontynentalny-hybrydowy-visco-lateks-minipocket-multipocket-32cm"
         ],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": true,
         "products_count": 4,
         "products_per_row_mobile": "2",
