@@ -180,7 +180,7 @@
         "collection_Ab4yye": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "narozniki",
             "image": "shopify://shop_images/5-80_826ed7e9-2bb5-48f8-9232-2c94f5fdee55.png",
             "subheading": "",
             "title": "Nasrożniki",
@@ -189,36 +189,52 @@
             "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
-        "collection_QqzjdN": {
+        "collection_gkV6iE": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "materace",
+            "image": "shopify://shop_images/silver-pro-1_0029a668-1796-4f93-9df7-b589d67e40fa.png",
             "subheading": "",
-            "title": "",
+            "title": "Materace",
             "url": "",
             "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#022e4f",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_DMcCTb": {
+          "type": "collection",
+          "settings": {
+            "collection": "lozka",
+            "image": "shopify://shop_images/paris-matt-velvet-85_c59ec1a3-6fc1-4174-a59a-f1b250380898.png",
+            "subheading": "",
+            "title": "Łóżka",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "collection_Ab4yye",
-        "collection_QqzjdN"
+        "collection_gkV6iE",
+        "collection_DMcCTb"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 4,
+        "stack_collections": true,
+        "collections_per_row": 3,
         "show_progress_bar": true,
         "subheading": "",
-        "title": "Lista kolekcji",
+        "title": "",
         "content": "",
         "link_url": "",
         "link_text": "",
