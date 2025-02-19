@@ -277,7 +277,7 @@
         "show_progress_bar": true,
         "products_count": 4,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 4,
         "subheading": "",
         "title": "Bestsellery",
         "content": "",
@@ -676,6 +676,31 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "featured_collection_Ttj9fc": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "narozniki",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "{{ section.settings.collection.title }}",
+        "content": "",
+        "link_url": "shopify://collections/dziecieca",
+        "link_text": "Zobacz wszystkie",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "shop_the_look_Rr8hLX": {
       "type": "shop-the-look",
       "blocks": {
@@ -758,7 +783,7 @@
         "drag_cursor_color": "#000000"
       }
     },
-    "featured_collection_Ttj9fc": {
+    "featured_collection_xc3PaE": {
       "type": "featured-collection",
       "settings": {
         "collection": "materace-dzieciece",
@@ -1230,9 +1255,10 @@
     "media-grid",
     "featured-collection",
     "hot-spots",
+    "featured_collection_Ttj9fc",
     "shop_the_look_Rr8hLX",
     "before-after-image",
-    "featured_collection_Ttj9fc",
+    "featured_collection_xc3PaE",
     "collection_list_UkGpqX",
     "image_link_blocks_yMJpgw",
     "hot_spots_KzBKC6",
