@@ -1204,28 +1204,6 @@
         "testimonial_card_text_color": ""
       }
     },
-    "17406027908ce052e7": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_RqYVLP": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1440
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_RqYVLP"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "newsletter_KTBA6F": {
       "type": "newsletter",
       "custom_css": [
@@ -1287,7 +1265,6 @@
     "blog_posts_NLBfCh",
     "video_YAX3zw",
     "testimonials_TMzfVr",
-    "17406027908ce052e7",
     "newsletter_KTBA6F",
     "custom_html_PwU8Hm"
   ]
