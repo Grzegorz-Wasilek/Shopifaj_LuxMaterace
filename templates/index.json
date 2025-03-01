@@ -478,28 +478,6 @@
             "overlay_opacity": 0
           }
         },
-        "image_fG3eM8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LozkoAntos.jpg",
-            "title": "Łóżeczka",
-            "heading_tag": "h3",
-            "link_url": "shopify://collections/lozka-dzieciece",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#f5f5f5",
-            "background_gradient": "",
-            "text_color": "#f6f9fa",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#f6f9fa",
-            "overlay_color": "#022e4f",
-            "overlay_opacity": 0
-          }
-        },
         "item-3": {
           "type": "image",
           "settings": {
@@ -521,6 +499,28 @@
             "overlay_color": "#022e4f",
             "overlay_opacity": 0
           }
+        },
+        "image_fG3eM8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LozkoAntos.jpg",
+            "title": "Łóżeczka",
+            "heading_tag": "h3",
+            "link_url": "shopify://collections/lozka-dzieciece",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#f5f5f5",
+            "background_gradient": "",
+            "text_color": "#f6f9fa",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#f6f9fa",
+            "overlay_color": "#022e4f",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
@@ -528,8 +528,8 @@
         "item-2",
         "image_D4wDEy",
         "image_ArXXhU",
-        "image_fG3eM8",
-        "item-3"
+        "item-3",
+        "image_fG3eM8"
       ],
       "custom_css": [
         "@media screen and (max-width: 699px) {}"
