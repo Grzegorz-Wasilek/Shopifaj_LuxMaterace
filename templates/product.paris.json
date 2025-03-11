@@ -82,7 +82,7 @@
         "liquid_RDPCWm": {
           "type": "liquid",
           "settings": {
-            "liquid": ""
+            "liquid": "<span id=\"rata\">Rata już od {{ product.price | divided_by: 10 | money }} miesięcznie</span>"
           }
         },
         "separator_WrUBcF": {
