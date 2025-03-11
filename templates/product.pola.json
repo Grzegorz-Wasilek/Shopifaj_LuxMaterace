@@ -64,6 +64,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_iJAyTg": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "separator_WrUBcF": {
           "type": "separator",
           "settings": {}
@@ -164,6 +170,7 @@
         "separator_imcTCg",
         "badges_zrhCYg",
         "price",
+        "liquid_iJAyTg",
         "separator_WrUBcF",
         "quantity_selector",
         "buy_buttons",
