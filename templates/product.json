@@ -14,8 +14,7 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -25,8 +24,7 @@
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -34,10 +32,15 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_a6ztDb": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "10 rat 0% po {% assign cena = product.price | divided_by: 10 %}\n{{ cena | money }}"
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "inventory_gfrHBe": {
           "type": "inventory",
@@ -47,8 +50,7 @@
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -72,8 +74,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -143,6 +144,7 @@
         "title",
         "badges",
         "price",
+        "liquid_a6ztDb",
         "payment_terms",
         "inventory_gfrHBe",
         "separator",
@@ -297,9 +299,7 @@
       "type": "related-products",
       "settings": {
         "recommendations_count": 6,
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,

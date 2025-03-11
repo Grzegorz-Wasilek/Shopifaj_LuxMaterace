@@ -67,6 +67,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_3gh7K8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "Rata już od {% assign cena = product.price | divided_by: 10 %}\n{{ cena | money }} miesiecznie"
+          }
+        },
         "separator_WrUBcF": {
           "type": "separator",
           "settings": {}
@@ -109,13 +115,6 @@
             "image": "shopify://shop_images/santander.svg",
             "alignment": "start",
             "max_width": 150
-          }
-        },
-        "liquid_3gh7K8": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": ""
           }
         },
         "image_7XEmbW": {
@@ -218,13 +217,13 @@
         "separator_imcTCg",
         "badges_zrhCYg",
         "price",
+        "liquid_3gh7K8",
         "separator_WrUBcF",
         "quantity_selector",
         "buy_buttons",
         "separator_gcMNRk",
         "button_yL9rMb",
         "image_eNBFTL",
-        "liquid_3gh7K8",
         "image_7XEmbW",
         "offer_Gf9VwP",
         "offer_NEXiD7",
