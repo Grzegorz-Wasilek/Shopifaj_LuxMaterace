@@ -196,7 +196,7 @@ Supported variables
         {% assign lowest_price_variant = variant %}
       {% endif %}
     {% endfor %}
-    <span style=margin-right: 5px;">od</span>
+    <span>od  </span>
     {% if lowest_price_variant.compare_at_price > lowest_price_variant.price %}
       <span class="product-card__price--sale" style="color: red; margin-right: 5px;">{{ lowest_price_variant.price | money_with_currency | remove: ' PLN' }}</span>
       <span class="product-card__price--compare-at" style="text-decoration: line-through;">{{ lowest_price_variant.compare_at_price | money_with_currency | remove: ' PLN' }}</span>
