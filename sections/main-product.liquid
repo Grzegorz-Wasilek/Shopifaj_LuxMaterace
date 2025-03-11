@@ -119,6 +119,15 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       
       </a>
       {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
+{% if product.metafields.custom.lowest_price_last_30_days %}
+  <p class="lowest-price">
+    Najniższa cena z ostatnich 30 dni:
+    <span>
+      {{ product.metafields.custom.lowest_price_last_30_days | divided_by: 100.0 | money }}
+    </span>
+  </p>
+{% endif %}
+      
     </div>
   </div>
 
