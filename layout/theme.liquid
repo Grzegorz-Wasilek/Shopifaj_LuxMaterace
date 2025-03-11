@@ -103,12 +103,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <script>
 document.addEventListener("DOMContentLoaded", function() {
-    var selectElement = document.querySelector("select[name='id']");
-    if (selectElement) {
-        selectElement.addEventListener("change", function() {
-            var selectedVariant = selectElement.options[selectElement.selectedIndex];
-            var price = parseFloat(selectedVariant.getAttribute("data-price")) / 10;
-            document.getElementById("rata").innerText = "Rata już od " + new Intl.NumberFormat('pl-PL', { style: 'currency', currency: 'PLN' }).format(price) + " miesięcznie";
+    var variantLabels = document.querySelectorAll(".block-swatch");
+
+    if (variantLabels.length > 0) {
+        variantLabels.forEach(function(label) {
+            label.addEventListener("click", function() {
+                setTimeout(function() { // Małe opóźnienie, aby Shopify zaktualizował cenę
+                    var selectedPriceElement = document.querySelector("[data-product-price]");
+
+                    if (selectedPriceElement) {
+                        var fullPrice = parseFloat(selectedPriceElement.innerText.replace(/[^\d,]/g, "").replace(",", ".")); // Obsługuje format PLN
+                        var rata = fullPrice / 10;
+
+                        document.getElementById("rata").innerText = "Rata już od " + new Intl.NumberFormat('pl-PL', { style: 'currency', currency: 'PLN' }).format(rata) + " miesięcznie";
+                    }
+                }, 100); // Czeka 100ms na aktualizację ceny przez Shopify
+            });
         });
     }
 });
