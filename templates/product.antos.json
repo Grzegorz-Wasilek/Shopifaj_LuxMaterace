@@ -61,7 +61,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "show_taxes_notice": true
+            "show_taxes_notice": false
           }
         },
         "liquid_KtGN4q": {
