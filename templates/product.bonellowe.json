@@ -71,6 +71,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_dJtB8i": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "Rata już od {% assign cena = product.price | divided_by: 10 %}\n{{ cena | money }} miesięcznie"
+          }
+        },
         "separator_WrUBcF": {
           "type": "separator",
           "settings": {}
@@ -167,6 +173,7 @@
         "separator_imcTCg",
         "badges_4N3Hkc",
         "price",
+        "liquid_dJtB8i",
         "separator_WrUBcF",
         "product_variations_KgicHX",
         "quantity_selector",
