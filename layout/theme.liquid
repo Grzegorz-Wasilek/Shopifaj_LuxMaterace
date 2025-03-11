@@ -103,23 +103,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <script>
 document.addEventListener("DOMContentLoaded", function() {
-    var variantLabels = document.querySelectorAll(".block-swatch");
+    var currentPriceElement = document.querySelector("[data-product-price]");
+    var lowestPriceElement = document.getElementById("lowest-price");
 
-    if (variantLabels.length > 0) {
-        variantLabels.forEach(function(label) {
-            label.addEventListener("click", function() {
-                setTimeout(function() { // Małe opóźnienie, aby Shopify zaktualizował cenę
-                    var selectedPriceElement = document.querySelector("[data-product-price]");
+    if (currentPriceElement && lowestPriceElement) {
+        var currentPrice = parseFloat(currentPriceElement.innerText.replace(/[^\d,]/g, "").replace(",", ".")); 
+        var lowestPrice = parseFloat(lowestPriceElement.innerText.replace(/[^\d,]/g, "").replace(",", "."));
 
-                    if (selectedPriceElement) {
-                        var fullPrice = parseFloat(selectedPriceElement.innerText.replace(/[^\d,]/g, "").replace(",", ".")); // Obsługuje format PLN
-                        var rata = fullPrice / 10;
-
-                        document.getElementById("rata").innerText = "Rata już od " + new Intl.NumberFormat('pl-PL', { style: 'currency', currency: 'PLN' }).format(rata) + " miesięcznie";
-                    }
-                }, 100); // Czeka 100ms na aktualizację ceny przez Shopify
-            });
-        });
+        if (currentPrice < lowestPrice) {
+            lowestPriceElement.innerText = new Intl.NumberFormat('pl-PL', { style: 'currency', currency: 'PLN' }).format(currentPrice);
+        }
     }
 });
 </script>
