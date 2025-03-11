@@ -59,6 +59,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_QNGpkA": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span id=\"rata\">Rata już od {{ product.price | divided_by: 10 | money }} miesięcznie</span>"
+          }
+        },
         "separator_WrUBcF": {
           "type": "separator",
           "settings": {}
@@ -163,6 +169,7 @@
         "separator_imcTCg",
         "badges_JbNVF8",
         "price",
+        "liquid_QNGpkA",
         "separator_WrUBcF",
         "product_variations_KgicHX",
         "quantity_selector",
