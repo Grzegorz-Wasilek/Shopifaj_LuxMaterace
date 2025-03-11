@@ -100,5 +100,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+    
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    var selectElement = document.querySelector("select[name='id']");
+    if (selectElement) {
+        selectElement.addEventListener("change", function() {
+            var selectedVariant = selectElement.options[selectElement.selectedIndex];
+            var price = parseFloat(selectedVariant.getAttribute("data-price")) / 10;
+            document.getElementById("rata").innerText = "Rata już od " + new Intl.NumberFormat('pl-PL', { style: 'currency', currency: 'PLN' }).format(price) + " miesięcznie";
+        });
+    }
+});
+</script>
   </body>
 </html>
