@@ -4316,6 +4316,20 @@ export {
   throttle,
   waitForEvent
 };
+  
+document.addEventListener("DOMContentLoaded", function() {
+    var currentPriceElement = document.querySelector("[data-product-price]");
+    var lowestPriceElement = document.getElementById("lowest-price");
+
+    if (currentPriceElement && lowestPriceElement) {
+        var currentPrice = parseFloat(currentPriceElement.innerText.replace(/[^\d,]/g, "").replace(",", ".")); 
+        var lowestPrice = parseFloat(lowestPriceElement.innerText.replace(/[^\d,]/g, "").replace(",", "."));
+
+        if (currentPrice < lowestPrice) {
+            lowestPriceElement.innerText = new Intl.NumberFormat('pl-PL', { style: 'currency', currency: 'PLN' }).format(currentPrice);
+        }
+    }
+});
 
 
 
