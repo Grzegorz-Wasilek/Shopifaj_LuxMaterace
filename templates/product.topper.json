@@ -77,6 +77,12 @@
             "liquid": "{% if product.metafields.custom.lowest_price_last_30_days %}\n  <p class=\"lowest-price\">\n    Najniższa cena z ostatnich 30 dni:\n    <span>\n      {{ product.metafields.custom.lowest_price_last_30_days | money }}\n    </span>\n  </p>\n{% endif %}"
           }
         },
+        "liquid_ETw33q": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span id=\"rata\">Rata już od {{ product.price | divided_by: 10 | money }} miesięcznie</span>"
+          }
+        },
         "separator_WrUBcF": {
           "type": "separator",
           "settings": {}
@@ -184,6 +190,7 @@
         "badges_iCTDMC",
         "price",
         "liquid_MHAWTX",
+        "liquid_ETw33q",
         "separator_WrUBcF",
         "product_variations_KgicHX",
         "quantity_selector",
@@ -194,7 +201,9 @@
         "offer_eLPi39",
         "associated_products_8NrVpf"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".lowest-price {font-size: 12px; color: #888; margin-top: -22px;}"
+      ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
