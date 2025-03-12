@@ -67,7 +67,7 @@
         "liquid_JqLQqJ": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% if product.metafields.custom.lowest_price_last_30_days %}\n  <p class=\"lowest-price\">\n    Najniższa cena z ostatnich 30 dni:\n    <span>\n      {{ product.metafields.custom.lowest_price_last_30_days | divided_by: 100.0 | money }}\n    </span>\n  </p>\n{% endif %}"
+            "liquid": "{% if product.metafields.custom.lowest_price_last_30_days %}\n  <p class=\"lowest-price\">\n    Najniższa cena z ostatnich 30 dni:\n    <span>\n      {{ product.metafields.custom.lowest_price_last_30_days | divided_by: 100 | money }}\n    </span>\n  </p>\n{% endif %}"
           }
         },
         "liquid_bx8MJA": {
@@ -191,7 +191,7 @@
       "custom_css": [
         ".logo-list__image {max-width: 500px; width: 100%;}",
         ".color-swatch {height: 3.5rem; width: 3.5rem;}",
-        ".lowest-price {font-size: 14px; color: #888; margin-top: 5px;}"
+        ".lowest-price {font-size: 12px; color: #888; margin-top: -22px;}"
       ],
       "settings": {
         "full_width": true,
