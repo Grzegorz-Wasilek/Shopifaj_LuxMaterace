@@ -88,7 +88,7 @@
         "liquid_edRWeN": {
           "type": "liquid",
           "settings": {
-            "liquid": "Rata już od {% assign cena = product.price | divided_by: 10 %}\n{{ cena | money }} miesięcznie"
+            "liquid": "<span id=\"rata\">Rata już od {{ product.price | divided_by: 10 | money }} miesięcznie</span>"
           }
         },
         "separator_WrUBcF": {
