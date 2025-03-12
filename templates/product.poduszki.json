@@ -65,6 +65,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_HiAaBC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.metafields.custom.lowest_price_last_30_days %}\n  <p class=\"lowest-price\">\n    Najniższa cena z ostatnich 30 dni:\n    <span>\n      {{ product.metafields.custom.lowest_price_last_30_days | money }}\n    </span>\n  </p>\n{% endif %}"
+          }
+        },
         "liquid_9Ujfr7": {
           "type": "liquid",
           "settings": {
@@ -176,6 +182,7 @@
         "separator_imcTCg",
         "badges_k74hW3",
         "price",
+        "liquid_HiAaBC",
         "liquid_9Ujfr7",
         "separator_WrUBcF",
         "product_variations_KgicHX",
