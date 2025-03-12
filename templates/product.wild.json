@@ -76,7 +76,7 @@
         "liquid_3gh7K8": {
           "type": "liquid",
           "settings": {
-            "liquid": "Rata już od {% assign cena = product.price | divided_by: 10 %}\n{{ cena | money }} miesiecznie"
+            "liquid": "<span id=\"rata\">Rata już od {{ product.price | divided_by: 10 | money }} miesięcznie</span>"
           }
         },
         "separator_WrUBcF": {
@@ -241,7 +241,8 @@
       ],
       "custom_css": [
         ".logo-list__image {max-width: 500px; width: 100%;}",
-        ".color-swatch {height: 3.5rem; width: 3.5rem;}"
+        ".color-swatch {height: 3.5rem; width: 3.5rem;}",
+        ".lowest-price {font-size: 12px; color: #888; margin-top: -22px;}"
       ],
       "settings": {
         "full_width": true,
