@@ -781,6 +781,89 @@
         "background_dots": "#ffffff"
       }
     },
+    "testimonials_44q4rg": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_YkJctC": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "PIOTR JACHOWICZ",
+            "content": "<p>Pozytywne podejście do klienta a materac w trakcie testowania.</p>"
+          }
+        },
+        "testimonial_YnVgEr": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Sara Wudarzewska",
+            "content": "<p>Super!☺️</p>"
+          }
+        },
+        "testimonial_JQRQ7e": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Magd Wudarzewska",
+            "content": "<p>Wszystko supersuper</p>"
+          }
+        },
+        "testimonial_aiCfqD": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Kuba Lewandowski",
+            "content": "<p>Pełna profeska. Wszystko w porządku!</p>"
+          }
+        },
+        "testimonial_kLH9bB": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Dorota Michalska",
+            "content": "<p>Polecam serdecznie! Wszystko na najwyższym poziomie!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_YkJctC",
+        "testimonial_YnVgEr",
+        "testimonial_JQRQ7e",
+        "testimonial_aiCfqD",
+        "testimonial_kLH9bB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Opinie naszych kilentyów",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#f6f9fa",
+        "testimonial_card_text_color": ""
+      }
+    },
     "before-after-image": {
       "type": "before-after-image",
       "settings": {
@@ -1281,6 +1364,7 @@
     "hot-spots",
     "featured_collection_Ttj9fc",
     "shop_the_look_Rr8hLX",
+    "testimonials_44q4rg",
     "before-after-image",
     "featured_collection_xc3PaE",
     "collection_list_UkGpqX",
