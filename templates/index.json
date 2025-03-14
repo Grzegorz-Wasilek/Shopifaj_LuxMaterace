@@ -784,15 +784,26 @@
     "testimonials_44q4rg": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_YkJctC": {
+        "testimonial_LFQEqq": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Ewa Raciniewska",
+            "content": "<p>Materace super jakości co przekłada się na mega wygodę, świetna obsługa, polecam</p>"
+          }
+        },
+        "testimonial_Hh8HdN": {
           "type": "testimonial",
           "settings": {
             "round_avatar": false,
             "show_rating": true,
             "rating": 5,
             "author": "",
-            "title": "PIOTR JACHOWICZ",
-            "content": "<p>Pozytywne podejście do klienta a materac w trakcie testowania.</p>"
+            "title": "Paulina Bigos",
+            "content": "<p>Warto kupić<br/>Nadaje się idealnie dla dziecka, wygodny i miękki. Jestem miło zaskoczona materacem😉…</p>"
           }
         },
         "testimonial_YnVgEr": {
@@ -817,6 +828,17 @@
             "content": "<p>Polecam serdecznie! Wszystko na najwyższym poziomie!</p>"
           }
         },
+        "testimonial_YkJctC": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "PIOTR JACHOWICZ",
+            "content": "<p>Pozytywne podejście do klienta a materac w trakcie testowania.</p>"
+          }
+        },
         "testimonial_JQRQ7e": {
           "type": "testimonial",
           "settings": {
@@ -826,17 +848,6 @@
             "author": "",
             "title": "Magd Wudarzewska",
             "content": "<p>Wszystko supersuper</p>"
-          }
-        },
-        "testimonial_aiCfqD": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Kuba Lewandowski",
-            "content": "<p>Pełna profeska. Wszystko w porządku!</p>"
           }
         },
         "testimonial_hrQL64": {
@@ -850,30 +861,31 @@
             "content": "<p>Materac rewelacja. Obsługa jeszcze lepsza!</p>"
           }
         },
-        "testimonial_LFQEqq": {
+        "testimonial_aiCfqD": {
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
             "author": "",
-            "title": "Ewa Raciniewska",
-            "content": "<p>Materace super jakości co przekłada się na mega wygodę, świetna obsługa, polecam</p>"
+            "title": "Kuba Lewandowski",
+            "content": "<p>Pełna profeska. Wszystko w porządku!</p>"
           }
         }
       },
       "block_order": [
-        "testimonial_YkJctC",
+        "testimonial_LFQEqq",
+        "testimonial_Hh8HdN",
         "testimonial_YnVgEr",
         "testimonial_kLH9bB",
+        "testimonial_YkJctC",
         "testimonial_JQRQ7e",
-        "testimonial_aiCfqD",
         "testimonial_hrQL64",
-        "testimonial_LFQEqq"
+        "testimonial_aiCfqD"
       ],
       "settings": {
         "full_width": true,
-        "stack_testimonials": true,
+        "stack_testimonials": false,
         "subheading": "",
         "title": "Opinie naszych kilentyów",
         "content": "",
