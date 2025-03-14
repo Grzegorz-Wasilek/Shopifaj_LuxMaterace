@@ -781,125 +781,6 @@
         "background_dots": "#ffffff"
       }
     },
-    "testimonials_44q4rg": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_LFQEqq": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Ewa Raciniewska",
-            "content": "<p>Materace super jakości co przekłada się na mega wygodę, świetna obsługa, polecam</p>"
-          }
-        },
-        "testimonial_Hh8HdN": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": false,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Paulina Bigos",
-            "content": "<p>Warto kupić<br/>Nadaje się idealnie dla dziecka, wygodny i miękki. Jestem miło zaskoczona materacem😉…</p>"
-          }
-        },
-        "testimonial_YnVgEr": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": false,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Sara Wudarzewska",
-            "content": "<p>Super!☺️</p>"
-          }
-        },
-        "testimonial_kLH9bB": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Dorota Michalska",
-            "content": "<p>Polecam serdecznie! Wszystko na najwyższym poziomie!</p>"
-          }
-        },
-        "testimonial_YkJctC": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": false,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "PIOTR JACHOWICZ",
-            "content": "<p>Pozytywne podejście do klienta a materac w trakcie testowania.</p>"
-          }
-        },
-        "testimonial_JQRQ7e": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Magd Wudarzewska",
-            "content": "<p>Wszystko supersuper</p>"
-          }
-        },
-        "testimonial_hrQL64": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Wojciech Paluch",
-            "content": "<p>Materac rewelacja. Obsługa jeszcze lepsza!</p>"
-          }
-        },
-        "testimonial_aiCfqD": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Kuba Lewandowski",
-            "content": "<p>Pełna profeska. Wszystko w porządku!</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_LFQEqq",
-        "testimonial_Hh8HdN",
-        "testimonial_YnVgEr",
-        "testimonial_kLH9bB",
-        "testimonial_YkJctC",
-        "testimonial_JQRQ7e",
-        "testimonial_hrQL64",
-        "testimonial_aiCfqD"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Opinie naszych kilentyów",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "#f6f9fa",
-        "testimonial_card_text_color": ""
-      }
-    },
     "before-after-image": {
       "type": "before-after-image",
       "settings": {
@@ -1195,6 +1076,125 @@
         "heading_gradient": ""
       }
     },
+    "testimonials_44q4rg": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_LFQEqq": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Ewa Raciniewska",
+            "content": "<p>Materace super jakości co przekłada się na mega wygodę, świetna obsługa, polecam</p>"
+          }
+        },
+        "testimonial_Hh8HdN": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Paulina Bigos",
+            "content": "<p>Warto kupić<br/>Nadaje się idealnie dla dziecka, wygodny i miękki. Jestem miło zaskoczona materacem😉…</p>"
+          }
+        },
+        "testimonial_YnVgEr": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Sara Wudarzewska",
+            "content": "<p>Super!☺️</p>"
+          }
+        },
+        "testimonial_kLH9bB": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Dorota Michalska",
+            "content": "<p>Polecam serdecznie! Wszystko na najwyższym poziomie!</p>"
+          }
+        },
+        "testimonial_YkJctC": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "PIOTR JACHOWICZ",
+            "content": "<p>Pozytywne podejście do klienta a materac w trakcie testowania.</p>"
+          }
+        },
+        "testimonial_JQRQ7e": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Magd Wudarzewska",
+            "content": "<p>Wszystko supersuper</p>"
+          }
+        },
+        "testimonial_hrQL64": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Wojciech Paluch",
+            "content": "<p>Materac rewelacja. Obsługa jeszcze lepsza!</p>"
+          }
+        },
+        "testimonial_aiCfqD": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Kuba Lewandowski",
+            "content": "<p>Pełna profeska. Wszystko w porządku!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_LFQEqq",
+        "testimonial_Hh8HdN",
+        "testimonial_YnVgEr",
+        "testimonial_kLH9bB",
+        "testimonial_YkJctC",
+        "testimonial_JQRQ7e",
+        "testimonial_hrQL64",
+        "testimonial_aiCfqD"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Opinie naszych kilentyów",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#f6f9fa",
+        "testimonial_card_text_color": ""
+      }
+    },
     "video_YAX3zw": {
       "type": "video",
       "blocks": {
@@ -1400,12 +1400,12 @@
     "hot-spots",
     "featured_collection_Ttj9fc",
     "shop_the_look_Rr8hLX",
-    "testimonials_44q4rg",
     "before-after-image",
     "featured_collection_xc3PaE",
     "collection_list_UkGpqX",
     "image_link_blocks_yMJpgw",
     "hot_spots_KzBKC6",
+    "testimonials_44q4rg",
     "blog_posts_NLBfCh",
     "video_YAX3zw",
     "testimonials_TMzfVr",
