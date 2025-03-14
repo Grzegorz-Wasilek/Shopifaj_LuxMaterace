@@ -1042,40 +1042,6 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "blog_posts_NLBfCh": {
-      "type": "blog-posts",
-      "blocks": {
-        "blog_7XiqUA": {
-          "type": "blog",
-          "settings": {
-            "blog": "news",
-            "posts_count": 3,
-            "stack_items": false
-          }
-        }
-      },
-      "block_order": [
-        "blog_7XiqUA"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": true,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "Blog",
-        "content": "",
-        "link_url": "shopify://blogs/news",
-        "link_text": "Zobacz wszystkie",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "testimonials_44q4rg": {
       "type": "testimonials",
       "blocks": {
@@ -1182,7 +1148,7 @@
         "full_width": true,
         "stack_testimonials": false,
         "subheading": "",
-        "title": "Opinie naszych kilentyów",
+        "title": "Opinie naszych kilentów",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -1193,6 +1159,40 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f6f9fa",
         "testimonial_card_text_color": ""
+      }
+    },
+    "blog_posts_NLBfCh": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_7XiqUA": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_7XiqUA"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog",
+        "content": "",
+        "link_url": "shopify://blogs/news",
+        "link_text": "Zobacz wszystkie",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "video_YAX3zw": {
