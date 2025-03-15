@@ -1168,6 +1168,9 @@
         "testimonial_hrQL64",
         "testimonial_aiCfqD"
       ],
+      "custom_css": [
+        ".testimonial v-stack p:first-child{order:1; }"
+      ],
       "settings": {
         "full_width": true,
         "stack_testimonials": false,
