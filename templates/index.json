@@ -1046,13 +1046,13 @@
       "type": "custom-html",
       "custom_css": [
         ".section-full {padding-bottom: 80px;}",
-        ".test-flex {display: flex;}",
-        ".testimonial-google {padding-top: 25px; gap: 20px;}",
+        ".test-flex {display: flex; gap: 20px; align-items: center;}",
+        ".testimonial-google {}",
         ".testimonial-desc {}",
         ".desc-rating {font-weight: 900;}",
         ".big-ratting-google {font-size: 2.5rem;}",
         ".big-ratting-google span {font-weight: 900;}",
-        ".google-rating-testimonial {gap:20px; align-items:center}"
+        ".google-rating-testimonial {}"
       ],
       "settings": {
         "full_width": true,
