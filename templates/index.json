@@ -1042,6 +1042,21 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "custom_html_aqMthR": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-bottom:80px; }"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h2\">Opinie naszych klientów</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials_44q4rg": {
       "type": "testimonials",
       "blocks": {
@@ -1148,7 +1163,7 @@
         "full_width": true,
         "stack_testimonials": false,
         "subheading": "",
-        "title": "Opinie naszych kilentów",
+        "title": "",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -1405,6 +1420,7 @@
     "collection_list_UkGpqX",
     "image_link_blocks_yMJpgw",
     "hot_spots_KzBKC6",
+    "custom_html_aqMthR",
     "testimonials_44q4rg",
     "blog_posts_NLBfCh",
     "video_YAX3zw",
