@@ -1045,13 +1045,13 @@
     "custom_html_aqMthR": {
       "type": "custom-html",
       "custom_css": [
-        ".section-full {padding-bottom:80px; }"
+        ".section-full {padding-bottom: 80px;}"
       ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<h2 class=\"h2\">Opinie naszych klientów</h2>",
+        "html": "<h2 class=\"h2\">Opinie naszych klientów</h2>\n<div class=\"testimonial-google\"></div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
