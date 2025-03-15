@@ -1172,7 +1172,7 @@
         ".testimonial .v-stack p:first-child {order: 1; position: relative;}",
         ".testimonial .v-stack p:nth-child(2) {position: relative;}",
         ".testimonial {background: #fff; border-radius: 10px;}",
-        ".testimonial-list {align-items: center;}"
+        ".testimonial-list {align-items: stretch;}"
       ],
       "settings": {
         "full_width": true,
