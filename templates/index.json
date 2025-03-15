@@ -1070,17 +1070,6 @@
     "testimonials_44q4rg": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_LFQEqq": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Krzysztof Wiśniewski",
-            "content": "<p>Z przyjemnością polecam ten sklep internetowy z materacami! Świetna obsługa, szeroki wybór produktów i bardzo przystępne ceny sprawiły, że zakupy były naprawdę przyjemnością. Bardzo doceniam możliwość porównania różnych rodzajów materacy oraz pomocne opisy, które ułatwiły mi dokonanie wyboru. Zamówiony materac dotarł szybko, a dostawa była bezproblemowa i bardzo profesjonalna. Materac jest dokładnie taki, jak w opisie, wygodny i solidnie wykonany, co znacząco poprawiło komfort snu. Jestem bardzo zadowolony z zakupu i na pewno wrócę do tego sklepu w przyszłości.</p>"
-          }
-        },
         "testimonial_Hh8HdN": {
           "type": "testimonial",
           "settings": {
@@ -1092,15 +1081,15 @@
             "content": "<p>Warto kupić<br/>Nadaje się idealnie dla dziecka, wygodny i miękki. Jestem miło zaskoczona materacem😉…</p>"
           }
         },
-        "testimonial_YnVgEr": {
+        "testimonial_LFQEqq": {
           "type": "testimonial",
           "settings": {
-            "round_avatar": false,
+            "round_avatar": true,
             "show_rating": true,
             "rating": 5,
             "author": "",
-            "title": "Katarzyna Wasiłek",
-            "content": "<p>Zamówiłam materac w tym sklepie online i jestem niezwykle zadowolona z jakości produktu oraz obsługi klienta. Materac jest bardzo wygodny i idealnie dopasowuje się do ciała, co znacząco poprawiło jakość mojego snu. Proces zamówienia był prosty i szybki, a dostawa odbyła się w umówionym terminie.<br/>Szczególnie doceniam, że sklep oferuje szeroki wybór materacy, a także możliwość zwrotu, co daje poczucie bezpieczeństwa przy zakupie. Rekomenduję ten sklep każdemu, kto szuka komfortowego i solidnego materaca!</p>"
+            "title": "Krzysztof Wiśniewski",
+            "content": "<p>Z przyjemnością polecam ten sklep internetowy z materacami! Świetna obsługa, szeroki wybór produktów i bardzo przystępne ceny sprawiły, że zakupy były naprawdę przyjemnością. Bardzo doceniam możliwość porównania różnych rodzajów materacy oraz pomocne opisy, które ułatwiły mi dokonanie wyboru. Zamówiony materac dotarł szybko, a dostawa była bezproblemowa i bardzo profesjonalna. Materac jest dokładnie taki, jak w opisie, wygodny i solidnie wykonany, co znacząco poprawiło komfort snu. Jestem bardzo zadowolony z zakupu i na pewno wrócę do tego sklepu w przyszłości.</p>"
           }
         },
         "testimonial_kLH9bB": {
@@ -1136,6 +1125,17 @@
             "content": "<p>Jakość na najwyższym poziomie. Materace super wygodne i dobrej jakości. Obsługa pomocna na każdym etapie zakupu. Polecam!!</p>"
           }
         },
+        "testimonial_YnVgEr": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Katarzyna Wasiłek",
+            "content": "<p>Zamówiłam materac w tym sklepie online i jestem niezwykle zadowolona z jakości produktu oraz obsługi klienta. Materac jest bardzo wygodny i idealnie dopasowuje się do ciała, co znacząco poprawiło jakość mojego snu. Proces zamówienia był prosty i szybki, a dostawa odbyła się w umówionym terminie.<br/>Szczególnie doceniam, że sklep oferuje szeroki wybór materacy, a także możliwość zwrotu, co daje poczucie bezpieczeństwa przy zakupie. Rekomenduję ten sklep każdemu, kto szuka komfortowego i solidnego materaca!</p>"
+          }
+        },
         "testimonial_hrQL64": {
           "type": "testimonial",
           "settings": {
@@ -1160,12 +1160,12 @@
         }
       },
       "block_order": [
-        "testimonial_LFQEqq",
         "testimonial_Hh8HdN",
-        "testimonial_YnVgEr",
+        "testimonial_LFQEqq",
         "testimonial_kLH9bB",
         "testimonial_YkJctC",
         "testimonial_JQRQ7e",
+        "testimonial_YnVgEr",
         "testimonial_hrQL64",
         "testimonial_aiCfqD"
       ],
