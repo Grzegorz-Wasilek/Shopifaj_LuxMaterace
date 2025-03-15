@@ -1169,7 +1169,8 @@
         "testimonial_aiCfqD"
       ],
       "custom_css": [
-        ".testimonial .v-stack p:first-child {order: 1; position: relative;}"
+        ".testimonial .v-stack p:first-child {order: 1; position: relative;}",
+        ".testimonial {background: #fff; border-radius:10px; }"
       ],
       "settings": {
         "full_width": true,
@@ -1368,7 +1369,7 @@
         ".bg-custom {height: 100%;}",
         ".testimonial__image {width: 70px;}",
         "p.bold {font-size: 1.05rem;}",
-        ".testimonial .v-stack p:first-child:before {display:none !important;}",
+        ".testimonial .v-stack p:first-child:before {display: none !important;}",
         "@media (max-width: 700px) {p.bold {font-size: 0.95rem; }}"
       ],
       "settings": {
