@@ -1055,7 +1055,7 @@
         ".big-ratting-google span {font-weight: 900;}",
         ".google-rating-testimonial {padding-top: 5px;}",
         ".test-google-logo svg {width: 100px; height: auto;}",
-        "@media all and (max-width:1150px) {.section-full {padding-bottom: 50px;}}"
+        "@media all and (max-width: 1150px) {.section-full {padding-bottom: 20px; }}"
       ],
       "settings": {
         "full_width": true,
