@@ -1169,7 +1169,7 @@
         "testimonial_aiCfqD"
       ],
       "custom_css": [
-        ".testimonial v-stack p:first-child{order:1; }"
+        ".testimonial .v-stack p:first-child {order: 1;}"
       ],
       "settings": {
         "full_width": true,
