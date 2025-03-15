@@ -1394,7 +1394,7 @@
     "newsletter_KTBA6F": {
       "type": "newsletter",
       "custom_css": [
-        ".input {background: #f5f5f5;}",
+        ".input {background: #fff;}",
         ".newsletter-content > .prose p {margin-top: 10px;}",
         ".newsletter-content {max-width: 100%; display: flex; justify-content: space-between; text-align: left; padding: 10px 80px;}",
         ".newsletter-content > * {flex: 0 1 50%; max-width: inherit;}",
