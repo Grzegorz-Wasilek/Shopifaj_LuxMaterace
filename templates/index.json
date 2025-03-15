@@ -1045,7 +1045,7 @@
     "custom_html_aqMthR": {
       "type": "custom-html",
       "custom_css": [
-        ".section-full {padding-bottom: 50px;}",
+        ".section-full {padding-bottom: 0px;}",
         ".test-flex {display: flex; align-items: center;}",
         ".test-flex-gap {gap: 20px;}",
         ".testimonial-google {}",
