@@ -1052,7 +1052,7 @@
         ".desc-rating {font-weight: 900;}",
         ".big-ratting-google {font-size: 2.5rem;}",
         ".big-ratting-google span {font-weight: 900;}",
-        ".google-rating-testimonial {}"
+        ".google-rating-testimonial {padding-top:10px;}"
       ],
       "settings": {
         "full_width": true,
