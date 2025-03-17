@@ -65,7 +65,7 @@
         "links_LMTzEh"
       ],
       "custom_css": [
-        ".footer-icons-custom > div:first-child {transform: scale(0.9);}",
+        ".footer-icons-custom > div:first-child svg {height:20px}",
         ".footer .prose p {margin: 0;}",
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
         ".footer__payment-icons > svg {width: auto;}",
