@@ -70,7 +70,7 @@
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
         ".footer__payment-icons > svg {width: auto;}",
         ".footer-icons-custom > div {gap: 30px;}",
-        "@media (max-width: 1250px) {.footer__block--newsletter {margin-bottom: 20px; } .footer__payment-icons > svg {} .footer-icons-custom {justify-content: flex-end; } .footer-icons-custom > div {margin-bottom:10px; }}",
+        "@media (max-width: 1250px) {.footer__block--newsletter {margin-bottom: 25px; } .footer__payment-icons > svg {} .footer-icons-custom {justify-content: flex-end; } .footer-icons-custom > div {margin-bottom: 10px; }}",
         "@media (max-width: 700px) {.footer-icons-custom {justify-content: flex-start; }}"
       ],
       "settings": {
