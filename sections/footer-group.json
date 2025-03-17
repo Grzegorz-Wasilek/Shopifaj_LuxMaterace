@@ -69,7 +69,8 @@
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
         ".social-media svg path {fill: #465076;}",
         ".footer__payment-icons > svg {width: auto; padding: 0 14px;}",
-        "@media (max-width: 1250px) {.footer__block--newsletter {margin-bottom: 20px; } .footer__payment-icons > svg {padding: 5px 10px; } .footer-icons-custom {justify-content:flex-end; }}"
+        "@media (max-width: 1250px) {.footer__block--newsletter {margin-bottom: 20px; } .footer__payment-icons > svg {padding: 5px 10px; } .footer-icons-custom {justify-content: flex-end; }}",
+        "@media (max-width: 700px) {.footer-icons-custom {justify-content: flex-start;}"
       ],
       "settings": {
         "show_social_media": true,
