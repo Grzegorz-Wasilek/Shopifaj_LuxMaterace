@@ -65,6 +65,7 @@
         "links_LMTzEh"
       ],
       "custom_css": [
+        ".footer-icons-custom > div:first-child {transform:scale(0.9);}",
         ".footer .prose p {margin: 0;}",
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
         ".social-media svg path {fill: #465076;}",
