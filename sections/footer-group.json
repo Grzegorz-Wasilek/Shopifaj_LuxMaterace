@@ -70,7 +70,7 @@
         ".footer .footer__block--newsletter .footer__newsletter-form {display: none;}",
         ".social-media svg path {fill: #465076;}",
         ".footer__payment-icons > svg {width: auto;}",
-        ".footer-icons-custom > div {}",
+        ".footer-icons-custom > div {gap: 20px;}",
         "@media (max-width: 1250px) {.footer__block--newsletter {margin-bottom: 20px; } .footer__payment-icons > svg {} .footer-icons-custom {justify-content: flex-end; }}",
         "@media (max-width: 700px) {.footer-icons-custom {justify-content: flex-start; }}"
       ],
