@@ -200,7 +200,7 @@
       ],
       "custom_css": [
         ".color-swatch {height: 2rem; width: 2rem;}",
-        ".lowest-price {font-size: 12px; color: #888; margin-top: -22px;}"
+        ".lowest-price {font-size: 12px; color: #888; margin-top: -32px;}"
       ],
       "settings": {
         "full_width": true,
