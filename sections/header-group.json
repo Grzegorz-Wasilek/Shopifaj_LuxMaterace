@@ -32,7 +32,6 @@
         },
         "message_dpCBgb": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Wszystkie materace",
             "url": "shopify://collections/materace"
@@ -40,7 +39,6 @@
         },
         "message_MRxtp6": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "-30%",
             "url": "shopify://collections/materace"
