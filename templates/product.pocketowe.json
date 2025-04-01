@@ -87,12 +87,6 @@
           "type": "separator",
           "settings": {}
         },
-        "swishlist_simple_wishlist_wishlist_product_button_qwiUYz": {
-          "type": "shopify://apps/swishlist-simple-wishlist/blocks/wishlist_product_button/bfcb80f2-f00d-42ae-909a-9f00c726327b",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
         "product_variations_KgicHX": {
           "type": "product_variations",
           "settings": {
@@ -198,7 +192,6 @@
         "liquid_wgKP9H",
         "liquid_N7UyQH",
         "separator_WrUBcF",
-        "swishlist_simple_wishlist_wishlist_product_button_qwiUYz",
         "product_variations_KgicHX",
         "quantity_selector",
         "buy_buttons",
