@@ -80,6 +80,7 @@
         },
         "image_xYGMMK": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-all-prom-550.webp",
             "mobile_image": "shopify://shop_images/all-banner-miobile-550.webp",
@@ -102,7 +103,6 @@
         },
         "image_6RQxw9": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-topery-desk_f68ac8d7-aada-4633-b9b5-9acd6432f85d.webp",
             "mobile_image": "shopify://shop_images/banner-topery-mobile_635b8873-ca57-4b46-b7cc-ec66d175c9e6.webp",
