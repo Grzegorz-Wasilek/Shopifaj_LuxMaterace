@@ -33,8 +33,8 @@
         "message_dpCBgb": {
           "type": "message",
           "settings": {
-            "text": "Wszystkie materace",
-            "url": "shopify://collections/materace"
+            "text": "Dziecięce materace - 30%",
+            "url": "shopify://collections/materace-dzieciece"
           }
         },
         "message_MRxtp6": {
@@ -51,7 +51,6 @@
         "message_dpCBgb",
         "message_MRxtp6"
       ],
-      "disabled": true,
       "custom_css": [
         ".announcement-bar__item p:nth-of-type(2) {background-color: #022e4f; padding: 0 5px; color: #ed979c; border-radius: 5px;}",
         ".announcement-bar__item p {text-transform: uppercase; font-weight: 600;}",
