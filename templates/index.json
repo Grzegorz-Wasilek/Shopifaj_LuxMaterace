@@ -266,6 +266,31 @@
     "featured_collection_xKEAii": {
       "type": "featured-collection",
       "settings": {
+        "collection": "dostepne-od-reki",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 5,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Dostępne od ręki",
+        "content": "",
+        "link_url": "shopify://collections/dostepne-od-reki",
+        "link_text": "Zobacz wszystkie",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#022e4f",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "#022e4f"
+      }
+    },
+    "featured_collection_D8J3cq": {
+      "type": "featured-collection",
+      "settings": {
         "collection": "",
         "products": [
           "naroznik-mediolan-castel85",
@@ -1439,6 +1464,7 @@
     "slideshow",
     "collection-list",
     "featured_collection_xKEAii",
+    "featured_collection_D8J3cq",
     "text_with_icons_rnKCY4",
     "media-grid",
     "featured-collection",
