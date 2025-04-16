@@ -146,7 +146,7 @@
             "icon": "picto-timer",
             "custom_icon": "shopify://shop_images/time.svg",
             "icon_width": 32,
-            "title": "Wysyłka 48h",
+            "title": "Wysyłka do 7 dni roboczych",
             "content": "",
             "background": "#eaf2ed",
             "text_color": "#ed979c"
