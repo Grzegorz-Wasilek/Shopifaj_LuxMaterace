@@ -17,7 +17,7 @@
         "apparition_delay": 5,
         "show_only_on_index": false,
         "show_only_for_visitors": false,
-        "show_only_once": false,
+        "show_only_once": true,
         "image": "shopify://shop_images/banner-2-mobile.webp",
         "title": "Zapisz się na nasz newsletter i zyskaj 10% dodatkowego rabatu",
         "button_text": "Wyślij",
