@@ -13,16 +13,15 @@
   "sections": {
     "newsletter-popup": {
       "type": "newsletter-popup",
-      "disabled": true,
       "settings": {
         "apparition_delay": 5,
-        "show_only_on_index": true,
-        "show_only_for_visitors": true,
-        "show_only_once": true,
+        "show_only_on_index": false,
+        "show_only_for_visitors": false,
+        "show_only_once": false,
         "image": "shopify://shop_images/banner-2-mobile.webp",
-        "title": "Zapisz się na nasz newsletter",
+        "title": "Zapisz się na nasz newsletter i zyskaj 10% rabatu",
         "button_text": "Wyślij",
-        "subtext": "Zapisz się do newslettera i zgarnij 5% rabatu"
+        "subtext": "Zapisz się do newslettera i zgarnij 10% rabatu. Promocja łączy się z innymi rabatami."
       }
     },
     "privacy-banner": {
