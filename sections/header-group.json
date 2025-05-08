@@ -22,14 +22,6 @@
             "url": "shopify://collections/materace-nawierzchniowe"
           }
         },
-        "message_Mi7eGU": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "ZzzzuperRabat20",
-            "url": ""
-          }
-        },
         "message_MRxtp6": {
           "type": "message",
           "settings": {
@@ -37,7 +29,7 @@
             "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         },
-        "message_EhyETp": {
+        "message_Mi7eGU": {
           "type": "message",
           "settings": {
             "text": "10%",
@@ -50,14 +42,21 @@
             "text": "zapisz się do newslettera",
             "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
+        },
+        "message_EhyETp": {
+          "type": "message",
+          "settings": {
+            "text": "10%",
+            "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
+          }
         }
       },
       "block_order": [
         "message",
-        "message_Mi7eGU",
         "message_MRxtp6",
-        "message_EhyETp",
-        "message_dpCBgb"
+        "message_Mi7eGU",
+        "message_dpCBgb",
+        "message_EhyETp"
       ],
       "custom_css": [
         ".announcement-bar__item p:nth-of-type(2n) {background-color: #022e4f; padding: 0 5px; color: #ed979c; border-radius: 5px;}",
