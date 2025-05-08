@@ -32,7 +32,7 @@
         "message_Mi7eGU": {
           "type": "message",
           "settings": {
-            "text": "10%",
+            "text": "-10%",
             "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         },
@@ -46,7 +46,7 @@
         "message_EhyETp": {
           "type": "message",
           "settings": {
-            "text": "10%",
+            "text": "-10%",
             "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         }
@@ -60,14 +60,14 @@
       ],
       "custom_css": [
         ".announcement-bar__item p:nth-of-type(2n) {background-color: #022e4f; padding: 0 5px; color: #ed979c; border-radius: 5px;}",
-        ".announcement-bar__item p {text-transform: uppercase; font-weight: 600;}",
+        ".announcement-bar__item p {text-transform: uppercase; font-weight: 600; font-size: 14px;}",
         ".announcement-bar {padding: 10px 0;}"
       ],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
-        "scrolling_speed": 20,
+        "scrolling_speed": 18,
         "background": "#ed979c",
         "background_gradient": "",
         "text_color": "#022e4f"
