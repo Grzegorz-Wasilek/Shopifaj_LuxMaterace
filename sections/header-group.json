@@ -30,34 +30,34 @@
             "url": ""
           }
         },
-        "message_dpCBgb": {
-          "type": "message",
-          "settings": {
-            "text": "Dziecięce materace - 30%",
-            "url": "shopify://collections/materace-dzieciece"
-          }
-        },
         "message_MRxtp6": {
           "type": "message",
           "settings": {
-            "text": "Narożnik Mediolan -10%",
-            "url": "shopify://products/naroznik-mediolan-castel03"
+            "text": "zgarnij dodatkowe",
+            "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         },
         "message_EhyETp": {
           "type": "message",
           "settings": {
-            "text": "Materac Juniper -70%",
+            "text": "10%",
             "url": "shopify://products/materac-juniper-pocketowe-mata-kokosowa-pocket-24cm"
+          }
+        },
+        "message_dpCBgb": {
+          "type": "message",
+          "settings": {
+            "text": "zapisz się do newslettera",
+            "url": "shopify://collections/materace-dzieciece"
           }
         }
       },
       "block_order": [
         "message",
         "message_Mi7eGU",
-        "message_dpCBgb",
         "message_MRxtp6",
-        "message_EhyETp"
+        "message_EhyETp",
+        "message_dpCBgb"
       ],
       "custom_css": [
         ".announcement-bar__item p:nth-of-type(2) {background-color: #022e4f; padding: 0 5px; color: #ed979c; border-radius: 5px;}",
