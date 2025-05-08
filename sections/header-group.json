@@ -41,14 +41,14 @@
           "type": "message",
           "settings": {
             "text": "10%",
-            "url": "shopify://products/materac-juniper-pocketowe-mata-kokosowa-pocket-24cm"
+            "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         },
         "message_dpCBgb": {
           "type": "message",
           "settings": {
             "text": "zapisz się do newslettera",
-            "url": "shopify://collections/materace-dzieciece"
+            "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         }
       },
