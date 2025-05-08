@@ -26,28 +26,28 @@
           "type": "message",
           "settings": {
             "text": "zgarnij dodatkowy rabat",
-            "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
+            "url": "https://semmi.pl#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         },
         "message_Mi7eGU": {
           "type": "message",
           "settings": {
             "text": "-10%",
-            "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
+            "url": "https://semmi.pl#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         },
         "message_dpCBgb": {
           "type": "message",
           "settings": {
             "text": "zapisz się do newslettera",
-            "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
+            "url": "https://semmi.pl#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         },
         "message_EhyETp": {
           "type": "message",
           "settings": {
             "text": "-10%",
-            "url": "#shopify-section-template--21126296961348__newsletter_KTBA6F"
+            "url": "https://semmi.pl#shopify-section-template--21126296961348__newsletter_KTBA6F"
           }
         }
       },
@@ -62,7 +62,7 @@
         ".announcement-bar__item p:nth-of-type(2n) {background-color: #022e4f; padding: 0 5px; color: #ed979c; border-radius: 5px;}",
         ".announcement-bar__item p {text-transform: uppercase; font-weight: 600; font-size: 13px;}",
         ".announcement-bar {padding: 10px 0;}",
-        ".shape-circle {display:none;}"
+        ".shape-circle {display: none;}"
       ],
       "settings": {
         "enable_sticky": false,
