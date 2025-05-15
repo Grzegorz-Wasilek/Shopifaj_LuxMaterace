@@ -59,8 +59,8 @@
         "image_9XkDhy": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/mint-spring-prom-550_4d891903-d91a-49da-9a8c-53f9d97210a3.webp",
-            "mobile_image": "shopify://shop_images/mint-spring-miobile-550_13b462fa-3c31-4d25-a14d-dfa24e02872a.webp",
+            "image": "shopify://shop_images/pocket-prom-550_kopia.webp",
+            "mobile_image": "shopify://shop_images/pocket-miobile-550_kopia.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -68,7 +68,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "Zobacz promocje",
-            "button_link": "shopify://products/materac-mint-kontynentalne-lateks-mata-kokosowa-minipocket-multipocket-28cm",
+            "button_link": "shopify://collections/materace-pocketowe",
             "text_color": "#ffffff",
             "button_background": "#ed979c",
             "button_text_color": "#ffffff",
