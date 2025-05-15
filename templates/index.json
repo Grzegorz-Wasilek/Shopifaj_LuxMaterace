@@ -34,28 +34,6 @@
             "background_gradient": "linear-gradient(109deg, rgba(36, 134, 143, 1) 1%, rgba(27, 135, 145, 1) 97%)"
           }
         },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner-all-prom-550_23f0ec3d-51a3-48aa-b0e9-540b06e68016.webp",
-            "mobile_image": "shopify://shop_images/all-banner-miobile-550_7cc2dc51-a86e-4124-8d5a-56fea1a106a4.webp",
-            "content_max_width": 400,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "",
-            "title": "Materace dla dzieci - 30%",
-            "heading_tag": "h1",
-            "button_text": "Zobacz Promocje",
-            "button_link": "shopify://collections/materace-dzieciece",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#ffb74a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": "linear-gradient(69deg, rgba(2, 46, 79, 1), rgba(70, 80, 118, 1) 47.48%, rgba(2, 46, 79, 1) 97%)"
-          }
-        },
         "image_9XkDhy": {
           "type": "image",
           "settings": {
@@ -76,6 +54,28 @@
             "overlay_opacity": 0,
             "background": "#16665b",
             "background_gradient": "linear-gradient(180deg, rgba(19, 105, 78, 1) 4%, rgba(24, 96, 86, 1) 100%)"
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-all-prom-550_23f0ec3d-51a3-48aa-b0e9-540b06e68016.webp",
+            "mobile_image": "shopify://shop_images/all-banner-miobile-550_7cc2dc51-a86e-4124-8d5a-56fea1a106a4.webp",
+            "content_max_width": 400,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Materace dla dzieci - 30%",
+            "heading_tag": "h1",
+            "button_text": "Zobacz Promocje",
+            "button_link": "shopify://collections/materace-dzieciece",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#ffb74a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": "linear-gradient(69deg, rgba(2, 46, 79, 1), rgba(70, 80, 118, 1) 47.48%, rgba(2, 46, 79, 1) 97%)"
           }
         },
         "image_KhE4Yh": {
@@ -148,8 +148,8 @@
       },
       "block_order": [
         "image_6RQxw9",
-        "slide-1",
         "image_9XkDhy",
+        "slide-1",
         "image_KhE4Yh",
         "image_yk7MYY",
         "image_xYGMMK"
