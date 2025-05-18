@@ -32,8 +32,13 @@
         },
         "separator": {
           "type": "separator",
-          "disabled": true,
           "settings": {}
+        },
+        "description_cHHQkD": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
         },
         "image_eB8Q3T": {
           "type": "image",
@@ -184,6 +189,7 @@
         "title",
         "payment_terms",
         "separator",
+        "description_cHHQkD",
         "image_eB8Q3T",
         "separator_EGeBQq",
         "variant_picker",
