@@ -32,10 +32,12 @@
         },
         "separator": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "image_eB8Q3T": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "{{ product.metafields.custom.grafika_twardosc.value }}",
             "alignment": "start",
