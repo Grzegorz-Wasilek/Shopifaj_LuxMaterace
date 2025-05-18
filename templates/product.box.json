@@ -690,6 +690,63 @@
         "background_gradient": ""
       }
     },
+    "media_with_text_KKFgPG": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_YKdwUb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cayenne-3_2a8b4f19-9dd2-4127-a9e4-de3d7cea02f3.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Materac Cayenne",
+            "content": "<p>Postaw na elastyczność i wytrzymałość. Zobacz jak zastosowanie dwóch rodzajów pianki (lateksowej oraz poliuretanowej) wpływa na elastyczność i wszechstronność materaca. Odwróć na drugą stronę, jeśli chcesz zmienić charakterystykę dopasowania do ciała. Daj się zaskoczyć trwałością i funkcjonalnością materaca Cayenne.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_9UPmap": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/visco_46e4a4cd-d556-4425-9f9a-4cf110b0c552.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Materac Nawierzchniowy Topper Piankowy Visco",
+            "content": "<p>Odśwież swoje łóżko materacem nawierzchniowym. Wypełnienie z pianki VISCO charakteryzuje się idealnym dopasowaniem do każdej krzywizny ciała. Dzięki temu zapewni nieopisane wsparcie nie tylko dla kręgosłupa, co przełoży się na zdrowy i pełen regeneracji sen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YKdwUb",
+        "image_9UPmap"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
     "custom_html_J9DNww": {
       "type": "custom-html",
       "custom_css": [
@@ -703,63 +760,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "media_with_text_KKFgPG": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_9UPmap": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/pokrowiec-3_3f6694fd-36e3-49ff-bde5-8433ad010761.webp",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Pokrowiec na materac \"Standard\"",
-            "content": "<p>Pokrowiec na materac \"Standard\" to idealne rozwiązanie dla osób ceniących sobie komfort i funkcjonalność. Każdy pokrowiec jest antyalergiczny, co zapewnia zdrowy i bezpieczny sen. Dwustronność pokrowca pozwala na jego dłuższą żywotność, a zamki błyskawiczne ułatwiają zakładanie i zdejmowanie. Dodatkowo, pokrowiec można prać, co zapewnia higienę i świeżość przez długi czas.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_YKdwUb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/pokrowiec-1_3af7e53d-cead-4e73-bea6-145c8541fee5.webp",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Pokrowiec na materac \"Premium\"",
-            "content": "<p>Pokrowiec na materac \"Premium\" to luksusowa wersja naszego pokrowca, stworzona dla najbardziej wymagających użytkowników. Podobnie jak pokrowiec \"Standard\", jest antyalergiczny, dwustronny i wyposażony w zamki błyskawiczne, co ułatwia jego użytkowanie i pranie. Jednak \"Premium\" wyróżnia się dodatkowymi cechami: posiada praktyczne uchwyty, które ułatwiają ustawienie pokrowca na brzegu materaca, oraz elegancką lamówkę, która nie tylko podnosi walory estetyczne, ale również zwiększa sztywność pokrowca. Specjalnie przeszyte boki dodają mu wyjątkowego wyglądu, czyniąc pokrowiec \"Premium\" idealnym wyborem dla osób poszukujących najwyższej jakości i stylu.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_9UPmap",
-        "image_YKdwUb"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "large"
       }
     },
     "media_with_text_wyjKPf": {
