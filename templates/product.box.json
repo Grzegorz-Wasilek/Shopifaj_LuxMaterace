@@ -762,6 +762,64 @@
         "spacing": "large"
       }
     },
+    "media_with_text_wyjKPf": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_a9tKYG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pokrowiec-3_3f6694fd-36e3-49ff-bde5-8433ad010761.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pokrowiec na materac \"Standard\"",
+            "content": "<p>Pokrowiec na materac \"Standard\" to idealne rozwiązanie dla osób ceniących sobie komfort i funkcjonalność. Każdy pokrowiec jest antyalergiczny, co zapewnia zdrowy i bezpieczny sen. Dwustronność pokrowca pozwala na jego dłuższą żywotność, a zamki błyskawiczne ułatwiają zakładanie i zdejmowanie. Dodatkowo, pokrowiec można prać, co zapewnia higienę i świeżość przez długi czas.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_7rMjQq": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/pokrowiec-1_3af7e53d-cead-4e73-bea6-145c8541fee5.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pokrowiec na materac \"Premium\"",
+            "content": "<p>Pokrowiec na materac \"Premium\" to luksusowa wersja naszego pokrowca, stworzona dla najbardziej wymagających użytkowników. Podobnie jak pokrowiec \"Standard\", jest antyalergiczny, dwustronny i wyposażony w zamki błyskawiczne, co ułatwia jego użytkowanie i pranie. Jednak \"Premium\" wyróżnia się dodatkowymi cechami: posiada praktyczne uchwyty, które ułatwiają ustawienie pokrowca na brzegu materaca, oraz elegancką lamówkę, która nie tylko podnosi walory estetyczne, ale również zwiększa sztywność pokrowca. Specjalnie przeszyte boki dodają mu wyjątkowego wyglądu, czyniąc pokrowiec \"Premium\" idealnym wyborem dla osób poszukujących najwyższej jakości i stylu.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_a9tKYG",
+        "image_7rMjQq"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
     "image_link_blocks_kKx7yh": {
       "type": "image-link-blocks",
       "blocks": {
@@ -995,8 +1053,9 @@
     "image_with_text_overlay_jAgdpJ",
     "custom_html_EAH6Nb",
     "media_grid_AEwBcJ",
-    "custom_html_J9DNww",
     "media_with_text_KKFgPG",
+    "custom_html_J9DNww",
+    "media_with_text_wyjKPf",
     "image_link_blocks_kKx7yh",
     "image_with_text_overlay_g9CHB9",
     "related-products",
