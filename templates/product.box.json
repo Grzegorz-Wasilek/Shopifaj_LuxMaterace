@@ -37,7 +37,7 @@
         "description_cHHQkD": {
           "type": "description",
           "settings": {
-            "collapse_content": false
+            "collapse_content": true
           }
         },
         "image_eB8Q3T": {
