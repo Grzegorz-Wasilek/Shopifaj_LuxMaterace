@@ -15,8 +15,8 @@
         "image_xYGMMK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cayenne_topper-prom-550.webp",
-            "mobile_image": "shopify://shop_images/cayenne_toper-miobile-550.webp",
+            "image": "shopify://shop_images/cayenne_topper-prom-550_3a6fc8ef-ac75-4e4d-906e-6bdfdbd6ef73.webp",
+            "mobile_image": "shopify://shop_images/cayenne_toper-miobile-550_297e999a-20f2-48e2-a6e1-1fb119cf0dd1.webp",
             "content_max_width": 460,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
