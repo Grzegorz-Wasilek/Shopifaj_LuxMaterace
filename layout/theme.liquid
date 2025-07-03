@@ -101,24 +101,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {%- endif -%}
     </main>
 
+
+
+
+    
 <script>
 (function () {
   function applyVerifiedBadges() {
-    const reviews = document.querySelectorAll('.jdgm-rev');
+    const reviews = document.querySelectorAll('.jdgm-rev[data-verified-buyer="true"]');
 
     reviews.forEach(review => {
-      const isVerified = review.getAttribute('data-verified-buyer') === 'true';
-      if (!isVerified) return;
-
       const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
       if (!authorWrapper) return;
 
-      // Sprawdźmy, czy już JEST tam jakaś nasza dokładana etykieta z tekstem
-      const alreadyInjected = authorWrapper.querySelector('.custom-verified-badge');
-      if (alreadyInjected) return;
+      // Jeśli już został dodany nasz badge, to nic nie rób
+      if (authorWrapper.querySelector('.custom-verified-badge')) return;
 
-      // Jeśli wewnątrz wrappera NIE ma żadnego widocznego tekstu „Zweryfikowany” (czyli JudgeMe nie wstawiło ::before),
-      // to DODAJEMY go ręcznie:
+      // Jeśli zawartość tekstowa wrappera zawiera już słowo „Zweryfikowany”, to też nic nie rób
+      if (authorWrapper.textContent.includes("Zweryfikowany")) return;
+
+      // Dodajemy nasz badge
       const badgeWrapper = document.createElement("span");
       badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper custom-verified-badge";
 
@@ -131,8 +133,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   }
 
+  // uruchomienie na starcie
   applyVerifiedBadges();
 
+  // obserwacja zmian po zmianie filtra
   const container = document.querySelector('.jdgm-reviews-widget');
   if (container) {
     const observer = new MutationObserver(() => {
@@ -141,10 +145,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }, 300);
     });
 
-    observer.observe(container, { childList: true, subtree: true });
+    observer.observe(container, {
+      childList: true,
+      subtree: true
+    });
   }
 })();
 </script>
+
 
 
   </body>
