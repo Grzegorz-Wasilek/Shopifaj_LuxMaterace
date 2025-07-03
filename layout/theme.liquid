@@ -103,8 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-
- <script>
+<script>
 (function () {
   function applyVerifiedBadges() {
     const reviews = document.querySelectorAll('.jdgm-rev[data-verified-buyer="true"]');
@@ -113,16 +112,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
       if (!authorWrapper) return;
 
-      // Usuń nasz badge, jeśli wcześniej był już dodany (reset)
-      const oldBadge = authorWrapper.querySelector('.custom-verified-badge');
-      if (oldBadge) oldBadge.remove();
+      // Jeśli badge już tam JEST (dodany przez JudgeMe) – pomiń całkowicie
+      const nativeBadge = authorWrapper.querySelector('.jdgm-rev__buyer-badge');
+      if (nativeBadge && !nativeBadge.classList.contains('custom-verified-badge')) {
+        return;
+      }
 
-      // Dodaj tylko nasz znacznik (1 raz)
+      // Jeśli nasz badge już istnieje – usuń go, żeby nie duplikować
+      const oldCustomBadge = authorWrapper.querySelector('.custom-verified-badge');
+      if (oldCustomBadge) oldCustomBadge.remove();
+
+      // Dodaj nowy, nasz znacznik tylko raz
       const badgeWrapper = document.createElement("span");
       badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper custom-verified-badge";
 
       const badge = document.createElement("span");
-      badge.className = "jdgm-rev__buyer-badge";
+      badge.className = "jdgm-rev__buyer-badge custom-verified-badge";
       badge.textContent = "Zweryfikowany";
 
       badgeWrapper.appendChild(badge);
@@ -130,10 +135,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   }
 
-  // uruchomienie na starcie
+  // Uruchomienie na start
   applyVerifiedBadges();
 
-  // reagowanie na zmiany w opiniach (np. po filtrze)
+  // Obserwacja zmian np. po użyciu filtrów
   const container = document.querySelector('.jdgm-reviews-widget');
   if (container) {
     const observer = new MutationObserver(() => {
@@ -149,7 +154,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 })();
 </script>
-
 
 
 
