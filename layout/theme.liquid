@@ -102,50 +102,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </main>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    function addVerifiedBadges() {
-      const reviews = document.querySelectorAll('.jdgm-rev');
+(function () {
+  function updateVerifiedBadges() {
+    const reviews = document.querySelectorAll('.jdgm-rev');
 
-      reviews.forEach(review => {
-        // 1. Ptaszek
-        review.setAttribute('data-verified-buyer', 'true');
+    reviews.forEach(review => {
+      // Dodaj atrybut data-verified-buyer (ptaszek)
+      review.setAttribute('data-verified-buyer', 'true');
 
-        // 2. Tekst
-        const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
-        const alreadyHas = review.querySelector('.jdgm-rev__buyer-badge-wrapper');
+      // Dodaj napis "Zweryfikowany"
+      const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
+      const alreadyHas = review.querySelector('.jdgm-rev__buyer-badge-wrapper');
 
-        if (authorWrapper && !alreadyHas) {
-          const badgeWrapper = document.createElement("span");
-          badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
+      if (authorWrapper && !alreadyHas) {
+        const badgeWrapper = document.createElement("span");
+        badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
 
-          const badge = document.createElement("span");
-          badge.className = "jdgm-rev__buyer-badge";
-          badge.innerText = "Zweryfikowany"; // <- widoczny tekst
+        const badge = document.createElement("span");
+        badge.className = "jdgm-rev__buyer-badge";
+        badge.innerText = "Zweryfikowany"; // 👈 rzeczywisty tekst, nie ::before
 
-          badgeWrapper.appendChild(badge);
-          authorWrapper.appendChild(badgeWrapper);
-        }
-      });
-    }
+        badgeWrapper.appendChild(badge);
+        authorWrapper.appendChild(badgeWrapper);
+      }
+    });
+  }
 
-    // uruchomienie od razu
-    addVerifiedBadges();
+  // uruchom od razu
+  updateVerifiedBadges();
 
-    // obserwator z opóźnieniem po zmianach DOM
-    const container = document.querySelector('.jdgm-reviews-widget');
-    if (container) {
-      const observer = new MutationObserver(() => {
+  // obserwuj zmiany w kontenerze z opiniami
+  const container = document.querySelector('.jdgm-reviews-widget');
+  if (container) {
+    const observer = new MutationObserver((mutations) => {
+      const hasNewReviews = mutations.some(m => [...m.addedNodes].some(n => n.nodeType === 1));
+      if (hasNewReviews) {
         setTimeout(() => {
-          addVerifiedBadges();
-        }, 300); // ⏳ opóźnienie na załadowanie nowych opinii
-      });
+          updateVerifiedBadges();
+        }, 300); // ⏳ czas na załadowanie DOM po filtrze
+      }
+    });
 
-      observer.observe(container, {
-        childList: true,
-        subtree: true
-      });
-    }
-  });
+    observer.observe(container, {
+      childList: true,
+      subtree: true,
+    });
+  }
+})();
 </script>
   </body>
 </html>
