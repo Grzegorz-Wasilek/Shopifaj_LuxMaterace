@@ -100,5 +100,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+
+<script>
+(function () {
+  function addJudgeMeVerifiedBadges() {
+    const reviews = document.querySelectorAll('[data-verified-buyer="true"]');
+
+    reviews.forEach(review => {
+      const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
+      const alreadyHas = review.querySelector('.jdgm-rev__buyer-badge-wrapper');
+
+      if (authorWrapper && !alreadyHas) {
+        const badgeWrapper = document.createElement("span");
+        badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
+
+        const badge = document.createElement("span");
+        badge.className = "jdgm-rev__buyer-badge";
+
+        badgeWrapper.appendChild(badge);
+        authorWrapper.appendChild(badgeWrapper);
+      }
+    });
+  }
+
+  // pierwsze uruchomienie po załadowaniu strony
+  addJudgeMeVerifiedBadges();
+
+  // obserwacja zmian w kontenerze z opiniami
+  const container = document.querySelector('.jdgm-reviews-widget');
+  if (container) {
+    const observer = new MutationObserver(() => {
+      addJudgeMeVerifiedBadges();
+    });
+
+    observer.observe(container, {
+      childList: true,
+      subtree: true
+    });
+  }
+})();
+</script>
+    
   </body>
 </html>
