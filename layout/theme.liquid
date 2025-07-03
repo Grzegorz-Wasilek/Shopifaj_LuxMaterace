@@ -101,26 +101,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {%- endif -%}
     </main>
 
+
 <script>
 (function () {
-  function updateVerifiedBadges() {
+  function applyVerifiedBadges() {
     const reviews = document.querySelectorAll('.jdgm-rev');
 
     reviews.forEach(review => {
-      // Dodaj atrybut data-verified-buyer (ptaszek)
+      // Dodaj atrybut (ptaszek)
       review.setAttribute('data-verified-buyer', 'true');
 
       // Dodaj napis "Zweryfikowany"
       const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
-      const alreadyHas = review.querySelector('.jdgm-rev__buyer-badge-wrapper');
 
+      // Sprawdź, czy już jest badge
+      const alreadyHas = authorWrapper?.querySelector('.jdgm-rev__buyer-badge-wrapper');
       if (authorWrapper && !alreadyHas) {
         const badgeWrapper = document.createElement("span");
         badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
 
         const badge = document.createElement("span");
         badge.className = "jdgm-rev__buyer-badge";
-        badge.innerText = "Zweryfikowany"; // 👈 rzeczywisty tekst, nie ::before
+        badge.textContent = "Zweryfikowany";
 
         badgeWrapper.appendChild(badge);
         authorWrapper.appendChild(badgeWrapper);
@@ -128,27 +130,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   }
 
-  // uruchom od razu
-  updateVerifiedBadges();
+  // Uruchom po załadowaniu strony
+  applyVerifiedBadges();
 
-  // obserwuj zmiany w kontenerze z opiniami
+  // Obserwuj kontener opinii
   const container = document.querySelector('.jdgm-reviews-widget');
+
   if (container) {
-    const observer = new MutationObserver((mutations) => {
-      const hasNewReviews = mutations.some(m => [...m.addedNodes].some(n => n.nodeType === 1));
-      if (hasNewReviews) {
-        setTimeout(() => {
-          updateVerifiedBadges();
-        }, 300); // ⏳ czas na załadowanie DOM po filtrze
-      }
+    const observer = new MutationObserver(() => {
+      // odczekaj chwilę po załadowaniu nowych opinii
+      setTimeout(() => {
+        applyVerifiedBadges();
+      }, 300);
     });
 
-    observer.observe(container, {
-      childList: true,
-      subtree: true,
-    });
+    observer.observe(container, { childList: true, subtree: true });
   }
 })();
 </script>
+
   </body>
 </html>
