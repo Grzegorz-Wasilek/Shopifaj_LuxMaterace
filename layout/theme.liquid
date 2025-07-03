@@ -123,30 +123,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   }
 
-  function waitForJudgeMeWidget(callback) {
-    const interval = setInterval(() => {
+  function waitForReviewsAndInject() {
+    const checkInterval = setInterval(() => {
+      const reviews = document.querySelectorAll('[data-verified-buyer="true"]');
       const widget = document.querySelector('.jdgm-reviews-widget');
-      const authorExists = document.querySelector('.jdgm-rev__author-wrapper');
 
-      if (widget && authorExists) {
-        clearInterval(interval);
-        callback(widget);
+      if (reviews.length > 0 && widget) {
+        clearInterval(checkInterval);
+
+        // Dodaj badge'y po raz pierwszy
+        addJudgeMeVerifiedBadges();
+
+        // Nasłuchuj zmian
+        const observer = new MutationObserver(() => {
+          addJudgeMeVerifiedBadges();
+        });
+
+        observer.observe(widget, { childList: true, subtree: true });
       }
     }, 300);
   }
 
-  waitForJudgeMeWidget((container) => {
-    addJudgeMeVerifiedBadges();
-
-    const observer = new MutationObserver(() => {
-      addJudgeMeVerifiedBadges();
-    });
-
-    observer.observe(container, {
-      childList: true,
-      subtree: true
-    });
-  });
+  // Poczekaj aż DOM się załaduje
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', waitForReviewsAndInject);
+  } else {
+    waitForReviewsAndInject();
+  }
 })();
 </script>
 
