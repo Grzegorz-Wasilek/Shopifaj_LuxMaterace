@@ -108,37 +108,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     const reviews = document.querySelectorAll('.jdgm-rev');
 
     reviews.forEach(review => {
-      // Dodaj atrybut (ptaszek)
-      review.setAttribute('data-verified-buyer', 'true');
+      // sprawdzamy czy opinia ma już prawdziwy znacznik (np. z ::before lub innym systemowym badge)
+      const alreadyHasSystemBadge = review.querySelector('.jdgm-rev__buyer-badge-wrapper');
 
-      // Dodaj napis "Zweryfikowany"
+      // pomijamy jeśli już jest badge (czyli np. od JudgeMe)
+      if (alreadyHasSystemBadge) return;
+
+      // tylko jeśli atrybut mówi, że to zweryfikowany zakup
+      const isVerified = review.getAttribute('data-verified-buyer') === 'true';
+      if (!isVerified) return;
+
       const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
+      if (!authorWrapper) return;
 
-      // Sprawdź, czy już jest badge
-      const alreadyHas = authorWrapper?.querySelector('.jdgm-rev__buyer-badge-wrapper');
-      if (authorWrapper && !alreadyHas) {
-        const badgeWrapper = document.createElement("span");
-        badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
+      // dodajemy nasz badge tylko wtedy
+      const badgeWrapper = document.createElement("span");
+      badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
 
-        const badge = document.createElement("span");
-        badge.className = "jdgm-rev__buyer-badge";
-        badge.textContent = "Zweryfikowany";
+      const badge = document.createElement("span");
+      badge.className = "jdgm-rev__buyer-badge";
+      badge.textContent = "Zweryfikowany";
 
-        badgeWrapper.appendChild(badge);
-        authorWrapper.appendChild(badgeWrapper);
-      }
+      badgeWrapper.appendChild(badge);
+      authorWrapper.appendChild(badgeWrapper);
     });
   }
 
-  // Uruchom po załadowaniu strony
   applyVerifiedBadges();
 
-  // Obserwuj kontener opinii
   const container = document.querySelector('.jdgm-reviews-widget');
-
   if (container) {
     const observer = new MutationObserver(() => {
-      // odczekaj chwilę po załadowaniu nowych opinii
       setTimeout(() => {
         applyVerifiedBadges();
       }, 300);
