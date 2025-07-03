@@ -102,58 +102,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </main>
 
 
-
 <script>
 (function () {
-  function applyVerifiedBadges() {
+  function addVerifiedBadge() {
     const reviews = document.querySelectorAll('.jdgm-rev[data-verified-buyer="true"]');
 
     reviews.forEach(review => {
       const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
       if (!authorWrapper) return;
 
-      // Jeśli badge już tam JEST (dodany przez JudgeMe) – pomiń całkowicie
-      const nativeBadge = authorWrapper.querySelector('.jdgm-rev__buyer-badge');
-      if (nativeBadge && !nativeBadge.classList.contains('custom-verified-badge')) {
-        return;
-      }
+      // Pomiń, jeśli istnieje natywny badge Judge.me
+      const hasJudgeMeBadge = authorWrapper.querySelector('.jdgm-rev__buyer-badge:not(.custom-badge)');
+      if (hasJudgeMeBadge) return;
 
-      // Jeśli nasz badge już istnieje – usuń go, żeby nie duplikować
-      const oldCustomBadge = authorWrapper.querySelector('.custom-verified-badge');
-      if (oldCustomBadge) oldCustomBadge.remove();
+      // Usuń nasz własny stary badge, jeśli był
+      const existingCustom = authorWrapper.querySelector('.jdgm-rev__buyer-badge.custom-badge');
+      if (existingCustom) existingCustom.remove();
 
-      // Dodaj nowy, nasz znacznik tylko raz
-      const badgeWrapper = document.createElement("span");
-      badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper custom-verified-badge";
+      // Stwórz i dodaj nasz badge
+      const badge = document.createElement('span');
+      badge.className = 'jdgm-rev__buyer-badge custom-badge';
+      badge.textContent = 'Zweryfikowany';
 
-      const badge = document.createElement("span");
-      badge.className = "jdgm-rev__buyer-badge custom-verified-badge";
-      badge.textContent = "Zweryfikowany";
+      const wrapper = document.createElement('span');
+      wrapper.className = 'jdgm-rev__buyer-badge-wrapper custom-badge';
+      wrapper.appendChild(badge);
 
-      badgeWrapper.appendChild(badge);
-      authorWrapper.appendChild(badgeWrapper);
+      authorWrapper.appendChild(wrapper);
     });
   }
 
-  // Uruchomienie na start
-  applyVerifiedBadges();
+  // uruchomienie na starcie
+  addVerifiedBadge();
 
-  // Obserwacja zmian np. po użyciu filtrów
-  const container = document.querySelector('.jdgm-reviews-widget');
-  if (container) {
+  // obserwacja zmian np. po filtrach
+  const observerTarget = document.querySelector('.jdgm-reviews-widget');
+  if (observerTarget) {
     const observer = new MutationObserver(() => {
       setTimeout(() => {
-        applyVerifiedBadges();
+        addVerifiedBadge();
       }, 300);
     });
 
-    observer.observe(container, {
+    observer.observe(observerTarget, {
       childList: true,
       subtree: true
     });
   }
 })();
 </script>
+
 
 
 
