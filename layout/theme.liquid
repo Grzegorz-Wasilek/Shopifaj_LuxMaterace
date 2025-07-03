@@ -101,29 +101,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {%- endif -%}
     </main>
 
-
 <script>
 (function () {
   function applyVerifiedBadges() {
     const reviews = document.querySelectorAll('.jdgm-rev');
 
     reviews.forEach(review => {
-      // sprawdzamy czy opinia ma już prawdziwy znacznik (np. z ::before lub innym systemowym badge)
-      const alreadyHasSystemBadge = review.querySelector('.jdgm-rev__buyer-badge-wrapper');
-
-      // pomijamy jeśli już jest badge (czyli np. od JudgeMe)
-      if (alreadyHasSystemBadge) return;
-
-      // tylko jeśli atrybut mówi, że to zweryfikowany zakup
       const isVerified = review.getAttribute('data-verified-buyer') === 'true';
       if (!isVerified) return;
 
       const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
       if (!authorWrapper) return;
 
-      // dodajemy nasz badge tylko wtedy
+      // Sprawdźmy, czy już JEST tam jakaś nasza dokładana etykieta z tekstem
+      const alreadyInjected = authorWrapper.querySelector('.custom-verified-badge');
+      if (alreadyInjected) return;
+
+      // Jeśli wewnątrz wrappera NIE ma żadnego widocznego tekstu „Zweryfikowany” (czyli JudgeMe nie wstawiło ::before),
+      // to DODAJEMY go ręcznie:
       const badgeWrapper = document.createElement("span");
-      badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
+      badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper custom-verified-badge";
 
       const badge = document.createElement("span");
       badge.className = "jdgm-rev__buyer-badge";
@@ -148,6 +145,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 })();
 </script>
+
 
   </body>
 </html>
