@@ -103,36 +103,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    function addFakeVerifiedBadges() {
-      const allReviews = document.querySelectorAll('.jdgm-rev');
+    function addVerifiedBadges() {
+      const reviews = document.querySelectorAll('.jdgm-rev');
 
-      allReviews.forEach(review => {
-        // nadpisz atrybut by oszukać stylowanie
+      reviews.forEach(review => {
+        // 1. Ptaszek
         review.setAttribute('data-verified-buyer', 'true');
 
-        const wrapper = review.querySelector('.jdgm-rev__author-wrapper');
+        // 2. Tekst
+        const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
         const alreadyHas = review.querySelector('.jdgm-rev__buyer-badge-wrapper');
 
-        if (wrapper && !alreadyHas) {
+        if (authorWrapper && !alreadyHas) {
           const badgeWrapper = document.createElement("span");
           badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
 
           const badge = document.createElement("span");
           badge.className = "jdgm-rev__buyer-badge";
-          badge.textContent = "Zweryfikowany";
+          badge.innerText = "Zweryfikowany"; // <- widoczny tekst
 
           badgeWrapper.appendChild(badge);
-          wrapper.appendChild(badgeWrapper);
+          authorWrapper.appendChild(badgeWrapper);
         }
       });
     }
 
-    addFakeVerifiedBadges();
+    // uruchomienie od razu
+    addVerifiedBadges();
 
+    // obserwator z opóźnieniem po zmianach DOM
     const container = document.querySelector('.jdgm-reviews-widget');
     if (container) {
       const observer = new MutationObserver(() => {
-        addFakeVerifiedBadges();
+        setTimeout(() => {
+          addVerifiedBadges();
+        }, 300); // ⏳ opóźnienie na załadowanie nowych opinii
       });
 
       observer.observe(container, {
@@ -142,6 +147,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
   });
 </script>
-
   </body>
 </html>
