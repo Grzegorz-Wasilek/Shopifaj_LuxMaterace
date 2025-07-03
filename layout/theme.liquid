@@ -104,8 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-    
-<script>
+ <script>
 (function () {
   function applyVerifiedBadges() {
     const reviews = document.querySelectorAll('.jdgm-rev[data-verified-buyer="true"]');
@@ -114,13 +113,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       const authorWrapper = review.querySelector('.jdgm-rev__author-wrapper');
       if (!authorWrapper) return;
 
-      // Jeśli już został dodany nasz badge, to nic nie rób
-      if (authorWrapper.querySelector('.custom-verified-badge')) return;
+      // Usuń nasz badge, jeśli wcześniej był już dodany (reset)
+      const oldBadge = authorWrapper.querySelector('.custom-verified-badge');
+      if (oldBadge) oldBadge.remove();
 
-      // Jeśli zawartość tekstowa wrappera zawiera już słowo „Zweryfikowany”, to też nic nie rób
-      if (authorWrapper.textContent.includes("Zweryfikowany")) return;
-
-      // Dodajemy nasz badge
+      // Dodaj tylko nasz znacznik (1 raz)
       const badgeWrapper = document.createElement("span");
       badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper custom-verified-badge";
 
@@ -136,7 +133,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   // uruchomienie na starcie
   applyVerifiedBadges();
 
-  // obserwacja zmian po zmianie filtra
+  // reagowanie na zmiany w opiniach (np. po filtrze)
   const container = document.querySelector('.jdgm-reviews-widget');
   if (container) {
     const observer = new MutationObserver(() => {
@@ -152,6 +149,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 })();
 </script>
+
 
 
 
