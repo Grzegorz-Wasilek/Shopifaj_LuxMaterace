@@ -102,42 +102,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </main>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  function addVerifiedBadges() {
-    document.querySelectorAll('[data-verified-buyer="true"]').forEach(review => {
-      const wrapper = review.querySelector('.jdgm-rev__author-wrapper');
-      const hasBadge = review.querySelector('.jdgm-rev__buyer-badge-wrapper');
+  document.addEventListener("DOMContentLoaded", function () {
+    function addFakeVerifiedBadges() {
+      const allReviews = document.querySelectorAll('.jdgm-rev');
 
-      if (wrapper && !hasBadge) {
-        const badgeWrapper = document.createElement("span");
-        badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
+      allReviews.forEach(review => {
+        // nadpisz atrybut by oszukać stylowanie
+        review.setAttribute('data-verified-buyer', 'true');
 
-        const badge = document.createElement("span");
-        badge.className = "jdgm-rev__buyer-badge";
-        badge.textContent = "Zweryfikowany";
+        const wrapper = review.querySelector('.jdgm-rev__author-wrapper');
+        const alreadyHas = review.querySelector('.jdgm-rev__buyer-badge-wrapper');
 
-        badgeWrapper.appendChild(badge);
-        wrapper.appendChild(badgeWrapper);
-      }
-    });
-  }
+        if (wrapper && !alreadyHas) {
+          const badgeWrapper = document.createElement("span");
+          badgeWrapper.className = "jdgm-rev__buyer-badge-wrapper";
 
-  // Pierwsze wykonanie
-  addVerifiedBadges();
+          const badge = document.createElement("span");
+          badge.className = "jdgm-rev__buyer-badge";
+          badge.textContent = "Zweryfikowany";
 
-  // Obserwator zmian DOM (np. przy zmianie filtra)
-  const observer = new MutationObserver(() => {
-    addVerifiedBadges();
+          badgeWrapper.appendChild(badge);
+          wrapper.appendChild(badgeWrapper);
+        }
+      });
+    }
+
+    addFakeVerifiedBadges();
+
+    const container = document.querySelector('.jdgm-reviews-widget');
+    if (container) {
+      const observer = new MutationObserver(() => {
+        addFakeVerifiedBadges();
+      });
+
+      observer.observe(container, {
+        childList: true,
+        subtree: true
+      });
+    }
   });
-
-  const target = document.querySelector('.jdgm-reviews-widget');
-  if (target) {
-    observer.observe(target, {
-      childList: true,
-      subtree: true
-    });
-  }
-});
 </script>
 
   </body>
