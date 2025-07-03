@@ -116,6 +116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         const badge = document.createElement("span");
         badge.className = "jdgm-rev__buyer-badge";
+        badge.innerText = "Zweryfikowany"; // 👈 dodajemy tekst zamiast CSS
 
         badgeWrapper.appendChild(badge);
         authorWrapper.appendChild(badgeWrapper);
@@ -123,32 +124,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   }
 
-  function waitForReviewsAndInject() {
-    const checkInterval = setInterval(() => {
-      const reviews = document.querySelectorAll('[data-verified-buyer="true"]');
-      const widget = document.querySelector('.jdgm-reviews-widget');
+  // pierwsze uruchomienie po załadowaniu strony
+  addJudgeMeVerifiedBadges();
 
-      if (reviews.length > 0 && widget) {
-        clearInterval(checkInterval);
+  // obserwacja zmian w kontenerze z opiniami
+  const container = document.querySelector('.jdgm-reviews-widget');
+  if (container) {
+    const observer = new MutationObserver(() => {
+      addJudgeMeVerifiedBadges();
+    });
 
-        // Dodaj badge'y po raz pierwszy
-        addJudgeMeVerifiedBadges();
-
-        // Nasłuchuj zmian
-        const observer = new MutationObserver(() => {
-          addJudgeMeVerifiedBadges();
-        });
-
-        observer.observe(widget, { childList: true, subtree: true });
-      }
-    }, 300);
-  }
-
-  // Poczekaj aż DOM się załaduje
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', waitForReviewsAndInject);
-  } else {
-    waitForReviewsAndInject();
+    observer.observe(container, {
+      childList: true,
+      subtree: true
+    });
   }
 })();
 </script>
