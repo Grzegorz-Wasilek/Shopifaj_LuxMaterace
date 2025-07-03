@@ -102,8 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </main>
 
 <script>
-setTimeout(() => {
-  (function () {
+  setTimeout(function () {
     function addJudgeMeVerifiedBadges() {
       const reviews = document.querySelectorAll('[data-verified-buyer="true"]');
 
@@ -125,8 +124,10 @@ setTimeout(() => {
       });
     }
 
+    // uruchomienie po załadowaniu strony
     addJudgeMeVerifiedBadges();
 
+    // obserwacja zmian (np. po filtrze)
     const container = document.querySelector('.jdgm-reviews-widget');
     if (container) {
       const observer = new MutationObserver(() => {
@@ -138,9 +139,7 @@ setTimeout(() => {
         subtree: true
       });
     }
-  })();
-}, 1500);
-
+  }, 1500); // 1.5 sekundy opóźnienia
 </script>
 
   </body>
