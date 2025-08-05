@@ -527,7 +527,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\">Pokrowce</h2>",
+        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\"> Materac Semmi Baby informacje</h2>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -539,16 +539,16 @@
         "image_9UPmap": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/dzieciecy.webp",
+            "image": "shopify://shop_images/1.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Antyalergiczny pokrowiec – naturalna ochrona i komfort",
-            "content": "<p>Pokrowce w naszych materacach dziecięcych wykonane są z naturalnych włókien bawełny i bambusa, które zapewniają delikatność, miękkość i wyjątkowe właściwości higieniczne. Tkanina Frotte doskonale chłonie wilgoć, jest antybakteryjna, antygrzybiczna i idealna dla alergików. To połączenie naturalnej ochrony i komfortu, które dba o zdrowy sen Twojego dziecka.</p>",
-            "link_text": "Czytaj więcej",
+            "title": "Materac dziecięcy piankowy Semmi Baby piankowy pianka średnio twardy H3 H4",
+            "content": "<p><strong>❤️ Polska Produkcja ❤️</strong></p><p>✅ Certyfikat Oeko-Tex® Standard 100</p><p>✅ Atesty - Narodowy Instytut Zdrowia Publicznego PZH</p><p>✅ Atesty – Gdański Uniwersytet Medyczny (GUMed)</p><p>✅ Tkanina Frotte zapewnia niesamowitą wentylację materaca</p><p>✅ Dwustronność pokrowca pozwala na jego dłuższą żywotność</p><p>✅ 2 lata gwarancji!</p>",
+            "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
             "background_gradient": "",
@@ -567,10 +567,95 @@
         "spacing": "large"
       }
     },
+    "media_with_text_anxi4M": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_YFDM3f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "✌️ Kilka ważnych powodów, dla których rodzice wybierają nasze materace:",
+            "content": "<p><strong>1️⃣ Bezpieczeństwo i higiena – materiały antyalergiczne: Certyfikat Oeko-Tex® Standard 100</strong></p><p>Zdajemy sobie sprawę, jak ważne jest zdrowie i bezpieczeństwo najmłodszych. Dlatego używamy wyłącznie materiałów przebadanych i certyfikowanych – wszystkie nasze tkaniny posiadają certyfikat Oeko-Tex® Standard 100, co oznacza, że są wolne od szkodliwych substancji i bezpieczne nawet dla wrażliwej skóry dziecka.</p><p><strong>2️⃣ Dopasowanie do ciała:</strong> Nasze materace wykonane są z wysokiej jakości pianki, która doskonale dopasowuje się do naturalnych krzywizn dziecięcego ciała. Dzięki temu nacisk punktowy zostaje zredukowany do minimum, co zmniejsza napięcie mięśni, poprawia krążenie i zapewnia spokojny, głęboki sen niezbędny do prawidłowego rozwoju.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YFDM3f"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
     "image_link_blocks_bKgNyg": {
       "type": "image-link-blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "<p>3️⃣ <strong>Dwustronny pokrowiec</strong> – łatwy w utrzymaniu czystości: Materac wyposażony jest w zdejmowany, dwustronny pokrowiec, który można łatwo wyprać. Taka konstrukcja nie tylko ułatwia utrzymanie higieny na co dzień, ale także pozwala na równomierne użytkowanie obu stron materaca, co dodatkowo wydłuża jego żywotność.</p><p>4️⃣ <strong>Stabilne i solidne podparcie:</strong> Rdzeń materaca stanowi solidna pianka o gęstości 25 kg/m³ i grubości aż 12 cm. Takie połączenie gwarantuje nie tylko odpowiednie podparcie kręgosłupa, ale również wysoką odporność na odkształcenia – nawet przy intensywnym i długotrwałym użytkowaniu.</p><p>5️⃣<strong>Doskonała wentylacja i komfort termiczny</strong>: Nasze materace zostały zaprojektowane z myślą o zapewnieniu odpowiedniego przepływu powietrza. Dzięki przewiewnym materiałom i oddychającej strukturze pianki, możliwa jest skuteczna regulacja temperatury podczas snu. To ogranicza ryzyko przegrzewania się i zapewnia komfort przez całą noc.</p><p>6️⃣ <strong>Twardość materaca H3–H4 to odpowiedni wybór dla dzieci </strong>– zapewnia stabilne podparcie kręgosłupa, wspierając prawidłowy rozwój i zdrową postawę podczas snu.</p>",
+        "link_url": "shopify://pages/certyfikaty-i-atesty",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "media_with_text_6Qk7Jx": {
+      "type": "media-with-text",
       "blocks": {
-        "item_jCRF7J": {
+        "image_FEUTEi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "✌️ Kilka ważnych powodów, dla których rodzice wybierają nasze materace:",
+            "content": "<p><strong>1️⃣ Bezpieczeństwo i higiena – materiały antyalergiczne: Certyfikat Oeko-Tex® Standard 100</strong></p><p>Zdajemy sobie sprawę, jak ważne jest zdrowie i bezpieczeństwo najmłodszych. Dlatego używamy wyłącznie materiałów przebadanych i certyfikowanych – wszystkie nasze tkaniny posiadają certyfikat Oeko-Tex® Standard 100, co oznacza, że są wolne od szkodliwych substancji i bezpieczne nawet dla wrażliwej skóry dziecka.</p><p><strong>2️⃣ Dopasowanie do ciała:</strong> Nasze materace wykonane są z wysokiej jakości pianki, która doskonale dopasowuje się do naturalnych krzywizn dziecięcego ciała. Dzięki temu nacisk punktowy zostaje zredukowany do minimum, co zmniejsza napięcie mięśni, poprawia krążenie i zapewnia spokojny, głęboki sen niezbędny do prawidłowego rozwoju.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FEUTEi"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "image_link_blocks_dE84yL": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_ALnPwR": {
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
@@ -583,7 +668,7 @@
             "overlay_opacity": 0
           }
         },
-        "item_MyHiqV": {
+        "item_3BJJaB": {
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/nizp.svg",
@@ -596,7 +681,7 @@
             "overlay_opacity": 0
           }
         },
-        "item_AxYiiH": {
+        "item_xFhgeT": {
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/GUM.svg",
@@ -611,9 +696,9 @@
         }
       },
       "block_order": [
-        "item_jCRF7J",
-        "item_MyHiqV",
-        "item_AxYiiH"
+        "item_ALnPwR",
+        "item_3BJJaB",
+        "item_xFhgeT"
       ],
       "settings": {
         "full_width": false,
@@ -798,7 +883,10 @@
     "impact_text_Mq3wyC",
     "custom_html_J9DNww",
     "media_with_text_KKFgPG",
+    "media_with_text_anxi4M",
     "image_link_blocks_bKgNyg",
+    "media_with_text_6Qk7Jx",
+    "image_link_blocks_dE84yL",
     "image_with_text_overlay_g9CHB9",
     "related-products",
     "faq_93Ax3R",
