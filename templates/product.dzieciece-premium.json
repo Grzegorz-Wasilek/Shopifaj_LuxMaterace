@@ -703,6 +703,40 @@
         "spacing": "large"
       }
     },
+    "media_with_text_aTc7Dn": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_fAXbxM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "⭐ Materac idealny dla Twojego dziecka",
+            "content": "<ul><li><strong>Waga dziecka:</strong> do 80 kg.</li><li><strong>Wzrost dziecka:</strong> do 130cm</li><li><strong>Uniwersalność:</strong> odpowiedni dla chłopców i dziewczynek.</li><li><strong>Dla alergika:</strong> hipoalergiczność potwierdzona certyfikatami.</li></ul><h6>✅ WYPRODUKUJEMY DLA CIEBIE KAŻDY WYMIAR MATERACA!</h6><h5>❤️ Nasze materace posiadają certyfikat OEKO-TEX® Standard 100, potwierdzający bezpieczeństwo i najwyższą jakość. ❤️</h5>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fAXbxM"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
     "image_link_blocks_dE84yL": {
       "type": "image-link-blocks",
       "blocks": {
@@ -938,6 +972,7 @@
     "media_with_text_fiNgAW",
     "media_with_text_6Qk7Jx",
     "media_with_text_YwVX9N",
+    "media_with_text_aTc7Dn",
     "image_link_blocks_dE84yL",
     "image_with_text_overlay_g9CHB9",
     "related-products",
