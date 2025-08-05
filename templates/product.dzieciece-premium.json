@@ -737,6 +737,40 @@
         "spacing": "large"
       }
     },
+    "media_with_text_Lit9cF": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_iPJeD8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "⭐ Materac Semmi Baby dla Twojego dziecka ❤️",
+            "content": "<p><strong>✅ Każda mama wie, jak ważny jest sen dziecka. </strong>Piankowy materac 12 cm dopasowuje się do ciała, zmniejsza ucisk i wspiera spokojny, zdrowy sen – tak potrzebny do odpoczynku i codziennej energii malucha.</p><p><strong>✅ 12 cm pianki to komfort i bezpieczne wsparcie dla kręgosłupa dziecka.</strong> Materac dba o zdrowy sen, higienę i trwałość – czyli wszystko, na czym zależy rodzicom.</p><h5>✌️Dlaczego pianka poliuretanowa jest idealna dla dzieci?️</h5><p>✅ Jest hipoalergiczny, wytrzymały i łatwy w utrzymaniu, co czyni go świetnym wyborem zarówno dla niemowląt, jak i starszych dzieci. To rozwiązanie, które łączy nowoczesne technologie z dbałością o bezpieczeństwo i wygodę najmłodszych użytkowników.</p><h5>Zadbaj o spokojny sen swojego dziecka z materacem wykonanym z pianki poliuretanowej – komfort, trwałość i higiena w jednym.</h5>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iPJeD8"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
     "image_link_blocks_dE84yL": {
       "type": "image-link-blocks",
       "blocks": {
@@ -973,6 +1007,7 @@
     "media_with_text_6Qk7Jx",
     "media_with_text_YwVX9N",
     "media_with_text_aTc7Dn",
+    "media_with_text_Lit9cF",
     "image_link_blocks_dE84yL",
     "image_with_text_overlay_g9CHB9",
     "related-products",
