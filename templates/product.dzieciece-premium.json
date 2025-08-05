@@ -771,6 +771,40 @@
         "spacing": "large"
       }
     },
+    "media_with_text_T7xeYT": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_jLFBFM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "⭐ Budowa materaca",
+            "content": "<p>✅ WYMIARY MATERACA</p><ul><li>Długość: 160 cm</li><li>Szerokość: 80 cm</li><li>Wysokość: 12 cm</li></ul><p><strong>1️⃣ Tkanina Frotte z włóknami bambusa:</strong> naturalne właściwości antybakteryjne, idealne dla wrażliwej skóry</p><p><strong>2️⃣ Pianka poliuretanowa:</strong> Pianka poliuretanowa T-25 o gęstości 25kg/m³ to trwały i solidny materiał, który zapewnia optymalne wsparcie i odpowiedni poziom twardości. Dzięki starannie dobranej gęstości materac zachowuje swój pierwotny kształt przez długi czas – nawet gdy dziecko rośnie i staje się cięższe.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jLFBFM"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
     "image_link_blocks_dE84yL": {
       "type": "image-link-blocks",
       "blocks": {
@@ -1008,6 +1042,7 @@
     "media_with_text_YwVX9N",
     "media_with_text_aTc7Dn",
     "media_with_text_Lit9cF",
+    "media_with_text_T7xeYT",
     "image_link_blocks_dE84yL",
     "image_with_text_overlay_g9CHB9",
     "related-products",
