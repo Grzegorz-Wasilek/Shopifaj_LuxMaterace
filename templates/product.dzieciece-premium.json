@@ -776,6 +776,40 @@
         "spacing": "large"
       }
     },
+    "media_with_text_TykcNb": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_9P9aUQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Komfort i higiena snu – zadbaj o zdrowe warunki dla swojego dziecka",
+            "content": "<p><strong>Dobrze dopasowany materac to podstawa zdrowego rozwoju dziecka.</strong><br/><br/>To nie tylko element łóżeczka, ale codzienne wsparcie dla kręgosłupa i układu mięśniowo-szkieletowego. Specjaliści zalecają twardość H2–H4, która zapewnia stabilność, prawidłową postawę i minimalizuje ryzyko wad kręgosłupa.</p><p>Zbyt miękkie materace (H1) nie gwarantują właściwego podparcia, szczególnie u niemowląt, i mogą nawet wpływać na bezpieczeństwo oddechowe. Podobnie pianki visco, choć popularne u dorosłych, nie są odpowiednie dla najmłodszych – ograniczają naturalne ruchy i elastyczność.</p><p><strong>Dobry materac to taki, który wspiera rozwój, a nie tylko wydaje się miękki.</strong><br/><strong>Wybierając nasz model o właściwej twardości, wspierasz zdrowy sen i prawidłową postawę dziecka od pierwszych dni życia.</strong></p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9P9aUQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
     "image_link_blocks_dE84yL": {
       "type": "image-link-blocks",
       "blocks": {
@@ -957,6 +991,7 @@
     "media_with_text_T7xeYT",
     "media_with_text_EccdN4",
     "media_with_text_YtidHR",
+    "media_with_text_TykcNb",
     "image_link_blocks_dE84yL",
     "image_with_text_overlay_g9CHB9",
     "related-products",
