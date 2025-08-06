@@ -518,7 +518,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Kilka ważnych powodów, dla których rodzice wybierają nasze materace:",
-            "content": "<p><strong>Bezpieczeństwo i higiena – materiały antyalergiczne: Certyfikat Oeko-Tex® Standard 100</strong></p><ul><li>Zdajemy sobie sprawę, jak ważne jest zdrowie i bezpieczeństwo najmłodszych. Dlatego używamy wyłącznie materiałów przebadanych i certyfikowanych – wszystkie nasze tkaniny posiadają certyfikat Oeko-Tex® Standard 100, co oznacza, że są wolne od szkodliwych substancji i bezpieczne nawet dla wrażliwej skóry dziecka.</li><li><strong>Dopasowanie do ciała:</strong> Nasze materace wykonane są z wysokiej jakości pianki, która doskonale dopasowuje się do naturalnych krzywizn dziecięcego ciała. Dzięki temu nacisk punktowy zostaje zredukowany do minimum, co zmniejsza napięcie mięśni, poprawia krążenie i zapewnia spokojny, głęboki sen niezbędny do prawidłowego rozwoju.</li></ul>",
+            "content": "<p><strong>Bezpieczeństwo i higiena – materiały antyalergiczne: Certyfikat Oeko-Tex® Standard 100</strong></p><ul><li>W Semmi stawiamy na jakość i bezpieczeństwo – używamy wyłącznie certyfikowanych materiałów Oeko-Tex® Standard 100, wolnych od substancji szkodliwych i bezpiecznych dla wrażliwej skóry.</li><li>Materac wykonany jest z wysokiej jakości pianki o gęstości 25 kg/m³ i grubości 12 cm, która idealnie dopasowuje się do ciała dziecka, redukuje napięcie mięśni i wspiera zdrowy rozwój kręgosłupa. Twardość H3–H4 zapewnia stabilne podparcie i komfort.</li><li>Dwustronny, zdejmowany pokrowiec można łatwo wyprać, co ułatwia codzienne utrzymanie higieny i wydłuża żywotność materaca. Oddychająca struktura i przewiewne materiały zapewniają optymalną wentylację i komfort termiczny przez całą noc.</li></ul>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
@@ -538,40 +538,6 @@
         "spacing": "large"
       }
     },
-    "media_with_text_fiNgAW": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_8DJ4pn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/12.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<ul><li><strong>Dwustronny pokrowiec</strong> – łatwy w utrzymaniu czystości: Materac wyposażony jest w zdejmowany, dwustronny pokrowiec, który można łatwo wyprać. Taka konstrukcja nie tylko ułatwia utrzymanie higieny na co dzień, ale także pozwala na równomierne użytkowanie obu stron materaca, co dodatkowo wydłuża jego żywotność.</li><li><strong>Stabilne i solidne podparcie:</strong> Rdzeń materaca stanowi solidna pianka o gęstości 25 kg/m³ i grubości aż 12 cm. Takie połączenie gwarantuje nie tylko odpowiednie podparcie kręgosłupa, ale również wysoką odporność na odkształcenia – nawet przy intensywnym i długotrwałym użytkowaniu.</li><li><strong>Doskonała wentylacja i komfort termiczny</strong>: Nasze materace zostały zaprojektowane z myślą o zapewnieniu odpowiedniego przepływu powietrza. Dzięki przewiewnym materiałom i oddychającej strukturze pianki, możliwa jest skuteczna regulacja temperatury podczas snu. To ogranicza ryzyko przegrzewania się i zapewnia komfort przez całą noc.</li><li><strong>Twardość materaca H3–H4 to odpowiedni wybór dla dzieci </strong>– zapewnia stabilne podparcie kręgosłupa, wspierając prawidłowy rozwój i zdrową postawę podczas snu.</li></ul>",
-            "link_text": "",
-            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_8DJ4pn"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "large"
-      }
-    },
     "media_with_text_6Qk7Jx": {
       "type": "media-with-text",
       "blocks": {
@@ -580,7 +546,7 @@
           "settings": {
             "image": "shopify://shop_images/3.png",
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -614,7 +580,7 @@
           "settings": {
             "image": "shopify://shop_images/4.jpg",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -648,7 +614,7 @@
           "settings": {
             "image": "shopify://shop_images/5.jpg",
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -682,7 +648,7 @@
           "settings": {
             "image": "shopify://shop_images/6.jpg",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -716,7 +682,7 @@
           "settings": {
             "image": "shopify://shop_images/7.jpg",
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -750,7 +716,7 @@
           "settings": {
             "image": "shopify://shop_images/8.jpg",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -784,13 +750,13 @@
           "settings": {
             "image": "shopify://shop_images/8.jpg",
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "title": "Komfort i higiena snu – zadbaj o zdrowe warunki dla swojego dziecka",
-            "content": "<p><strong>Materiał pokrowca: Tkanina Frotte</strong></p><p>Wybór odpowiedniego pokrowca na materac ma bezpośredni wpływ nie tylko na trwałość samego materaca, ale przede wszystkim na jakość snu dziecka. Pokrowiec wykonany z miękkiej i przyjemnej w dotyku tkaniny frotte zapewnia delikatność w kontakcie ze skórą, a przy tym jest praktyczny w codziennym użytkowaniu.</p><p>Dzięki dwustronnej konstrukcji, pokrowiec może być używany naprzemiennie, co znacząco wydłuża jego żywotność. Dodatkowo wszyte zamki błyskawiczne sprawiają, że zakładanie i zdejmowanie pokrowca jest szybkie i bezproblemowe – to szczególnie ważne w przypadku nagłych sytuacji, gdy potrzebna jest szybka wymiana.</p>",
+            "content": "<p>Wybierając materac, warto zwrócić uwagę na sposób pakowania. Modele nierolowane zachowują pełną jakość i są gotowe do użytku od razu po rozpakowaniu.</p><ul><li><strong>Większa trwałość</strong> – brak rolowania oznacza, że struktura pianki i sprężyn nie ulega zgnieceniu ani deformacji.</li><li><strong>Gotowe do snu</strong> – nie wymagają czasu na rozprężenie, zapewniając komfort od pierwszej nocy.</li><li><strong>Lepsze właściwości materiałów</strong> – nieosłabione kompresją pianki i sprężyny zachowują sprężystość i elastyczność.</li><li><strong>Wyższy komfort</strong> – brak rolowania to lepsze podparcie ciała i mniejsze ryzyko bólu pleców.</li></ul>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
@@ -984,7 +950,6 @@
     "custom_html_J9DNww",
     "media_with_text_KKFgPG",
     "media_with_text_anxi4M",
-    "media_with_text_fiNgAW",
     "media_with_text_6Qk7Jx",
     "media_with_text_YwVX9N",
     "media_with_text_aTc7Dn",
