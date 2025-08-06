@@ -296,69 +296,6 @@
         "text_color": ""
       }
     },
-    "testimonials_hjTGGL": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_4KgYcW": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/kokos.svg",
-            "round_avatar": false,
-            "show_rating": false,
-            "rating": 4,
-            "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_MgHnL9": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/pokrowiec.svg",
-            "round_avatar": false,
-            "show_rating": false,
-            "rating": 0,
-            "author": "",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_636Wxx": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/visco.svg",
-            "round_avatar": false,
-            "show_rating": false,
-            "rating": 5,
-            "author": "",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_4KgYcW",
-        "testimonial_MgHnL9",
-        "testimonial_636Wxx"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": true,
-        "subheading": "",
-        "title": "Dlaczego warto wybrać ten materac?",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "#f5f5f5",
-        "testimonial_card_text_color": ""
-      }
-    },
     "custom_html_piNwLY": {
       "type": "custom-html",
       "custom_css": [
@@ -818,8 +755,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "⭐ Komfort i higiena snu – zadbaj o zdrowe warunki dla swojego dziecka",
-            "content": "<p><strong>Materiał pokrowca: Tkanina Frotte</strong></p><p>✅ Wybór odpowiedniego pokrowca na materac ma bezpośredni wpływ nie tylko na trwałość samego materaca, ale przede wszystkim na jakość snu dziecka. Pokrowiec wykonany z miękkiej i przyjemnej w dotyku tkaniny frotte zapewnia delikatność w kontakcie ze skórą, a przy tym jest praktyczny w codziennym użytkowaniu.</p><p>✅ Dzięki dwustronnej konstrukcji, pokrowiec może być używany naprzemiennie, co znacząco wydłuża jego żywotność. Dodatkowo wszyte zamki błyskawiczne sprawiają, że zakładanie i zdejmowanie pokrowca jest szybkie i bezproblemowe – to szczególnie ważne w przypadku nagłych sytuacji, gdy potrzebna jest szybka wymiana.</p>",
+            "title": "Komfort i higiena snu – zadbaj o zdrowe warunki dla swojego dziecka",
+            "content": "<p><strong>Materiał pokrowca: Tkanina Frotte</strong></p><p>Wybór odpowiedniego pokrowca na materac ma bezpośredni wpływ nie tylko na trwałość samego materaca, ale przede wszystkim na jakość snu dziecka. Pokrowiec wykonany z miękkiej i przyjemnej w dotyku tkaniny frotte zapewnia delikatność w kontakcie ze skórą, a przy tym jest praktyczny w codziennym użytkowaniu.</p><p>Dzięki dwustronnej konstrukcji, pokrowiec może być używany naprzemiennie, co znacząco wydłuża jego żywotność. Dodatkowo wszyte zamki błyskawiczne sprawiają, że zakładanie i zdejmowanie pokrowca jest szybkie i bezproblemowe – to szczególnie ważne w przypadku nagłych sytuacji, gdy potrzebna jest szybka wymiana.</p>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
@@ -965,63 +902,6 @@
         "product_card_text_color": ""
       }
     },
-    "faq_93Ax3R": {
-      "type": "faq",
-      "blocks": {
-        "item_eR7CfL": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "item_N6jnEg": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "item_pQBHHP": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_eR7CfL",
-        "item_N6jnEg",
-        "item_pQBHHP"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".bg-secondary {background: transparent;}",
-        ".accordion__toggle {font-size: 1.3rem;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
     "custom_html_3Xy8Hk": {
       "type": "custom-html",
       "custom_css": [
@@ -1063,7 +943,6 @@
     "custom_html_Ni3Nmn",
     "media_with_text_4rPE47",
     "text_with_icons_XEcyze",
-    "testimonials_hjTGGL",
     "custom_html_piNwLY",
     "image_with_text_overlay_KCzCcz",
     "accordion_content_rbQALk",
@@ -1081,7 +960,6 @@
     "image_link_blocks_dE84yL",
     "image_with_text_overlay_g9CHB9",
     "related-products",
-    "faq_93Ax3R",
     "custom_html_3Xy8Hk",
     "1731879966e34c3805"
   ]
