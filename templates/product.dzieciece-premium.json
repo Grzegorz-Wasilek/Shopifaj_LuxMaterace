@@ -553,8 +553,8 @@
             "subheading": "",
             "title": "Certyfikat Oeko-Tex® Standard 100",
             "content": "<p><strong>Certyfikat OEKO-TEX® STANDARD 100 gwarantuje, materiały w naszych materacach są wolne od szkodliwych substancji, takich jak pestycydy, formaldehyd czy metale ciężkie.</strong></p><p>Badania potwierdzają bezpieczeństwo pianek dla użytkowania, nawet przez dzieci (Klasa I – wyroby dla dzieci).</p><h6>Atesty - Narodowy Instytut Zdrowia Publicznego PZH</h6><p>Materiały przez nas użyte spełniają normy higieniczne i są bezpieczne do użytku domowego – nie wpływają negatywnie na zdrowie przy prawidłowym użytkowaniu.</p><h6>Atesty – Gdański Uniwersytet Medyczny (GUMed)</h6><p>Produkty są bezpieczne do użytku domowego i w wymagających warunkach, spełniając rygorystyczne normy higieniczne.</p>",
-            "link_text": "",
-            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "link_text": "Czytaj wiecej",
+            "link_url": "shopify://pages/certyfikaty-i-atesty",
             "background": "rgba(0,0,0,0)",
             "background_gradient": "",
             "text_color": "#022e4f",
@@ -858,6 +858,7 @@
         "item_3BJJaB",
         "item_xFhgeT"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "medium",
