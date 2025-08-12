@@ -476,7 +476,7 @@
         "image_9UPmap": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1.jpg",
+            "image": "shopify://shop_images/1_db5d861f-e874-4180-8dab-2271a2dfce1d.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
