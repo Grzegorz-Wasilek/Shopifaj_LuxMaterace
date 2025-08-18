@@ -575,7 +575,29 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Dlaczego nacięcia i karbowania są ważne w materacach dziecięcych?",
-            "content": "<p><strong>1. Karbowana góra:</strong></p><ul><li>Zapewnia lepszą wentylację i odprowadza wilgoć.</li><li>Dopasowuje się do ciała dziecka, wspierając kręgosłup.</li><li>Może delikatnie masować skórę i poprawiać mikrokrążenie.</li></ul><p><strong>2. Nacięcia w spodzie:</strong></p><ul><li>Tworzą strefy twardości dopasowane do różnych partii ciała.</li><li>Zwiększają elastyczność i komfort przy zmianie pozycji.</li><li>Dodają miękkości bez utraty stabilności materaca.</li></ul>",
+            "content": "<p><strong>1️⃣ Karbowana powierzchnia (góra):</strong></p><p>✅ <strong>Lepsza wentylacja:</strong> Delikatne rowki w piance pomagają w cyrkulacji powietrza, dzięki czemu dziecko się nie przegrzewa, a wilgoć nie zatrzymuje się we wnętrzu materaca.</p><p>✅ <strong>Dopasowanie do ciała malucha </strong>- Profilowana powierzchnia ugina się dokładnie tam, gdzie trzeba – zapewniając delikatne, punktowe podparcie dla rozwijającego się kręgosłupa.</p><p>✅ <strong>Efekt mikromasażu</strong> - Specjalna struktura może delikatnie stymulować skórę i poprawiać mikrokrążenie – to mały dodatek, który może sprzyjać spokojniejszemu snu.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_6Qr93J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p><strong>2️⃣ Nacięcia w spodzie pianki (dół):</strong></p><p>✅ <strong>Odpowiednie strefy twardości:</strong> Dzięki przemyślanym nacięciom materac dostosowuje się do różnych części ciała dziecka – na przykład jest bardziej miękki w okolicach ramion, a stabilniejszy przy biodrach.</p><p>✅<strong> Większa elastyczność:</strong> Nacięcia pozwalają materacowi łatwiej pracować – uginają się razem z ruchem dziecka, co zwiększa wygodę, zwłaszcza przy zmianach pozycji.</p><p>✅ <strong>Miękkość bez zmniejszania wysokości:</strong> Takie rozwiązanie sprawia, że materac może być bardziej komfortowy bez konieczności rezygnowania z jego odpowiedniej grubości i stabilności.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -588,7 +610,8 @@
         }
       },
       "block_order": [
-        "image_FEUTEi"
+        "image_FEUTEi",
+        "image_6Qr93J"
       ],
       "settings": {
         "full_width": false,
