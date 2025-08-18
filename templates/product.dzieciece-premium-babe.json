@@ -733,10 +733,33 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "image_F8b8yx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>✌️Dlaczego pianka poliuretanowa jest idealna dla dzieci?️</h5><p>✅ Jest hipoalergiczny, wytrzymały i łatwy w utrzymaniu, co czyni go świetnym wyborem zarówno dla niemowląt, jak i starszych dzieci. To rozwiązanie, które łączy nowoczesne technologie z dbałością o bezpieczeństwo i wygodę najmłodszych użytkowników.</p><h6>Zadbaj o spokojny sen swojego dziecka z materacem wykonanym z pianki poliuretanowej – komfort, trwałość i higiena w jednym.</h6>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "image_iPJeD8"
+        "image_iPJeD8",
+        "image_F8b8yx"
       ],
       "settings": {
         "full_width": false,
