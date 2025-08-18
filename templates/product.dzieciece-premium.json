@@ -802,7 +802,29 @@
             "icon_width": 48,
             "subheading": "",
             "title": " Nasze materace sprężynowe nie są rolowane. Dlaczego to takie ważne?",
-            "content": "<p>Wybierając nowy materac, dobrze jest zwrócić uwagę na sposób jego pakowania. Choć modele rolowane są wygodne w transporcie, to materace dostarczane w pełnym rozmiarze często oferują lepszy komfort snu i większą trwałość.</p><p><strong>✅ Większa trwałość i jakość</strong> – Materace nierolowane nie są ściskane ani zwijane, dzięki czemu ich struktura zachowuje pełną stabilność. W przypadku modeli rolowanych istnieje ryzyko deformacji pianki lub sprężyn, co może obniżyć komfort i skrócić żywotność materaca.</p><p><strong>✅ Gotowe do użycia od razu </strong>– Materace nierolowane nie wymagają czasu na rozprężenie – wystarczy położyć je na łóżku i cieszyć się pełnym komfortem od pierwszej nocy. W przeciwieństwie do nich, materace rolowane potrzebują często nawet kilku dni, by odzyskać swój właściwy kształt i twardość.</p>",
+            "content": "<p>Wybierając nowy materac, dobrze jest zwrócić uwagę na sposób jego pakowania. Choć modele rolowane są wygodne w transporcie, to materace dostarczane w pełnym rozmiarze często oferują lepszy komfort snu i większą trwałość.</p><p><strong>✅ Większa trwałość i jakość</strong> – Materace nierolowane nie są ściskane ani zwijane, dzięki czemu ich struktura zachowuje pełną stabilność. W przypadku modeli rolowanych istnieje ryzyko deformacji pianki lub sprężyn, co może obniżyć komfort i skrócić żywotność materaca.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_eXJUCD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p><strong>✅ Gotowe do użycia od razu </strong>– Materace nierolowane nie wymagają czasu na rozprężenie – wystarczy położyć je na łóżku i cieszyć się pełnym komfortem od pierwszej nocy. W przeciwieństwie do nich, materace rolowane potrzebują często nawet kilku dni, by odzyskać swój właściwy kształt i twardość.</p><p><strong>✅ Bez ryzyka uszkodzeń materiału </strong>– Rolowanie i pakowanie próżniowe może prowadzić do nadmiernego zgniatania materiałów, co osłabia ich właściwości. Dotyczy to zarówno pianek, jak i sprężyn, które mogą stracić na elastyczności i trwałości.</p><p><strong>✅ Wyższy komfort snu </strong>– Materace nierolowane często zawierają bardziej zaawansowane warstwy komfortowe, które zachowują swoje właściwości dzięki braku kompresji. Zapewniają lepsze podparcie ciała, co sprzyja zdrowszemu snu i redukuje ryzyko bólu pleców.</p>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
@@ -815,7 +837,8 @@
         }
       },
       "block_order": [
-        "image_8ajXkq"
+        "image_8ajXkq",
+        "image_eXJUCD"
       ],
       "settings": {
         "full_width": false,
