@@ -938,10 +938,33 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "image_mz7cG4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>W przypadku niemowląt szczególną uwagę należy zwrócić na to, by materac nie był zbyt miękki. Modele o twardości H1, choć mogą wydawać się komfortowe, nie gwarantują właściwego podparcia dla delikatnego ciała noworodka. Brak stabilnej powierzchni może prowadzić do nieprawidłowego ułożenia ciała, a w skrajnych przypadkach zwiększać ryzyko problemów oddechowych.</p><p><strong>⚠️ </strong>Warto też rozważyć rodzaj zastosowanej pianki. Choć pianki termoelastyczne typu visco są często wybierane w produktach dla dorosłych, nie są one rekomendowane dla najmłodszych. Zbyt intensywne dopasowanie do kształtu ciała może ograniczać naturalne ruchy dziecka w czasie snu i zaburzać prawidłową dynamikę ciała.</p><p><strong>⚠️ </strong>Dobry materac dziecięcy to nie ten, który wydaje się najwygodniejszy w dotyku, ale ten, który wspiera zdrowy rozwój i bezpieczny sen. Dlatego warto poświęcić chwilę na świadomy wybór – z myślą o przyszłości malucha.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "image_9P9aUQ"
+        "image_9P9aUQ",
+        "image_mz7cG4"
       ],
       "settings": {
         "full_width": false,
@@ -1018,14 +1041,14 @@
         "heading_bK9NLN": {
           "type": "heading",
           "settings": {
-            "text": "Źle dobrany materac, a nasze zdrowie",
+            "text": "",
             "heading_tag": "h0"
           }
         },
         "richtext_tmmWkw": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Niewłaściwie dobrany materac może prowadzić do bólu pleców, zaburzeń snu, zwiększonego napięcia oraz problemów z krążeniem, negatywnie wpływając na nasze zdrowie fizyczne i psychiczne. Ważne jest, aby wybrać<br/>materac dostosowany do indywidualnych potrzeb, co może pomóc zapewnić zdrowy i regenerujący sen.</p>"
+            "content": "<h2>Decydując się na nasz materac o odpowiednio dobranej twardości, wspierasz prawidłowy rozwój swojego dziecka już od pierwszych chwil. Zdrowy kręgosłup i właściwa postawa zaczynają się właśnie od dobrze dobranego podłoża do snu.</h2>"
           }
         }
       },
