@@ -755,10 +755,33 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "image_8ffrG8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>✅ Możliwość prania pokrowca w temperaturze 60°C pozwala skutecznie pozbyć się alergenów i bakterii, co jest niezwykle istotne dla dzieci z wrażliwą skórą lub skłonnościami do alergii. Regularna higiena tekstyliów to nie tylko czystość, ale też lepszy mikroklimat snu – mniej potu, mniej wybudzeń i spokojniejszy odpoczynek nocny.</p><p>✅ Zdrowsza skóra, większy komfort i spokojniejszy sen – dobrze dobrany pokrowiec to mały detal, który robi dużą różnicę.</p><h5>Certyfikowane materiały są podstawą do produkowanych przez nas materacy, które są bezpieczne dla zdrowia i przyjazne środowisku.</h5>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "image_Mi4Cxc"
+        "image_Mi4Cxc",
+        "image_8ffrG8"
       ],
       "settings": {
         "full_width": false,
