@@ -858,8 +858,30 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Komfort i higiena snu – zadbaj o zdrowe warunki dla swojego dziecka",
-            "content": "<p><strong>Dobrze dopasowany materac to podstawa zdrowego rozwoju dziecka.</strong><br/><br/>To nie tylko element łóżeczka, ale codzienne wsparcie dla kręgosłupa i układu mięśniowo-szkieletowego. Specjaliści zalecają twardość H2–H4, która zapewnia stabilność, prawidłową postawę i minimalizuje ryzyko wad kręgosłupa.</p><p>Zbyt miękkie materace (H1) nie gwarantują właściwego podparcia, szczególnie u niemowląt, i mogą nawet wpływać na bezpieczeństwo oddechowe. Podobnie pianki visco, choć popularne u dorosłych, nie są odpowiednie dla najmłodszych – ograniczają naturalne ruchy i elastyczność.</p><p><strong>Dobry materac to taki, który wspiera rozwój, a nie tylko wydaje się miękki.</strong><br/><strong>Wybierając nasz model o właściwej twardości, wspierasz zdrowy sen i prawidłową postawę dziecka od pierwszych dni życia.</strong></p>",
+            "title": " Co warto wiedzieć, zanim kupisz materac dla swojego dziecka?",
+            "content": "<p>Nie każdy rodzic zdaje sobie sprawę, jak ważny dla zdrowia i prawidłowego rozwoju dziecka jest dobrze dopasowany materac. To nie tylko element wyposażenia łóżeczka, ale przede wszystkim codzienne wsparcie dla rozwijającego się kręgosłupa i całego układu mięśniowo-szkieletowego.</p><p>Specjaliści rekomendują wybór materaca o średnim lub nieco wyższym poziomie twardości – najczęściej oznaczanego jako H2 do H4. Taka powierzchnia zapewnia odpowiednią stabilność, co sprzyja utrzymaniu prawidłowej postawy i minimalizuje ryzyko wad kręgosłupa w przyszłości.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_WnPVFT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>W przypadku niemowląt szczególną uwagę należy zwrócić na to, by materac nie był zbyt miękki. Modele o twardości H1, choć mogą wydawać się komfortowe, nie gwarantują właściwego podparcia dla delikatnego ciała noworodka. Brak stabilnej powierzchni może prowadzić do nieprawidłowego ułożenia ciała, a w skrajnych przypadkach zwiększać ryzyko problemów oddechowych.</p><p><strong>⚠️</strong> Warto też rozważyć rodzaj zastosowanej pianki. Choć pianki termoelastyczne typu visco są często wybierane w produktach dla dorosłych, nie są one rekomendowane dla najmłodszych. Zbyt intensywne dopasowanie do kształtu ciała może ograniczać naturalne ruchy dziecka w czasie snu i zaburzać prawidłową dynamikę ciała.</p><p><strong>⚠️</strong> Dobry materac dziecięcy to nie ten, który wydaje się najwygodniejszy w dotyku, ale ten, który wspiera zdrowy rozwój i bezpieczny sen. Dlatego warto poświęcić chwilę na świadomy wybór – z myślą o przyszłości malucha.</p>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
@@ -872,7 +894,8 @@
         }
       },
       "block_order": [
-        "image_9P9aUQ"
+        "image_9P9aUQ",
+        "image_WnPVFT"
       ],
       "settings": {
         "full_width": false,
