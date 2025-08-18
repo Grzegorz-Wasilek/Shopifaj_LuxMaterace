@@ -528,10 +528,33 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "image_kD7N4k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>3️⃣ <strong>Dwustronny pokrowiec</strong> – łatwy w utrzymaniu czystości: Materac wyposażony jest w zdejmowany, dwustronny pokrowiec, który można łatwo wyprać. Taka konstrukcja nie tylko ułatwia utrzymanie higieny na co dzień, ale także pozwala na równomierne użytkowanie obu stron materaca, co dodatkowo wydłuża jego żywotność.</p><p>4️⃣ <strong>Stabilne i solidne podparcie:</strong> Rdzeń materaca stanowi solidna pianka o gęstości 25 kg/m³ i grubości aż 12 cm. Takie połączenie gwarantuje nie tylko odpowiednie podparcie kręgosłupa, ale również wysoką odporność na odkształcenia – nawet przy intensywnym i długotrwałym użytkowaniu.</p><p>5️⃣<strong>Doskonała wentylacja i komfort termiczny</strong>: Nasze materace zostały zaprojektowane z myślą o zapewnieniu odpowiedniego przepływu powietrza. Dzięki przewiewnym materiałom i oddychającej strukturze pianki, możliwa jest skuteczna regulacja temperatury podczas snu. To ogranicza ryzyko przegrzewania się i zapewnia komfort przez całą noc.</p><p>6️⃣ <strong>Twardość materaca H3–H4 to odpowiedni wybór dla dzieci </strong>– zapewnia stabilne podparcie kręgosłupa, wspierając prawidłowy rozwój i zdrową postawę podczas snu.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "image_YFDM3f"
+        "image_YFDM3f",
+        "image_kD7N4k"
       ],
       "settings": {
         "full_width": false,
