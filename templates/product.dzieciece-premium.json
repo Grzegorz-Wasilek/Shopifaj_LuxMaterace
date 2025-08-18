@@ -895,6 +895,7 @@
         "heading_bK9NLN",
         "richtext_tmmWkw"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 1000px) {.section-full > image-banner.content-over-media {padding: 20px 10px; }}"
       ],
@@ -957,7 +958,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_JjAP3g": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
