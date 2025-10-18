@@ -847,61 +847,46 @@
         "spacing": "large"
       }
     },
-    "media_with_text_EccdN4": {
-      "type": "media-with-text",
+    "rich_text_KUnFJ3": {
+      "type": "rich-text",
       "blocks": {
-        "image_Mi4Cxc": {
-          "type": "image",
+        "subheading_TV8PWV": {
+          "type": "subheading",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/8.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Komfort i higiena snu – zadbaj o zdrowe warunki dla swojego dziecka",
-            "content": "<p><strong>Materiał pokrowca: Tkanina Frotte</strong></p><p>✅ Wybór odpowiedniego pokrowca na materac ma bezpośredni wpływ nie tylko na trwałość samego materaca, ale przede wszystkim na jakość snu dziecka. Pokrowiec wykonany z miękkiej i przyjemnej w dotyku tkaniny frotte zapewnia delikatność w kontakcie ze skórą, a przy tym jest praktyczny w codziennym użytkowaniu.</p><p>✅ Dzięki dwustronnej konstrukcji, pokrowiec może być używany naprzemiennie, co znacząco wydłuża jego żywotność. Dodatkowo wszyte zamki błyskawiczne sprawiają, że zakładanie i zdejmowanie pokrowca jest szybkie i bezproblemowe – to szczególnie ważne w przypadku nagłych sytuacji, gdy potrzebna jest szybka wymiana.</p>",
-            "link_text": "",
-            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "text": "Subheading"
           }
         },
-        "image_p73U8x": {
-          "type": "image",
+        "heading_JGRLa9": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/8.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p>✅ Możliwość prania pokrowca w temperaturze 60°C pozwala skutecznie pozbyć się alergenów i bakterii, co jest niezwykle istotne dla dzieci z wrażliwą skórą lub skłonnościami do alergii. Regularna higiena tekstyliów to nie tylko czystość, ale też lepszy mikroklimat snu – mniej potu, mniej wybudzeń i spokojniejszy odpoczynek nocny.</p><p>✅ Zdrowsza skóra, większy komfort i spokojniejszy sen – dobrze dobrany pokrowiec to mały detal, który robi dużą różnicę.</p><h6>Certyfikowane materiały są podstawą do produkowanych przez nas materacy, które są bezpieczne dla zdrowia i przyjazne środowisku.</h6>",
-            "link_text": "",
-            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_M8Kw78": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>✅ Możliwość prania pokrowca w temperaturze 60°C pozwala skutecznie pozbyć się alergenów i bakterii, co jest niezwykle istotne dla dzieci z wrażliwą skórą lub skłonnościami do alergii. Regularna higiena tekstyliów to nie tylko czystość, ale też lepszy mikroklimat snu – mniej potu, mniej wybudzeń i spokojniejszy odpoczynek nocny.</p><p>✅ Zdrowsza skóra, większy komfort i spokojniejszy sen – dobrze dobrany pokrowiec to mały detal, który robi dużą różnicę.</p><h4>Certyfikowane materiały są podstawą do produkowanych przez nas materacy, które są bezpieczne dla zdrowia i przyjazne środowisku.</h4>"
           }
         }
       },
       "block_order": [
-        "image_Mi4Cxc",
-        "image_p73U8x"
+        "subheading_TV8PWV",
+        "heading_JGRLa9",
+        "richtext_M8Kw78"
       ],
+      "name": "Rich text",
       "settings": {
-        "full_width": false,
-        "spacing": "large"
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "media_with_text_YtidHR": {
@@ -928,37 +913,56 @@
             "button_background": "",
             "button_text_color": ""
           }
-        },
-        "image_ygKXT6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/9.jpg",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p><strong>✅ Gotowe do użycia od razu </strong>– Materace nierolowane nie wymagają czasu na rozprężenie – wystarczy położyć je na łóżku i cieszyć się pełnym komfortem od pierwszej nocy. W przeciwieństwie do nich, materace rolowane potrzebują często nawet kilku dni, by odzyskać swój właściwy kształt i twardość.</p><p><strong>✅ Bez ryzyka uszkodzeń materiału </strong>– Rolowanie i pakowanie próżniowe może prowadzić do nadmiernego zgniatania materiałów, co osłabia ich właściwości. Dotyczy to zarówno pianek, jak i sprężyn, które mogą stracić na elastyczności i trwałości.</p><p><strong>✅ Wyższy komfort snu </strong>– Materace nierolowane często zawierają bardziej zaawansowane warstwy komfortowe, które zachowują swoje właściwości dzięki braku kompresji. Zapewniają lepsze podparcie ciała, co sprzyja zdrowszemu snu i redukuje ryzyko bólu pleców.</p><h6>Decydując się na nasz materac o odpowiednio dobranej twardości, wspierasz prawidłowy rozwój swojego dziecka już od pierwszych chwil. Zdrowy kręgosłup i właściwa postawa zaczynają się właśnie od dobrze dobranego podłoża do snu.</h6>",
-            "link_text": "",
-            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
         }
       },
       "block_order": [
-        "image_8ajXkq",
-        "image_ygKXT6"
+        "image_8ajXkq"
       ],
       "settings": {
         "full_width": false,
         "spacing": "large"
+      }
+    },
+    "rich_text_bV6wdp": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_wcDkke": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_ntfq3a": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_npRtRc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>✅ Gotowe do użycia od razu </strong>– Materace nierolowane nie wymagają czasu na rozprężenie – wystarczy położyć je na łóżku i cieszyć się pełnym komfortem od pierwszej nocy. W przeciwieństwie do nich, materace rolowane potrzebują często nawet kilku dni, by odzyskać swój właściwy kształt i twardość.</p><p><strong>✅ Bez ryzyka uszkodzeń materiału </strong>– Rolowanie i pakowanie próżniowe może prowadzić do nadmiernego zgniatania materiałów, co osłabia ich właściwości. Dotyczy to zarówno pianek, jak i sprężyn, które mogą stracić na elastyczności i trwałości.</p><p><strong>✅ Wyższy komfort snu </strong>– Materace nierolowane często zawierają bardziej zaawansowane warstwy komfortowe, które zachowują swoje właściwości dzięki braku kompresji. Zapewniają lepsze podparcie ciała, co sprzyja zdrowszemu snu i redukuje ryzyko bólu pleców.</p><h6>Decydując się na nasz materac o odpowiednio dobranej twardości, wspierasz prawidłowy rozwój swojego dziecka już od pierwszych chwil. Zdrowy kręgosłup i właściwa postawa zaczynają się właśnie od dobrze dobranego podłoża do snu.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wcDkke",
+        "heading_ntfq3a",
+        "richtext_npRtRc"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "media_with_text_TykcNb": {
@@ -985,37 +989,56 @@
             "button_background": "",
             "button_text_color": ""
           }
-        },
-        "image_mz7cG4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/12.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p>W przypadku niemowląt szczególną uwagę należy zwrócić na to, by materac nie był zbyt miękki. Modele o twardości H1, choć mogą wydawać się komfortowe, nie gwarantują właściwego podparcia dla delikatnego ciała noworodka. Brak stabilnej powierzchni może prowadzić do nieprawidłowego ułożenia ciała, a w skrajnych przypadkach zwiększać ryzyko problemów oddechowych.</p><p><strong>⚠️ </strong>Warto też rozważyć rodzaj zastosowanej pianki. Choć pianki termoelastyczne typu visco są często wybierane w produktach dla dorosłych, nie są one rekomendowane dla najmłodszych. Zbyt intensywne dopasowanie do kształtu ciała może ograniczać naturalne ruchy dziecka w czasie snu i zaburzać prawidłową dynamikę ciała.</p><p><strong>⚠️ </strong>Dobry materac dziecięcy to nie ten, który wydaje się najwygodniejszy w dotyku, ale ten, który wspiera zdrowy rozwój i bezpieczny sen. Dlatego warto poświęcić chwilę na świadomy wybór – z myślą o przyszłości malucha.</p>",
-            "link_text": "",
-            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
         }
       },
       "block_order": [
-        "image_9P9aUQ",
-        "image_mz7cG4"
+        "image_9P9aUQ"
       ],
       "settings": {
         "full_width": false,
         "spacing": "large"
+      }
+    },
+    "rich_text_PN8iez": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_BHWXhW": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_paEJRr": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_U7Fj3N": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>W przypadku niemowląt szczególną uwagę należy zwrócić na to, by materac nie był zbyt miękki. Modele o twardości H1, choć mogą wydawać się komfortowe, nie gwarantują właściwego podparcia dla delikatnego ciała noworodka. Brak stabilnej powierzchni może prowadzić do nieprawidłowego ułożenia ciała, a w skrajnych przypadkach zwiększać ryzyko problemów oddechowych.</p><p><strong>⚠️ </strong>Warto też rozważyć rodzaj zastosowanej pianki. Choć pianki termoelastyczne typu visco są często wybierane w produktach dla dorosłych, nie są one rekomendowane dla najmłodszych. Zbyt intensywne dopasowanie do kształtu ciała może ograniczać naturalne ruchy dziecka w czasie snu i zaburzać prawidłową dynamikę ciała.</p><p><strong>⚠️ </strong>Dobry materac dziecięcy to nie ten, który wydaje się najwygodniejszy w dotyku, ale ten, który wspiera zdrowy rozwój i bezpieczny sen. Dlatego warto poświęcić chwilę na świadomy wybór – z myślą o przyszłości malucha.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BHWXhW",
+        "heading_paEJRr",
+        "richtext_U7Fj3N"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "image_with_text_overlay_g9CHB9": {
@@ -1139,9 +1162,11 @@
     "media_with_text_YwVX9N",
     "rich_text_hDbebk",
     "media_with_text_T7xeYT",
-    "media_with_text_EccdN4",
+    "rich_text_KUnFJ3",
     "media_with_text_YtidHR",
+    "rich_text_bV6wdp",
     "media_with_text_TykcNb",
+    "rich_text_PN8iez",
     "image_with_text_overlay_g9CHB9",
     "related-products",
     "custom_html_3Xy8Hk",
