@@ -538,6 +538,48 @@
         "spacing": "large"
       }
     },
+    "rich_text_HEWANV": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_6GnehF": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_g4NJbP": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_hh8F7g": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>3️⃣ <strong>Dwustronny pokrowiec</strong> – łatwy w utrzymaniu czystości: Materac wyposażony jest w zdejmowany, dwustronny pokrowiec, który można łatwo wyprać. Taka konstrukcja nie tylko ułatwia utrzymanie higieny na co dzień, ale także pozwala na równomierne użytkowanie obu stron materaca, co dodatkowo wydłuża jego żywotność.</p><p>4️⃣ <strong>Stabilne i solidne podparcie:</strong> Rdzeń materaca stanowi solidna pianka o gęstości 25 kg/m³ i grubości aż 12 cm. Takie połączenie gwarantuje nie tylko odpowiednie podparcie kręgosłupa, ale również wysoką odporność na odkształcenia – nawet przy intensywnym i długotrwałym użytkowaniu.</p><p>5️⃣<strong>Doskonała wentylacja i komfort termiczny</strong>: Nasze materace zostały zaprojektowane z myślą o zapewnieniu odpowiedniego przepływu powietrza. Dzięki przewiewnym materiałom i oddychającej strukturze pianki, możliwa jest skuteczna regulacja temperatury podczas snu. To ogranicza ryzyko przegrzewania się i zapewnia komfort przez całą noc.</p><p>6️⃣ <strong>Twardość materaca H3–H4 to odpowiedni wybór dla dzieci </strong>– zapewnia stabilne podparcie kręgosłupa, wspierając prawidłowy rozwój i zdrową postawę podczas snu.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6GnehF",
+        "heading_g4NJbP",
+        "richtext_hh8F7g"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_6Qk7Jx": {
       "type": "media-with-text",
       "blocks": {
@@ -568,7 +610,7 @@
           "settings": {
             "image": "shopify://shop_images/3.jpg",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -1128,6 +1170,7 @@
     "custom_html_J9DNww",
     "media_with_text_KKFgPG",
     "media_with_text_anxi4M",
+    "rich_text_HEWANV",
     "media_with_text_6Qk7Jx",
     "media_with_text_YwVX9N",
     "media_with_text_aTc7Dn",
