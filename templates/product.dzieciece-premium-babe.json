@@ -691,31 +691,18 @@
             "button_background": "",
             "button_text_color": ""
           }
-        }
-      },
-      "block_order": [
-        "image_HVqfgc",
-        "image_468MYD"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "large"
-      }
-    },
-    "media_with_text_aTc7Dn": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_fAXbxM": {
+        },
+        "image_nVnM6J": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5.jpg",
+            "image": "shopify://shop_images/6_b4c59efb-b499-42ed-9f97-ed50c82566a0.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Naturalne materiały Pokrowca. Bawełna i bambus dla zdrowego snu Twojego dziecka",
+            "title": "Materac idealny dla Twojego dziecka",
             "content": "<p>✅<strong> Antybakteryjność</strong>: Bambus <strong>1️⃣</strong> i bawełna <strong>2️⃣</strong> są wolne od chemii, idealne dla alergików i wrażliwej skóry</p><p>✅ <strong>Wyjątkowa faktura takniny Frotte </strong>– dla większego komfortu i delikatnego masażu skóry dziecka podczas snu.</p><p>✅<strong> 50% lepsza regulacja wilgoci </strong>- sucha i zdrowa skóra Twojego dziecka</p><p><strong>✅ Wytrzymały i delikatny </strong>– bawełna z bambusem znosi częste pranie, zachowując miękkość na długo.</p><p><strong>✅ Miękki i delikatny pokrowiec z bawełny i bambusa</strong> – idealny dla wrażliwej skóry dziecka.</p>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
@@ -726,23 +713,11 @@
             "button_background": "",
             "button_text_color": ""
           }
-        }
-      },
-      "block_order": [
-        "image_fAXbxM"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "large"
-      }
-    },
-    "media_with_text_Lit9cF": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_iPJeD8": {
+        },
+        "image_GBTtPR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/6.jpg",
+            "image": "shopify://shop_images/7_67dfd0ef-01a9-4b08-82cb-9187ee986e39.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -763,7 +738,10 @@
         }
       },
       "block_order": [
-        "image_iPJeD8"
+        "image_HVqfgc",
+        "image_468MYD",
+        "image_nVnM6J",
+        "image_GBTtPR"
       ],
       "settings": {
         "full_width": false,
@@ -1136,8 +1114,6 @@
     "media_with_text_6Qk7Jx",
     "rich_text_tPCUty",
     "media_with_text_YwVX9N",
-    "media_with_text_aTc7Dn",
-    "media_with_text_Lit9cF",
     "rich_text_hDbebk",
     "media_with_text_T7xeYT",
     "media_with_text_EccdN4",
