@@ -814,10 +814,33 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "image_FXLpjL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_faee8495-c4be-4531-8eaf-37ac04f37ca7.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Komfort i higiena snu – zadbaj o zdrowe warunki dla swojego dziecka",
+            "content": "<p><strong>Materiał pokrowca: Tkanina Frotte</strong></p><p>✅ Wybór odpowiedniego pokrowca na materac ma bezpośredni wpływ nie tylko na trwałość samego materaca, ale przede wszystkim na jakość snu dziecka. Pokrowiec wykonany z miękkiej i przyjemnej w dotyku tkaniny frotte zapewnia delikatność w kontakcie ze skórą, a przy tym jest praktyczny w codziennym użytkowaniu.</p><p>✅ Dzięki dwustronnej konstrukcji, pokrowiec może być używany naprzemiennie, co znacząco wydłuża jego żywotność. Dodatkowo wszyte zamki błyskawiczne sprawiają, że zakładanie i zdejmowanie pokrowca jest szybkie i bezproblemowe – to szczególnie ważne w przypadku nagłych sytuacji, gdy potrzebna jest szybka wymiana.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "image_jLFBFM"
+        "image_jLFBFM",
+        "image_FXLpjL"
       ],
       "settings": {
         "full_width": false,
