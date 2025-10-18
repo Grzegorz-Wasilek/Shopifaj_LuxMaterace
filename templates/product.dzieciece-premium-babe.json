@@ -604,37 +604,56 @@
             "button_background": "",
             "button_text_color": ""
           }
-        },
-        "image_6Qr93J": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3.jpg",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p><strong>2️⃣ Nacięcia w spodzie pianki (dół):</strong></p><p>✅ <strong>Odpowiednie strefy twardości:</strong> Dzięki przemyślanym nacięciom materac dostosowuje się do różnych części ciała dziecka – na przykład jest bardziej miękki w okolicach ramion, a stabilniejszy przy biodrach.</p><p>✅<strong> Większa elastyczność:</strong> Nacięcia pozwalają materacowi łatwiej pracować – uginają się razem z ruchem dziecka, co zwiększa wygodę, zwłaszcza przy zmianach pozycji.</p><p>✅ <strong>Miękkość bez zmniejszania wysokości:</strong> Takie rozwiązanie sprawia, że materac może być bardziej komfortowy bez konieczności rezygnowania z jego odpowiedniej grubości i stabilności.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#022e4f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
         }
       },
       "block_order": [
-        "image_FEUTEi",
-        "image_6Qr93J"
+        "image_FEUTEi"
       ],
       "settings": {
         "full_width": false,
         "spacing": "large"
+      }
+    },
+    "rich_text_tPCUty": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_f6YVgV": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_GGmigQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_HRmzha": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>2️⃣ Nacięcia w spodzie pianki (dół):</strong></p><p>✅ <strong>Odpowiednie strefy twardości:</strong> Dzięki przemyślanym nacięciom materac dostosowuje się do różnych części ciała dziecka – na przykład jest bardziej miękki w okolicach ramion, a stabilniejszy przy biodrach.</p><p>✅<strong> Większa elastyczność:</strong> Nacięcia pozwalają materacowi łatwiej pracować – uginają się razem z ruchem dziecka, co zwiększa wygodę, zwłaszcza przy zmianach pozycji.</p><p>✅ <strong>Miękkość bez zmniejszania wysokości:</strong> Takie rozwiązanie sprawia, że materac może być bardziej komfortowy bez konieczności rezygnowania z jego odpowiedniej grubości i stabilności.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_f6YVgV",
+        "heading_GGmigQ",
+        "richtext_HRmzha"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "media_with_text_YwVX9N": {
@@ -990,70 +1009,6 @@
         "spacing": "large"
       }
     },
-    "image_link_blocks_dE84yL": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "item_ALnPwR": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/OEKO_TEX_Standart_100.svg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://pages/certyfikaty-i-atesty",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_3BJJaB": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/nizp.svg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://pages/certyfikaty-i-atesty",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_xFhgeT": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/GUM.svg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://pages/certyfikaty-i-atesty",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item_ALnPwR",
-        "item_3BJJaB",
-        "item_xFhgeT"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "Certyfikaty i Atesty",
-        "content": "<p>Decydując się na materac wykonany z materiałów wolnych od toksyn, inwestujesz w swoje zdrowie, lepszy sen i przyszłość naszej planety. Wybór certyfikowanych produktów to pewność, że oddychasz czystym powietrzem, a Twoja skóra ma kontakt z bezpiecznymi materiałami.</p>",
-        "link_url": "shopify://pages/certyfikaty-i-atesty",
-        "link_text": "Czytaj więcej",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "image_with_text_overlay_g9CHB9": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -1172,6 +1127,7 @@
     "media_with_text_anxi4M",
     "rich_text_HEWANV",
     "media_with_text_6Qk7Jx",
+    "rich_text_tPCUty",
     "media_with_text_YwVX9N",
     "media_with_text_aTc7Dn",
     "media_with_text_Lit9cF",
@@ -1179,7 +1135,6 @@
     "media_with_text_EccdN4",
     "media_with_text_YtidHR",
     "media_with_text_TykcNb",
-    "image_link_blocks_dE84yL",
     "image_with_text_overlay_g9CHB9",
     "related-products",
     "custom_html_3Xy8Hk",
