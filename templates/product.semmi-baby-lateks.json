@@ -476,14 +476,14 @@
         "image_9UPmap": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_db5d861f-e874-4180-8dab-2271a2dfce1d.jpg",
+            "image": "shopify://shop_images/semmibabypiankalateks_sesame_kopia-kopia.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Materac dziecięcy piankowy Semmi Baby piankowy pianka średnio twardy H3 H4",
+            "title": "⭐ Materac Semmi Baby Pianka & Lateks",
             "content": "<p><strong>❤️ Polska Produkcja ❤️</strong></p><p>✅ Certyfikat Oeko-Tex® Standard 100</p><p>✅ Atesty - Narodowy Instytut Zdrowia Publicznego PZH</p><p>✅ Atesty – Gdański Uniwersytet Medyczny (GUMed)</p><p>✅ Tkanina Frotte zapewnia niesamowitą wentylację materaca</p><p>✅ Dwustronność pokrowca pozwala na jego dłuższą żywotność</p><p>✅ 2 lata gwarancji!</p>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
@@ -498,7 +498,7 @@
         "image_FcGU3M": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2_43959390-cc97-41ec-86eb-44145220af94.jpg",
+            "image": "shopify://shop_images/4_d49f0089-a27d-4ac9-982d-19ff10187e09.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -569,23 +569,23 @@
         "text_color": ""
       }
     },
-    "media_with_text_6Qk7Jx": {
+    "media_with_text_YwVX9N": {
       "type": "media-with-text",
       "blocks": {
-        "image_FEUTEi": {
+        "image_HVqfgc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3.jpg",
+            "image": "shopify://shop_images/semmibabypiankalateks_sesame_kopia-kopia.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Dlaczego nacięcia i karbowania są ważne w materacach dziecięcych?",
-            "content": "<p><strong>1️⃣ Karbowana powierzchnia (góra):</strong></p><p>✅ <strong>Lepsza wentylacja:</strong> Delikatne rowki w piance pomagają w cyrkulacji powietrza, dzięki czemu dziecko się nie przegrzewa, a wilgoć nie zatrzymuje się we wnętrzu materaca.</p><p>✅ <strong>Dopasowanie do ciała malucha </strong>- Profilowana powierzchnia ugina się dokładnie tam, gdzie trzeba – zapewniając delikatne, punktowe podparcie dla rozwijającego się kręgosłupa.</p><p>✅ <strong>Efekt mikromasażu</strong> - Specjalna struktura może delikatnie stymulować skórę i poprawiać mikrokrążenie – to mały dodatek, który może sprzyjać spokojniejszemu snu.</p>",
+            "title": "Certyfikat Oeko-Tex® Standard 100",
+            "content": "<p><strong>Certyfikat OEKO-TEX® STANDARD 100 gwarantuje, materiały w naszych materacach są wolne od szkodliwych substancji, takich jak pestycydy, formaldehyd czy metale ciężkie.</strong></p><p>✅ Badania potwierdzają bezpieczeństwo pianek dla użytkowania, nawet przez dzieci (Klasa I – wyroby dla dzieci).</p><h6>⭐ Atesty - Narodowy Instytut Zdrowia Publicznego PZH</h6><p>✅ Materiały przez nas użyte spełniają normy higieniczne i są bezpieczne do stosowania w pomieszczeniach mieszkalnych. Gwarantują brak szkodliwego wpływu na zdrowie użytkowników, jeśli są stosowane zgodnie z zaleceniami.</p><h6>⭐ Atesty – Gdański Uniwersytet Medyczny (GUMed)</h6><p>✅ Produkty są bezpieczne do użytku w domach oraz w specyficznych warunkach, takich jak statki czy obiekty publiczne. Półprodukty spełniają rygorystyczne wymogi higieniczne i zdrowotne.</p>",
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
             "background_gradient": "",
             "text_color": "#022e4f",
@@ -593,67 +593,13 @@
             "button_background": "",
             "button_text_color": ""
           }
-        }
-      },
-      "block_order": [
-        "image_FEUTEi"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "large"
-      }
-    },
-    "rich_text_tPCUty": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_f6YVgV": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
         },
-        "heading_GGmigQ": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_HRmzha": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>2️⃣ Nacięcia w spodzie pianki (dół):</strong></p><p>✅ <strong>Odpowiednie strefy twardości:</strong> Dzięki przemyślanym nacięciom materac dostosowuje się do różnych części ciała dziecka – na przykład jest bardziej miękki w okolicach ramion, a stabilniejszy przy biodrach.</p><p>✅<strong> Większa elastyczność:</strong> Nacięcia pozwalają materacowi łatwiej pracować – uginają się razem z ruchem dziecka, co zwiększa wygodę, zwłaszcza przy zmianach pozycji.</p><p>✅ <strong>Miękkość bez zmniejszania wysokości:</strong> Takie rozwiązanie sprawia, że materac może być bardziej komfortowy bez konieczności rezygnowania z jego odpowiedniej grubości i stabilności.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_f6YVgV",
-        "heading_GGmigQ",
-        "richtext_HRmzha"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "media_with_text_YwVX9N": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_HVqfgc": {
+        "image_FRxw3q": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/4_f25fb77c-3f77-46ee-b043-b24bf97856a0.jpg",
+            "image": "shopify://shop_images/semmibabypiankalateks_sesame_kopia-kopia.jpg",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -681,7 +627,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Materac idealny dla Twojego dziecka",
-            "content": "<ul><li><strong>Waga dziecka:</strong> do 80 kg.</li><li><strong>Wzrost dziecka:</strong> do 150 cm</li><li><strong>Uniwersalność:</strong> odpowiedni dla chłopców i dziewczynek.</li><li><strong>Dla alergika:</strong> hipoalergiczność potwierdzona certyfikatami.</li></ul><p><br/>✅ WYPRODUKUJEMY DLA CIEBIE KAŻDY WYMIAR MATERACA!</p><h6>❤️ Nasze materace posiadają certyfikat OEKO-TEX® Standard 100, potwierdzający bezpieczeństwo i najwyższą jakość. ❤️</h6>",
+            "content": "<ul><li><strong>Waga dziecka:</strong> do 80 kg.</li><li><strong>Wzrost dziecka:</strong> minimum 150 cm</li><li><strong>Uniwersalność:</strong> odpowiedni dla chłopców i dziewczynek.</li><li><strong>Dla alergika:</strong> hipoalergiczność potwierdzona certyfikatami.</li></ul><p><br/>✅ WYPRODUKUJEMY DLA CIEBIE KAŻDY WYMIAR MATERACA!</p><h6>❤️ Nasze materace posiadają certyfikat OEKO-TEX® Standard 100, potwierdzający bezpieczeństwo i najwyższą jakość. ❤️</h6>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
@@ -739,6 +685,7 @@
       },
       "block_order": [
         "image_HVqfgc",
+        "image_FRxw3q",
         "image_468MYD",
         "image_nVnM6J",
         "image_GBTtPR"
@@ -1157,8 +1104,6 @@
     "custom_html_J9DNww",
     "media_with_text_KKFgPG",
     "rich_text_HEWANV",
-    "media_with_text_6Qk7Jx",
-    "rich_text_tPCUty",
     "media_with_text_YwVX9N",
     "rich_text_hDbebk",
     "media_with_text_T7xeYT",
