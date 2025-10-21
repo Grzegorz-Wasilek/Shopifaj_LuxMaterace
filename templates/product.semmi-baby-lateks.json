@@ -830,7 +830,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "end",
         "background": "",
         "background_gradient": "",
         "text_color": ""
