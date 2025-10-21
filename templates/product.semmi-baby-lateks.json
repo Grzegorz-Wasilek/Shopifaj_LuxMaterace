@@ -663,9 +663,9 @@
         "image_GBTtPR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/7_67dfd0ef-01a9-4b08-82cb-9187ee986e39.jpg",
+            "image": "shopify://shop_images/2semmibabypiankalateks_sesame_kopia.jpg",
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -731,7 +731,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "end",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -743,15 +743,15 @@
         "image_jLFBFM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/7.jpg",
+            "image": "shopify://shop_images/3semmibabypiankalateks_sesame_kopia.jpg",
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "title": "Budowa materaca",
-            "content": "<p><strong>1️⃣ Tkanina Frotte z włóknami bambusa:</strong> naturalne właściwości antybakteryjne, idealne dla wrażliwej skóry</p><p><strong>2️⃣ Pianka poliuretanowa:</strong> Pianka poliuretanowa T-25 o gęstości 25 kg/m³ to trwały i solidny materiał, który zapewnia optymalne wsparcie i odpowiedni poziom twardości. Dzięki starannie dobranej gęstości materac zachowuje swój pierwotny kształt przez długi czas – nawet gdy dziecko rośnie i staje się cięższe.</p>",
+            "content": "<p><strong>1️⃣ Tkanina Frotte z włóknami bambusa:</strong> naturalne właściwości antybakteryjne, idealne dla wrażliwej skóry</p><p><strong>2️⃣</strong> <strong>Pianka Lateksowa. </strong>3-centymetrowa warstwa pianki lateksowej to innowacyjne rozwiązanie, które wyróżnia się wyjątkową sprężystością, elastycznością i wytrzymałością. Lateks, dzięki swoim naturalnym właściwościom, zapewnia nie tylko wysoki komfort, ale także dba o zdrowie i higienę użytkownika, sprawiając, że każdy sen staje się regenerujący i przyjemny.</p><p><strong>3️⃣ Pianka poliuretanowa:</strong> Pianka poliuretanowa T-25 o gęstości 25 kg/m³ to trwały i solidny materiał, który zapewnia optymalne wsparcie i odpowiedni poziom twardości. Dzięki starannie dobranej gęstości materac zachowuje swój pierwotny kształt przez długi czas – nawet gdy dziecko rośnie i staje się cięższe.</p>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
@@ -767,7 +767,7 @@
           "settings": {
             "image": "shopify://shop_images/9_faee8495-c4be-4531-8eaf-37ac04f37ca7.jpg",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
