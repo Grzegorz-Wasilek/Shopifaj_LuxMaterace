@@ -621,7 +621,7 @@
           "settings": {
             "image": "shopify://shop_images/4.jpg",
             "media_width": 50,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -641,9 +641,9 @@
         "image_nVnM6J": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/6_b4c59efb-b499-42ed-9f97-ed50c82566a0.jpg",
+            "image": "shopify://shop_images/7_71ae79a8-cb5a-4ba4-8061-509a8fff5032.jpg",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
@@ -671,7 +671,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Materac Semmi Baby dla Twojego dziecka",
-            "content": "<p><strong>✅ Każda mama wie, jak ważny jest sen dziecka. </strong>Piankowy materac 12 cm dopasowuje się do ciała, zmniejsza ucisk i wspiera spokojny, zdrowy sen – tak potrzebny do odpoczynku i codziennej energii malucha.</p><p><strong>✅ 12 cm pianki to komfort i bezpieczne wsparcie dla kręgosłupa dziecka. </strong>Materac dba o zdrowy sen, higienę i trwałość – czyli wszystko, na czym zależy rodzicom.</p>",
+            "content": "<p><strong>✅ Każda mama wie, jak ważny jest sen dziecka. </strong>Piankowy materac 12 cm dopasowuje się do ciała, zmniejsza ucisk i wspiera spokojny, zdrowy sen – tak potrzebny do odpoczynku i codziennej energii malucha.</p><p><strong>✅ 15 cm pianki to komfort i bezpieczne wsparcie dla kręgosłupa dziecka. </strong>Materac dba o zdrowy sen, higienę i trwałość – czyli wszystko, na czym zależy rodzicom.</p>",
             "link_text": "",
             "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
             "background": "rgba(0,0,0,0)",
