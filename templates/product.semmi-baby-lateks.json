@@ -1,0 +1,1175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_bT4FNA": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "image_eB8Q3T": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.grafika_twardosc.value }}",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
+        "separator_EGeBQq": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "separator_imcTCg": {
+          "type": "separator",
+          "settings": {}
+        },
+        "badges_3wWwc6": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "liquid_K9m8cV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.selected_or_first_available_variant.metafields.custom.lowest_price_last_30_days and product.selected_or_first_available_variant.metafields.custom.lowest_price_last_30_days.value != blank %}\n  <div class=\"lowest-price\" id=\"lowest-price-{{ section.id }}\">\n    <span class=\"lowest-price-label\">Najniższa cena z ostatnich 30 dni:</span>\n    <span class=\"lowest-price-value\" id=\"lowest-price-value-{{ section.id }}\">\n      {{ product.selected_or_first_available_variant.metafields.custom.lowest_price_last_30_days.value | money }}\n    </span>\n  </div>\n{% else %}\n  <div class=\"lowest-price\" id=\"lowest-price-{{ section.id }}\" style=\"display:none;\">\n    <span class=\"lowest-price-label\">Najniższa cena z ostatnich 30 dni:</span>\n    <span class=\"lowest-price-value\" id=\"lowest-price-value-{{ section.id }}\"></span>\n  </div>\n{% endif %}</p>\n<script>\n  window.lowestPrices = window.lowestPrices || {};\n  window.lowestPrices[\"{{ section.id }}\"] = {\n    {% for variant in product.variants %}\n      {% assign lowest = variant.metafields.custom.lowest_price_last_30_days.value %}\n      \"{{ variant.id }}\": {% if lowest and lowest != blank %}{{ lowest | money | json }}{% else %}\"\"{% endif %}{% unless forloop.last %},{% endunless %}\n    {% endfor %}\n  };\n\n  document.addEventListener('variant:change', function(event) {\n    var variant = event.detail.variant;\n    if (!variant) return;\n    var secId = \"{{ section.id }}\";\n    var priceContainer = document.getElementById('lowest-price-' + secId);\n    var priceValueElem = document.getElementById('lowest-price-value-' + secId);\n    if (!priceContainer || !priceValueElem) return;\n    var newPrice = window.lowestPrices[secId] && window.lowestPrices[secId][variant.id.toString()] ? window.lowestPrices[secId][variant.id.toString()] : \"\";\n    if (newPrice !== \"\") {\n      priceValueElem.textContent = newPrice;\n      priceContainer.style.display = \"block\";\n    } else {\n      priceContainer.style.display = \"none\";\n    }\n  });\n</script>"
+          }
+        },
+        "liquid_HwDbDJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span id=\"rata\">Rata już od {{ product.price | divided_by: 10 | money }} miesięcznie</span>"
+          }
+        },
+        "separator_WrUBcF": {
+          "type": "separator",
+          "settings": {}
+        },
+        "product_variations_KgicHX": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "Kolory",
+            "option_value_metafield": "custom.variation_value",
+            "products": [],
+            "selector_style": "swatch"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "button_yL9rMb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "text": "Kup na Allegro",
+            "size": "xl",
+            "style": "outline",
+            "stretch": true,
+            "background": "",
+            "text_color": "#f06823"
+          }
+        },
+        "offer_Gf9VwP": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-truck",
+            "custom_icon": "shopify://shop_images/delivery.svg",
+            "icon_width": 40,
+            "title": "Darmowa dostawa!",
+            "content": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#ed979c"
+          }
+        },
+        "offer_NEXiD7": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-timer",
+            "custom_icon": "shopify://shop_images/time.svg",
+            "icon_width": 32,
+            "title": "Wysyłka 48h",
+            "content": "",
+            "background": "#eaf2ed",
+            "text_color": "#ed979c"
+          }
+        },
+        "offer_eLPi39": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/sheild.svg",
+            "icon_width": 28,
+            "title": "Bezpieczne zakupy",
+            "content": "",
+            "background": "#eaf2ed",
+            "text_color": "#ed979c"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_bT4FNA",
+        "vendor",
+        "title",
+        "payment_terms",
+        "separator",
+        "image_eB8Q3T",
+        "separator_EGeBQq",
+        "variant_picker",
+        "separator_imcTCg",
+        "badges_3wWwc6",
+        "price",
+        "liquid_K9m8cV",
+        "liquid_HwDbDJ",
+        "separator_WrUBcF",
+        "product_variations_KgicHX",
+        "quantity_selector",
+        "buy_buttons",
+        "button_yL9rMb",
+        "offer_Gf9VwP",
+        "offer_NEXiD7",
+        "offer_eLPi39"
+      ],
+      "custom_css": [
+        ".color-swatch {height: 4.5rem; width: 4.5rem;}",
+        ".lowest-price {font-size: 12px; color: #888; margin-top: -22px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_html_Ni3Nmn": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-top: 0; padding-bottom: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div class=\"flex-wrap\">\n<button class=\"prd-btn desc-mat-prd\">Opis</button>\n  <button class=\"prd-btn cons-mat-prd\">Budowa Materaca</button>\n  <button class=\"prd-btn komf-mat-prd\">Strefy komfortu</button>\n\n  <button class=\"prd-btn cover-mat-prd\">Informacje</button>\n </div>\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    function scrollToElement(buttonSelector, targetIdContains) {\n        document.querySelector(buttonSelector).addEventListener('click', function() {\n          \n            const element = document.querySelector(`[id*='${targetIdContains}']`);\n            if (element) {\n                element.scrollIntoView({\n                    behavior: 'smooth'\n                });\n            }\n        });\n    }\n\n   \n    scrollToElement('.desc-mat-prd', 'media_with_text');\n    scrollToElement('.cons-mat-prd', 'hot_spots');\n    scrollToElement('.komf-mat-prd', 'image_with_text_overlay');\n \n    scrollToElement('.cover-mat-prd', 'cover-section-in-btn');\n});\n</script>\n\n<style>\nproduct-recommendations .border {\nborder:0;\n}\nproduct-recommendations .horizontal-product {\nbackground:#fff;\nborder:0;\nborder-radius:12px;\nmargin-bottom:15px;\n}\n\nbutton.prd-btn {\n  cursor: pointer;\n  background: #fff;;\n  border-radius: 100px;\n  box-shadow: none;\n  border: solid 1px #dde2e7;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #022e4f;\n  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\n  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);\nbox-sizing:border-box;\nflex-shrink:0;\npadding: 1rem 4rem;\n}\nbutton.prd-btn:hover,\nbutton.prd-btn:active {\n box-shadow: 0 0 0 2px #dd9aa2;\nborder-color:#fff;\n}\n.flex-wrap {\ndisplay:flex;\njustify-content: center;\ngap:90px; \npadding: 30px 0;\n  margin: 10px 0 50px 0;\n}\nbutton.prd-btn {\n}\n\nsafe-sticky.product-info .product-info__offer-list {\n\n}\nsafe-sticky.product-info .product-info__offer-list span.text-sm {\nline-height:1.3;\n}\n\nsafe-sticky.product-info .product-info__offer-list > .offer  {\n\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch {\nbackground:#fff;\n}\nsafe-sticky.product-info .product-info__variant-picker .block-swatch::before {\n\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\nsafe-sticky.product-info .product-info__variant-picker \n.color-swatch::before {\n  box-shadow: 0 0 0 2px #dd9aa2;\n}\n\n@media (max-width: 1500px) {\n.flex-wrap {\ngap:30px; \n}\n}\n@media (max-width: 1400px) {\n.flex-wrap {\ngap:30px;\n}\nbutton.prd-btn {\n  padding: 1rem 3rem;\n}\n}\n@media (max-width: 999px) {\n.flex-wrap {\njustify-content: flex-start;\noverflow-x:scroll;\ngap:30px;\nscroll-snap-type:x mandatory;\npadding-left:20px;\npadding-right:20px;\n}\nbutton.prd-btn  {\nscroll-snap-align:left;\n}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_4rPE47": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_CCrB8w": {
+          "type": "image",
+          "source": "{{ product.metafields.custom.opis_produkt.value }}",
+          "settings": {
+            "image": "{{ product.metafields.custom.opis_produkt.value.foto.value }}",
+            "media_width": 55,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 64,
+            "subheading": "",
+            "title": "{{ product.metafields.custom.opis_produkt.value.heading.value }}",
+            "content": "<p>{{ product.metafields.custom.opis_produkt.value.opis | metafield_tag }}</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CCrB8w"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "text_with_icons_XEcyze": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_dPihPj": {
+          "type": "item",
+          "repeater": "{{ product.metafields.custom.dla_czego_warto.value }}",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "{{ block.repeater.icon_1.value }}",
+            "mobile_icon_width": 72,
+            "icon_width": 72,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "{{ block.repeater.tytul.value }}",
+            "content": "<p>{{ block.repeater.opis_icon_1 | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_dPihPj"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "Dlaczego warto wybrać ten materac?",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_piNwLY": {
+      "type": "custom-html",
+      "custom_css": [
+        ".text-custom {padding-top: 70px; padding-bottom: 20px; text-align: center;}",
+        ".text-custom h2 {}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 class=\"h2\">Co się kryje wewnątrz materaca</h2>",
+        "background": "#022e4f",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_KCzCcz": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_d9jhU4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_qXMBr7": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_XWbC9N": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_d9jhU4",
+        "heading_qXMBr7",
+        "richtext_XWbC9N"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "{{ product.metafields.custom.warstwy.value }}",
+        "mobile_image": "{{ product.metafields.custom.warstwy_mobile.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "accordion_content_rbQALk": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_RbQbey": {
+          "type": "item",
+          "repeater": "{{ product.metafields.custom.warstwy_materace.value }}",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "{{ block.repeater.foto.value }}",
+            "icon_width": 20,
+            "title": "{{ block.repeater.heading.value }}",
+            "content": "<p>{{ block.repeater.opis | metafield_tag }}</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RbQbey"
+      ],
+      "custom_css": [
+        ".text-custom {padding-top: 10px; padding-bottom: 10px;}",
+        ".accordion__toggle {font-size: 18px;}",
+        ".section-stack {gap: 0;}",
+        "span.listanumer {padding: 3px 8px; color: #ed979c; border: solid 2px #ed979c; border-radius: 199px; font-weight: 800; margin-right: 20px; font-size: 1.4rem; line-height: 1;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#022e4f",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#022e4f",
+        "accordion_text_color": ""
+      }
+    },
+    "impact_text_Mq3wyC": {
+      "type": "impact-text",
+      "blocks": {
+        "item_ijAnp7": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.tawradosc | metafield_text }}",
+            "subheading": "Twardość",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_tF7JE4": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.grubosc.value }}",
+            "subheading": "Grubość",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_ijAnp7",
+        "item_tF7JE4"
+      ],
+      "custom_css": [
+        ".impact-text {padding-top: 3.75rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 0.6,
+        "background": "#0c2e4f",
+        "background_gradient": "",
+        "heading_text_color": "#ed979c",
+        "heading_gradient": "",
+        "text_color": "#f5f5f5",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "custom_html_J9DNww": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {margin-top: 5rem; padding-top: 0rem; padding-bottom: 1.75rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h2 id=\"cover-section-in-btn\" class=\"h2\"> Materac Semmi Baby informacje</h2>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_KKFgPG": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_9UPmap": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_db5d861f-e874-4180-8dab-2271a2dfce1d.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Materac dziecięcy piankowy Semmi Baby piankowy pianka średnio twardy H3 H4",
+            "content": "<p><strong>❤️ Polska Produkcja ❤️</strong></p><p>✅ Certyfikat Oeko-Tex® Standard 100</p><p>✅ Atesty - Narodowy Instytut Zdrowia Publicznego PZH</p><p>✅ Atesty – Gdański Uniwersytet Medyczny (GUMed)</p><p>✅ Tkanina Frotte zapewnia niesamowitą wentylację materaca</p><p>✅ Dwustronność pokrowca pozwala na jego dłuższą żywotność</p><p>✅ 2 lata gwarancji!</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_FcGU3M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_43959390-cc97-41ec-86eb-44145220af94.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Kilka ważnych powodów, dla których rodzice wybierają nasze materace:",
+            "content": "<p><strong>1️⃣ Bezpieczeństwo i higiena – materiały antyalergiczne: Certyfikat Oeko-Tex® Standard 100</strong></p><p>Zdajemy sobie sprawę, jak ważne jest zdrowie i bezpieczeństwo najmłodszych. Dlatego używamy wyłącznie materiałów przebadanych i certyfikowanych – wszystkie nasze tkaniny posiadają certyfikat Oeko-Tex® Standard 100, co oznacza, że są wolne od szkodliwych substancji i bezpieczne nawet dla wrażliwej skóry dziecka.</p><p><strong>2️⃣ Dopasowanie do ciała:</strong> Nasze materace wykonane są z wysokiej jakości pianki, która doskonale dopasowuje się do naturalnych krzywizn dziecięcego ciała. Dzięki temu nacisk punktowy zostaje zredukowany do minimum, co zmniejsza napięcie mięśni, poprawia krążenie i zapewnia spokojny, głęboki sen niezbędny do prawidłowego rozwoju.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9UPmap",
+        "image_FcGU3M"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "rich_text_HEWANV": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_6GnehF": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_g4NJbP": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_hh8F7g": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>3️⃣ <strong>Dwustronny pokrowiec</strong> – łatwy w utrzymaniu czystości: Materac wyposażony jest w zdejmowany, dwustronny pokrowiec, który można łatwo wyprać. Taka konstrukcja nie tylko ułatwia utrzymanie higieny na co dzień, ale także pozwala na równomierne użytkowanie obu stron materaca, co dodatkowo wydłuża jego żywotność.</p><p>4️⃣ <strong>Stabilne i solidne podparcie:</strong> Rdzeń materaca stanowi solidna pianka o gęstości 25 kg/m³ i grubości aż 12 cm. Takie połączenie gwarantuje nie tylko odpowiednie podparcie kręgosłupa, ale również wysoką odporność na odkształcenia – nawet przy intensywnym i długotrwałym użytkowaniu.</p><p>5️⃣<strong>Doskonała wentylacja i komfort termiczny</strong>: Nasze materace zostały zaprojektowane z myślą o zapewnieniu odpowiedniego przepływu powietrza. Dzięki przewiewnym materiałom i oddychającej strukturze pianki, możliwa jest skuteczna regulacja temperatury podczas snu. To ogranicza ryzyko przegrzewania się i zapewnia komfort przez całą noc.</p><p>6️⃣ <strong>Twardość materaca H3–H4 to odpowiedni wybór dla dzieci </strong>– zapewnia stabilne podparcie kręgosłupa, wspierając prawidłowy rozwój i zdrową postawę podczas snu.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6GnehF",
+        "heading_g4NJbP",
+        "richtext_hh8F7g"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_6Qk7Jx": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_FEUTEi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Dlaczego nacięcia i karbowania są ważne w materacach dziecięcych?",
+            "content": "<p><strong>1️⃣ Karbowana powierzchnia (góra):</strong></p><p>✅ <strong>Lepsza wentylacja:</strong> Delikatne rowki w piance pomagają w cyrkulacji powietrza, dzięki czemu dziecko się nie przegrzewa, a wilgoć nie zatrzymuje się we wnętrzu materaca.</p><p>✅ <strong>Dopasowanie do ciała malucha </strong>- Profilowana powierzchnia ugina się dokładnie tam, gdzie trzeba – zapewniając delikatne, punktowe podparcie dla rozwijającego się kręgosłupa.</p><p>✅ <strong>Efekt mikromasażu</strong> - Specjalna struktura może delikatnie stymulować skórę i poprawiać mikrokrążenie – to mały dodatek, który może sprzyjać spokojniejszemu snu.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FEUTEi"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "rich_text_tPCUty": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_f6YVgV": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_GGmigQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_HRmzha": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>2️⃣ Nacięcia w spodzie pianki (dół):</strong></p><p>✅ <strong>Odpowiednie strefy twardości:</strong> Dzięki przemyślanym nacięciom materac dostosowuje się do różnych części ciała dziecka – na przykład jest bardziej miękki w okolicach ramion, a stabilniejszy przy biodrach.</p><p>✅<strong> Większa elastyczność:</strong> Nacięcia pozwalają materacowi łatwiej pracować – uginają się razem z ruchem dziecka, co zwiększa wygodę, zwłaszcza przy zmianach pozycji.</p><p>✅ <strong>Miękkość bez zmniejszania wysokości:</strong> Takie rozwiązanie sprawia, że materac może być bardziej komfortowy bez konieczności rezygnowania z jego odpowiedniej grubości i stabilności.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_f6YVgV",
+        "heading_GGmigQ",
+        "richtext_HRmzha"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_YwVX9N": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_HVqfgc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_f25fb77c-3f77-46ee-b043-b24bf97856a0.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Certyfikat Oeko-Tex® Standard 100",
+            "content": "<p><strong>Certyfikat OEKO-TEX® STANDARD 100 gwarantuje, materiały w naszych materacach są wolne od szkodliwych substancji, takich jak pestycydy, formaldehyd czy metale ciężkie.</strong></p><p>✅ Badania potwierdzają bezpieczeństwo pianek dla użytkowania, nawet przez dzieci (Klasa I – wyroby dla dzieci).</p><h6>⭐ Atesty - Narodowy Instytut Zdrowia Publicznego PZH</h6><p>✅ Materiały przez nas użyte spełniają normy higieniczne i są bezpieczne do stosowania w pomieszczeniach mieszkalnych. Gwarantują brak szkodliwego wpływu na zdrowie użytkowników, jeśli są stosowane zgodnie z zaleceniami.</p><h6>⭐ Atesty – Gdański Uniwersytet Medyczny (GUMed)</h6><p>✅ Produkty są bezpieczne do użytku w domach oraz w specyficznych warunkach, takich jak statki czy obiekty publiczne. Półprodukty spełniają rygorystyczne wymogi higieniczne i zdrowotne.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_468MYD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Materac idealny dla Twojego dziecka",
+            "content": "<ul><li><strong>Waga dziecka:</strong> do 80 kg.</li><li><strong>Wzrost dziecka:</strong> do 150 cm</li><li><strong>Uniwersalność:</strong> odpowiedni dla chłopców i dziewczynek.</li><li><strong>Dla alergika:</strong> hipoalergiczność potwierdzona certyfikatami.</li></ul><p><br/>✅ WYPRODUKUJEMY DLA CIEBIE KAŻDY WYMIAR MATERACA!</p><h6>❤️ Nasze materace posiadają certyfikat OEKO-TEX® Standard 100, potwierdzający bezpieczeństwo i najwyższą jakość. ❤️</h6>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_nVnM6J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b4c59efb-b499-42ed-9f97-ed50c82566a0.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Materac idealny dla Twojego dziecka",
+            "content": "<p>✅<strong> Antybakteryjność</strong>: Bambus <strong>1️⃣</strong> i bawełna <strong>2️⃣</strong> są wolne od chemii, idealne dla alergików i wrażliwej skóry</p><p>✅ <strong>Wyjątkowa faktura takniny Frotte </strong>– dla większego komfortu i delikatnego masażu skóry dziecka podczas snu.</p><p>✅<strong> 50% lepsza regulacja wilgoci </strong>- sucha i zdrowa skóra Twojego dziecka</p><p><strong>✅ Wytrzymały i delikatny </strong>– bawełna z bambusem znosi częste pranie, zachowując miękkość na długo.</p><p><strong>✅ Miękki i delikatny pokrowiec z bawełny i bambusa</strong> – idealny dla wrażliwej skóry dziecka.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_GBTtPR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_67dfd0ef-01a9-4b08-82cb-9187ee986e39.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Materac Semmi Baby dla Twojego dziecka",
+            "content": "<p><strong>✅ Każda mama wie, jak ważny jest sen dziecka. </strong>Piankowy materac 12 cm dopasowuje się do ciała, zmniejsza ucisk i wspiera spokojny, zdrowy sen – tak potrzebny do odpoczynku i codziennej energii malucha.</p><p><strong>✅ 12 cm pianki to komfort i bezpieczne wsparcie dla kręgosłupa dziecka. </strong>Materac dba o zdrowy sen, higienę i trwałość – czyli wszystko, na czym zależy rodzicom.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HVqfgc",
+        "image_468MYD",
+        "image_nVnM6J",
+        "image_GBTtPR"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "rich_text_hDbebk": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_37Hidj": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_ynPLV4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_MtMRbM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>✌️Dlaczego pianka poliuretanowa jest idealna dla dzieci?️</h5><p>✅ Jest hipoalergiczny, wytrzymały i łatwy w utrzymaniu, co czyni go świetnym wyborem zarówno dla niemowląt, jak i starszych dzieci. To rozwiązanie, które łączy nowoczesne technologie z dbałością o bezpieczeństwo i wygodę najmłodszych użytkowników.</p><h6>Zadbaj o spokojny sen swojego dziecka z materacem wykonanym z pianki poliuretanowej – komfort, trwałość i higiena w jednym.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_37Hidj",
+        "heading_ynPLV4",
+        "richtext_MtMRbM"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_T7xeYT": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_jLFBFM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Budowa materaca",
+            "content": "<p><strong>1️⃣ Tkanina Frotte z włóknami bambusa:</strong> naturalne właściwości antybakteryjne, idealne dla wrażliwej skóry</p><p><strong>2️⃣ Pianka poliuretanowa:</strong> Pianka poliuretanowa T-25 o gęstości 25 kg/m³ to trwały i solidny materiał, który zapewnia optymalne wsparcie i odpowiedni poziom twardości. Dzięki starannie dobranej gęstości materac zachowuje swój pierwotny kształt przez długi czas – nawet gdy dziecko rośnie i staje się cięższe.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_FXLpjL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_faee8495-c4be-4531-8eaf-37ac04f37ca7.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Komfort i higiena snu – zadbaj o zdrowe warunki dla swojego dziecka",
+            "content": "<p><strong>Materiał pokrowca: Tkanina Frotte</strong></p><p>✅ Wybór odpowiedniego pokrowca na materac ma bezpośredni wpływ nie tylko na trwałość samego materaca, ale przede wszystkim na jakość snu dziecka. Pokrowiec wykonany z miękkiej i przyjemnej w dotyku tkaniny frotte zapewnia delikatność w kontakcie ze skórą, a przy tym jest praktyczny w codziennym użytkowaniu.</p><p>✅ Dzięki dwustronnej konstrukcji, pokrowiec może być używany naprzemiennie, co znacząco wydłuża jego żywotność. Dodatkowo wszyte zamki błyskawiczne sprawiają, że zakładanie i zdejmowanie pokrowca jest szybkie i bezproblemowe – to szczególnie ważne w przypadku nagłych sytuacji, gdy potrzebna jest szybka wymiana.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jLFBFM",
+        "image_FXLpjL"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "rich_text_KUnFJ3": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_TV8PWV": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_JGRLa9": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_M8Kw78": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>✅ Możliwość prania pokrowca w temperaturze 60°C pozwala skutecznie pozbyć się alergenów i bakterii, co jest niezwykle istotne dla dzieci z wrażliwą skórą lub skłonnościami do alergii. Regularna higiena tekstyliów to nie tylko czystość, ale też lepszy mikroklimat snu – mniej potu, mniej wybudzeń i spokojniejszy odpoczynek nocny.</p><p>✅ Zdrowsza skóra, większy komfort i spokojniejszy sen – dobrze dobrany pokrowiec to mały detal, który robi dużą różnicę.</p><h4>Certyfikowane materiały są podstawą do produkowanych przez nas materacy, które są bezpieczne dla zdrowia i przyjazne środowisku.</h4>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_TV8PWV",
+        "heading_JGRLa9",
+        "richtext_M8Kw78"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_YtidHR": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_8ajXkq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Komfort i higiena snu – zadbaj o zdrowe warunki dla swojego dziecka",
+            "content": "<p>Wybierając nowy materac, dobrze jest zwrócić uwagę na sposób jego pakowania. Choć modele rolowane są wygodne w transporcie, to materace dostarczane w pełnym rozmiarze często oferują lepszy komfort snu i większą trwałość.</p><p><strong>✅ Większa trwałość i jakość</strong> – Materace nierolowane nie są ściskane ani zwijane, dzięki czemu ich struktura zachowuje pełną stabilność. W przypadku modeli rolowanych istnieje ryzyko deformacji pianki lub sprężyn, co może obniżyć komfort i skrócić żywotność materaca.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8ajXkq"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "rich_text_bV6wdp": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_wcDkke": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_ntfq3a": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_npRtRc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>✅ Gotowe do użycia od razu </strong>– Materace nierolowane nie wymagają czasu na rozprężenie – wystarczy położyć je na łóżku i cieszyć się pełnym komfortem od pierwszej nocy. W przeciwieństwie do nich, materace rolowane potrzebują często nawet kilku dni, by odzyskać swój właściwy kształt i twardość.</p><p><strong>✅ Bez ryzyka uszkodzeń materiału </strong>– Rolowanie i pakowanie próżniowe może prowadzić do nadmiernego zgniatania materiałów, co osłabia ich właściwości. Dotyczy to zarówno pianek, jak i sprężyn, które mogą stracić na elastyczności i trwałości.</p><p><strong>✅ Wyższy komfort snu </strong>– Materace nierolowane często zawierają bardziej zaawansowane warstwy komfortowe, które zachowują swoje właściwości dzięki braku kompresji. Zapewniają lepsze podparcie ciała, co sprzyja zdrowszemu snu i redukuje ryzyko bólu pleców.</p><h6>Decydując się na nasz materac o odpowiednio dobranej twardości, wspierasz prawidłowy rozwój swojego dziecka już od pierwszych chwil. Zdrowy kręgosłup i właściwa postawa zaczynają się właśnie od dobrze dobranego podłoża do snu.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wcDkke",
+        "heading_ntfq3a",
+        "richtext_npRtRc"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_TykcNb": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_9P9aUQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Co warto wiedzieć, zanim kupisz materac dla swojego dziecka?",
+            "content": "<p>Nie każdy rodzic zdaje sobie sprawę, jak ważny dla zdrowia i prawidłowego rozwoju dziecka jest dobrze dopasowany materac. To nie tylko element wyposażenia łóżeczka, ale przede wszystkim codzienne wsparcie dla rozwijającego się kręgosłupa i całego układu mięśniowo-szkieletowego.</p><p>Specjaliści rekomendują wybór materaca o średnim lub nieco wyższym poziomie twardości – najczęściej oznaczanego jako H2 do H4. Taka powierzchnia zapewnia odpowiednią stabilność, co sprzyja utrzymaniu prawidłowej postawy i minimalizuje ryzyko wad kręgosłupa w przyszłości.</p>",
+            "link_text": "",
+            "link_url": "shopify://blogs/news/pokrowiec-na-materac-dzieciecy-naturalna-ochrona-i-komfort",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#022e4f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9P9aUQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "rich_text_PN8iez": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_BHWXhW": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_paEJRr": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_U7Fj3N": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>W przypadku niemowląt szczególną uwagę należy zwrócić na to, by materac nie był zbyt miękki. Modele o twardości H1, choć mogą wydawać się komfortowe, nie gwarantują właściwego podparcia dla delikatnego ciała noworodka. Brak stabilnej powierzchni może prowadzić do nieprawidłowego ułożenia ciała, a w skrajnych przypadkach zwiększać ryzyko problemów oddechowych.</p><p><strong>⚠️ </strong>Warto też rozważyć rodzaj zastosowanej pianki. Choć pianki termoelastyczne typu visco są często wybierane w produktach dla dorosłych, nie są one rekomendowane dla najmłodszych. Zbyt intensywne dopasowanie do kształtu ciała może ograniczać naturalne ruchy dziecka w czasie snu i zaburzać prawidłową dynamikę ciała.</p><p><strong>⚠️ </strong>Dobry materac dziecięcy to nie ten, który wydaje się najwygodniejszy w dotyku, ale ten, który wspiera zdrowy rozwój i bezpieczny sen. Dlatego warto poświęcić chwilę na świadomy wybór – z myślą o przyszłości malucha.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BHWXhW",
+        "heading_paEJRr",
+        "richtext_U7Fj3N"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_g9CHB9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_bK9NLN": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h0"
+          }
+        },
+        "richtext_tmmWkw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Decydując się na nasz materac o odpowiednio dobranej twardości, wspierasz prawidłowy rozwój swojego dziecka już od pierwszych chwil. Zdrowy kręgosłup i właściwa postawa zaczynają się właśnie od dobrze dobranego podłoża do snu.</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bK9NLN",
+        "richtext_tmmWkw"
+      ],
+      "custom_css": [
+        "@media (max-width: 1000px) {.section-full > image-banner.content-over-media {padding: 20px 10px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/para-prod_180e2e0d-3ffa-428c-9bf5-8aad3aefde63.webp",
+        "mobile_image": "shopify://shop_images/para-prodmobile_8163569c-9543-4179-b1da-d5e8d86ff55f.webp",
+        "mobile_text_position": "place-self-start text-start",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+        "@media (max-width: 1000px) {.product-list {--product-list-items-per-row: 2; --product-list-gap: 10px; }}"
+      ],
+      "settings": {
+        "recommendations_count": 6,
+        "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Może Ci się spodobać",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "custom_html_3Xy8Hk": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {height: 0; padding: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<style>\n.text-lg,\n.text-sm {\n  color: #022e4f;\n}\n.section-full {\n  padding-top: 16px;\n}\n.text-lg {\n  font-size: 2rem;\n  font-weight: 700;\n}\n.offer {\n  background: 0 0;\n  border-width: 1px;\n  border-color: #e7e8ec;\n  border-radius: 12px;\n}\n.product-info__quantity-selector {\n  width: 30%;\n  float: left;\n  margin: 0;\n}\n.product-info__buy-buttons {\n  width: 70%;\n  float: right;\n  margin: 30px 0 10px;\n}\n.product-info__button {\n  width: 70%;\n  float: right;\n  margin: 10px 0 50px;\n}\n.product-info__offer-list {\n  clear: both;\n}\n.quantity-selector {\n  background: #f8f8f8;\n}\n.quantity-selector input {\n  background: #fff;\nwidth:42px;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right: 12rem;\n}\n @media (max-width: 1500px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 60%;\n}\n.shopify-section--hot-spots .place-self-center-end {\nmargin-right:2rem;\n}\n}\n@media (max-width: 1100px) {\n.product-info__button, .product-info__buy-buttons {\n  width: 55%;\n}\n@media (max-width: 1000px) {\n.product-info__button, .product-info__buy-buttons,\n.product-info__quantity-selector {\n  width: inherit;\nfloat:none;\n}\n.shopify-section--hot-spots > .section-full {\nbackground-color:#0c2e4f;\ncolor:#fff !important;\npadding-top:80px;\n}\n\n}\n \n</style>\n\n <!-- numeracja warstwy -->\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  \n  const accordionItems = document.querySelectorAll('.shopify-section--accordion-content .text-with-icon');\n\n  accordionItems.forEach((item, index) => {\n   \n    const numberSpan = document.createElement('span');\n    numberSpan.textContent = `${index + 1}`; \n    numberSpan.className = `listanumer listanumer-${index + 1}`;\n\n  \n    item.prepend(numberSpan);\n  });\n});\n</script>\n\n <!-- zamiana zdjec prod -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n    var zawartosc1 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML;\n    var zawartosc2 = document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML;\n\ndocument.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(1)').innerHTML = zawartosc2;\n    document.querySelector('.shopify-section--main-product .product-gallery__media-list > div:nth-child(2)').innerHTML = zawartosc1;\n});    \n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1731879966e34c3805": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_JjAP3g": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_JjAP3g"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_Ni3Nmn",
+    "media_with_text_4rPE47",
+    "text_with_icons_XEcyze",
+    "custom_html_piNwLY",
+    "image_with_text_overlay_KCzCcz",
+    "accordion_content_rbQALk",
+    "impact_text_Mq3wyC",
+    "custom_html_J9DNww",
+    "media_with_text_KKFgPG",
+    "rich_text_HEWANV",
+    "media_with_text_6Qk7Jx",
+    "rich_text_tPCUty",
+    "media_with_text_YwVX9N",
+    "rich_text_hDbebk",
+    "media_with_text_T7xeYT",
+    "rich_text_KUnFJ3",
+    "media_with_text_YtidHR",
+    "rich_text_bV6wdp",
+    "media_with_text_TykcNb",
+    "rich_text_PN8iez",
+    "image_with_text_overlay_g9CHB9",
+    "related-products",
+    "custom_html_3Xy8Hk",
+    "1731879966e34c3805"
+  ]
+}
