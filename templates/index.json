@@ -292,7 +292,7 @@
         "products": [
           "naroznik-mediolan-castel85",
           "semmi-multipocket-lateks-classic-scarlett-topper-visco-gratis",
-          "materac-mint-kontynentalne-lateks-mata-kokosowa-minipocket-multipocket-28cm",
+          "semmi-kontynentalny-prestige",
           "semmi-pocket-kokos-plus-emma",
           "naroznik-comon",
           "lozko-dzieciece-piotrus-sosna",
@@ -756,7 +756,7 @@
         "product_KmDLtB": {
           "type": "product",
           "settings": {
-            "product": "materac-mint-kontynentalne-lateks-mata-kokosowa-minipocket-multipocket-28cm",
+            "product": "semmi-kontynentalny-prestige",
             "horizontal_position": 45,
             "vertical_position": 64
           }
