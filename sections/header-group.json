@@ -266,7 +266,7 @@
         "@media (max-width: 699.5px) {.breadcrumbs {padding-left: 21px; padding-right: 21px; }}"
       ],
       "settings": {
-        "breadcrumbs_home_icon_bool": true,
+        "breadcrumbs_home_icon_bool": false,
         "breadcrumb_delimeter": "angle_right",
         "breadcrumb_bg_color": "#f6f9fa",
         "breadcrumb_text_color": "#465076",
