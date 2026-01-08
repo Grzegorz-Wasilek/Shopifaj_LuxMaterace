@@ -12,30 +12,31 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "image_xYGMMK": {
-          "type": "image",
+        "video_8xTwiB": {
+          "type": "video",
           "settings": {
-            "image": "shopify://shop_images/cayenne_topper-prom-550_3a6fc8ef-ac75-4e4d-906e-6bdfdbd6ef73.webp",
-            "mobile_image": "shopify://shop_images/cayenne_toper-miobile-550_297e999a-20f2-48e2-a6e1-1fb119cf0dd1.webp",
-            "content_max_width": 460,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h1",
-            "button_text": "Zobacz promocje",
-            "button_link": "shopify://products/semmi-multipocket-lateks-classic-scarlett-topper-visco-gratis",
+            "video": "shopify://files/videos/materace-7_137a5a97-b53d-4720-9f88-387bab162350.mp4",
+            "mobile_video": "shopify://files/videos/materace-7_137a5a97-b53d-4720-9f88-387bab162350.mp4",
+            "content_max_width": 800,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffa6ad",
-            "button_text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
+            "overlay_opacity": 30,
             "background": "",
-            "background_gradient": "linear-gradient(147deg, rgba(46, 93, 85, 1) 3%, rgba(85, 133, 135, 1) 63.309%, rgba(147, 179, 181, 1) 100%)"
+            "background_gradient": ""
           }
         },
         "image_6RQxw9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/kontynentalne-prom-550_301b6446-ee81-4a91-8170-1c2f3f8f9325.webp",
             "mobile_image": "shopify://shop_images/kontynentalne-prom-550_51617a63-3ee9-4f2e-9084-6aaae3eb4217.webp",
@@ -58,6 +59,7 @@
         },
         "image_9XkDhy": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pocket-prom-550_kopia.webp",
             "mobile_image": "shopify://shop_images/pocket-miobile-550_kopia.webp",
@@ -80,6 +82,7 @@
         },
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-all-prom-550_23f0ec3d-51a3-48aa-b0e9-540b06e68016.webp",
             "mobile_image": "shopify://shop_images/all-banner-miobile-550_7cc2dc51-a86e-4124-8d5a-56fea1a106a4.webp",
@@ -102,6 +105,7 @@
         },
         "image_KhE4Yh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-wildl-prom-550.webp",
             "mobile_image": "shopify://shop_images/banner-wildl-prom-mobile.webp",
@@ -124,6 +128,7 @@
         },
         "image_yk7MYY": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-jalowiec-prom-550.webp",
             "mobile_image": "shopify://shop_images/jalowiec-banner-miobile-550.webp",
@@ -146,7 +151,7 @@
         }
       },
       "block_order": [
-        "image_xYGMMK",
+        "video_8xTwiB",
         "image_6RQxw9",
         "image_9XkDhy",
         "slide-1",
