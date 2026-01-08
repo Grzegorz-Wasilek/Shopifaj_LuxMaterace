@@ -104,7 +104,6 @@
         },
         "image_KhE4Yh": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-wildl-prom-550.webp",
             "mobile_image": "shopify://shop_images/banner-wildl-prom-mobile.webp",
