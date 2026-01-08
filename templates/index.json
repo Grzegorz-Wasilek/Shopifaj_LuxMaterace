@@ -12,16 +12,15 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "video_8xTwiB": {
-          "type": "video",
+        "image_cKEhaL": {
+          "type": "image",
           "settings": {
-            "video": "shopify://files/videos/materace-7_137a5a97-b53d-4720-9f88-387bab162350.mp4",
-            "mobile_video": "shopify://files/videos/materace-7_137a5a97-b53d-4720-9f88-387bab162350.mp4",
-            "content_max_width": 800,
+            "image": "shopify://shop_images/Frame_85.svg",
+            "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
+            "subheading": "Witamy",
+            "title": "Semmi",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -151,7 +150,7 @@
         }
       },
       "block_order": [
-        "video_8xTwiB",
+        "image_cKEhaL",
         "image_6RQxw9",
         "image_9XkDhy",
         "slide-1",
